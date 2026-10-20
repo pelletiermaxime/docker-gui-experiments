@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/home/maximep/projects/ferrydock/.verification/gui-comparison/toolchains/zig-x86_64-linux-0.17.0/zig",
+    "build",
+    "--build-file",
+    "experiments/live-docker/nanoui-containers/build.zig",
+    "-Doptimize=ReleaseFast",
+    "-j4"
+  ],
+  "elapsed_s": 29.604242480010726,
+  "exit_code": 0,
+  "cache": "Warm NanoUI and standard-library caches; SDK already compiled during compatibility iteration. Not a clean build."
+}

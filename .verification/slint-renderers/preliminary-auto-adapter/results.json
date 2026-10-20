@@ -1,0 +1,270 @@
+{
+  "software": {
+    "config": {
+      "id": "software",
+      "label": "Slint software",
+      "family": "software",
+      "backend": "winit",
+      "renderer": "software",
+      "kind": "CPU"
+    },
+    "build": {
+      "family": "software",
+      "command": [
+        "cargo",
+        "build",
+        "--release",
+        "--locked",
+        "--no-default-features",
+        "--features",
+        "software",
+        "--manifest-path",
+        "/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/Cargo.toml"
+      ],
+      "elapsed_s": 59.30683220399078,
+      "exit_code": 0,
+      "cache": "Warm dependency build after neutralizing the UI renderer label. Sequential shared cache; not a clean build.",
+      "initial_build": {
+        "family": "software",
+        "command": [
+          "cargo",
+          "build",
+          "--release",
+          "--no-default-features",
+          "--features",
+          "software",
+          "--manifest-path",
+          "/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/Cargo.toml"
+        ],
+        "elapsed_s": 59.19022046300233,
+        "exit_code": 0,
+        "cache": "Sequential release builds with shared warm target; newly required renderer dependencies may download/compile. Not comparable clean build timings.",
+        "binary": "experiments/live-docker/slint-renderers/build/slint-software",
+        "binary_bytes": 12005800,
+        "binary_sha256": "e5c2800efe3b2d2f02f7503800cc8cb0b4a5bbb9363f34121a94e891260330d6"
+      },
+      "binary": "experiments/live-docker/slint-renderers/build/slint-software",
+      "binary_bytes": 12005800,
+      "binary_sha256": "9b782668d03c8a0df4a3948f27c9063a42e84246a260267901c3b1f23d0b269a"
+    },
+    "runs": [],
+    "status": "observed"
+  },
+  "femtovg_gl": {
+    "config": {
+      "id": "femtovg_gl",
+      "label": "FemtoVG / OpenGL",
+      "family": "femtovg",
+      "backend": "winit",
+      "renderer": "femtovg",
+      "kind": "GPU / OpenGL"
+    },
+    "build": {
+      "family": "femtovg",
+      "command": [
+        "cargo",
+        "build",
+        "--release",
+        "--no-default-features",
+        "--features",
+        "femtovg",
+        "--manifest-path",
+        "/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/Cargo.toml"
+      ],
+      "elapsed_s": 91.82176341000013,
+      "exit_code": 0,
+      "cache": "Sequential release builds with shared warm target; newly required renderer dependencies may download/compile. Not comparable clean build timings.",
+      "binary": "experiments/live-docker/slint-renderers/build/slint-femtovg",
+      "binary_bytes": 11885104,
+      "binary_sha256": "026c56122cb2d028b2257c877b75fb68c7034d2be8e3da3dae8cdae2c9ced2cc"
+    },
+    "runs": [],
+    "status": "observed"
+  },
+  "femtovg_wgpu": {
+    "config": {
+      "id": "femtovg_wgpu",
+      "label": "FemtoVG / WGPU",
+      "family": "femtovg-wgpu",
+      "backend": "winit",
+      "renderer": "femtovg-wgpu",
+      "kind": "GPU / WGPU (Vulkan requested)"
+    },
+    "build": {
+      "family": "femtovg-wgpu",
+      "command": [
+        "cargo",
+        "build",
+        "--release",
+        "--no-default-features",
+        "--features",
+        "femtovg-wgpu",
+        "--manifest-path",
+        "/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/Cargo.toml"
+      ],
+      "elapsed_s": 104.12132011097856,
+      "exit_code": 0,
+      "cache": "Sequential release builds with shared warm target; newly required renderer dependencies may download/compile. Not comparable clean build timings.",
+      "binary": "experiments/live-docker/slint-renderers/build/slint-femtovg-wgpu",
+      "binary_bytes": 14477616,
+      "binary_sha256": "f8d3c2ef1885c598daf9a3cf3b4a0ebc441ea9fff657ac65108e3d12c6014523"
+    },
+    "runs": [],
+    "status": "observed"
+  },
+  "skia_software": {
+    "config": {
+      "id": "skia_software",
+      "label": "Skia software",
+      "family": "skia",
+      "backend": "winit",
+      "renderer": "skia-software",
+      "kind": "CPU"
+    },
+    "build": {
+      "family": "skia",
+      "command": [
+        "cargo",
+        "build",
+        "--release",
+        "--no-default-features",
+        "--features",
+        "skia",
+        "--manifest-path",
+        "/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/Cargo.toml"
+      ],
+      "elapsed_s": 121.09312037401833,
+      "exit_code": 0,
+      "cache": "Sequential release builds with shared warm target; newly required renderer dependencies may download/compile. Not comparable clean build timings.",
+      "binary": "experiments/live-docker/slint-renderers/build/slint-skia",
+      "binary_bytes": 18044160,
+      "binary_sha256": "36a0cad6bf99490e3e0eff811238feffa6c01beb25c2bf670ede19612c7f6998"
+    },
+    "runs": [],
+    "status": "observed"
+  },
+  "skia_gl": {
+    "config": {
+      "id": "skia_gl",
+      "label": "Skia / OpenGL",
+      "family": "skia",
+      "backend": "winit",
+      "renderer": "skia-opengl",
+      "kind": "GPU / OpenGL"
+    },
+    "build": {
+      "family": "skia",
+      "command": [
+        "cargo",
+        "build",
+        "--release",
+        "--no-default-features",
+        "--features",
+        "skia",
+        "--manifest-path",
+        "/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/Cargo.toml"
+      ],
+      "elapsed_s": 121.09312037401833,
+      "exit_code": 0,
+      "cache": "Sequential release builds with shared warm target; newly required renderer dependencies may download/compile. Not comparable clean build timings.",
+      "binary": "experiments/live-docker/slint-renderers/build/slint-skia",
+      "binary_bytes": 18044160,
+      "binary_sha256": "36a0cad6bf99490e3e0eff811238feffa6c01beb25c2bf670ede19612c7f6998"
+    },
+    "runs": [],
+    "status": "observed"
+  },
+  "skia_wgpu": {
+    "config": {
+      "id": "skia_wgpu",
+      "label": "Skia / WGPU",
+      "family": "skia",
+      "backend": "winit",
+      "renderer": "skia-wgpu",
+      "kind": "GPU / WGPU (Vulkan requested)"
+    },
+    "build": {
+      "family": "skia",
+      "command": [
+        "cargo",
+        "build",
+        "--release",
+        "--no-default-features",
+        "--features",
+        "skia",
+        "--manifest-path",
+        "/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/Cargo.toml"
+      ],
+      "elapsed_s": 121.09312037401833,
+      "exit_code": 0,
+      "cache": "Sequential release builds with shared warm target; newly required renderer dependencies may download/compile. Not comparable clean build timings.",
+      "binary": "experiments/live-docker/slint-renderers/build/slint-skia",
+      "binary_bytes": 18044160,
+      "binary_sha256": "36a0cad6bf99490e3e0eff811238feffa6c01beb25c2bf670ede19612c7f6998"
+    },
+    "runs": [],
+    "status": "observed"
+  },
+  "vello": {
+    "config": {
+      "id": "vello",
+      "label": "Vello (experimental)",
+      "family": "vello",
+      "backend": "winit",
+      "renderer": "vello",
+      "kind": "GPU / WGPU (Vulkan requested)"
+    },
+    "build": {
+      "family": "vello",
+      "command": [
+        "cargo",
+        "build",
+        "--release",
+        "--no-default-features",
+        "--features",
+        "vello",
+        "--manifest-path",
+        "/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/Cargo.toml"
+      ],
+      "elapsed_s": 101.12450301501667,
+      "exit_code": 0,
+      "cache": "Sequential release builds with shared warm target; newly required renderer dependencies may download/compile. Not comparable clean build timings.",
+      "binary": "experiments/live-docker/slint-renderers/build/slint-vello",
+      "binary_bytes": 14806648,
+      "binary_sha256": "2cde0939d28ef19e722e4d8469149bd47e1dfb80942f21111d3a1bc582a94eb6"
+    },
+    "runs": [],
+    "status": "observed"
+  },
+  "qt": {
+    "config": {
+      "id": "qt",
+      "label": "Qt backend",
+      "family": "qt",
+      "backend": "qt",
+      "renderer": "qt",
+      "kind": "Qt windowing / rendering"
+    },
+    "build": {
+      "family": "qt",
+      "command": [
+        "cargo",
+        "build",
+        "--release",
+        "--no-default-features",
+        "--features",
+        "qt",
+        "--manifest-path",
+        "/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/Cargo.toml"
+      ],
+      "elapsed_s": 61.607040964008775,
+      "exit_code": 0,
+      "cache": "Sequential release builds with shared warm target; newly required renderer dependencies may download/compile. Not comparable clean build timings.",
+      "binary": "experiments/live-docker/slint-renderers/build/slint-qt",
+      "binary_bytes": 8536624,
+      "binary_sha256": "20ee2b770dedabae6351756b5e84cf69aecd627b96df510a5725ef8575d1d64b"
+    },
+    "runs": [],
+    "status": "observed"
+  }
+}

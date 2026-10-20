@@ -1,0 +1,5 @@
+{
+  "elapsed_s": 109,
+  "time_source": "Cargo-reported release duration",
+  "cache": "Existing GPUI target reused; Bollard/Tokio feature combinations recompiled dependencies. Not a clean or controlled warm-edit timing."
+}

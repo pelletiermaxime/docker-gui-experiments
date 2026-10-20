@@ -1,0 +1,58 @@
+{
+  "software": {
+    "status": "measured",
+    "runs": 3,
+    "binary_mib": 11.449623107910156,
+    "rss_mib": 21.22265625,
+    "cpu": 0.0
+  },
+  "femtovg_gl": {
+    "status": "measured",
+    "runs": 3,
+    "binary_mib": 11.334518432617188,
+    "rss_mib": 77.8203125,
+    "cpu": 0.0
+  },
+  "femtovg_wgpu": {
+    "status": "measured",
+    "runs": 3,
+    "binary_mib": 13.806930541992188,
+    "rss_mib": 99.48046875,
+    "cpu": 0.0
+  },
+  "skia_software": {
+    "status": "measured",
+    "runs": 3,
+    "binary_mib": 17.208251953125,
+    "rss_mib": 29.26953125,
+    "cpu": 0.0
+  },
+  "skia_gl": {
+    "status": "discarded_fallback",
+    "runs": 0,
+    "binary_mib": 17.208251953125,
+    "rss_mib": 0.0,
+    "cpu": null
+  },
+  "skia_wgpu": {
+    "status": "measured",
+    "runs": 3,
+    "binary_mib": 17.208251953125,
+    "rss_mib": 102.484375,
+    "cpu": 0.0
+  },
+  "vello": {
+    "status": "measured",
+    "runs": 3,
+    "binary_mib": 14.120719909667969,
+    "rss_mib": 108.546875,
+    "cpu": 0.049746796828327264
+  },
+  "qt": {
+    "status": "measured",
+    "runs": 3,
+    "binary_mib": 8.141159057617188,
+    "rss_mib": 68.42578125,
+    "cpu": 0.0
+  }
+}

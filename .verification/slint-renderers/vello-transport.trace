@@ -1,0 +1,50 @@
+977328 execve("/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/build/slint-vello", ["/home/maximep/projects/ferrydock"...], 0x7ffeb20f6578 /* 139 vars */) = 0
+977328 connect(3, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+977328 connect(8, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+977328 connect(9, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+977328 connect(19, {sa_family=AF_UNIX, sun_path="/run/dbus/system_bus_socket"}, 29) = 0
+977328 connect(29, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+977328 connect(29, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+977344 +++ exited with 0 +++
+977345 connect(12, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+977347 connect(13, {sa_family=AF_UNIX, sun_path="/run/user/1000/bus"}, 21) = 0
+977345 connect(17, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+977345 +++ exited with 0 +++
+977328 connect(9, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+977328 connect(23, {sa_family=AF_UNIX, sun_path="/run/dbus/system_bus_socket"}, 29) = 0
+977328 connect(33, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+977328 connect(33, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+977367 +++ exited with 0 +++
+977363 +++ exited with 0 +++
+977362 +++ exited with 0 +++
+977366 +++ exited with 0 +++
+977369 +++ exited with 0 +++
+977364 +++ exited with 0 +++
+977365 +++ exited with 0 +++
+977371 +++ exited with 0 +++
+977375 +++ exited with 0 +++
+977379 +++ exited with 0 +++
+977377 +++ exited with 0 +++
+977374 +++ exited with 0 +++
+977376 +++ exited with 0 +++
+977373 +++ exited with 0 +++
+977380 +++ exited with 0 +++
+977370 +++ exited with 0 +++
+977372 +++ exited with 0 +++
+977378 +++ exited with 0 +++
+977368 +++ exited with 0 +++
+977381 +++ exited with 0 +++
+977361 +++ exited with 0 +++
+977360 +++ exited with 0 +++
+977383 +++ exited with 0 +++
+977382 +++ exited with 0 +++
+977328 --- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=976270, si_uid=1000} ---
+977385 +++ killed by SIGTERM +++
+977384 +++ killed by SIGTERM +++
+977359 +++ killed by SIGTERM +++
+977358 +++ killed by SIGTERM +++
+977355 +++ killed by SIGTERM +++
+977350 +++ killed by SIGTERM +++
+977347 +++ killed by SIGTERM +++
+977329 +++ killed by SIGTERM +++
+977328 +++ killed by SIGTERM +++

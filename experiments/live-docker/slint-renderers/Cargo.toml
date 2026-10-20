@@ -1,0 +1,30 @@
+[package]
+name = "slint-renderer-containers"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[workspace]
+
+[dependencies]
+anyhow = "1"
+slint = { version = "=1.18.1", default-features = false, features = ["std", "compat-1-18"] }
+bollard = "=0.21.1"
+tokio = { version = "1", features = ["rt", "time", "net"] }
+
+[features]
+default = ["software"]
+software = ["slint/backend-winit", "slint/renderer-software"]
+femtovg = ["slint/backend-winit", "slint/renderer-femtovg"]
+femtovg-wgpu = ["slint/backend-winit", "slint/renderer-femtovg-wgpu"]
+skia = ["slint/backend-winit", "slint/renderer-skia"]
+skia-opengl = ["slint/backend-winit", "slint/renderer-skia-opengl"]
+vello = ["slint/backend-winit", "slint/renderer-vello"]
+qt = ["slint/backend-qt"]
+
+[profile.release]
+opt-level = "z"
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+strip = true

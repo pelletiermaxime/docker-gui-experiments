@@ -1,0 +1,25 @@
+{
+  "command": [
+    "cargo",
+    "build",
+    "--release",
+    "--locked",
+    "--manifest-path",
+    "experiments/live-docker/slint-containers/Cargo.toml"
+  ],
+  "elapsed_s": 58.37634544100729,
+  "exit_code": 0,
+  "cache": "Warm dependencies after initial 89.65s download/compile attempt failed on an inline color literal. Successful retry after correcting the literal; not a clean or controlled warm-edit timing.",
+  "initial_dependency_build_attempt": {
+    "command": [
+      "cargo",
+      "build",
+      "--release",
+      "--manifest-path",
+      "experiments/live-docker/slint-containers/Cargo.toml"
+    ],
+    "elapsed_s": 89.65214632102288,
+    "exit_code": 101,
+    "cache": "Existing Rust/Bollard cache reused; Slint dependencies newly downloaded/compiled. Includes dependency resolution/download. Not a clean or controlled warm-edit timing."
+  }
+}

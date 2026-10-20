@@ -1,0 +1,105 @@
+838364 execve("/home/maximep/projects/ferrydock/experiments/live-docker/mygo-containers/build/mygo-containers", ["/home/maximep/projects/ferrydock"...], 0x7ffceea57f28 /* 129 vars */) = 0
+838368 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 connect(4, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 connect(5, {sa_family=AF_UNIX, sun_path="/run/user/1000/bus"}, 110) = 0
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838422 +++ exited with 0 +++
+838421 +++ exited with 0 +++
+838420 +++ exited with 0 +++
+838419 +++ exited with 0 +++
+838397 connect(16, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838368 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838397 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838397 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838397 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838395 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838433 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838434 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838368 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838434 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838433 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838397 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838436 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838434 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838397 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838433 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838434 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838436 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838436 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838433 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838434 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838396 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838434 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838434 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838368 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838436 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838434 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838436 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838395 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838395 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838436 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838434 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838368 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838368 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838436 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGURG {si_signo=SIGURG, si_code=SI_TKILL, si_pid=838364, si_uid=1000} ---
+838364 --- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=838168, si_uid=1000} ---
+838427 +++ exited with 0 +++
+838426 +++ exited with 0 +++
+838425 +++ exited with 0 +++
+838424 +++ exited with 0 +++
+838437 +++ exited with 0 +++
+838436 +++ exited with 0 +++
+838435 +++ exited with 0 +++
+838434 +++ exited with 0 +++
+838433 +++ exited with 0 +++
+838429 +++ exited with 0 +++
+838428 +++ exited with 0 +++
+838423 +++ exited with 0 +++
+838417 +++ exited with 0 +++
+838416 +++ exited with 0 +++
+838397 +++ exited with 0 +++
+838396 +++ exited with 0 +++
+838395 +++ exited with 0 +++
+838394 +++ exited with 0 +++
+838393 +++ exited with 0 +++
+838392 +++ exited with 0 +++
+838370 +++ exited with 0 +++
+838369 +++ exited with 0 +++
+838368 +++ exited with 0 +++
+838367 +++ exited with 0 +++
+838366 +++ exited with 0 +++
+838372 +++ exited with 0 +++
+838364 +++ exited with 0 +++

@@ -1,0 +1,24 @@
+{
+  "nanoui": {
+    "refresh_observed": false,
+    "reason": "Owned-window OCR/click attempts did not produce a second load; startup loaded all 14 IDs. Click delivery versus widget behavior is unresolved."
+  },
+  "mygo": {
+    "refresh_observed": false,
+    "reason": "Refresh did not produce second SDK load: mygo"
+  },
+  "gpui": {
+    "refresh_observed": false,
+    "reason": "Refresh did not produce second SDK load: gpui"
+  },
+  "nanoui_c": {
+    "confirmed": false,
+    "reason": "Refresh button not separately exercised; startup live inventory was observed."
+  },
+  "slint": {
+    "confirmed": false,
+    "successful_load_count": 1,
+    "reason": "Startup load and native capture confirmed. Scripted search/clear/Refresh produced no observable UI change or second load; input delivery versus widget behavior unresolved.",
+    "native_observation": "slint-native-observation.json"
+  }
+}

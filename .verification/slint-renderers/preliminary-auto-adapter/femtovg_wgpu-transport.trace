@@ -1,0 +1,36 @@
+973836 execve("/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/build/slint-femtovg-wgpu", ["/home/maximep/projects/ferrydock"...], 0x7ffc807968c8 /* 138 vars */) = 0
+973836 connect(3, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+973836 connect(8, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+973836 connect(9, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+973836 connect(19, {sa_family=AF_UNIX, sun_path="/run/dbus/system_bus_socket"}, 29) = 0
+973836 connect(28, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+973836 connect(28, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+973858 +++ exited with 0 +++
+973865 connect(12, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+973867 connect(13, {sa_family=AF_UNIX, sun_path="/run/user/1000/bus"}, 21) = 0
+973865 connect(17, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+973865 +++ exited with 0 +++
+973836 connect(9, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+973836 connect(23, {sa_family=AF_UNIX, sun_path="/run/dbus/system_bus_socket"}, 29) = 0
+973836 connect(32, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+973836 connect(32, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+973894 +++ exited with 0 +++
+973893 +++ exited with 0 +++
+973896 +++ exited with 0 +++
+973895 +++ exited with 0 +++
+973902 +++ exited with 0 +++
+973901 +++ exited with 0 +++
+973905 +++ exited with 0 +++
+973904 +++ exited with 0 +++
+973836 --- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=970870, si_uid=1000} ---
+973907 +++ killed by SIGTERM +++
+973906 +++ killed by SIGTERM +++
+973898 +++ killed by SIGTERM +++
+973897 +++ killed by SIGTERM +++
+973892 +++ killed by SIGTERM +++
+973889 +++ killed by SIGTERM +++
+973869 +++ killed by SIGTERM +++
+973868 +++ killed by SIGTERM +++
+973867 +++ killed by SIGTERM +++
+973838 +++ killed by SIGTERM +++
+973836 +++ killed by SIGTERM +++

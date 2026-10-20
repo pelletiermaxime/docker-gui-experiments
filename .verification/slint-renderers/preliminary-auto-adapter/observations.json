@@ -1,0 +1,186 @@
+{
+  "software": {
+    "config": {
+      "id": "software",
+      "label": "Slint software",
+      "family": "software",
+      "backend": "winit",
+      "renderer": "software",
+      "kind": "CPU"
+    },
+    "pid": 972533,
+    "window": "14680067",
+    "capture": "software-native.png",
+    "ocr": "Containers Rust - Slint - Bollard\nSearch name, image, state. Refresh\n14/14 containers - all states - live Bollard AP\n\nName Image state Status\n\nhexfit-main-horizon registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-scheduler registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 51 minutes\n\nhexfit-main-backend-laravel...  registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-backend-legacy-fp...  registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-pro registry.gitlab.com/hexfit/hexfit/ui-pro-bas...  running Up 8 hours\n\nhexfit-proxy. nginx:alpine running Up 3days\n\nhexfit-activepieces ghcrio/activepieces/activepieces:0.92.1 running Up 37 hours (healthy)\n\nhexfit-pgsal-test hexfit-infra-pgsql-test running Up 3days\n\nhexfit-pgsal hexfit-infra-pgsal running Up 3days\n\nhexfit-activepieces-postgres pavector/pgvector:0.8.0-pg14 running Up 3 days (healthy)\n\nhexfit-mailpit axllent/mailpit running Up 3 days (healthy)\n\nhexfit-redis valkey/valkey:9.1-alpine running Up 3days\n\nhexfit-activepieces-redis redis:7.2-alpine running Up 3davs\n",
+    "log": "Slint requested: backend=winit renderer=software\nDocker load: count=14 elapsed_ms=41 ids=117feea78d81b7e86b4da2cd666c3f0b87bb9511171ec0ce6e88ba389b409cb3,1f3a0c05ba5ba5df2918e6891661497e129bdd64204b3d93c8d21ab619883cde,43f3241f892ed32d6bd8eedc13f1b9d3b20247e015b38080b1d06d2774fd6744,5f0d2da68770a4324cfc41ba06b064eedfdfb4872204d25eb7c819e114161179,655cbf2013d481354486181d8d916bc46d5d840c7ac22a9ce2fded313f7fa800,791acba8a077bc807ab794dcc2b6bd0cc7bba541a4d28fedf0aab39c3c8065bc,835d9356f9d258e149c227fffb8e6f96124ea8d9587d7b1179a0e5b7106a0774,84e8bc4813cb6a43d335dfe7e5bf57e7a261bf88886998782573fbcc67664876,9b907cd499df6312716c56041737d2c64f94a85b7cd18dcc2144a6c893b91593,9bfb2d851ac16c5977bd1f4065c73bd7d501d84bb1058e061fdc0b880fec9a79,a99cc144b4bd2ea34088a4cad3e3c4a957784a20c85146491b4fe6d45cf938b6,c2e89b812d9fefb3e2b6ecd651a1de147e2fe5b2238f7eae65b874b12800680a,e0947946bbc15b193d7e440ef434ef4b7e1e795c9eb54b627dcb4d71c1d0c4f6,f312396aa347fe5720a5c73f42b0f72b07be4c17ce51716cd50a850d91b7f0d2\n",
+    "owned_process_exited": true,
+    "executables": [
+      "972533 execve(\"/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/build/slint-software\", [\"/home/maximep/projects/ferrydock\"...], 0x7ffe3d4704f8 /* 138 vars */) = 0"
+    ],
+    "docker_socket_connections": [
+      "972569 connect(12, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0",
+      "972569 connect(18, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0"
+    ]
+  },
+  "femtovg_gl": {
+    "config": {
+      "id": "femtovg_gl",
+      "label": "FemtoVG / OpenGL",
+      "family": "femtovg",
+      "backend": "winit",
+      "renderer": "femtovg",
+      "kind": "GPU / OpenGL"
+    },
+    "pid": 973609,
+    "window": "14680067",
+    "capture": "femtovg_gl-native.png",
+    "ocr": "Containers Rust - Slint - Bollard\nSearch name, image, state... Refresh\n14714 containers - all states - live Bollard APT\n\nName Image state status\n\nhexfit-main-horizon registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-scheduler registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 51 minutes\n\nhexfit-main-backend-laravel..  registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-backend-legacy-fp...  registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-pro registry.gitlab.com/hexfit/hexfit/ui-pro-bas...  running Up 8 hours\n\nhexfit-proxy nginx:alpine running Up 3 days\n\nhexfit-activepieces ghcrio/activepieces/activepieces:0.92.1 running Up 37 hours (healthy)\n\nhexfit-pgsal-test hexfit-infra-pgsql-test running Up 3 days\n\nhexfit-pgsal hexfit-infra-pgsal running Up 3 days\n\nhexfit-activepieces-postgres pavector/pgvector0.8.0-pg14 running Up 3 days (healthy)\n\nhexfit-mailpit axllent/mailpit running Up 3 days (healthy)\n\nhexfit-redis valkey/valkey:9.1-alpine running Up 3 days\n\nhexfit-activeieces-redis redis:7.2-alpine running Up 3 davs\n",
+    "log": "Slint requested: backend=winit renderer=femtovg\nDocker load: count=14 elapsed_ms=9 ids=117feea78d81b7e86b4da2cd666c3f0b87bb9511171ec0ce6e88ba389b409cb3,1f3a0c05ba5ba5df2918e6891661497e129bdd64204b3d93c8d21ab619883cde,43f3241f892ed32d6bd8eedc13f1b9d3b20247e015b38080b1d06d2774fd6744,5f0d2da68770a4324cfc41ba06b064eedfdfb4872204d25eb7c819e114161179,655cbf2013d481354486181d8d916bc46d5d840c7ac22a9ce2fded313f7fa800,791acba8a077bc807ab794dcc2b6bd0cc7bba541a4d28fedf0aab39c3c8065bc,835d9356f9d258e149c227fffb8e6f96124ea8d9587d7b1179a0e5b7106a0774,84e8bc4813cb6a43d335dfe7e5bf57e7a261bf88886998782573fbcc67664876,9b907cd499df6312716c56041737d2c64f94a85b7cd18dcc2144a6c893b91593,9bfb2d851ac16c5977bd1f4065c73bd7d501d84bb1058e061fdc0b880fec9a79,a99cc144b4bd2ea34088a4cad3e3c4a957784a20c85146491b4fe6d45cf938b6,c2e89b812d9fefb3e2b6ecd651a1de147e2fe5b2238f7eae65b874b12800680a,e0947946bbc15b193d7e440ef434ef4b7e1e795c9eb54b627dcb4d71c1d0c4f6,f312396aa347fe5720a5c73f42b0f72b07be4c17ce51716cd50a850d91b7f0d2\n",
+    "owned_process_exited": true,
+    "executables": [
+      "973609 execve(\"/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/build/slint-femtovg\", [\"/home/maximep/projects/ferrydock\"...], 0x7ffc118bb2b8 /* 138 vars */) = 0"
+    ],
+    "docker_socket_connections": [
+      "973613 connect(12, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0",
+      "973613 connect(18, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0"
+    ]
+  },
+  "femtovg_wgpu": {
+    "config": {
+      "id": "femtovg_wgpu",
+      "label": "FemtoVG / WGPU",
+      "family": "femtovg-wgpu",
+      "backend": "winit",
+      "renderer": "femtovg-wgpu",
+      "kind": "GPU / WGPU (Vulkan requested)"
+    },
+    "pid": 973836,
+    "window": "14680067",
+    "capture": "femtovg_wgpu-native.png",
+    "ocr": "Containers Rust - Slint - Bollard\nSearch name, image, state... Refresh\n14714 containers - all states - live Bollard APT\n\nName Image state status\n\nhexfit-main-horizon registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-scheduler registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 51 minutes\n\nhexfit-main-backend-laravel..  registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-backend-legacy-fp...  registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-pro registry.gitlab.com/hexfit/hexfit/ui-pro-bas...  running Up 8 hours\n\nhexfit-proxy nginx:alpine running Up 3 days\n\nhexfit-activepieces ghcrio/activepieces/activepieces:0.92.1 running Up 37 hours (healthy)\n\nhexfit-pgsal-test hexfit-infra-pgsql-test running Up 3 days\n\nhexfit-pgsal hexfit-infra-pgsal running Up 3 days\n\nhexfit-activepieces-postgres pavector/pgvector0.8.0-pg14 running Up 3 days (healthy)\n\nhexfit-mailpit axllent/mailpit running Up 3 days (healthy)\n\nhexfit-redis valkey/valkey:9.1-alpine running Up 3 days\n\nhexfit-activeieces-redis redis:7.2-alpine running Up 3 davs\n",
+    "log": "Slint requested: backend=winit renderer=femtovg-wgpu\nDocker load: count=14 elapsed_ms=6 ids=117feea78d81b7e86b4da2cd666c3f0b87bb9511171ec0ce6e88ba389b409cb3,1f3a0c05ba5ba5df2918e6891661497e129bdd64204b3d93c8d21ab619883cde,43f3241f892ed32d6bd8eedc13f1b9d3b20247e015b38080b1d06d2774fd6744,5f0d2da68770a4324cfc41ba06b064eedfdfb4872204d25eb7c819e114161179,655cbf2013d481354486181d8d916bc46d5d840c7ac22a9ce2fded313f7fa800,791acba8a077bc807ab794dcc2b6bd0cc7bba541a4d28fedf0aab39c3c8065bc,835d9356f9d258e149c227fffb8e6f96124ea8d9587d7b1179a0e5b7106a0774,84e8bc4813cb6a43d335dfe7e5bf57e7a261bf88886998782573fbcc67664876,9b907cd499df6312716c56041737d2c64f94a85b7cd18dcc2144a6c893b91593,9bfb2d851ac16c5977bd1f4065c73bd7d501d84bb1058e061fdc0b880fec9a79,a99cc144b4bd2ea34088a4cad3e3c4a957784a20c85146491b4fe6d45cf938b6,c2e89b812d9fefb3e2b6ecd651a1de147e2fe5b2238f7eae65b874b12800680a,e0947946bbc15b193d7e440ef434ef4b7e1e795c9eb54b627dcb4d71c1d0c4f6,f312396aa347fe5720a5c73f42b0f72b07be4c17ce51716cd50a850d91b7f0d2\n",
+    "owned_process_exited": true,
+    "executables": [
+      "973836 execve(\"/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/build/slint-femtovg-wgpu\", [\"/home/maximep/projects/ferrydock\"...], 0x7ffc807968c8 /* 138 vars */) = 0"
+    ],
+    "docker_socket_connections": [
+      "973865 connect(12, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0",
+      "973865 connect(17, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0"
+    ]
+  },
+  "skia_software": {
+    "config": {
+      "id": "skia_software",
+      "label": "Skia software",
+      "family": "skia",
+      "backend": "winit",
+      "renderer": "skia-software",
+      "kind": "CPU"
+    },
+    "pid": 974004,
+    "window": "14680067",
+    "capture": "skia_software-native.png",
+    "ocr": "Containers Rust - Slint - Bollard\nSearch name, image, state... Refresh\n14714 containers - all tates - live Bollard APT\n\nName Image State Status.\n\nhexfit-main-horizon registry.gitlab.com/hexfit/hexit/dev/backe...  running Up 14 hours\n\nhexfit-main-scheduler registry.gitlab.com/hexfit/hexit/dev/backe...  running Up 51 minutes\n\nhexfit-main-backend-laravel...  registry.gitiab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-backend-legacyfp...  registry.gitiab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-pro registry.gitlab.com/hexfit/hexfit/ui-pro-bas...  running Up 8 hours\n\nhexfit-proxy nginx:alpine running Up3days\n\nhexfit-activepieces ghcrio/activepieces/activepieces:0.92.1 running Up 37 hours (healthy)\n\nhexfit-pgsql-test hexfit-infra-pgsql-test running Up3days\n\nhexfit-pgsal hexfit-infra-pgsal running Up3days\n\nhexfit-activepieces-postgres pgvector/pgvector:0.8.0-pg14 running Up 3 days (healthy)\n\nhexfit-mailpit axllent/mailpit running Up 3 days (healthy)\n\nhexfit-redis valkeyvalkey:9.1-alpine running Up3days\n\nhexfit-activepieces-redis redis:7.2-alpine running Up3davs\n",
+    "log": "Slint requested: backend=winit renderer=skia-software\nDocker load: count=14 elapsed_ms=7 ids=117feea78d81b7e86b4da2cd666c3f0b87bb9511171ec0ce6e88ba389b409cb3,1f3a0c05ba5ba5df2918e6891661497e129bdd64204b3d93c8d21ab619883cde,43f3241f892ed32d6bd8eedc13f1b9d3b20247e015b38080b1d06d2774fd6744,5f0d2da68770a4324cfc41ba06b064eedfdfb4872204d25eb7c819e114161179,655cbf2013d481354486181d8d916bc46d5d840c7ac22a9ce2fded313f7fa800,791acba8a077bc807ab794dcc2b6bd0cc7bba541a4d28fedf0aab39c3c8065bc,835d9356f9d258e149c227fffb8e6f96124ea8d9587d7b1179a0e5b7106a0774,84e8bc4813cb6a43d335dfe7e5bf57e7a261bf88886998782573fbcc67664876,9b907cd499df6312716c56041737d2c64f94a85b7cd18dcc2144a6c893b91593,9bfb2d851ac16c5977bd1f4065c73bd7d501d84bb1058e061fdc0b880fec9a79,a99cc144b4bd2ea34088a4cad3e3c4a957784a20c85146491b4fe6d45cf938b6,c2e89b812d9fefb3e2b6ecd651a1de147e2fe5b2238f7eae65b874b12800680a,e0947946bbc15b193d7e440ef434ef4b7e1e795c9eb54b627dcb4d71c1d0c4f6,f312396aa347fe5720a5c73f42b0f72b07be4c17ce51716cd50a850d91b7f0d2\n",
+    "owned_process_exited": true,
+    "executables": [
+      "974004 execve(\"/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/build/slint-skia\", [\"/home/maximep/projects/ferrydock\"...], 0x7ffd597c67f8 /* 138 vars */) = 0"
+    ],
+    "docker_socket_connections": [
+      "974008 connect(12, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0",
+      "974008 connect(17, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0"
+    ]
+  },
+  "skia_gl": {
+    "config": {
+      "id": "skia_gl",
+      "label": "Skia / OpenGL",
+      "family": "skia",
+      "backend": "winit",
+      "renderer": "skia-opengl",
+      "kind": "GPU / OpenGL"
+    },
+    "pid": 974166,
+    "window": "14680067",
+    "capture": "skia_gl-native.png",
+    "ocr": "Containers Rust - Slint - Bollard\nSearch name, image, state... Refresh\n14714 containers - all tates - live Bollard APT\n\nName Image State Status.\n\nhexfit-main-horizon registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-scheduler registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 51 minutes\n\nhexfit-main-backend-laravel...  registry.gitiab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-backend-legacyfp... ~ registry.gitiab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-pro registry.gitlab.com/hexfit/hexfit/ui-pro-bas...  running Up 8 hours\n\nhexfit-proxy nginx:alpine running Up3days\n\nhexfit-activepieces gherio/activepieces/activepieces:0.92.1 running Up 37 hours (healthy)\n\nhexfit-pgsql-test hexfit-infra-pgsql-test running Up3days\n\nhexfit-pgsal hexfit-infra-pgsal running Up3days\n\nhexfit-activepieces-postgres pgvector/pgvector:0.8.0-pg14 running Up 3 days (healthy)\n\nhexfit-mailpit axllent/mailpit running Up 3 days (healthy)\n\nhexfit-redis valkeyvalkey:9.1-alpine running Up3days\n\nhexfit-activepieces-redis redis:7.2-alpine running Up3davs\n",
+    "log": "Slint requested: backend=winit renderer=skia-opengl\nslint winit: unrecognized renderer skia-opengl, falling back to Skia\nDocker load: count=14 elapsed_ms=7 ids=117feea78d81b7e86b4da2cd666c3f0b87bb9511171ec0ce6e88ba389b409cb3,1f3a0c05ba5ba5df2918e6891661497e129bdd64204b3d93c8d21ab619883cde,43f3241f892ed32d6bd8eedc13f1b9d3b20247e015b38080b1d06d2774fd6744,5f0d2da68770a4324cfc41ba06b064eedfdfb4872204d25eb7c819e114161179,655cbf2013d481354486181d8d916bc46d5d840c7ac22a9ce2fded313f7fa800,791acba8a077bc807ab794dcc2b6bd0cc7bba541a4d28fedf0aab39c3c8065bc,835d9356f9d258e149c227fffb8e6f96124ea8d9587d7b1179a0e5b7106a0774,84e8bc4813cb6a43d335dfe7e5bf57e7a261bf88886998782573fbcc67664876,9b907cd499df6312716c56041737d2c64f94a85b7cd18dcc2144a6c893b91593,9bfb2d851ac16c5977bd1f4065c73bd7d501d84bb1058e061fdc0b880fec9a79,a99cc144b4bd2ea34088a4cad3e3c4a957784a20c85146491b4fe6d45cf938b6,c2e89b812d9fefb3e2b6ecd651a1de147e2fe5b2238f7eae65b874b12800680a,e0947946bbc15b193d7e440ef434ef4b7e1e795c9eb54b627dcb4d71c1d0c4f6,f312396aa347fe5720a5c73f42b0f72b07be4c17ce51716cd50a850d91b7f0d2\n",
+    "owned_process_exited": true,
+    "executables": [
+      "974166 execve(\"/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/build/slint-skia\", [\"/home/maximep/projects/ferrydock\"...], 0x7ffccb050f08 /* 138 vars */) = 0"
+    ],
+    "docker_socket_connections": [
+      "974173 connect(12, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0",
+      "974173 connect(17, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0"
+    ]
+  },
+  "skia_wgpu": {
+    "config": {
+      "id": "skia_wgpu",
+      "label": "Skia / WGPU",
+      "family": "skia",
+      "backend": "winit",
+      "renderer": "skia-wgpu",
+      "kind": "GPU / WGPU (Vulkan requested)"
+    },
+    "pid": 974340,
+    "window": "14680067",
+    "capture": "skia_wgpu-native.png",
+    "ocr": "Containers Rust - Slint - Bollard\nSearch name, image, state... Refresh\n14714 containers - all tates - live Bollard APT\n\nName Image State Status.\n\nhexfit-main-horizon registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-scheduler registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 51 minutes\n\nhexfit-main-backend-laravel...  registry.gitiab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-backend-legacyfp... ~ registry.gitiab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-pro registry.gitlab.com/hexfit/hexfit/ui-pro-bas...  running Up 8 hours\n\nhexfit-proxy nginx:alpine running Up3days\n\nhexfit-activepieces gherio/activepieces/activepieces:0.92.1 running Up 37 hours (healthy)\n\nhexfit-pgsql-test hexfit-infra-pgsql-test running Up3days\n\nhexfit-pgsal hexfit-infra-pgsal running Up3days\n\nhexfit-activepieces-postgres pgvector/pgvector:0.8.0-pg14 running Up 3 days (healthy)\n\nhexfit-mailpit axllent/mailpit running Up 3 days (healthy)\n\nhexfit-redis valkeyvalkey:9.1-alpine running Up3days\n\nhexfit-activepieces-redis redis:7.2-alpine running Up3davs\n",
+    "log": "Slint requested: backend=winit renderer=skia-wgpu\nDocker load: count=14 elapsed_ms=6 ids=117feea78d81b7e86b4da2cd666c3f0b87bb9511171ec0ce6e88ba389b409cb3,1f3a0c05ba5ba5df2918e6891661497e129bdd64204b3d93c8d21ab619883cde,43f3241f892ed32d6bd8eedc13f1b9d3b20247e015b38080b1d06d2774fd6744,5f0d2da68770a4324cfc41ba06b064eedfdfb4872204d25eb7c819e114161179,655cbf2013d481354486181d8d916bc46d5d840c7ac22a9ce2fded313f7fa800,791acba8a077bc807ab794dcc2b6bd0cc7bba541a4d28fedf0aab39c3c8065bc,835d9356f9d258e149c227fffb8e6f96124ea8d9587d7b1179a0e5b7106a0774,84e8bc4813cb6a43d335dfe7e5bf57e7a261bf88886998782573fbcc67664876,9b907cd499df6312716c56041737d2c64f94a85b7cd18dcc2144a6c893b91593,9bfb2d851ac16c5977bd1f4065c73bd7d501d84bb1058e061fdc0b880fec9a79,a99cc144b4bd2ea34088a4cad3e3c4a957784a20c85146491b4fe6d45cf938b6,c2e89b812d9fefb3e2b6ecd651a1de147e2fe5b2238f7eae65b874b12800680a,e0947946bbc15b193d7e440ef434ef4b7e1e795c9eb54b627dcb4d71c1d0c4f6,f312396aa347fe5720a5c73f42b0f72b07be4c17ce51716cd50a850d91b7f0d2\n",
+    "owned_process_exited": true,
+    "executables": [
+      "974340 execve(\"/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/build/slint-skia\", [\"/home/maximep/projects/ferrydock\"...], 0x7ffd455f42d8 /* 138 vars */) = 0"
+    ],
+    "docker_socket_connections": [
+      "974345 connect(12, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0",
+      "974345 connect(17, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0"
+    ]
+  },
+  "vello": {
+    "config": {
+      "id": "vello",
+      "label": "Vello (experimental)",
+      "family": "vello",
+      "backend": "winit",
+      "renderer": "vello",
+      "kind": "GPU / WGPU (Vulkan requested)"
+    },
+    "pid": 974496,
+    "window": "14680067",
+    "capture": "vello-native.png",
+    "ocr": "Containers Rust - Slint - Bollard\n\nSearch name, image, state. Refresh\n14/14 containers - all states - ive Bollard API\n\nName Image state Status\n\nhexfit-main-horizon registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-scheduler registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 51 minutes\n\nhexfit-main-backend-laravel...  registry.gitlab.com/hexfit/hexfit/dev/backe... running Up 14 hours\n\nhexfit-main-backend-legacy-fp... ~ registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-pro registry.gitlab.com/hexfit/hexfit/ui-pro-bas...  running Up 8 hours\n\nhexfit-proxy. nginx:alpine running Up 3 days\n\nhexfit-activepieces ghcrio/activepieces/activepieces:0.92.1 running Up 37 hours (healthy)\n\nhexfit-pgsal-test hexfit-infra-pgsql-test running Up 3 days\n\nhexfit-pgsal hexfit-infra-pgsql running Up 3 days\n\nhexfit-activepieces-postgres pavector/pgvector0.8.0-pg14 running Up 3 days (healthy)\n\nhexfit-mailpit axllent/mailpit running Up 3 days (healthy)\n\nhexfit-redis valkey/valkey:9.1-alpine running Up 3 days\n\nhexfit-activepieces-redis redis:7.2-alpine running Up 3 davs\n",
+    "log": "Slint requested: backend=winit renderer=vello\nDocker load: count=14 elapsed_ms=8 ids=117feea78d81b7e86b4da2cd666c3f0b87bb9511171ec0ce6e88ba389b409cb3,1f3a0c05ba5ba5df2918e6891661497e129bdd64204b3d93c8d21ab619883cde,43f3241f892ed32d6bd8eedc13f1b9d3b20247e015b38080b1d06d2774fd6744,5f0d2da68770a4324cfc41ba06b064eedfdfb4872204d25eb7c819e114161179,655cbf2013d481354486181d8d916bc46d5d840c7ac22a9ce2fded313f7fa800,791acba8a077bc807ab794dcc2b6bd0cc7bba541a4d28fedf0aab39c3c8065bc,835d9356f9d258e149c227fffb8e6f96124ea8d9587d7b1179a0e5b7106a0774,84e8bc4813cb6a43d335dfe7e5bf57e7a261bf88886998782573fbcc67664876,9b907cd499df6312716c56041737d2c64f94a85b7cd18dcc2144a6c893b91593,9bfb2d851ac16c5977bd1f4065c73bd7d501d84bb1058e061fdc0b880fec9a79,a99cc144b4bd2ea34088a4cad3e3c4a957784a20c85146491b4fe6d45cf938b6,c2e89b812d9fefb3e2b6ecd651a1de147e2fe5b2238f7eae65b874b12800680a,e0947946bbc15b193d7e440ef434ef4b7e1e795c9eb54b627dcb4d71c1d0c4f6,f312396aa347fe5720a5c73f42b0f72b07be4c17ce51716cd50a850d91b7f0d2\n",
+    "owned_process_exited": true,
+    "executables": [
+      "974496 execve(\"/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/build/slint-vello\", [\"/home/maximep/projects/ferrydock\"...], 0x7ffc98874718 /* 138 vars */) = 0"
+    ],
+    "docker_socket_connections": [
+      "974502 connect(12, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0",
+      "974502 connect(13, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0"
+    ]
+  },
+  "qt": {
+    "config": {
+      "id": "qt",
+      "label": "Qt backend",
+      "family": "qt",
+      "backend": "qt",
+      "renderer": "qt",
+      "kind": "Qt windowing / rendering"
+    },
+    "pid": 974759,
+    "window": "14680072",
+    "capture": "qt-native.png",
+    "ocr": "Containers Rust - Slint - Bollard\nSearch name, image, state... Refresh\n14/14 containers - all states - live Bollard API\n\nName Image State Status.\n\nhexfit-main-horizon registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-scheduler registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 51 minutes\n\nhexfit-main-backend-laravel..  registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-backend-legacy-fp...  registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 14 hours\n\nhexfit-main-pro registry.gitlab.com/hexfit/hexfit/ui-pro-bas...  running Up8 hours\n\nhexfit-proxy nginx:alpine running Up3days\n\nhexfit-activepieces gherio/activepieces/activepieces:0.92.1 running Up 37 hours (healthy)\n\nhexfit-pgsql-test hexfit-infra-pgsqh-test running Up3days\n\nhexfit-pgsal hexfit-infra-pgsql running Up3days\n\nhexfit-activepieces-postgres pavector/pgvector:0.8.0-pg14 running Up 3 days (healthy)\n\nhexfit-mailpit axllent/mailpit running Up 3 days (healthy)\n\nhexfit-redis valkeyNvalkey:9.1-alpine running Up3days\n\nhexfit-activepieces-redis redis:7.2-alpine running Up3davs\n",
+    "log": "Slint requested: backend=qt renderer=qt\nDocker load: count=14 elapsed_ms=8 ids=117feea78d81b7e86b4da2cd666c3f0b87bb9511171ec0ce6e88ba389b409cb3,1f3a0c05ba5ba5df2918e6891661497e129bdd64204b3d93c8d21ab619883cde,43f3241f892ed32d6bd8eedc13f1b9d3b20247e015b38080b1d06d2774fd6744,5f0d2da68770a4324cfc41ba06b064eedfdfb4872204d25eb7c819e114161179,655cbf2013d481354486181d8d916bc46d5d840c7ac22a9ce2fded313f7fa800,791acba8a077bc807ab794dcc2b6bd0cc7bba541a4d28fedf0aab39c3c8065bc,835d9356f9d258e149c227fffb8e6f96124ea8d9587d7b1179a0e5b7106a0774,84e8bc4813cb6a43d335dfe7e5bf57e7a261bf88886998782573fbcc67664876,9b907cd499df6312716c56041737d2c64f94a85b7cd18dcc2144a6c893b91593,9bfb2d851ac16c5977bd1f4065c73bd7d501d84bb1058e061fdc0b880fec9a79,a99cc144b4bd2ea34088a4cad3e3c4a957784a20c85146491b4fe6d45cf938b6,c2e89b812d9fefb3e2b6ecd651a1de147e2fe5b2238f7eae65b874b12800680a,e0947946bbc15b193d7e440ef434ef4b7e1e795c9eb54b627dcb4d71c1d0c4f6,f312396aa347fe5720a5c73f42b0f72b07be4c17ce51716cd50a850d91b7f0d2\n",
+    "owned_process_exited": true,
+    "executables": [
+      "974759 execve(\"/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/build/slint-qt\", [\"/home/maximep/projects/ferrydock\"...], 0x7ffc49648798 /* 138 vars */) = 0"
+    ],
+    "docker_socket_connections": [
+      "974770 connect(12, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0",
+      "974770 connect(13, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0"
+    ]
+  }
+}

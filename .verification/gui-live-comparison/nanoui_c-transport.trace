@@ -1,0 +1,11 @@
+877211 execve("/home/maximep/projects/ferrydock/experiments/live-docker/nanoui-csdk-containers/zig-out/bin/nanoui-csdk-containers", ["/home/maximep/projects/ferrydock"...], 0x7ffe32c0c648 /* 129 vars */) = 0
+877211 connect(3, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+877359 connect(9, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+877359 connect(9, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+877359 +++ exited with 0 +++
+877211 --- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=877207, si_uid=1000} ---
+877357 +++ killed by SIGTERM +++
+877358 +++ killed by SIGTERM +++
+877229 +++ killed by SIGTERM +++
+877223 +++ killed by SIGTERM +++
+877211 +++ killed by SIGTERM +++

@@ -1,0 +1,13 @@
+976805 execve("/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/build/slint-skia", ["/home/maximep/projects/ferrydock"...], 0x7ffe96cfad28 /* 139 vars */) = 0
+976805 connect(3, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+976805 connect(8, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+976811 connect(12, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+976812 connect(13, {sa_family=AF_UNIX, sun_path="/run/user/1000/bus"}, 21) = 0
+976811 connect(17, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+976811 +++ exited with 0 +++
+976805 --- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=976270, si_uid=1000} ---
+976809 +++ killed by SIGTERM +++
+976812 +++ killed by SIGTERM +++
+976824 +++ killed by SIGTERM +++
+976823 +++ killed by SIGTERM +++
+976805 +++ killed by SIGTERM +++

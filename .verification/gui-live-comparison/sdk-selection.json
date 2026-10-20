@@ -1,0 +1,28 @@
+{
+  "checked_on": "2026-10-19",
+  "timezone": "America/Toronto",
+  "selection_conclusion": "Experimental Zig-native Docker Engine integration; no maturity parity with the official Go SDK is established. Search is not an exhaustive proof of absence.",
+  "repositories": [
+    {
+      "name": "GuangYiL/container-zig",
+      "stars": 1,
+      "created_at": "2026-07-06T06:27:01Z",
+      "pushed_at": "2026-07-14T07:28:03Z",
+      "metadata_source": "https://api.github.com/repos/GuangYiL/container-zig",
+      "assessment": "Selected for explicit Zig 0.17 branch and typed Docker Engine API. Very limited adoption evidence; one endpoint-helper compatibility patch needed."
+    },
+    {
+      "name": "nektro/zig-docker",
+      "stars": 17,
+      "created_at": "2022-03-07T10:25:26Z",
+      "pushed_at": "2024-12-26T10:56:24Z",
+      "metadata_source": "https://api.github.com/repos/nektro/zig-docker",
+      "assessment": "Older alternative; published build uses std.build.Builder and std.builtin.Mode. Not a drop-in for the installed compiler; no port or execution performed."
+    }
+  ],
+  "other_candidate": {
+    "name": "eneskemalergin/z-oci",
+    "url": "https://github.com/eneskemalergin/z-oci",
+    "assessment": "OCI/Docker Registry API v2 client; different scope from the Docker Engine container-list API."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "experiments/live-docker/nanoui-containers/zig-out/bin/nanoui-live-containers": "a0bb4da5382bb5bfb600b7a4cbf1614acfd4905cd789d519d0cb11cc414c6545",
+  "experiments/live-docker/mygo-containers/build/mygo-containers": "c4ef5e341e6208af697bd64c37a3f1518d9164f9be2685d5ceb8e6d5301a2fea",
+  "experiments/live-docker/gpui-containers/build/gpui-live-containers": "1169a7aea446be6ca41337bf3b65d0802b5bc8d09a6920e7b5b4b8e1075c44d3",
+  "experiments/live-docker/nanoui-csdk-containers/zig-out/bin/nanoui-csdk-containers": "7e292fa254f158af8a8235653e6795406f76f0e9d9767668b8927864d318b7c1",
+  "experiments/live-docker/slint-containers/build/slint-live-containers": "766c34d533d45648b5a495debb75e67de05be5efe9f2ceb962f2b5a681927a3e",
+  ".verification/gui-comparison/rapport.html": "0c8dc0909325bc4ee4a22d4c31dcbcef2a995cc10f2c9db16735ec238e14a1e6",
+  ".verification/gui-live-comparison/rapport.html": "e68f6e9fbfcc3f8b2609452c654efc7cf5bfda5b65376710c365d713b50a50dd"
+}

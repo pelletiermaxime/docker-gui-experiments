@@ -1,0 +1,74 @@
+{
+  "mapped_qt_libraries": [
+    {
+      "path": "/usr/lib/libQt6Concurrent.so.6.12.0",
+      "bytes": 22760
+    },
+    {
+      "path": "/usr/lib/libQt6Core.so.6.12.0",
+      "bytes": 7451056
+    },
+    {
+      "path": "/usr/lib/libQt6DBus.so.6.12.0",
+      "bytes": 844800
+    },
+    {
+      "path": "/usr/lib/libQt6Gui.so.6.12.0",
+      "bytes": 10459648
+    },
+    {
+      "path": "/usr/lib/libQt6Network.so.6.12.0",
+      "bytes": 2083936
+    },
+    {
+      "path": "/usr/lib/libQt6OpenGL.so.6.12.0",
+      "bytes": 690048
+    },
+    {
+      "path": "/usr/lib/libQt6Qml.so.6.12.0",
+      "bytes": 6207616
+    },
+    {
+      "path": "/usr/lib/libQt6QmlMeta.so.6.12.0",
+      "bytes": 168192
+    },
+    {
+      "path": "/usr/lib/libQt6QmlModels.so.6.12.0",
+      "bytes": 1259392
+    },
+    {
+      "path": "/usr/lib/libQt6QmlWorkerScript.so.6.12.0",
+      "bytes": 85256
+    },
+    {
+      "path": "/usr/lib/libQt6Quick.so.6.12.0",
+      "bytes": 7999584
+    },
+    {
+      "path": "/usr/lib/libQt6QuickControls2.so.6.12.0",
+      "bytes": 101000
+    },
+    {
+      "path": "/usr/lib/libQt6QuickTemplates2.so.6.12.0",
+      "bytes": 2647048
+    },
+    {
+      "path": "/usr/lib/libQt6WaylandClient.so.6.12.0",
+      "bytes": 1173224
+    },
+    {
+      "path": "/usr/lib/libQt6Widgets.so.6.12.0",
+      "bytes": 8028416
+    },
+    {
+      "path": "/usr/lib/libQt6XcbQpa.so.6.12.0",
+      "bytes": 696496
+    },
+    {
+      "path": "/usr/lib/libQt6Xml.so.6.12.0",
+      "bytes": 161920
+    }
+  ],
+  "total_file_bytes": 50080392,
+  "limit": "Only mapped libQt* files; excludes Qt plugins, other dependencies and packaging. Not an installed-size or incremental-size total."
+}

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "cargo",
+    "build",
+    "--release",
+    "--manifest-path",
+    "experiments/live-docker/slint-containers/Cargo.toml"
+  ],
+  "elapsed_s": 89.65214632102288,
+  "exit_code": 101,
+  "cache": "Existing Rust/Bollard cache reused; Slint dependencies newly downloaded/compiled. Includes dependency resolution/download. Not a clean or controlled warm-edit timing."
+}

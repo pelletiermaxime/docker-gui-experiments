@@ -1,0 +1,19 @@
+{
+  "repository": "danielsuo/libdocker",
+  "revision": "4e6c007615fe151ea59609d5081175ea1fe8e65b",
+  "cmake_declared_version": "1.1.0",
+  "stars_observed": 68,
+  "created_at": "2017-02-03T15:50:41Z",
+  "pushed_at": "2023-01-06T15:00:40Z",
+  "metadata_source": "https://api.github.com/repos/danielsuo/libdocker",
+  "sdk_source_url": "https://github.com/danielsuo/libdocker/tree/4e6c007615fe151ea59609d5081175ea1fe8e65b",
+  "sdk_linkage": "C source compiled into executable",
+  "curl_linkage": "system shared library",
+  "curl_version": "8.23.0",
+  "compatibility_patch": "libdocker-unix-host.patch",
+  "platform_scope": "Local Unix sockets; no Windows named pipe support; Linux observed only.",
+  "curl_shared_file": "/usr/lib/libcurl.so.4.8.0",
+  "curl_shared_file_bytes": 1091176,
+  "curl_shared_file_sha256": "d53ce30e973b9120643dfb53b9c99986330f28d2db245189e6bda6bc1aa55bdd",
+  "binary_needed_libraries": "\nDynamic section at offset 0xb44d8 contains 29 entries:\n  Tag        Type                         Name/Value\n 0x0000000000000001 (NEEDED)             Shared library: [libcurl.so.4]\n 0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]\n 0x0000000000000001 (NEEDED)             Shared library: [ld-linux-x86-64.so.2]\n 0x000000000000001e (FLAGS)              BIND_NOW\n 0x000000006ffffffb (FLAGS_1)            Flags: NOW\n 0x0000000000000015 (DEBUG)              0x0\n 0x0000000000000007 (RELA)               0x1001a30\n 0x0000000000000008 (RELASZ)             120 (bytes)\n 0x0000000000000009 (RELAENT)            24 (bytes)\n 0x0000000000000017 (JMPREL)             0x1001aa8\n 0x0000000000000002 (PLTRELSZ)           2712 (bytes)\n 0x0000000000000003 (PLTGOT)             0x10b66d0\n 0x0000000000000014 (PLTREL)             RELA\n 0x0000000000000006 (SYMTAB)             0x1000320\n 0x000000000000000b (SYMENT)             24 (bytes)\n 0x0000000000000005 (STRTAB)             0x1001464\n 0x000000000000000a (STRSZ)              1482 (bytes)\n 0x000000006ffffef5 (GNU_HASH)           0x1001080\n 0x0000000000000004 (HASH)               0x100109c\n 0x0000000000000019 (INIT_ARRAY)         0x10b2868\n 0x000000000000001b (INIT_ARRAYSZ)       8 (bytes)\n 0x000000000000001a (FINI_ARRAY)         0x10b2860\n 0x000000000000001c (FINI_ARRAYSZ)       8 (bytes)\n 0x000000000000000c (INIT)               0x10b110c\n 0x000000000000000d (FINI)               0x10b1128\n 0x000000006ffffff0 (VERSYM)             0x1000e60\n 0x000000006ffffffe (VERNEED)            0x1000f50\n 0x000000006fffffff (VERNEEDNUM)         3\n 0x0000000000000000 (NULL)               0x0\n"
+}

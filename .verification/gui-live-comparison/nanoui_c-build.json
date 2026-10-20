@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/home/maximep/projects/ferrydock/.verification/gui-comparison/toolchains/zig-x86_64-linux-0.17.0/zig",
+    "build",
+    "--build-file",
+    "experiments/live-docker/nanoui-csdk-containers/build.zig",
+    "-Doptimize=ReleaseFast",
+    "-j4"
+  ],
+  "elapsed_s": 12.35972278699046,
+  "exit_code": 0,
+  "cache": "Existing NanoUI/Zig caches and C translation artifact reused after integration fixes. Not a clean or controlled warm-edit timing."
+}

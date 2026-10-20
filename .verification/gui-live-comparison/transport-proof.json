@@ -1,0 +1,51 @@
+{
+  "nanoui": {
+    "executables": [
+      "838171 execve(\"/home/maximep/projects/ferrydock/experiments/live-docker/nanoui-containers/zig-out/bin/nanoui-live-containers\", [\"/home/maximep/projects/ferrydock\"...], 0x7fff91c31cf8 /* 129 vars */) = 0"
+    ],
+    "docker_socket_connections": [
+      "838204 connect(4, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0",
+      "838204 connect(4, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0"
+    ],
+    "docker_cli_executed": false
+  },
+  "mygo": {
+    "executables": [
+      "838364 execve(\"/home/maximep/projects/ferrydock/experiments/live-docker/mygo-containers/build/mygo-containers\", [\"/home/maximep/projects/ferrydock\"...], 0x7ffceea57f28 /* 129 vars */) = 0"
+    ],
+    "docker_socket_connections": [
+      "838397 connect(16, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0"
+    ],
+    "docker_cli_executed": false
+  },
+  "gpui": {
+    "executables": [
+      "839409 execve(\"/home/maximep/projects/ferrydock/experiments/gpui-containers/target/release/gpui-live-containers\", [\"/home/maximep/projects/ferrydock\"...], 0x7ffd34670b28 /* 130 vars */) = 0"
+    ],
+    "docker_socket_connections": [
+      "839448 connect(56, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0",
+      "839448 connect(58, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0"
+    ],
+    "docker_cli_executed": false
+  },
+  "nanoui_c": {
+    "executables": [
+      "877211 execve(\"/home/maximep/projects/ferrydock/experiments/live-docker/nanoui-csdk-containers/zig-out/bin/nanoui-csdk-containers\", [\"/home/maximep/projects/ferrydock\"...], 0x7ffe32c0c648 /* 129 vars */) = 0"
+    ],
+    "docker_socket_connections": [
+      "877359 connect(9, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0",
+      "877359 connect(9, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0"
+    ],
+    "docker_cli_executed": false
+  },
+  "slint": {
+    "executables": [
+      "926802 execve(\"/home/maximep/projects/ferrydock/experiments/live-docker/slint-containers/build/slint-live-containers\", [\"/home/maximep/projects/ferrydock\"...], 0x7ffe1e76b508 /* 132 vars */) = 0"
+    ],
+    "docker_socket_connections": [
+      "926804 connect(12, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0",
+      "926804 connect(18, {sa_family=AF_UNIX, sun_path=\"/var/run/docker.sock\"}, 23) = 0"
+    ],
+    "docker_cli_executed": false
+  }
+}

@@ -1,0 +1,16 @@
+diff --git a/src/docker.c b/src/docker.c
+index d43f75f..69cb988 100644
+--- a/src/docker.c
++++ b/src/docker.c
+@@ -31,7 +31,10 @@ void init_buffer(DOCKER *client) {
+ }
+ 
+ void init_curl(DOCKER *client) {
+-  curl_easy_setopt(client->curl, CURLOPT_UNIX_SOCKET_PATH, "/var/run/docker.sock");
++  const char *host = getenv("DOCKER_HOST");
++  const char *socket = host && strncmp(host, "unix://", 7) == 0
++      ? host + 7 : "/var/run/docker.sock";
++  curl_easy_setopt(client->curl, CURLOPT_UNIX_SOCKET_PATH, socket);
+   curl_easy_setopt(client->curl, CURLOPT_WRITEFUNCTION, write_function);
+   curl_easy_setopt(client->curl, CURLOPT_WRITEDATA, client->buffer);
+ }

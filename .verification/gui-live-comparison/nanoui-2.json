@@ -1,0 +1,422 @@
+{
+  "name": "nanoui",
+  "run": 2,
+  "visible_after_seconds": 0.11244166200049222,
+  "warmup_seconds": 4,
+  "idle_seconds": 20.05649347702274,
+  "idle_cpu_percent_one_core": 0.0,
+  "idle_rss_median_bytes": 41353216.0,
+  "idle_pss_median_bytes": 31901696.0,
+  "sampled_peak_rss_bytes": 41353216,
+  "max_processes": 1,
+  "binary_bytes": 1526184,
+  "binary_sha256": "a0bb4da5382bb5bfb600b7a4cbf1614acfd4905cd789d519d0cb11cc414c6545",
+  "data_source": "live Docker Engine API via SDK",
+  "docker_host": "unix:///var/run/docker.sock",
+  "load_log": "info: source=container-zig-api containers=14 ids_sha256=9b3587c9a02aefc52a6ad2b5c04fb1ba6e3615c0673b13bf87ce0bc1db2ff931 elapsed_ms=6\n",
+  "backend": "GTK3 / X11 on Plasma Wayland (XWayland)",
+  "client_size": [
+    1000,
+    680
+  ],
+  "gpui_x11_scale_factor": null,
+  "graphics_libraries": [],
+  "samples": [
+    {
+      "phase": "warmup",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31879168,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31879168,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 41353216,
+      "pss_bytes": 31901696,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    }
+  ],
+  "container_count": 14,
+  "container_ids_sha256": "9b3587c9a02aefc52a6ad2b5c04fb1ba6e3615c0673b13bf87ce0bc1db2ff931",
+  "initial_load_ms": 6,
+  "matches_initial_inventory": true
+}

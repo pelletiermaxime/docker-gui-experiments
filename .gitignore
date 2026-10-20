@@ -1,0 +1,12 @@
+# Build products and downloaded dependencies, not the archived report evidence.
+**/target/
+**/build/
+**/zig-out/
+**/.zig-cache/
+**/zig-cache/
+**/__pycache__/
+**/node_modules/
+**/deps/
+**/toolchains/
+*.pyc
+.DS_Store

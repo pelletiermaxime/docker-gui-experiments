@@ -1,0 +1,17 @@
+976449 execve("/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/build/slint-femtovg", ["/home/maximep/projects/ferrydock"...], 0x7ffe32127b08 /* 139 vars */) = 0
+976449 connect(3, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+976449 connect(8, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+976452 connect(12, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+976453 connect(13, {sa_family=AF_UNIX, sun_path="/run/user/1000/bus"}, 21) = 0
+976452 connect(17, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+976452 +++ exited with 0 +++
+976449 --- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=976270, si_uid=1000} ---
+976467 +++ killed by SIGTERM +++
+976466 +++ killed by SIGTERM +++
+976465 +++ killed by SIGTERM +++
+976464 +++ killed by SIGTERM +++
+976456 +++ killed by SIGTERM +++
+976455 +++ killed by SIGTERM +++
+976453 +++ killed by SIGTERM +++
+976450 +++ killed by SIGTERM +++
+976449 +++ killed by SIGTERM +++

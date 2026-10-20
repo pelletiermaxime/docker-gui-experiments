@@ -1,0 +1,14 @@
+838171 execve("/home/maximep/projects/ferrydock/experiments/live-docker/nanoui-containers/zig-out/bin/nanoui-live-containers", ["/home/maximep/projects/ferrydock"...], 0x7fff91c31cf8 /* 129 vars */) = 0
+838171 connect(3, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+838204 connect(4, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+838204 connect(4, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+838203 --- SIGIO {si_signo=SIGIO, si_code=SI_TKILL, si_pid=838171, si_uid=1000} ---
+838202 +++ exited with 0 +++
+838171 --- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=838168, si_uid=1000} ---
+838204 +++ killed by SIGTERM +++
+838200 +++ killed by SIGTERM +++
+838178 +++ killed by SIGTERM +++
+838201 +++ killed by SIGTERM +++
+838177 +++ killed by SIGTERM +++
+838203 +++ killed by SIGTERM +++
+838171 +++ killed by SIGTERM +++

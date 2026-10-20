@@ -1,0 +1,111 @@
+{
+  "scope": "Release builds on Linux; dependency caches reused; one app rebuild after an added comment in an isolated source copy per integration and three unchanged builds; not clean builds; no tests; sequential execution",
+  "parallelism": "4 build jobs; Go GOMAXPROCS=4; no CPU affinity or machine isolation",
+  "integrations": {
+    "nanoui": {
+      "warm_dependency_rebuild_seconds": 12.591046462999657,
+      "unchanged_build_seconds": [
+        0.027304666000418365,
+        0.021223967982223257,
+        0.021895573008805513
+      ],
+      "unchanged_build_median_seconds": 0.021895573008805513,
+      "application_rebuild_samples": 1,
+      "command": [
+        "/home/maximep/projects/ferrydock/.verification/gui-comparison/toolchains/zig-x86_64-linux-0.17.0/zig",
+        "build",
+        "-Doptimize=ReleaseFast",
+        "-j4"
+      ],
+      "working_directory": ".verification/gui-comparison/build-timing-work/nanoui",
+      "environment_overrides": {
+        "ZIG_GLOBAL_CACHE_DIR": "/tmp/ferrydock-nanoui-zig-global-cache",
+        "ZIG_LOCAL_CACHE_DIR": "/tmp/ferrydock-nanoui-zig-cache",
+        "ZIG_LOCAL_PKG_DIR": "/tmp/ferrydock-nanoui-zig-pkgs"
+      },
+      "log": "build-timing-work/nanoui-rebuild.log"
+    },
+    "mygo": {
+      "warm_dependency_rebuild_seconds": 0.40129747000173666,
+      "unchanged_build_seconds": [
+        0.07455578199005686,
+        0.08390491100726649,
+        0.0809389520145487
+      ],
+      "unchanged_build_median_seconds": 0.0809389520145487,
+      "application_rebuild_samples": 1,
+      "command": [
+        "go",
+        "build",
+        "-p",
+        "4",
+        "-trimpath",
+        "-tags",
+        "mygo_noinspector",
+        "-ldflags",
+        "-s -w -X github.com/egoist/mygo.production=1",
+        "-o",
+        "mygo-containers",
+        "."
+      ],
+      "working_directory": ".verification/gui-comparison/build-timing-work/mygo",
+      "environment_overrides": {
+        "CGO_ENABLED": "0",
+        "GOMAXPROCS": "4",
+        "GOCACHE": "/tmp/ferrydock-mygo-build-cache",
+        "GOMODCACHE": "/tmp/ferrydock-mygo-module-cache",
+        "GOPROXY": "off",
+        "GOSUMDB": "off"
+      },
+      "log": "build-timing-work/mygo-rebuild.log"
+    },
+    "gpui_kit": {
+      "warm_dependency_rebuild_seconds": 144.946279286989,
+      "unchanged_build_seconds": [
+        0.8561124979751185,
+        0.2737082559906412,
+        0.2754637599864509
+      ],
+      "unchanged_build_median_seconds": 0.2754637599864509,
+      "application_rebuild_samples": 1,
+      "command": [
+        "cargo",
+        "build",
+        "--release",
+        "--locked",
+        "--offline"
+      ],
+      "working_directory": ".verification/gui-comparison/build-timing-work/gpui_kit",
+      "environment_overrides": {
+        "CARGO_TARGET_DIR": "/home/maximep/projects/ferrydock/target",
+        "CARGO_BUILD_JOBS": "4",
+        "RUSTFLAGS": ""
+      },
+      "log": "build-timing-work/gpui_kit-rebuild.log"
+    },
+    "gpui": {
+      "warm_dependency_rebuild_seconds": 69.81602116097929,
+      "unchanged_build_seconds": [
+        0.6480384960013907,
+        0.22180150999338366,
+        0.2240756120008882
+      ],
+      "unchanged_build_median_seconds": 0.2240756120008882,
+      "application_rebuild_samples": 1,
+      "command": [
+        "cargo",
+        "build",
+        "--release",
+        "--locked",
+        "--offline"
+      ],
+      "working_directory": ".verification/gui-comparison/build-timing-work/gpui",
+      "environment_overrides": {
+        "CARGO_TARGET_DIR": "/home/maximep/projects/ferrydock/experiments/gpui-containers/target",
+        "CARGO_BUILD_JOBS": "4",
+        "RUSTFLAGS": "-C force-unwind-tables=no"
+      },
+      "log": "build-timing-work/gpui-rebuild.log"
+    }
+  }
+}

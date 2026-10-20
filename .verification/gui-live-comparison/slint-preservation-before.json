@@ -1,0 +1,22 @@
+{
+  "nanoui": {
+    "binary": "experiments/live-docker/nanoui-containers/zig-out/bin/nanoui-live-containers",
+    "sha256": "a0bb4da5382bb5bfb600b7a4cbf1614acfd4905cd789d519d0cb11cc414c6545"
+  },
+  "mygo": {
+    "binary": "experiments/live-docker/mygo-containers/build/mygo-containers",
+    "sha256": "c4ef5e341e6208af697bd64c37a3f1518d9164f9be2685d5ceb8e6d5301a2fea"
+  },
+  "gpui": {
+    "binary": "experiments/live-docker/gpui-containers/build/gpui-live-containers",
+    "sha256": "1169a7aea446be6ca41337bf3b65d0802b5bc8d09a6920e7b5b4b8e1075c44d3"
+  },
+  "nanoui_c": {
+    "binary": "experiments/live-docker/nanoui-csdk-containers/zig-out/bin/nanoui-csdk-containers",
+    "sha256": "7e292fa254f158af8a8235653e6795406f76f0e9d9767668b8927864d318b7c1"
+  },
+  "original_report": {
+    "path": ".verification/gui-comparison/rapport.html",
+    "sha256": "0c8dc0909325bc4ee4a22d4c31dcbcef2a995cc10f2c9db16735ec238e14a1e6"
+  }
+}

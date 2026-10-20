@@ -1,0 +1,516 @@
+{
+  "name": "nanoui_c",
+  "run": 2,
+  "visible_after_seconds": 0.060286427004029974,
+  "warmup_seconds": 4,
+  "idle_seconds": 20.056305076985154,
+  "idle_cpu_percent_one_core": 0.0,
+  "idle_rss_median_bytes": 47194112.0,
+  "idle_pss_median_bytes": 30035968.0,
+  "sampled_peak_rss_bytes": 47194112,
+  "max_processes": 1,
+  "binary_bytes": 761608,
+  "binary_sha256": "7e292fa254f158af8a8235653e6795406f76f0e9d9767668b8927864d318b7c1",
+  "data_source": "live Docker Engine API via SDK",
+  "docker_host": "unix:///var/run/docker.sock",
+  "load_log": "info: source=libdocker-c-api containers=14 ids_sha256=9b3587c9a02aefc52a6ad2b5c04fb1ba6e3615c0673b13bf87ce0bc1db2ff931 elapsed_ms=6\n",
+  "backend": "GTK3 / X11 on Plasma Wayland (XWayland)",
+  "client_size": [
+    1000,
+    680
+  ],
+  "gpui_x11_scale_factor": null,
+  "shared_libraries": [
+    "/etc/ld.so.cache",
+    "/usr/lib/gtk-3.0/modules/libcolorreload-gtk-module.so",
+    "/usr/lib/gtk-3.0/modules/libwindow-decorations-gtk-module.so",
+    "/usr/lib/ld-linux-x86-64.so.2",
+    "/usr/lib/libX11.so.6.4.0",
+    "/usr/lib/libXau.so.6.0.0",
+    "/usr/lib/libXcomposite.so.1.0.0",
+    "/usr/lib/libXcursor.so.1.0.2",
+    "/usr/lib/libXdamage.so.1.1.0",
+    "/usr/lib/libXdmcp.so.6.0.0",
+    "/usr/lib/libXext.so.6.4.0",
+    "/usr/lib/libXfixes.so.3.1.0",
+    "/usr/lib/libXi.so.6.1.0",
+    "/usr/lib/libXinerama.so.1.0.0",
+    "/usr/lib/libXrandr.so.2.2.0",
+    "/usr/lib/libXrender.so.1.3.0",
+    "/usr/lib/libatk-1.0.so.0.26210.1",
+    "/usr/lib/libatk-bridge-2.0.so.0.0.0",
+    "/usr/lib/libatspi.so.0.0.1",
+    "/usr/lib/libblkid.so.1.1.0",
+    "/usr/lib/libbrotlicommon.so.1.2.0",
+    "/usr/lib/libbrotlidec.so.1.2.0",
+    "/usr/lib/libbrotlienc.so.1.2.0",
+    "/usr/lib/libbz2.so.1.0.8",
+    "/usr/lib/libc.so.6",
+    "/usr/lib/libcairo-gobject.so.2.11806.6",
+    "/usr/lib/libcairo.so.2.11806.6",
+    "/usr/lib/libcloudproviders.so.0.4.1",
+    "/usr/lib/libcom_err.so.2.1",
+    "/usr/lib/libcrypto.so.3",
+    "/usr/lib/libcurl.so.4.8.0",
+    "/usr/lib/libdatrie.so.1.4.1",
+    "/usr/lib/libdbus-1.so.3.38.3",
+    "/usr/lib/libepoxy.so.0.0.0",
+    "/usr/lib/libexpat.so.1.13.0",
+    "/usr/lib/libffi.so.8.5.0",
+    "/usr/lib/libfontconfig.so.1.17.0",
+    "/usr/lib/libfreetype.so.6.20.7",
+    "/usr/lib/libfribidi.so.0.4.0",
+    "/usr/lib/libgcc_s.so.1",
+    "/usr/lib/libgdk-3.so.0.2420.32",
+    "/usr/lib/libgdk_pixbuf-2.0.so.0.4400.8",
+    "/usr/lib/libgio-2.0.so.0.9000.1",
+    "/usr/lib/libglib-2.0.so.0.9000.1",
+    "/usr/lib/libglycin-2.so.0",
+    "/usr/lib/libgmodule-2.0.so.0.9000.1",
+    "/usr/lib/libgobject-2.0.so.0.9000.1",
+    "/usr/lib/libgraphite2.so.3.3.1",
+    "/usr/lib/libgssapi_krb5.so.2.2",
+    "/usr/lib/libgtk-3.so.0.2420.32",
+    "/usr/lib/libharfbuzz.so.0.61460.0",
+    "/usr/lib/libicudata.so.78.3",
+    "/usr/lib/libicuuc.so.78.3",
+    "/usr/lib/libidn2.so.0.4.0",
+    "/usr/lib/libjson-glib-1.0.so.0.1000.8",
+    "/usr/lib/libk5crypto.so.3.1",
+    "/usr/lib/libkeyutils.so.1.10",
+    "/usr/lib/libkrb5.so.3.3",
+    "/usr/lib/libkrb5support.so.0.1",
+    "/usr/lib/libm.so.6",
+    "/usr/lib/libmount.so.1.1.0",
+    "/usr/lib/libnghttp2.so.14.29.5",
+    "/usr/lib/libnghttp3.so.9.9.0",
+    "/usr/lib/libngtcp2.so.16.11.0",
+    "/usr/lib/libngtcp2_crypto_ossl.so.0.3.1",
+    "/usr/lib/libpango-1.0.so.0.5800.2",
+    "/usr/lib/libpangocairo-1.0.so.0.5800.2",
+    "/usr/lib/libpangoft2-1.0.so.0.5800.2",
+    "/usr/lib/libpcre2-8.so.0.16.1",
+    "/usr/lib/libpixman-1.so.0.46.4",
+    "/usr/lib/libpng16.so.16.50.0",
+    "/usr/lib/libpsl.so.5.3.5",
+    "/usr/lib/libresolv.so.2",
+    "/usr/lib/libseccomp.so.2.6.0",
+    "/usr/lib/libsqlite3.so.3.54.0",
+    "/usr/lib/libssh2.so.1.0.1",
+    "/usr/lib/libssl.so.3",
+    "/usr/lib/libstdc++.so.6.0.36",
+    "/usr/lib/libsystemd.so.0.45.0",
+    "/usr/lib/libthai.so.0.3.2",
+    "/usr/lib/libtinysparql-3.0.so.0.1200.0",
+    "/usr/lib/libunistring.so.5.2.1",
+    "/usr/lib/libwayland-client.so.0.26.0",
+    "/usr/lib/libwayland-cursor.so.0.26.0",
+    "/usr/lib/libwayland-egl.so.1.26.0",
+    "/usr/lib/libxcb-render.so.0.0.0",
+    "/usr/lib/libxcb-shm.so.0.0.0",
+    "/usr/lib/libxcb.so.1.1.0",
+    "/usr/lib/libxkbcommon.so.0.13.2",
+    "/usr/lib/libxml2.so.16.1.4",
+    "/usr/lib/libz.so.1.3.1.zlib-ng",
+    "/usr/lib/libzstd.so.1.5.7"
+  ],
+  "graphics_libraries": [],
+  "samples": [
+    {
+      "phase": "warmup",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "warmup",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 32664576,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    },
+    {
+      "phase": "idle",
+      "rss_bytes": 47194112,
+      "pss_bytes": 30035968,
+      "cpu_seconds": 0.07,
+      "processes": 1
+    }
+  ],
+  "container_count": 14,
+  "container_ids_sha256": "9b3587c9a02aefc52a6ad2b5c04fb1ba6e3615c0673b13bf87ce0bc1db2ff931",
+  "initial_load_ms": 6,
+  "matches_initial_inventory": true
+}

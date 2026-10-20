@@ -1,0 +1,6 @@
+   Compiling i-slint-renderer-skia v1.18.1
+   Compiling i-slint-backend-winit v1.18.1
+   Compiling i-slint-backend-selector v1.18.1
+   Compiling slint v1.18.1
+   Compiling slint-renderer-containers v0.1.0 (/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers)
+    Finished `release` profile [optimized] target(s) in 1m 06s

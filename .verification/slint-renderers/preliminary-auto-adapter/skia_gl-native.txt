@@ -1,0 +1,31 @@
+Containers Rust - Slint - Bollard
+Search name, image, state... Refresh
+14714 containers - all tates - live Bollard APT
+
+Name Image State Status.
+
+hexfit-main-horizon registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 14 hours
+
+hexfit-main-scheduler registry.gitlab.com/hexfit/hexfit/dev/backe...  running Up 51 minutes
+
+hexfit-main-backend-laravel...  registry.gitiab.com/hexfit/hexfit/dev/backe...  running Up 14 hours
+
+hexfit-main-backend-legacyfp... ~ registry.gitiab.com/hexfit/hexfit/dev/backe...  running Up 14 hours
+
+hexfit-main-pro registry.gitlab.com/hexfit/hexfit/ui-pro-bas...  running Up 8 hours
+
+hexfit-proxy nginx:alpine running Up3days
+
+hexfit-activepieces gherio/activepieces/activepieces:0.92.1 running Up 37 hours (healthy)
+
+hexfit-pgsql-test hexfit-infra-pgsql-test running Up3days
+
+hexfit-pgsal hexfit-infra-pgsal running Up3days
+
+hexfit-activepieces-postgres pgvector/pgvector:0.8.0-pg14 running Up 3 days (healthy)
+
+hexfit-mailpit axllent/mailpit running Up 3 days (healthy)
+
+hexfit-redis valkeyvalkey:9.1-alpine running Up3days
+
+hexfit-activepieces-redis redis:7.2-alpine running Up3davs

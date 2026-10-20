@@ -1,0 +1,19 @@
+{
+  "command": [
+    "go",
+    "build",
+    "-p",
+    "4",
+    "-trimpath",
+    "-tags",
+    "mygo_noinspector",
+    "-ldflags",
+    "-s -w -X github.com/egoist/mygo.production=1",
+    "-o",
+    "build/mygo-containers",
+    "."
+  ],
+  "elapsed_s": 4.076407040993217,
+  "exit_code": 0,
+  "cache": "Existing MyGo Go compiler/module caches retained; Moby client and additional modules newly fetched; no cold-cache guarantee."
+}

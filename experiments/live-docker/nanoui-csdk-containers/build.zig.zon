@@ -1,0 +1,8 @@
+.{
+    .name = .nanoui_csdk_containers,
+    .version = "0.1.0",
+    .fingerprint = 0x71838d2c4e0a7f58,
+    .minimum_zig_version = "0.17.0",
+    .dependencies = .{ .nanoui = .{ .path = "../../../.verification/gui-comparison/deps/nanoui" } },
+    .paths = .{ "build.zig", "build.zig.zon", "src" },
+}

@@ -1,0 +1,17 @@
+999769 execve("/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/build/slint-skia-opengl", ["/home/maximep/projects/ferrydock"...], 0x7ffcc13f3b88 /* 139 vars */) = 0
+999769 connect(3, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+999769 connect(8, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+999771 connect(12, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+999772 connect(13, {sa_family=AF_UNIX, sun_path="/run/user/1000/bus"}, 21) = 0
+999771 connect(17, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+999771 +++ exited with 0 +++
+999769 --- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=997920, si_uid=1000} ---
+999802 +++ killed by SIGTERM +++
+999801 +++ killed by SIGTERM +++
+999800 +++ killed by SIGTERM +++
+999799 +++ killed by SIGTERM +++
+999776 +++ killed by SIGTERM +++
+999772 +++ killed by SIGTERM +++
+999770 +++ killed by SIGTERM +++
+999773 +++ killed by SIGTERM +++
+999769 +++ killed by SIGTERM +++

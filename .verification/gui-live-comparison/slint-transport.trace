@@ -1,0 +1,13 @@
+926802 execve("/home/maximep/projects/ferrydock/experiments/live-docker/slint-containers/build/slint-live-containers", ["/home/maximep/projects/ferrydock"...], 0x7ffe1e76b508 /* 132 vars */) = 0
+926802 connect(3, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+926802 connect(8, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+926804 connect(12, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+926805 connect(13, {sa_family=AF_UNIX, sun_path="/run/user/1000/bus"}, 21) = 0
+926804 connect(18, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+926804 +++ exited with 0 +++
+926802 --- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=926797, si_uid=1000} ---
+926807 +++ killed by SIGTERM +++
+926806 +++ killed by SIGTERM +++
+926805 +++ killed by SIGTERM +++
+926803 +++ killed by SIGTERM +++
+926802 +++ killed by SIGTERM +++

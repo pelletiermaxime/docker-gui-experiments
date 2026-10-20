@@ -1,0 +1,56 @@
+839409 execve("/home/maximep/projects/ferrydock/experiments/gpui-containers/target/release/gpui-live-containers", ["/home/maximep/projects/ferrydock"...], 0x7ffd34670b28 /* 130 vars */) = 0
+839409 connect(12, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+839455 connect(16, {sa_family=AF_UNIX, sun_path="/var/run/dbus/system_bus_socket"}, 34) = 0
+839409 connect(17, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+839455 connect(19, {sa_family=AF_UNIX, sun_path="/run/user/1000/bus"}, 21) = 0
+839409 connect(20, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+839409 connect(30, {sa_family=AF_UNIX, sun_path="/run/dbus/system_bus_socket"}, 29) = 0
+839409 connect(44, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+839409 connect(44, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+839471 +++ exited with 0 +++
+839470 +++ exited with 0 +++
+839455 connect(52, {sa_family=AF_UNIX, sun_path="/run/user/1000/bus"}, 21) = 0
+839448 connect(56, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+839448 connect(58, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+839473 +++ exited with 0 +++
+839472 +++ exited with 0 +++
+839409 --- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=838168, si_uid=1000} ---
+839482 +++ killed by SIGTERM +++
+839474 +++ killed by SIGTERM +++
+839468 +++ killed by SIGTERM +++
+839465 +++ killed by SIGTERM +++
+839459 +++ killed by SIGTERM +++
+839457 +++ killed by SIGTERM +++
+839456 +++ killed by SIGTERM +++
+839455 +++ killed by SIGTERM +++
+839454 +++ killed by SIGTERM +++
+839453 +++ killed by SIGTERM +++
+839452 +++ killed by SIGTERM +++
+839451 +++ killed by SIGTERM +++
+839450 +++ killed by SIGTERM +++
+839449 +++ killed by SIGTERM +++
+839448 +++ killed by SIGTERM +++
+839447 +++ killed by SIGTERM +++
+839446 +++ killed by SIGTERM +++
+839444 +++ killed by SIGTERM +++
+839443 +++ killed by SIGTERM +++
+839439 +++ killed by SIGTERM +++
+839436 +++ killed by SIGTERM +++
+839435 +++ killed by SIGTERM +++
+839434 +++ killed by SIGTERM +++
+839433 +++ killed by SIGTERM +++
+839432 +++ killed by SIGTERM +++
+839431 +++ killed by SIGTERM +++
+839483 +++ killed by SIGTERM +++
+839469 +++ killed by SIGTERM +++
+839467 +++ killed by SIGTERM +++
+839466 +++ killed by SIGTERM +++
+839464 +++ killed by SIGTERM +++
+839458 +++ killed by SIGTERM +++
+839445 +++ killed by SIGTERM +++
+839442 +++ killed by SIGTERM +++
+839440 +++ killed by SIGTERM +++
+839438 +++ killed by SIGTERM +++
+839437 +++ killed by SIGTERM +++
+839441 +++ killed by SIGTERM +++
+839409 +++ killed by SIGTERM +++

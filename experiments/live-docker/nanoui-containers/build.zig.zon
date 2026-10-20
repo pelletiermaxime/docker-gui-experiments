@@ -1,0 +1,8 @@
+.{
+    .name = .nanoui_live_containers,
+    .version = "0.1.0",
+    .fingerprint = 0xace468c9d309c134,
+    .minimum_zig_version = "0.17.0",
+    .dependencies = .{ .nanoui = .{ .path = "../../../.verification/gui-comparison/deps/nanoui" }, .container_zig = .{ .path = "../../../.verification/gui-live-comparison/deps/container-zig" } },
+    .paths = .{ "build.zig", "build.zig.zon", "src" },
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FerryDock GUI experiments</title>
+<style>
+:root{color-scheme:dark;font:17px/1.6 system-ui,sans-serif;background:#111821;color:#dce5ee}
+body{max-width:1000px;margin:64px auto;padding:0 24px}h1{font-size:clamp(36px,6vw,62px);line-height:1.1;letter-spacing:-.04em;color:#fff}h2{font-size:24px;margin:0 0 12px}p{max-width:800px}.eyebrow{color:#85e2bf;letter-spacing:.14em;text-transform:uppercase;font-size:13px}a{color:#85e2bf}article{border:1px solid #354253;background:#192330;border-radius:16px;padding:28px;margin:22px 0}article p{margin-bottom:20px}.button{display:inline-block;text-decoration:none;background:#85e2bf;color:#10251d;font-weight:700;border-radius:8px;padding:10px 18px}.muted{color:#9eafc2}code{font-size:.9em}footer{margin:44px 0;color:#9eafc2;font-size:14px}
+</style>
+<main>
+<div class="eyebrow">Zig · Go · Rust / October 2026</div>
+<h1>One small Docker app.<br>Different native GUI stacks.</h1>
+<p>Minimal container lists built with NanoUI, MyGo, GPUI and Slint. Explore the
+sources, measured executable sizes, source lines, compilation observations,
+idle memory and CPU, plus native screenshots and implementation tradeoffs.</p>
+<article><h2>1. Snapshot / CLI comparison</h2><p>Four integrations: NanoUI in Zig,
+MyGo in Go, and GPUI-pre and GPUI Kit in Rust. The same frozen Docker inventory
+keeps daemon activity out of the idle measurements.</p><a class="button" href=".verification/gui-comparison/rapport.html">Open snapshot report</a></article>
+<article><h2>2. Live Docker SDK comparison</h2><p>Fresh Docker Engine requests
+through language-specific client libraries: container-zig, Moby, Bollard and an
+additional C SDK bridge from Zig. Includes the Slint software-rendered app.</p><a class="button" href=".verification/gui-live-comparison/rapport.html">Open live Docker report</a></article>
+<article><h2>3. Slint renderer comparison</h2><p>The same Rust application and
+Slint UI across eight configurations: software, FemtoVG/OpenGL and WGPU,
+Skia/software, OpenGL and WGPU, Vello, and Qt.</p><a class="button" href=".verification/slint-renderers/rapport.html">Open renderer report</a></article>
+<p class="muted">Observed on Linux X11/XWayland. These are small-app idle
+measurements, not full FerryDock benchmarks, terminal-throughput results, or
+Windows/macOS execution evidence. Compilation timings reuse caches. The reports
+retain limitations and excluded attempts. No automated test suite was run.</p>
+<footer>Self-contained reports; no server required. See <a href="README.md">README</a>
+for sources, reproducibility, dependencies and licensing.</footer>
+</main>
+</html>

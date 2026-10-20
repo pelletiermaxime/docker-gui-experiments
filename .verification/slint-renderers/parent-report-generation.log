@@ -1,0 +1,42 @@
+{
+  "nanoui": {
+    "binary_mib": 1.4554824829101562,
+    "code_lines": 213,
+    "rss_mib": 39.765625,
+    "pss_mib": 30.6435546875,
+    "cpu_percent": 0.0,
+    "all_ids_match": true
+  },
+  "mygo": {
+    "binary_mib": 11.828375816345215,
+    "code_lines": 144,
+    "rss_mib": 124.7578125,
+    "pss_mib": 109.6376953125,
+    "cpu_percent": 0.0,
+    "all_ids_match": true
+  },
+  "gpui": {
+    "binary_mib": 12.118400573730469,
+    "code_lines": 602,
+    "rss_mib": 123.1171875,
+    "pss_mib": 114.6611328125,
+    "cpu_percent": 0.149020199771668,
+    "all_ids_match": true
+  },
+  "nanoui_c": {
+    "binary_mib": 0.7263259887695312,
+    "code_lines": 248,
+    "rss_mib": 45.1796875,
+    "pss_mib": 28.7548828125,
+    "cpu_percent": 0.0,
+    "all_ids_match": true
+  },
+  "slint": {
+    "binary_mib": 11.449012756347656,
+    "code_lines": 176,
+    "rss_mib": 21.26953125,
+    "pss_mib": 16.638671875,
+    "cpu_percent": 0.0,
+    "all_ids_match": true
+  }
+}

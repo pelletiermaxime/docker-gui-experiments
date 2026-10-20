@@ -1,0 +1,30 @@
+974166 execve("/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/build/slint-skia", ["/home/maximep/projects/ferrydock"...], 0x7ffccb050f08 /* 138 vars */) = 0
+974166 connect(3, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+974166 connect(8, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+974173 connect(12, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+974175 connect(13, {sa_family=AF_UNIX, sun_path="/run/user/1000/bus"}, 21) = 0
+974173 connect(17, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+974173 +++ exited with 0 +++
+974166 connect(9, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+974166 connect(23, {sa_family=AF_UNIX, sun_path="/run/dbus/system_bus_socket"}, 29) = 0
+974166 connect(32, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+974166 connect(32, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+974188 +++ exited with 0 +++
+974187 +++ exited with 0 +++
+974190 +++ exited with 0 +++
+974189 +++ exited with 0 +++
+974196 +++ exited with 0 +++
+974195 +++ exited with 0 +++
+974166 --- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=970870, si_uid=1000} ---
+974201 +++ killed by SIGTERM +++
+974200 +++ killed by SIGTERM +++
+974193 +++ killed by SIGTERM +++
+974192 +++ killed by SIGTERM +++
+974191 +++ killed by SIGTERM +++
+974186 +++ killed by SIGTERM +++
+974185 +++ killed by SIGTERM +++
+974177 +++ killed by SIGTERM +++
+974176 +++ killed by SIGTERM +++
+974175 +++ killed by SIGTERM +++
+974167 +++ killed by SIGTERM +++
+974166 +++ killed by SIGTERM +++

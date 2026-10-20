@@ -1,0 +1,13 @@
+diff --git a/examples/demo_transport.zig b/examples/demo_transport.zig
+index d3157fa..ace4265 100644
+--- a/examples/demo_transport.zig
++++ b/examples/demo_transport.zig
+@@ -71,7 +71,7 @@ fn parseHost(allocator: std.mem.Allocator, value: []const u8) !docker.Transport
+         return .{ .named_pipe = .{ .path = docker.Transport.default_named_pipe_path } };
+     }
+ 
+-    const host = (try uri.getHostAlloc(allocator)).bytes;
++    const host = try (uri.host orelse return error.InvalidDockerHost).toRawMaybeAlloc(allocator);
+     if (std.mem.eql(u8, uri.scheme, "tcp") or std.mem.eql(u8, uri.scheme, "http")) {
+         return .{ .tcp = .{ .host = host, .port = uri.port orelse 2375 } };
+     }

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "software",
+    "label": "Slint software",
+    "family": "software",
+    "backend": "winit",
+    "renderer": "software",
+    "kind": "CPU"
+  },
+  {
+    "id": "femtovg_gl",
+    "label": "FemtoVG / OpenGL",
+    "family": "femtovg",
+    "backend": "winit",
+    "renderer": "femtovg",
+    "kind": "GPU / OpenGL"
+  },
+  {
+    "id": "femtovg_wgpu",
+    "label": "FemtoVG / WGPU",
+    "family": "femtovg-wgpu",
+    "backend": "winit",
+    "renderer": "femtovg-wgpu",
+    "kind": "GPU / WGPU (Vulkan requested)"
+  },
+  {
+    "id": "skia_software",
+    "label": "Skia software",
+    "family": "skia",
+    "backend": "winit",
+    "renderer": "skia-software",
+    "kind": "CPU"
+  },
+  {
+    "id": "skia_gl",
+    "label": "Skia / OpenGL",
+    "family": "skia-opengl",
+    "backend": "winit",
+    "renderer": "skia-opengl",
+    "kind": "GPU / OpenGL"
+  },
+  {
+    "id": "skia_wgpu",
+    "label": "Skia / WGPU",
+    "family": "skia",
+    "backend": "winit",
+    "renderer": "skia-wgpu",
+    "kind": "GPU / WGPU (Vulkan requested)"
+  },
+  {
+    "id": "vello",
+    "label": "Vello (experimental)",
+    "family": "vello",
+    "backend": "winit",
+    "renderer": "vello",
+    "kind": "GPU / WGPU (Vulkan requested)"
+  },
+  {
+    "id": "qt",
+    "label": "Qt backend",
+    "family": "qt",
+    "backend": "qt",
+    "renderer": "qt",
+    "kind": "Qt windowing / rendering"
+  }
+]

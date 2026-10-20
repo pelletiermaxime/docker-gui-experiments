@@ -1,0 +1,20 @@
+{
+  "glxinfo": {
+    "available": true,
+    "exit_code": 0,
+    "device_lines": [
+      "OpenGL vendor string: Intel",
+      "OpenGL renderer string: Mesa Intel(R) Arc(tm) Graphics (MTL)"
+    ]
+  },
+  "vulkaninfo": {
+    "available": true,
+    "exit_code": 0,
+    "device_lines": [
+      "deviceType         = PHYSICAL_DEVICE_TYPE_INTEGRATED_GPU",
+      "deviceName         = Intel(R) Arc(tm) Graphics (MTL)",
+      "deviceType         = PHYSICAL_DEVICE_TYPE_DISCRETE_GPU",
+      "deviceName         = NVIDIA RTX 500 Ada Generation Laptop GPU"
+    ]
+  }
+}

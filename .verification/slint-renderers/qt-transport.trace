@@ -1,0 +1,17 @@
+977541 execve("/home/maximep/projects/ferrydock/experiments/live-docker/slint-renderers/build/slint-qt", ["/home/maximep/projects/ferrydock"...], 0x7fff60149048 /* 139 vars */) = 0
+977542 connect(5, {sa_family=AF_UNIX, sun_path="/run/user/1000/bus"}, 20) = 0
+977541 connect(6, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+977541 connect(8, {sa_family=AF_UNIX, sun_path="@/tmp/.ICE-unix/2858"}, 22) = -1 ENOENT (No such file or directory)
+977541 connect(8, {sa_family=AF_UNIX, sun_path="/tmp/.ICE-unix/2858"}, 21) = 0
+977551 connect(12, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+977551 connect(13, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+977542 connect(9, {sa_family=AF_UNIX, sun_path="/run/user/1000/at-spi/bus_0"}, 29) = 0
+977551 +++ exited with 0 +++
+977541 --- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=976270, si_uid=1000} ---
+977566 +++ killed by SIGTERM +++
+977565 +++ killed by SIGTERM +++
+977564 +++ killed by SIGTERM +++
+977563 +++ killed by SIGTERM +++
+977546 +++ killed by SIGTERM +++
+977542 +++ killed by SIGTERM +++
+977541 +++ killed by SIGTERM +++
