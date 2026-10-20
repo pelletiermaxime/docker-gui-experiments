@@ -1,4 +1,4 @@
-# FerryDock GUI experiments
+# Docker GUI experiments
 
 Small Docker container-list applications written in **Zig, Go and Rust**, with the
 HTML reports, screenshots and measurements collected during an exploratory session
@@ -10,10 +10,13 @@ manual Refresh. There are no container controls or application polling loops.
 
 ## Read the reports
 
-**Clone or download this repository, then open `index.html` in your browser.**
-GitHub displays HTML source rather than rendering these reports. Each main report
-is self-contained, with embedded screenshots and downloadable measurement data;
-it can also be opened directly without serving a website.
+**[Read the reports on GitHub Pages](https://pelletiermaxime.github.io/docker-gui-experiments/).**
+
+You can also clone or download this repository and open `index.html` locally.
+Each main report is self-contained, with embedded screenshots and downloadable
+measurement data. GitHub's repository file viewer displays HTML source; the
+Pages site renders it. The `.nojekyll` file preserves the archived report paths
+under `.verification/` when publishing the site.
 
 | Experiment | HTML report | Sources |
 | --- | --- | --- |
