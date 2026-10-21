@@ -18,13 +18,16 @@ MyGo in Go, and GPUI-pre and GPUI Kit in Rust. The same frozen Docker inventory
 keeps daemon activity out of the idle measurements.</p><a class="button" href=".verification/gui-comparison/rapport.html">Open snapshot report</a></article>
 <article><h2>2. Live Docker SDK comparison</h2><p>Fresh Docker Engine requests
 through language-specific client libraries: container-zig, Moby, Bollard and an
-additional C SDK bridge from Zig. Includes Slint and an additional .NET MAUI experiment.</p><a class="button" href=".verification/gui-live-comparison/rapport.html">Open live Docker report</a></article>
+additional C SDK bridge from Zig. Includes Slint and additional .NET MAUI and Avalonia experiments.</p><a class="button" href=".verification/gui-live-comparison/rapport.html">Open live Docker report</a></article>
 <article><h2>3. Slint renderer comparison</h2><p>The same Rust application and
 Slint UI across eight configurations: software, FemtoVG/OpenGL and WGPU,
 Skia/software, OpenGL and WGPU, Vello, and Qt.</p><a class="button" href=".verification/slint-renderers/rapport.html">Open renderer report</a></article>
 <article><h2>4. .NET MAUI on Linux</h2><p>A C# port using MAUI controls, Microsoft's
 experimental GTK4 Linux backend and Docker.DotNet.Enhanced. Includes native input
 observations and complete publish-directory sizes with and without the runtime.</p><a class="button" href=".verification/maui-live-comparison/rapport.html">Open MAUI report</a></article>
+<article><h2>5. Avalonia desktop</h2><p>The same C# Docker SDK app using Avalonia's
+built-in DataGrid, text input and Fluent theme. One deliberately short resource
+sample: two seconds warmup and five seconds idle.</p><a class="button" href=".verification/avalonia-live-comparison/rapport.html">Open Avalonia report</a></article>
 <p class="muted">Observed on Linux X11/XWayland. These are small-app idle
 measurements, not full FerryDock benchmarks, terminal-throughput results, or
 Windows/macOS execution evidence. Compilation timings reuse caches. The reports

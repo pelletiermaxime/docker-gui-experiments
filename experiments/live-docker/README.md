@@ -18,6 +18,12 @@ the original five rows retain their original measurement provenance. It reports
 complete publish-directory sizes rather than treating the apphost as a standalone
 executable. The app uses an observable collection for its virtualized MAUI list.
 
+The subsequent [Avalonia C# port](avalonia-containers/README.md) uses Avalonia
+12.1.2 and the same Docker SDK and request logic. Its single short resource sample
+(2 seconds warmup, 5 seconds idle) follows the user's request to shorten
+measurement. Both .NET ports are appended separately to the live report, with
+their full publish-directory sizes and native input observations.
+
 A separate [Slint renderer comparison](slint-renderers/README.md) keeps the same
 Slint UI and Docker code while comparing CPU/GPU renderer families and Qt. Its
 HTML report is under `.verification/slint-renderers/`.

@@ -24,6 +24,7 @@ under `.verification/` when publishing the site.
 | Live Docker client-library comparison | [Five integrations](.verification/gui-live-comparison/rapport.html) | [All live variants](experiments/live-docker) |
 | Slint renderer comparison | [Eight configurations](.verification/slint-renderers/rapport.html) | [Same Slint application](experiments/live-docker/slint-renderers) |
 | Additional .NET MAUI live experiment | [Experimental Linux GTK4 backend](.verification/maui-live-comparison/rapport.html) | [C# + MAUI + Docker SDK](experiments/live-docker/maui-containers) |
+| Additional Avalonia live experiment | [Short desktop measurement](.verification/avalonia-live-comparison/rapport.html) | [C# + Avalonia + Docker SDK](experiments/live-docker/avalonia-containers) |
 
 The first report includes executable size, source lines, code-quality discussion,
 memory, CPU and observed compilation timings. The live report explores Docker
@@ -44,6 +45,7 @@ holds the Slint application constant while changing its rendering configuration.
 | Rust | GPUI-pre 0.3.9 | Bollard |
 | Rust | Slint 1.18.1 | Bollard |
 | C# | .NET MAUI 10 / experimental GTK4 Linux backend | Docker.DotNet.Enhanced 4.3.3 |
+| C# | Avalonia 12.1.2 / desktop Skia | Docker.DotNet.Enhanced 4.3.3 |
 
 Slint configurations: its software renderer, FemtoVG/OpenGL, FemtoVG/WGPU,
 Skia/software, Skia/OpenGL, Skia/WGPU, experimental Vello, and the Qt backend.
@@ -106,6 +108,9 @@ recorded paths; pre-generated HTML and JSON can be read without rebuilding.
 
 - The main resource runs use a 1,000 × 680 client surface at scale 1, a four-second
   warmup, and twenty seconds at idle, generally with three runs per configuration.
+- The later Avalonia experiment uses a deliberately shortened protocol at the
+  user's request: **one run, two seconds warmup and five seconds idle**. It has
+  more uncertainty and is labeled separately from the older three-run results.
 - Memory is process RSS/PSS, not full system/compositor or GPU memory. Executable
   sizes exclude shared libraries and drivers; the Qt build also excludes system Qt.
 - Source counts use the documented scope. The GPUI app includes its local text

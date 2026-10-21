@@ -1,0 +1,5 @@
+  Determining projects to restore...
+  Restored /home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/AvaloniaContainers.csproj (in 8.97 sec).
+/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/MainWindow.cs(15,47): warning CS0618: 'TextBox.Watermark' is obsolete: 'Use PlaceholderText instead.' [/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/AvaloniaContainers.csproj]
+  AvaloniaContainers -> /home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/bin/Release/net10.0/linux-x64/AvaloniaContainers.dll
+  AvaloniaContainers -> /home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/build/framework-dependent/

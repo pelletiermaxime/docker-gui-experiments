@@ -19,6 +19,256 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
+      "path": ".verification/avalonia-live-comparison/avalonia-1-launch.log",
+      "bytes": 4819,
+      "sha256": "eb2cd1a725c6a26763402a7b78715cfb62fd27bf91e3cd067c8990dc99e96ac7"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/avalonia-1.json",
+      "bytes": 7834,
+      "sha256": "89cbee7c7c8749cc7ba81aef6110aed604adf011006baa68b80891b00273f3b1"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/avalonia-1.log",
+      "bytes": 950,
+      "sha256": "dc62bbd7467d3dda56480a8b20481da625694f94b8643240c4f08cbc978f9d67"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/avalonia-1.png",
+      "bytes": 94732,
+      "sha256": "e5ce26faaadafcb09d471a7186e5e1ef04456126c000660cc58198c52423ac02"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/avalonia-metadata.json",
+      "bytes": 2696,
+      "sha256": "d21d9f946172b5e9b5926e92eac849dc193ab06063f387cd70cf8e491e3f15f6"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/avalonia.controls.datagrid-metadata.json",
+      "bytes": 2343,
+      "sha256": "127741f281e2f2796459a3d931e13bd3a22205a96c8dd93f6dcf54b5447110bb"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/avalonia.desktop-metadata.json",
+      "bytes": 2696,
+      "sha256": "d21d9f946172b5e9b5926e92eac849dc193ab06063f387cd70cf8e491e3f15f6"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/avalonia.themes.fluent-metadata.json",
+      "bytes": 1494,
+      "sha256": "6dce30a1fe6f21ed67f20d6ed11a32a626721513927da17c88d50a3a0c1ee76d"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/build-framework-dependent-1.log",
+      "bytes": 932,
+      "sha256": "54dde4ed078a363c6fc30efc0c0e5fbb4f0c1f18af6e74cabb5fe108f192de0d"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/build-self-contained-2.log",
+      "bytes": 561,
+      "sha256": "431f3719c3f1f577290665ab48c67b2d28e621a4e5853a62a3cf09affe1389b4"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/build.py",
+      "bytes": 2366,
+      "sha256": "9d29b2e6f48614ddcb9c30b882daa5709c36c9d33881a2275ae24fab2b523baf"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/builds.json",
+      "bytes": 2149,
+      "sha256": "88b7334de16b225c9ad97b23fd09283fe12b32043de5e8630ce983d08a6c9939"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/cleanup.json",
+      "bytes": 38,
+      "sha256": "f251ed0eb442285aa371cd7cc265de52ac93c1c9c878730436f4b16e981f2103"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/measure.py",
+      "bytes": 7476,
+      "sha256": "3812673be5316bd80758b133b1d9d0a930b30932cae01762ff0293feabdf8a43"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/native-before.png",
+      "bytes": 99426,
+      "sha256": "42631a6fade700b622bf35297d8ce6cb73b76aee91e20b0497aef1f593500a05"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/native-before.txt",
+      "bytes": 586,
+      "sha256": "34f47afa4acb08b1f4b21c5e2bd1149bdaf25dbca53909658febad22abca0ee8"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/native-cleared.png",
+      "bytes": 99384,
+      "sha256": "65e08376578813799374f6b4706e5b1c7d5c489de70251bfcafcb87d035d1337"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/native-cleared.txt",
+      "bytes": 586,
+      "sha256": "34f47afa4acb08b1f4b21c5e2bd1149bdaf25dbca53909658febad22abca0ee8"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/native-observation.json",
+      "bytes": 2604,
+      "sha256": "a82ba536e029b5b421e7d607c081528aed42809ffebc595679cbf697072293b6"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/native-refreshed.png",
+      "bytes": 99442,
+      "sha256": "5c7bc84c782a014d77fe6d31687e94f9445a69b5e31b0e8d593655207469ffa1"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/native-refreshed.txt",
+      "bytes": 586,
+      "sha256": "34f47afa4acb08b1f4b21c5e2bd1149bdaf25dbca53909658febad22abca0ee8"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/native-search.png",
+      "bytes": 61751,
+      "sha256": "cbd63ee43f79828b67e2aa5817f50bbc88905139ea9f08c4d544d7c66ab5ce8e"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/native-search.txt",
+      "bytes": 317,
+      "sha256": "678356a8d5de3e109d49bbe6c8b1d5d2ccec5c3c918c777d15d692354df0efd2"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/native.log",
+      "bytes": 1899,
+      "sha256": "287a6c067e925d742fecdab05e23b4dcfb7d8531596dccb7c55e371e15b22d67"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/observe.py",
+      "bytes": 4798,
+      "sha256": "c61525f30296e54d80b5287205916831978128f889c93aa1dc42b06b37a3b035"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/preliminary-desktop-scale/avalonia-1-launch.log",
+      "bytes": 4819,
+      "sha256": "62a20e3be8ead4f8e7946f4820a0362dd88a90f8b5c18b999bf1655baea0814c"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/preliminary-desktop-scale/avalonia-1.json",
+      "bytes": 7837,
+      "sha256": "a516b5b4766ada61291735642c4a4ff8badcd000bd01e43941f36d4d4367fdd1"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/preliminary-desktop-scale/avalonia-1.log",
+      "bytes": 951,
+      "sha256": "65d4b87832ae0b6bb3a132a36d1e1b5f9da7d88b3a128c087f7b081d9c11600e"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/preliminary-desktop-scale/avalonia-1.png",
+      "bytes": 99426,
+      "sha256": "42631a6fade700b622bf35297d8ce6cb73b76aee91e20b0497aef1f593500a05"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/preliminary-desktop-scale/native-before.png",
+      "bytes": 99426,
+      "sha256": "42631a6fade700b622bf35297d8ce6cb73b76aee91e20b0497aef1f593500a05"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/preliminary-desktop-scale/native-before.txt",
+      "bytes": 586,
+      "sha256": "34f47afa4acb08b1f4b21c5e2bd1149bdaf25dbca53909658febad22abca0ee8"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/preliminary-desktop-scale/native-cleared.png",
+      "bytes": 99384,
+      "sha256": "65e08376578813799374f6b4706e5b1c7d5c489de70251bfcafcb87d035d1337"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/preliminary-desktop-scale/native-cleared.txt",
+      "bytes": 586,
+      "sha256": "34f47afa4acb08b1f4b21c5e2bd1149bdaf25dbca53909658febad22abca0ee8"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/preliminary-desktop-scale/native-observation.json",
+      "bytes": 2604,
+      "sha256": "c5cb668f7297995006a2d9bb647faed36fc047c49fa280873c6b4d444628371c"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/preliminary-desktop-scale/native-refreshed.png",
+      "bytes": 99442,
+      "sha256": "5c7bc84c782a014d77fe6d31687e94f9445a69b5e31b0e8d593655207469ffa1"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/preliminary-desktop-scale/native-refreshed.txt",
+      "bytes": 586,
+      "sha256": "34f47afa4acb08b1f4b21c5e2bd1149bdaf25dbca53909658febad22abca0ee8"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/preliminary-desktop-scale/native-search.png",
+      "bytes": 61751,
+      "sha256": "cbd63ee43f79828b67e2aa5817f50bbc88905139ea9f08c4d544d7c66ab5ce8e"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/preliminary-desktop-scale/native-search.txt",
+      "bytes": 317,
+      "sha256": "678356a8d5de3e109d49bbe6c8b1d5d2ccec5c3c918c777d15d692354df0efd2"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/preliminary-desktop-scale/native.log",
+      "bytes": 1899,
+      "sha256": "d626399f2958e134461eaa70d427cdf501e774259718037d59a440d820679b46"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/preliminary-desktop-scale/rapport.html",
+      "bytes": 374363,
+      "sha256": "d2db1a51ea29965ae75c245f028aed30d412e6e0c2570d18d427d7a71efd47f8"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/preliminary-desktop-scale/summary.json",
+      "bytes": 15736,
+      "sha256": "c421dde4b3c3ed51b89a10559104375144339e6243dd60bf5d998b78f21c409f"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/preliminary-global-scale/avalonia-1-launch.log",
+      "bytes": 4818,
+      "sha256": "60efc8d9ce64413ba7e63118e810dc0ff6cc105266d60c8eac4d257e6011c474"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/preliminary-global-scale/avalonia-1.json",
+      "bytes": 7834,
+      "sha256": "8dc7b08e5b1efd798b9f23871461fae4fcca283645a57ebb79d7c4271062608d"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/preliminary-global-scale/avalonia-1.log",
+      "bytes": 951,
+      "sha256": "33907d51277701f3f2ac6597e9c8d26296c516c84c5e9755408313e24c42dec9"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/preliminary-global-scale/avalonia-1.png",
+      "bytes": 99426,
+      "sha256": "42631a6fade700b622bf35297d8ce6cb73b76aee91e20b0497aef1f593500a05"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/rapport.html",
+      "bytes": 368448,
+      "sha256": "dc1e0da86c9afb19cd6805f8c3015668482669e0ad29d0480c0a71074492cef7"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/reference.json",
+      "bytes": 1183,
+      "sha256": "cd4844d75f9650d772860a3c709b3a2e4ef731891cf4a54483bb4863fb88cad1"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/report.py",
+      "bytes": 10219,
+      "sha256": "a0b39ae4a5b4b58c9ed547512e192e8d57f08d79a850bf0d2fcc93cbef7ee0bd"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/run.py",
+      "bytes": 2679,
+      "sha256": "46623422d97a4c65c2eb34e2de4a67fc38f0a90c9a4f727023c047513b0a55c1"
+    },
+    {
+      "path": ".verification/avalonia-live-comparison/summary.json",
+      "bytes": 15733,
+      "sha256": "5a417e44123a4cf017aee3e7dacd918567d6165534e4123ca959bc32f2de79c5"
+    },
+    {
       "path": ".verification/gui-comparison/binary-sections.json",
       "bytes": 2405,
       "sha256": "3f64cfa1d8e6f589b17eb68e1abd3527fb0e0bc4cfe6d5e9e6169b3014c37515"
@@ -630,8 +880,8 @@
     },
     {
       "path": ".verification/gui-live-comparison/build_report.py",
-      "bytes": 32891,
-      "sha256": "7c617ba361edaff1430c00cfb90e1901c84fe1e24c774f0a58de0f050b4fe163",
+      "bytes": 34012,
+      "sha256": "4dd0f4423809a67261a34a7d8ecf2ffa7376e922968e0ad0474f00018343c985",
       "original_sha256": "307ce4fb00f98f2ddda31f965e24499ea94febce9a5339ff0b64a793ce886c0a"
     },
     {
@@ -1031,8 +1281,8 @@
     },
     {
       "path": ".verification/gui-live-comparison/rapport.html",
-      "bytes": 1609404,
-      "sha256": "3ba7a991e8f4415511542e799181be5842d95501642e65efbbff61732f6634cf",
+      "bytes": 1610525,
+      "sha256": "a6aea52e1ebc103780f320c3bfefa7674170e838ebf8858391b03f167a4a025f",
       "original_sha256": "466edf878065c304a6736e68b1e73a5c99d09e0609c8590b637b963e979d4efc"
     },
     {
@@ -1534,6 +1784,11 @@
       "path": ".verification/maui-live-comparison/templates-metadata.json",
       "bytes": 246,
       "sha256": "b07a0eba2d4433e0b5b631fc158bb455bcd884937d2b0efd2f9eebd7db04ea45"
+    },
+    {
+      "path": ".verification/maui-live-comparison/toolchain-cleanup.json",
+      "bytes": 219,
+      "sha256": "dc7e5a61ef81d79b853b189e98e9b81a8511d0382d014d7d09463d863a201cfc"
     },
     {
       "path": ".verification/slint-renderers/build-femtovg-wgpu.log",
@@ -2617,8 +2872,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 8873,
-      "sha256": "249de09a42ce0b7a1adc7db2bc0f87a71f2dcab1e5615ed14d818be7d2fff171"
+      "bytes": 9380,
+      "sha256": "b80ec0084747bb9b8d1ef5904a60b8626073fe413d9d09064d9d92b887a3eef4",
+      "original_sha256": "249de09a42ce0b7a1adc7db2bc0f87a71f2dcab1e5615ed14d818be7d2fff171"
     },
     {
       "path": "experiments/README.md",
@@ -2662,9 +2918,44 @@
     },
     {
       "path": "experiments/live-docker/README.md",
-      "bytes": 4539,
-      "sha256": "ed439a73d3d2c37829a449d834653e30b202547dc3e293f82b941276d482982a",
+      "bytes": 4919,
+      "sha256": "a90553aa5a5b5b1efa174894be6b859fde00d5133933aeb854253b4429abb48c",
       "original_sha256": "05b71b43fe388ebd5b1462d936aa3b2251a3f5b2d4710910a4509596ae9267ba"
+    },
+    {
+      "path": "experiments/live-docker/avalonia-containers/.gitignore",
+      "bytes": 17,
+      "sha256": "851d02eca831dd5f6def3d0eadbcf944ec464a7fbd71d81a350314b6c6b47395"
+    },
+    {
+      "path": "experiments/live-docker/avalonia-containers/App.cs",
+      "bytes": 821,
+      "sha256": "3fecd0fc0765a31ee05e8fcceca43ba9a5dfa420ead032ec3be6c8d55cce0ece"
+    },
+    {
+      "path": "experiments/live-docker/avalonia-containers/AvaloniaContainers.csproj",
+      "bytes": 632,
+      "sha256": "61383062be2da1ea2dcf1c3227fbf0c867a23b5c03718d351a009618349043c0"
+    },
+    {
+      "path": "experiments/live-docker/avalonia-containers/MainWindow.cs",
+      "bytes": 6216,
+      "sha256": "9410efc122acec58fb3dd8f9e296d7a6ea0793518c5ff3e04ffa9bf79292da65"
+    },
+    {
+      "path": "experiments/live-docker/avalonia-containers/Program.cs",
+      "bytes": 251,
+      "sha256": "e144b706e17f81c3c119f09d3f279923166154bce745f45f0b8c1e2a5dc74023"
+    },
+    {
+      "path": "experiments/live-docker/avalonia-containers/README.md",
+      "bytes": 3069,
+      "sha256": "1c8c920d5b739134676996501d61c560093381b4bd64acf5b4c46cf8cda353d8"
+    },
+    {
+      "path": "experiments/live-docker/avalonia-containers/packages.lock.json",
+      "bytes": 12622,
+      "sha256": "799d56a01351625ac2ee05e12ac8080e9369cc276bfd8e2b9a197e20ea1bdf78"
     },
     {
       "path": "experiments/live-docker/gpui-containers/.gitignore",
@@ -2933,8 +3224,9 @@
     },
     {
       "path": "index.html",
-      "bytes": 3176,
-      "sha256": "11c5f3ebd3e10d6c80ac017f9edff8972db5d7e8bb35cbdd30bbf02849efee06"
+      "bytes": 3516,
+      "sha256": "17c00beceae0bf98bc94c09f5da1f381856073f409d4dfd7b00c25842872d8b1",
+      "original_sha256": "11c5f3ebd3e10d6c80ac017f9edff8972db5d7e8bb35cbdd30bbf02849efee06"
     },
     {
       "path": "scripts/bootstrap-deps.py",

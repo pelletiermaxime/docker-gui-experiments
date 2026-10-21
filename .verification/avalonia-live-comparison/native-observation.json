@@ -1,0 +1,21 @@
+{
+  "query": "hexfit-activepieces",
+  "actions": [
+    {
+      "keyboard_target": "Initially focused Entry; native focus restored immediately before input"
+    },
+    {
+      "keyboard": "Tab from Entry to Refresh, then Space"
+    }
+  ],
+  "before_text": "Containers C# - Avalonia - Docker SDK\n\n14/ 14 containers - all states - live Docker SDK\nName Image State Status\nhexfit-activepieces  ghcrio/activepieces/activ  running  Up 2 days (healthy)\nhexfit-activepieces  pgvector/pgvector:0.8.0- running Up 3 days (healthy)\nhexfit-activepieces  redis:7.2-alpine running Up 3 days\nhexfit-mailpit axllent/mailpit running  Up 3 days (healthy)\nhexfit-main-backel  registry.gitlab.com/hexfii  running  Up 35 hours\nhexfit-main-backel  registry.gitlab.com/hexfii  running  Up 35 hours\nhexfit-main-horizo  registry.gitlab.com/hexfii  running  Up 35 hours\n",
+  "keyboard_focus": "33554447",
+  "search_text": "Containers C# - Avalonia - Docker SDK\n3/ 14 containers - all states - live Docker SDK\nName Image State Status\nhexfit-activepieces  ghcrio/activepieces/activ  running  Up 2 days (healthy)\nhexfit-activepieces  pgvector/pgvector:0.8.0- running Up 3 days (healthy)\nhexfit-activepieces  redis:7.2-alpine running Up 3 days\n",
+  "cleared_text": "Containers C# - Avalonia - Docker SDK\n\n14/ 14 containers - all states - live Docker SDK\nName Image State Status\nhexfit-activepieces  ghcrio/activepieces/activ  running  Up 2 days (healthy)\nhexfit-activepieces  pgvector/pgvector:0.8.0- running Up 3 days (healthy)\nhexfit-activepieces  redis:7.2-alpine running Up 3 days\nhexfit-mailpit axllent/mailpit running  Up 3 days (healthy)\nhexfit-main-backel  registry.gitlab.com/hexfii  running  Up 35 hours\nhexfit-main-backel  registry.gitlab.com/hexfii  running  Up 35 hours\nhexfit-main-horizo  registry.gitlab.com/hexfii  running  Up 35 hours\n",
+  "refreshed_text": "Containers C# - Avalonia - Docker SDK\n\n14/ 14 containers - all states - live Docker SDK\nName Image State Status\nhexfit-activepieces  ghcrio/activepieces/activ  running  Up 2 days (healthy)\nhexfit-activepieces  pgvector/pgvector:0.8.0- running Up 3 days (healthy)\nhexfit-activepieces  redis:7.2-alpine running Up 3 days\nhexfit-mailpit axllent/mailpit running  Up 3 days (healthy)\nhexfit-main-backel  registry.gitlab.com/hexfii  running  Up 35 hours\nhexfit-main-backel  registry.gitlab.com/hexfii  running  Up 35 hours\nhexfit-main-horizo  registry.gitlab.com/hexfii  running  Up 35 hours\n",
+  "loads_before_refresh": 1,
+  "loads_after_refresh": 2,
+  "pid": 2426127,
+  "window": "33554447",
+  "owned_process_exited": true
+}

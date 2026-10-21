@@ -1,0 +1,343 @@
+{
+  "framework": "Avalonia 12.1.2 / desktop Skia / X11",
+  "sdk": ".NET SDK 10.0.402",
+  "docker_sdk": "Docker.DotNet.Enhanced 4.3.3",
+  "code_lines": 139,
+  "physical_lines": 151,
+  "source_sha256": {
+    "experiments/live-docker/avalonia-containers/App.cs": "3fecd0fc0765a31ee05e8fcceca43ba9a5dfa420ead032ec3be6c8d55cce0ece",
+    "experiments/live-docker/avalonia-containers/MainWindow.cs": "9410efc122acec58fb3dd8f9e296d7a6ea0793518c5ff3e04ffa9bf79292da65",
+    "experiments/live-docker/avalonia-containers/Program.cs": "e144b706e17f81c3c119f09d3f279923166154bce745f45f0b8c1e2a5dc74023"
+  },
+  "builds": [
+    {
+      "kind": "framework-dependent",
+      "command": [
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/.verification/maui-live-comparison/toolchains/dotnet/dotnet",
+        "publish",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/AvaloniaContainers.csproj",
+        "-c",
+        "Release",
+        "-r",
+        "linux-x64",
+        "--self-contained",
+        "false",
+        "-o",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/build/framework-dependent",
+        "-p:DebugType=None",
+        "-p:DebugSymbols=false",
+        "--verbosity",
+        "minimal"
+      ],
+      "elapsed_seconds": 13.066491892008344,
+      "exit_code": 0,
+      "log": "build-framework-dependent-1.log",
+      "scope": "Initial publish includes package restore/download and compilation; later publishes share caches. Not a controlled clean-build timing.",
+      "directory_bytes": 27404351,
+      "file_count": 42,
+      "apphost_bytes": 78192
+    },
+    {
+      "kind": "self-contained",
+      "command": [
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/.verification/maui-live-comparison/toolchains/dotnet/dotnet",
+        "publish",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/AvaloniaContainers.csproj",
+        "-c",
+        "Release",
+        "-r",
+        "linux-x64",
+        "--self-contained",
+        "true",
+        "-o",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/build/self-contained",
+        "-p:DebugType=None",
+        "-p:DebugSymbols=false",
+        "--verbosity",
+        "minimal"
+      ],
+      "elapsed_seconds": 1.9240482570021413,
+      "exit_code": 0,
+      "log": "build-self-contained-2.log",
+      "scope": "Initial publish includes package restore/download and compilation; later publishes share caches. Not a controlled clean-build timing.",
+      "directory_bytes": 109976414,
+      "file_count": 229,
+      "apphost_bytes": 78192
+    }
+  ],
+  "reference": {
+    "docker_host": "unix:///var/run/docker.sock",
+    "ids": [
+      "117feea78d81b7e86b4da2cd666c3f0b87bb9511171ec0ce6e88ba389b409cb3",
+      "1f3a0c05ba5ba5df2918e6891661497e129bdd64204b3d93c8d21ab619883cde",
+      "43f3241f892ed32d6bd8eedc13f1b9d3b20247e015b38080b1d06d2774fd6744",
+      "5f0d2da68770a4324cfc41ba06b064eedfdfb4872204d25eb7c819e114161179",
+      "655cbf2013d481354486181d8d916bc46d5d840c7ac22a9ce2fded313f7fa800",
+      "791acba8a077bc807ab794dcc2b6bd0cc7bba541a4d28fedf0aab39c3c8065bc",
+      "835d9356f9d258e149c227fffb8e6f96124ea8d9587d7b1179a0e5b7106a0774",
+      "84e8bc4813cb6a43d335dfe7e5bf57e7a261bf88886998782573fbcc67664876",
+      "9b907cd499df6312716c56041737d2c64f94a85b7cd18dcc2144a6c893b91593",
+      "9bfb2d851ac16c5977bd1f4065c73bd7d501d84bb1058e061fdc0b880fec9a79",
+      "a99cc144b4bd2ea34088a4cad3e3c4a957784a20c85146491b4fe6d45cf938b6",
+      "c2e89b812d9fefb3e2b6ecd651a1de147e2fe5b2238f7eae65b874b12800680a",
+      "e0947946bbc15b193d7e440ef434ef4b7e1e795c9eb54b627dcb4d71c1d0c4f6",
+      "f312396aa347fe5720a5c73f42b0f72b07be4c17ce51716cd50a850d91b7f0d2"
+    ],
+    "container_count": 14,
+    "ids_sha256": "9b3587c9a02aefc52a6ad2b5c04fb1ba6e3615c0673b13bf87ce0bc1db2ff931"
+  },
+  "native_observation": {
+    "query": "hexfit-activepieces",
+    "actions": [
+      {
+        "keyboard_target": "Initially focused Entry; native focus restored immediately before input"
+      },
+      {
+        "keyboard": "Tab from Entry to Refresh, then Space"
+      }
+    ],
+    "before_text": "Containers C# - Avalonia - Docker SDK\n\n14/ 14 containers - all states - live Docker SDK\nName Image State Status\nhexfit-activepieces  ghcrio/activepieces/activ  running  Up 2 days (healthy)\nhexfit-activepieces  pgvector/pgvector:0.8.0- running Up 3 days (healthy)\nhexfit-activepieces  redis:7.2-alpine running Up 3 days\nhexfit-mailpit axllent/mailpit running  Up 3 days (healthy)\nhexfit-main-backel  registry.gitlab.com/hexfii  running  Up 35 hours\nhexfit-main-backel  registry.gitlab.com/hexfii  running  Up 35 hours\nhexfit-main-horizo  registry.gitlab.com/hexfii  running  Up 35 hours\n",
+    "keyboard_focus": "33554447",
+    "search_text": "Containers C# - Avalonia - Docker SDK\n3/ 14 containers - all states - live Docker SDK\nName Image State Status\nhexfit-activepieces  ghcrio/activepieces/activ  running  Up 2 days (healthy)\nhexfit-activepieces  pgvector/pgvector:0.8.0- running Up 3 days (healthy)\nhexfit-activepieces  redis:7.2-alpine running Up 3 days\n",
+    "cleared_text": "Containers C# - Avalonia - Docker SDK\n\n14/ 14 containers - all states - live Docker SDK\nName Image State Status\nhexfit-activepieces  ghcrio/activepieces/activ  running  Up 2 days (healthy)\nhexfit-activepieces  pgvector/pgvector:0.8.0- running Up 3 days (healthy)\nhexfit-activepieces  redis:7.2-alpine running Up 3 days\nhexfit-mailpit axllent/mailpit running  Up 3 days (healthy)\nhexfit-main-backel  registry.gitlab.com/hexfii  running  Up 35 hours\nhexfit-main-backel  registry.gitlab.com/hexfii  running  Up 35 hours\nhexfit-main-horizo  registry.gitlab.com/hexfii  running  Up 35 hours\n",
+    "refreshed_text": "Containers C# - Avalonia - Docker SDK\n\n14/ 14 containers - all states - live Docker SDK\nName Image State Status\nhexfit-activepieces  ghcrio/activepieces/activ  running  Up 2 days (healthy)\nhexfit-activepieces  pgvector/pgvector:0.8.0- running Up 3 days (healthy)\nhexfit-activepieces  redis:7.2-alpine running Up 3 days\nhexfit-mailpit axllent/mailpit running  Up 3 days (healthy)\nhexfit-main-backel  registry.gitlab.com/hexfii  running  Up 35 hours\nhexfit-main-backel  registry.gitlab.com/hexfii  running  Up 35 hours\nhexfit-main-horizo  registry.gitlab.com/hexfii  running  Up 35 hours\n",
+    "loads_before_refresh": 1,
+    "loads_after_refresh": 2,
+    "pid": 2426127,
+    "window": "33554447",
+    "owned_process_exited": true
+  },
+  "runs": [
+    {
+      "name": "avalonia",
+      "run": 1,
+      "visible_after_seconds": 0.7651139610097744,
+      "warmup_seconds": 2.0,
+      "idle_seconds": 5.039662757015321,
+      "idle_cpu_percent_one_core": 2.9763896362151736,
+      "idle_rss_median_bytes": 194791424.0,
+      "idle_pss_median_bytes": 155389952.0,
+      "sampled_peak_rss_bytes": 194957312,
+      "max_processes": 1,
+      "binary_bytes": 78192,
+      "binary_sha256": "b139e1c947e4204ca639adbcf4732b8b53235b2e649825b0b8e382ee0bcb8352",
+      "data_source": "live Docker Engine API via SDK",
+      "docker_host": "unix:///var/run/docker.sock",
+      "load_log": "Docker load: count=14 elapsed_ms=99 ids=117feea78d81b7e86b4da2cd666c3f0b87bb9511171ec0ce6e88ba389b409cb3,1f3a0c05ba5ba5df2918e6891661497e129bdd64204b3d93c8d21ab619883cde,43f3241f892ed32d6bd8eedc13f1b9d3b20247e015b38080b1d06d2774fd6744,5f0d2da68770a4324cfc41ba06b064eedfdfb4872204d25eb7c819e114161179,655cbf2013d481354486181d8d916bc46d5d840c7ac22a9ce2fded313f7fa800,791acba8a077bc807ab794dcc2b6bd0cc7bba541a4d28fedf0aab39c3c8065bc,835d9356f9d258e149c227fffb8e6f96124ea8d9587d7b1179a0e5b7106a0774,84e8bc4813cb6a43d335dfe7e5bf57e7a261bf88886998782573fbcc67664876,9b907cd499df6312716c56041737d2c64f94a85b7cd18dcc2144a6c893b91593,9bfb2d851ac16c5977bd1f4065c73bd7d501d84bb1058e061fdc0b880fec9a79,a99cc144b4bd2ea34088a4cad3e3c4a957784a20c85146491b4fe6d45cf938b6,c2e89b812d9fefb3e2b6ecd651a1de147e2fe5b2238f7eae65b874b12800680a,e0947946bbc15b193d7e440ef434ef4b7e1e795c9eb54b627dcb4d71c1d0c4f6,f312396aa347fe5720a5c73f42b0f72b07be4c17ce51716cd50a850d91b7f0d2\n",
+      "backend": "Avalonia 12.1.2 / Skia / X11 on Plasma Wayland (XWayland)",
+      "client_size": [
+        1000,
+        680
+      ],
+      "gpui_x11_scale_factor": null,
+      "shared_libraries": [
+        "/etc/ld.so.cache",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/build/self-contained/libHarfBuzzSharp.so",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/build/self-contained/libSkiaSharp.so",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/build/self-contained/libSystem.Native.so",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/build/self-contained/libclrjit.so",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/build/self-contained/libcoreclr.so",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/build/self-contained/libhostfxr.so",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/build/self-contained/libhostpolicy.so",
+        "/usr/lib/ld-linux-x86-64.so.2",
+        "/usr/lib/libGL.so.1.7.0",
+        "/usr/lib/libGLX.so.0.0.0",
+        "/usr/lib/libGLX_mesa.so.0.0.0",
+        "/usr/lib/libGLdispatch.so.0.0.0",
+        "/usr/lib/libICE.so.6.3.0",
+        "/usr/lib/libLLVM.so.23.1",
+        "/usr/lib/libSM.so.6.0.1",
+        "/usr/lib/libSPIRV-Tools.so",
+        "/usr/lib/libX11-xcb.so.1.0.0",
+        "/usr/lib/libX11.so.6.4.0",
+        "/usr/lib/libXau.so.6.0.0",
+        "/usr/lib/libXcursor.so.1.0.2",
+        "/usr/lib/libXdmcp.so.6.0.0",
+        "/usr/lib/libXext.so.6.4.0",
+        "/usr/lib/libXfixes.so.3.1.0",
+        "/usr/lib/libXi.so.6.1.0",
+        "/usr/lib/libXrandr.so.2.2.0",
+        "/usr/lib/libXrender.so.1.3.0",
+        "/usr/lib/libXxf86vm.so.1.0.0",
+        "/usr/lib/libbrotlicommon.so.1.2.0",
+        "/usr/lib/libbrotlidec.so.1.2.0",
+        "/usr/lib/libbz2.so.1.0.8",
+        "/usr/lib/libc.so.6",
+        "/usr/lib/libdbus-1.so.3.38.3",
+        "/usr/lib/libdl.so.2",
+        "/usr/lib/libdrm.so.2.134.0",
+        "/usr/lib/libdrm_amdgpu.so.1.134.0",
+        "/usr/lib/libdrm_intel.so.1.134.0",
+        "/usr/lib/libedit.so.0.0.78",
+        "/usr/lib/libelf-0.196.so",
+        "/usr/lib/libexpat.so.1.13.0",
+        "/usr/lib/libffi.so.8.5.0",
+        "/usr/lib/libfontconfig.so.1.17.0",
+        "/usr/lib/libfreetype.so.6.20.7",
+        "/usr/lib/libgallium-26.2.4-arch3.1.so",
+        "/usr/lib/libgcc_s.so.1",
+        "/usr/lib/libicudata.so.78.3",
+        "/usr/lib/libicui18n.so.78.3",
+        "/usr/lib/libicuuc.so.78.3",
+        "/usr/lib/libm.so.6",
+        "/usr/lib/libncursesw.so.6.6",
+        "/usr/lib/libpciaccess.so.0.11.1",
+        "/usr/lib/libpng16.so.16.50.0",
+        "/usr/lib/libpthread.so.0",
+        "/usr/lib/librt.so.1",
+        "/usr/lib/libsensors.so.5.0.0",
+        "/usr/lib/libstdc++.so.6.0.36",
+        "/usr/lib/libsystemd.so.0.45.0",
+        "/usr/lib/libuuid.so.1.3.0",
+        "/usr/lib/libxcb-dri3.so.0.1.0",
+        "/usr/lib/libxcb-glx.so.0.0.0",
+        "/usr/lib/libxcb-present.so.0.0.0",
+        "/usr/lib/libxcb-randr.so.0.1.0",
+        "/usr/lib/libxcb-shm.so.0.0.0",
+        "/usr/lib/libxcb-sync.so.1.0.0",
+        "/usr/lib/libxcb-xfixes.so.0.0.0",
+        "/usr/lib/libxcb.so.1.1.0",
+        "/usr/lib/libxml2.so.16.1.4",
+        "/usr/lib/libxshmfence.so.1.0.0",
+        "/usr/lib/libz.so.1.3.1.zlib-ng",
+        "/usr/lib/libzstd.so.1.5.7"
+      ],
+      "graphics_libraries": [
+        "/usr/lib/libGL.so.1.7.0",
+        "/usr/lib/libGLX.so.0.0.0",
+        "/usr/lib/libGLX_mesa.so.0.0.0",
+        "/usr/lib/libGLdispatch.so.0.0.0"
+      ],
+      "samples": [
+        {
+          "phase": "warmup",
+          "rss_bytes": 164372480,
+          "pss_bytes": 128693248,
+          "cpu_seconds": 0.97,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 191209472,
+          "pss_bytes": 151836672,
+          "cpu_seconds": 1.14,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 193753088,
+          "pss_bytes": 154382336,
+          "cpu_seconds": 1.16,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 193896448,
+          "pss_bytes": 154513408,
+          "cpu_seconds": 1.17,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 194052096,
+          "pss_bytes": 154673152,
+          "cpu_seconds": 1.2,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 194052096,
+          "pss_bytes": 154673152,
+          "cpu_seconds": 1.2,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 194232320,
+          "pss_bytes": 154853376,
+          "cpu_seconds": 1.21,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 194232320,
+          "pss_bytes": 154853376,
+          "cpu_seconds": 1.21,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 194301952,
+          "pss_bytes": 154923008,
+          "cpu_seconds": 1.23,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 194502656,
+          "pss_bytes": 155099136,
+          "cpu_seconds": 1.25,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 194740224,
+          "pss_bytes": 155328512,
+          "cpu_seconds": 1.29,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 194744320,
+          "pss_bytes": 155328512,
+          "cpu_seconds": 1.3,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 194789376,
+          "pss_bytes": 155385856,
+          "cpu_seconds": 1.32,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 194793472,
+          "pss_bytes": 155394048,
+          "cpu_seconds": 1.33,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 194912256,
+          "pss_bytes": 155508736,
+          "cpu_seconds": 1.35,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 194928640,
+          "pss_bytes": 155521024,
+          "cpu_seconds": 1.36,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 194957312,
+          "pss_bytes": 155553792,
+          "cpu_seconds": 1.37,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 194957312,
+          "pss_bytes": 155553792,
+          "cpu_seconds": 1.37,
+          "processes": 1
+        }
+      ],
+      "same_ids_as_reference": true
+    }
+  ],
+  "protocol": "One short sample, 2 seconds warmup and 5 seconds idle, 1000x680 X11/XWayland. Requested to reduce measurement time; not equivalent precision to older three-run results."
+}

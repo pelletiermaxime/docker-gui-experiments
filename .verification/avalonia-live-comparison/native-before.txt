@@ -1,0 +1,11 @@
+Containers C# - Avalonia - Docker SDK
+
+14/ 14 containers - all states - live Docker SDK
+Name Image State Status
+hexfit-activepieces  ghcrio/activepieces/activ  running  Up 2 days (healthy)
+hexfit-activepieces  pgvector/pgvector:0.8.0- running Up 3 days (healthy)
+hexfit-activepieces  redis:7.2-alpine running Up 3 days
+hexfit-mailpit axllent/mailpit running  Up 3 days (healthy)
+hexfit-main-backel  registry.gitlab.com/hexfii  running  Up 35 hours
+hexfit-main-backel  registry.gitlab.com/hexfii  running  Up 35 hours
+hexfit-main-horizo  registry.gitlab.com/hexfii  running  Up 35 hours

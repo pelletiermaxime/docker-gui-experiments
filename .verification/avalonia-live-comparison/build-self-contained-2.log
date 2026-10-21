@@ -1,0 +1,4 @@
+  Determining projects to restore...
+  Restored /home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/AvaloniaContainers.csproj (in 318 ms).
+  AvaloniaContainers -> /home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/bin/Release/net10.0/linux-x64/AvaloniaContainers.dll
+  AvaloniaContainers -> /home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/build/self-contained/

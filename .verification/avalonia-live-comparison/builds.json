@@ -1,0 +1,56 @@
+[
+  {
+    "kind": "framework-dependent",
+    "command": [
+      "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/.verification/maui-live-comparison/toolchains/dotnet/dotnet",
+      "publish",
+      "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/AvaloniaContainers.csproj",
+      "-c",
+      "Release",
+      "-r",
+      "linux-x64",
+      "--self-contained",
+      "false",
+      "-o",
+      "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/build/framework-dependent",
+      "-p:DebugType=None",
+      "-p:DebugSymbols=false",
+      "--verbosity",
+      "minimal"
+    ],
+    "elapsed_seconds": 13.066491892008344,
+    "exit_code": 0,
+    "log": "build-framework-dependent-1.log",
+    "scope": "Initial publish includes package restore/download and compilation; later publishes share caches. Not a controlled clean-build timing.",
+    "directory_bytes": 27404351,
+    "file_count": 42,
+    "apphost_bytes": 78192
+  },
+  {
+    "kind": "self-contained",
+    "command": [
+      "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/.verification/maui-live-comparison/toolchains/dotnet/dotnet",
+      "publish",
+      "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/AvaloniaContainers.csproj",
+      "-c",
+      "Release",
+      "-r",
+      "linux-x64",
+      "--self-contained",
+      "true",
+      "-o",
+      "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/avalonia-containers/build/self-contained",
+      "-p:DebugType=None",
+      "-p:DebugSymbols=false",
+      "--verbosity",
+      "minimal"
+    ],
+    "elapsed_seconds": 1.9240482570021413,
+    "exit_code": 0,
+    "log": "build-self-contained-2.log",
+    "scope": "Initial publish includes package restore/download and compilation; later publishes share caches. Not a controlled clean-build timing.",
+    "directory_bytes": 109976414,
+    "file_count": 229,
+    "apphost_bytes": 78192
+  }
+]
