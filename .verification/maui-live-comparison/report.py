@@ -58,15 +58,8 @@ page = f'''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="view
 <h2>Code-quality assessment</h2><p>The app uses native MAUI controls, one focused page and a small platform bootstrap. Async Docker work runs off the UI thread, refreshes cannot overlap, and cancellation follows window closure. This is a small demonstration, not a complete Docker endpoint manager. It deliberately omits a view-model framework and additional abstraction layers; the remaining Linux risk is chiefly the experimental handler/backend behavior.</p>
 <h2>Sources and evidence</h2><p><a href="https://github.com/pelletiermaxime/docker-gui-experiments/tree/main/experiments/live-docker/maui-containers">Application source and launch instructions</a> · <a href="https://learn.microsoft.com/en-us/dotnet/maui/developer-tools/platform-backends/linux-gtk4">Microsoft's GTK4 backend documentation</a> · <a href="https://www.nuget.org/packages/Docker.DotNet.Enhanced/4.3.3">Docker SDK package</a></p><p><a download="maui-live-comparison.json" href="data:application/json;base64,{raw}">Download measurements and provenance JSON</a></p><p><a href="../gui-live-comparison/rapport.html">Return to the live Docker comparison</a> · <a href="../../index.html">All reports</a></p><footer>Minimal exploratory application. Read-only Docker access; native observations and measurements only.</footer></main></html>'''
 (OUT / 'rapport.html').write_text(page)
-for path in [ROOT / '.verification/gui-live-comparison/rapport.html', ROOT / '.verification/gui-live-comparison/build_report.py']:
-    text = path.read_text()
-    marker = '<section id="dotnet-maui-comparison">'
-    if marker in text:
-        text = re.sub(r'<section id="dotnet-maui-comparison">.*?</section>', lambda _: section, text, flags=re.S)
-    else:
-        text = text.replace('<section><h2>Actual windows</h2>', section + '\n<section><h2>Actual windows</h2>', 1)
-    text = text.replace('Five native variants.<br>Live Docker clients.', 'Five original variants.<br>Plus .NET MAUI.')
-    path.write_text(text)
+# The shared live report reads this summary alongside every other integration.
+
 print(json.dumps({'code_lines': code, 'physical_lines': physical, 'medians': metrics,
                   'framework_dependent_mib': fd['directory_bytes'] / 1048576,
                   'self_contained_mib': sc['directory_bytes'] / 1048576}, indent=2))

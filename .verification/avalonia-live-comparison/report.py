@@ -49,15 +49,8 @@ page = f'''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="view
 <h2>Code and portability</h2><p>A small code-only UI uses Avalonia's DataGrid and text input rather than custom controls. No MVVM framework or bundled font set is added. Requests cannot overlap and window closure cancels the active load. The SDK buffers its full response before the retention limit, so this is not a common wire-byte cap.</p><p>Avalonia supports Windows, macOS and Linux upstream. Only this Linux X11/XWayland run is observed; Windows/macOS builds and named-pipe/TLS transports are not proven here. DOCKER_HOST explicitly selects the endpoint, or the app uses its local platform default.</p>
 <h2>Evidence</h2><p><a href="https://github.com/pelletiermaxime/docker-gui-experiments/tree/main/experiments/live-docker/avalonia-containers">Source and build instructions</a> · <a href="https://github.com/AvaloniaUI/Avalonia">Avalonia upstream</a> · <a href="https://www.nuget.org/packages/Docker.DotNet.Enhanced/4.3.3">Docker SDK</a></p><p><a download="avalonia-live-comparison.json" href="data:application/json;base64,{raw}">Download full measurements and provenance</a></p><p><a href="../gui-live-comparison/rapport.html">Live Docker comparison</a> · <a href="../maui-live-comparison/rapport.html">MAUI report</a> · <a href="../../index.html">All reports</a></p><footer>Read-only exploratory app. Single short resource observation; native input outside the measured interval.</footer></main></html>'''
 (OUT / 'rapport.html').write_text(page)
-for p in [ROOT / '.verification/gui-live-comparison/rapport.html', ROOT / '.verification/gui-live-comparison/build_report.py']:
-    text = p.read_text()
-    if '<section id="dotnet-avalonia-comparison">' in text:
-        text = re.sub(r'<section id="dotnet-avalonia-comparison">.*?</section>', lambda _: section, text, flags=re.S)
-    else:
-        text = text.replace('<section><h2>Actual windows</h2>', section + '\n<section><h2>Actual windows</h2>', 1)
-    text = text.replace('Plus .NET MAUI.', 'Plus .NET ports.')
-    text = text.replace('All five loaded the same live inventory.', 'The original five loaded the same live inventory.')
-    p.write_text(text)
+# The shared live report reads this summary alongside every other integration.
+
 print(json.dumps({'code_lines': code, 'rss_mib': run['idle_rss_median_bytes'] / 1048576,
                   'pss_mib': run['idle_pss_median_bytes'] / 1048576,
                   'idle_cpu_percent': run['idle_cpu_percent_one_core'],

@@ -255,8 +255,9 @@
     },
     {
       "path": ".verification/avalonia-live-comparison/report.py",
-      "bytes": 10219,
-      "sha256": "a0b39ae4a5b4b58c9ed547512e192e8d57f08d79a850bf0d2fcc93cbef7ee0bd"
+      "bytes": 9636,
+      "sha256": "80d6de53bd1727a641c297abe8eaa7715bcd8dfd1c4b699b89e06dfa2214b15e",
+      "original_sha256": "a0b39ae4a5b4b58c9ed547512e192e8d57f08d79a850bf0d2fcc93cbef7ee0bd"
     },
     {
       "path": ".verification/avalonia-live-comparison/run.py",
@@ -880,8 +881,8 @@
     },
     {
       "path": ".verification/gui-live-comparison/build_report.py",
-      "bytes": 34012,
-      "sha256": "4dd0f4423809a67261a34a7d8ecf2ffa7376e922968e0ad0474f00018343c985",
+      "bytes": 34808,
+      "sha256": "2d49c92ee8ca69d25f40adf9298fe9a9d43ce010e141b8131db46b4ea9377720",
       "original_sha256": "307ce4fb00f98f2ddda31f965e24499ea94febce9a5339ff0b64a793ce886c0a"
     },
     {
@@ -1281,8 +1282,8 @@
     },
     {
       "path": ".verification/gui-live-comparison/rapport.html",
-      "bytes": 1610525,
-      "sha256": "a6aea52e1ebc103780f320c3bfefa7674170e838ebf8858391b03f167a4a025f",
+      "bytes": 2250644,
+      "sha256": "ccf432d7ff7d9f13b3df6cfe879dc9c3e03d8f0e46576b2230493479a578a2cb",
       "original_sha256": "466edf878065c304a6736e68b1e73a5c99d09e0609c8590b637b963e979d4efc"
     },
     {
@@ -1447,8 +1448,9 @@
     },
     {
       "path": ".verification/gui-live-comparison/summary.json",
-      "bytes": 236858,
-      "sha256": "891670aa97e0118d1f39b8703303ef050bf28d809181210fd3a60eb49c46c8a2"
+      "bytes": 321801,
+      "sha256": "90a1ececc96dd697780b2f01839b28c44588b674e2b47f7d00d146eb4dece3e3",
+      "original_sha256": "891670aa97e0118d1f39b8703303ef050bf28d809181210fd3a60eb49c46c8a2"
     },
     {
       "path": ".verification/gui-live-comparison/transport-proof.json",
@@ -1757,8 +1759,9 @@
     },
     {
       "path": ".verification/maui-live-comparison/report.py",
-      "bytes": 11282,
-      "sha256": "6331c2f381e0ae0c6fd1115b1917520b2ccd01c8bb5ea0636193905859466652"
+      "bytes": 10743,
+      "sha256": "222eb398591c73a95e5cc81391ef9beb1019daae05f46ce0fbc85e8f27cf75b7",
+      "original_sha256": "6331c2f381e0ae0c6fd1115b1917520b2ccd01c8bb5ea0636193905859466652"
     },
     {
       "path": ".verification/maui-live-comparison/restore.log",
@@ -2872,8 +2875,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9380,
-      "sha256": "b80ec0084747bb9b8d1ef5904a60b8626073fe413d9d09064d9d92b887a3eef4",
+      "bytes": 9291,
+      "sha256": "4e81d29a7cff861c7a1431efc6ec79ba1766961751fe2757c5a4cebe7a969c8b",
       "original_sha256": "249de09a42ce0b7a1adc7db2bc0f87a71f2dcab1e5615ed14d818be7d2fff171"
     },
     {
@@ -2918,8 +2921,8 @@
     },
     {
       "path": "experiments/live-docker/README.md",
-      "bytes": 4919,
-      "sha256": "a90553aa5a5b5b1efa174894be6b859fde00d5133933aeb854253b4429abb48c",
+      "bytes": 5169,
+      "sha256": "c6b5b2d86d51352f73e431e9349bb855c4214f20c32ad7eefc2e2ee94e29a640",
       "original_sha256": "05b71b43fe388ebd5b1462d936aa3b2251a3f5b2d4710910a4509596ae9267ba"
     },
     {
@@ -3224,8 +3227,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 3516,
-      "sha256": "17c00beceae0bf98bc94c09f5da1f381856073f409d4dfd7b00c25842872d8b1",
+      "bytes": 2882,
+      "sha256": "b2d1c229524e9e8c36e52cc4166ad76669e2938a4ebca0a48bddfb474a4f6e9e",
       "original_sha256": "11c5f3ebd3e10d6c80ac017f9edff8972db5d7e8bb35cbdd30bbf02849efee06"
     },
     {

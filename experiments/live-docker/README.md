@@ -1,6 +1,6 @@
 # Live Docker SDK comparison
 
-Five independent variants of the original minimal native container list. Each reads
+Seven independent variants of the original minimal native container list. Each reads
 Docker Engine directly through a Docker client library at startup and on Refresh:
 
 | App | UI | Docker client |
@@ -10,10 +10,12 @@ Docker Engine directly through a Docker client library at startup and on Refresh
 | [Go](mygo-containers/README.md) | MyGo, original pinned revision | official Moby client v0.6.2 |
 | [Rust](gpui-containers/README.md) | gpui-pre 0.3.9, no Kit | Bollard 0.21.1 |
 | [Rust + software renderer](slint-containers/README.md) | Slint 1.18.1, Winit + software | Bollard 0.21.1 |
+| [C# + MAUI](maui-containers/README.md) | MAUI 10.0.110 / experimental GTK4 Linux backend | Docker.DotNet.Enhanced 4.3.3 |
+| [C# + Avalonia](avalonia-containers/README.md) | Avalonia 12.1.2 / desktop Skia | Docker.DotNet.Enhanced 4.3.3 |
 
-An additional [C# + .NET MAUI variant](maui-containers/README.md) uses MAUI Controls
+The [C# + .NET MAUI variant](maui-containers/README.md) uses MAUI Controls
 10.0.110, Microsoft's experimental GTK4 Linux backend and Docker.DotNet.Enhanced
-4.3.3. Its later measurements and screenshots are appended to the live report;
+4.3.3. Its later measurements and screenshot appear with the other apps in the live report;
 the original five rows retain their original measurement provenance. It reports
 complete publish-directory sizes rather than treating the apphost as a standalone
 executable. The app uses an observable collection for its virtualized MAUI list.
@@ -21,8 +23,8 @@ executable. The app uses an observable collection for its virtualized MAUI list.
 The subsequent [Avalonia C# port](avalonia-containers/README.md) uses Avalonia
 12.1.2 and the same Docker SDK and request logic. Its single short resource sample
 (2 seconds warmup, 5 seconds idle) follows the user's request to shorten
-measurement. Both .NET ports are appended separately to the live report, with
-their full publish-directory sizes and native input observations.
+measurement. Both .NET ports share the main charts, table and screenshot gallery,
+with their full publish-directory sizes and per-row sampling labels.
 
 A separate [Slint renderer comparison](slint-renderers/README.md) keeps the same
 Slint UI and Docker code while comparing CPU/GPU renderer families and Qt. Its

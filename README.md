@@ -21,10 +21,12 @@ under `.verification/` when publishing the site.
 | Experiment | HTML report | Sources |
 | --- | --- | --- |
 | JSON snapshot / Docker CLI comparison | [Four integrations](.verification/gui-comparison/rapport.html) | [Zig + NanoUI](experiments/nanoui-containers), [Go + MyGo](experiments/mygo-containers), [Rust + GPUI-pre](experiments/gpui-containers), [archived GPUI Kit](.verification/gui-comparison/gpui-kit-baseline) |
-| Live Docker client-library comparison | [Five integrations](.verification/gui-live-comparison/rapport.html) | [All live variants](experiments/live-docker) |
+| Live Docker client-library comparison | [Seven integrations, one table and screenshot gallery](.verification/gui-live-comparison/rapport.html) | [All live variants](experiments/live-docker) |
 | Slint renderer comparison | [Eight configurations](.verification/slint-renderers/rapport.html) | [Same Slint application](experiments/live-docker/slint-renderers) |
-| Additional .NET MAUI live experiment | [Experimental Linux GTK4 backend](.verification/maui-live-comparison/rapport.html) | [C# + MAUI + Docker SDK](experiments/live-docker/maui-containers) |
-| Additional Avalonia live experiment | [Short desktop measurement](.verification/avalonia-live-comparison/rapport.html) | [C# + Avalonia + Docker SDK](experiments/live-docker/avalonia-containers) |
+
+MAUI and Avalonia are included in the shared live comparison above. Detailed build
+and backend notes remain available in the [MAUI appendix](.verification/maui-live-comparison/rapport.html)
+and [Avalonia appendix](.verification/avalonia-live-comparison/rapport.html).
 
 The first report includes executable size, source lines, code-quality discussion,
 memory, CPU and observed compilation timings. The live report explores Docker
