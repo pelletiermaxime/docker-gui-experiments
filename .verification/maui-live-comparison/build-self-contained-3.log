@@ -1,0 +1,4 @@
+  Determining projects to restore...
+  Restored /home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/MauiContainers.csproj (in 397 ms).
+  MauiContainers -> /home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/bin/Release/net10.0/linux-x64/MauiContainers.dll
+  MauiContainers -> /home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/build/self-contained/

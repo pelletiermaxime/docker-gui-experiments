@@ -1,6 +1,6 @@
 # Docker GUI experiments
 
-Small Docker container-list applications written in **Zig, Go and Rust**, with the
+Small Docker container-list applications written in **Zig, Go, Rust and C#**, with the
 HTML reports, screenshots and measurements collected during an exploratory session
 on October 19–20, 2026. These are isolated experiments inspired by FerryDock, not a
 rewrite or a release of the full application.
@@ -23,6 +23,7 @@ under `.verification/` when publishing the site.
 | JSON snapshot / Docker CLI comparison | [Four integrations](.verification/gui-comparison/rapport.html) | [Zig + NanoUI](experiments/nanoui-containers), [Go + MyGo](experiments/mygo-containers), [Rust + GPUI-pre](experiments/gpui-containers), [archived GPUI Kit](.verification/gui-comparison/gpui-kit-baseline) |
 | Live Docker client-library comparison | [Five integrations](.verification/gui-live-comparison/rapport.html) | [All live variants](experiments/live-docker) |
 | Slint renderer comparison | [Eight configurations](.verification/slint-renderers/rapport.html) | [Same Slint application](experiments/live-docker/slint-renderers) |
+| Additional .NET MAUI live experiment | [Experimental Linux GTK4 backend](.verification/maui-live-comparison/rapport.html) | [C# + MAUI + Docker SDK](experiments/live-docker/maui-containers) |
 
 The first report includes executable size, source lines, code-quality discussion,
 memory, CPU and observed compilation timings. The live report explores Docker
@@ -42,6 +43,7 @@ holds the Slint application constant while changing its rendering configuration.
 | Go | MyGo | Official Moby client |
 | Rust | GPUI-pre 0.3.9 | Bollard |
 | Rust | Slint 1.18.1 | Bollard |
+| C# | .NET MAUI 10 / experimental GTK4 Linux backend | Docker.DotNet.Enhanced 4.3.3 |
 
 Slint configurations: its software renderer, FemtoVG/OpenGL, FemtoVG/WGPU,
 Skia/software, Skia/OpenGL, Skia/WGPU, experimental Vello, and the Qt backend.
@@ -125,9 +127,11 @@ integration, not an established cross-platform equivalent to the other clients.
 
 ## Archive contents and provenance
 
-`experiments/` and the three `.verification/` report directories are copied from
-the working session. [ARCHIVE-MANIFEST.json](ARCHIVE-MANIFEST.json) records the
-SHA-256 hash of every copied file. Sources, earlier baselines, reports, raw data,
+`experiments/` and the original three `.verification/` report directories were copied from
+the working session. Later experiments are added directly to this repository.
+[ARCHIVE-MANIFEST.json](ARCHIVE-MANIFEST.json) records current SHA-256 hashes;
+`original_sha256` retains initial-copy hashes for files subsequently updated.
+Sources, earlier baselines, reports, raw data,
 screenshots, build logs, traces, patches and report generators are retained.
 Historical paths, inventory labels and statements such as "no commit or push"
 describe the original measurement session, before this archive was published.

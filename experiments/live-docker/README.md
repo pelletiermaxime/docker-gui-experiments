@@ -11,6 +11,13 @@ Docker Engine directly through a Docker client library at startup and on Refresh
 | [Rust](gpui-containers/README.md) | gpui-pre 0.3.9, no Kit | Bollard 0.21.1 |
 | [Rust + software renderer](slint-containers/README.md) | Slint 1.18.1, Winit + software | Bollard 0.21.1 |
 
+An additional [C# + .NET MAUI variant](maui-containers/README.md) uses MAUI Controls
+10.0.110, Microsoft's experimental GTK4 Linux backend and Docker.DotNet.Enhanced
+4.3.3. Its later measurements and screenshots are appended to the live report;
+the original five rows retain their original measurement provenance. It reports
+complete publish-directory sizes rather than treating the apphost as a standalone
+executable. The app uses an observable collection for its virtualized MAUI list.
+
 A separate [Slint renderer comparison](slint-renderers/README.md) keeps the same
 Slint UI and Docker code while comparing CPU/GPU renderer families and Qt. Its
 HTML report is under `.verification/slint-renderers/`.

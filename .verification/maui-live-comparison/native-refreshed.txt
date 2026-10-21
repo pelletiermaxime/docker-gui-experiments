@@ -1,0 +1,39 @@
+Containers C# - NET MAUI - Docker SDK
+
+Search name, image, state.
+
+14/ 14 containers - all states - live Docker SOK
+
+Name Image State Status
+
+hexfit-activepieces ghcrio/activepieces/activepieces:0.92.1 running Up 2 days (healthy)
+
+hexfit-activepieces-postgres Pgvector/pgvector:0.8.0-pg14 running Up 3 days (healthy)
+
+hexfitactivepieces-redis redis:7.2-alpine running Up3days
+
+hexfit-mailpit axlent/mailpit running Up 3 days (healthy)
+
+hexfit-main-backend-laravel-fom e e e i e running Up 34 hours
+laravel:1.4.0
+
+T N registry.gitlab.com/hexfit/exfi/dev/backend- — T
+legacy:1.0.1
+
+hextitmain horizon registry.gitlab.com/hexfit/exfi/dev/backend- — T
+laravel:1.4.0
+
+hexfit-main-pro registry.gitlab.com/hexfit/exfit/ui-pro-base:1.1.0  running Up 2 hours
+
+hexfit-main-pro-egacy. hexfit-main-pro-legacy running Up 34 hours
+
+hexfitmainscheduler registry.gitlab.com/hexfit/exfi/dev/backend- — S
+laravel:1.4.0
+
+hexfit-pgsal hexfit-infra-pgsal running Up3days
+
+hexfit-pgsal-test hexfitinfra-pgsql-test running Up3days
+
+hexfit-proxy nginxialpine running Up3days
+
+hexfit-redis valkeyvalkey:9.1-alpine. running Up3days

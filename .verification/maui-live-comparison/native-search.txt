@@ -1,0 +1,10 @@
+Containers C# - NET MAUI - Docker SDK
+hexfit-activepieces| Refresh
+
+3 /14 containers - all states - live Docker SDK
+
+Name Image state Status
+
+hexfit-activepieces ghcrio/activepieces/activepieces:0.92.1 running Up 2 days (healthy)
+hexfit-activepieces-postgres pavector/pgvector:0.8.0-pg14 running Up 3 days (healthy)
+hexfit-activepieces-redis redis:7.2-alpine running Up3 days

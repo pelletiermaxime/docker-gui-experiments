@@ -1,6 +1,9 @@
 # Build products and downloaded dependencies, not the archived report evidence.
 **/target/
 **/build/
+**/bin/
+**/obj/
+*.nupkg
 **/zig-out/
 **/.zig-cache/
 **/zig-cache/

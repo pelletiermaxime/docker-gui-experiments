@@ -1,0 +1,21 @@
+{
+  "query": "hexfit-activepieces",
+  "actions": [
+    {
+      "keyboard_target": "Initially focused Entry; native focus restored immediately before input"
+    },
+    {
+      "keyboard": "Tab from Entry to Refresh, then Space"
+    }
+  ],
+  "before_text": "Containers C# - NET MAUI - Docker SDK\n\n14/ 14 containers - all states - live Docker SOK\n\nName Image State Status\n\nhexfit-activepieces ghcrio/activepieces/activepieces:0.92.1 running Up 2 days (healthy)\n\nhexfit-activepieces-postgres Pgvector/pgvector:0.8.0-pg14 running Up 3 days (healthy)\n\nhexfitactivepieces-redis redis:7.2-alpine running Up3days\n\nhexfit-mailpit axlent/mailpit running Up 3 days (healthy)\n\nhexfit-main-backend-laravel-fom e e e i e running Up 34 hours\nlaravel:1.4.0\n\nhexfit-main-backend-legacy-fpm g e e i e running Up 34 hours\nlegacy:1.0.1\n\nhextitmain horizon registry.gitlab.com/hexfit/exfi/dev/backend- \u2014 T\nlaravel:1.4.0\n\nhexfit-main-pro registry.gitlab.com/hexfit/exfit/ui-pro-base:1.1.0  running Up 2 hours\n\nhexfit-main-pro-egacy. hexfit-main-pro-legacy running Up 34 hours\n\nhextitmainscheduler registry.gitlab.com/hexfit/exfi/dev/backend- \u2014 S\nlaravel:1.4.0\n\nhexfit-pgsal hexfit-infra-pgsal running Up3days\n\nhexfit-pgsal-test hexfitinfra-pgsql-test running Up3days\n\nhexfit-proxy nginxialpine running Up3days\n\nhexfit-redis valkeyvalkey:9.1-alpine. running Up3days\n",
+  "keyboard_focus": "33554436",
+  "search_text": "Containers C# - NET MAUI - Docker SDK\nhexfit-activepieces| Refresh\n\n3 /14 containers - all states - live Docker SDK\n\nName Image state Status\n\nhexfit-activepieces ghcrio/activepieces/activepieces:0.92.1 running Up 2 days (healthy)\nhexfit-activepieces-postgres pavector/pgvector:0.8.0-pg14 running Up 3 days (healthy)\nhexfit-activepieces-redis redis:7.2-alpine running Up3 days\n",
+  "cleared_text": "Containers C# - NET MAUI - Docker SDK\n\n14/ 14 containers - all states - live Docker SOK\n\nName Image State Status\n\nhexfit-activepieces ghcrio/activepieces/activepieces:0.92.1 running Up 2 days (healthy)\n\nhexfit-activepieces-postgres Pgvector/pgvector:0.8.0-pg14 running Up 3 days (healthy)\n\nhexfitactivepieces-redis redis:7.2-alpine running Up3days\n\nhexfit-mailpit axlent/mailpit running Up 3 days (healthy)\n\nhexfit-main-backend-laravel-fom e e e i e running Up 34 hours\nlaravel:1.4.0\n\nhexfit-main-backend-legacy-fpm g e e i e running Up 34 hours\nlegacy:1.0.1\n\nhextitmain horizon registry.gitlab.com/hexfit/exfi/dev/backend- \u2014 T\nlaravel:1.4.0\n\nhexfit-main-pro registry.gitlab.com/hexfit/exfit/ui-pro-base:1.1.0  running Up 2 hours\n\nhexfit-main-pro-egacy. hexfit-main-pro-legacy running Up 34 hours\n\nhextitmainscheduler registry.gitlab.com/hexfit/exfi/dev/backend- \u2014 S\nlaravel:1.4.0\n\nhexfit-pgsal hexfit-infra-pgsal running Up3days\n\nhexfit-pgsal-test hexfitinfra-pgsql-test running Up3days\n\nhexfit-proxy nginxialpine running Up3days\n\nhexfit-redis valkeyvalkey:9.1-alpine. running Up3days\n",
+  "refreshed_text": "Containers C# - NET MAUI - Docker SDK\n\nSearch name, image, state.\n\n14/ 14 containers - all states - live Docker SOK\n\nName Image State Status\n\nhexfit-activepieces ghcrio/activepieces/activepieces:0.92.1 running Up 2 days (healthy)\n\nhexfit-activepieces-postgres Pgvector/pgvector:0.8.0-pg14 running Up 3 days (healthy)\n\nhexfitactivepieces-redis redis:7.2-alpine running Up3days\n\nhexfit-mailpit axlent/mailpit running Up 3 days (healthy)\n\nhexfit-main-backend-laravel-fom e e e i e running Up 34 hours\nlaravel:1.4.0\n\nT N registry.gitlab.com/hexfit/exfi/dev/backend- \u2014 T\nlegacy:1.0.1\n\nhextitmain horizon registry.gitlab.com/hexfit/exfi/dev/backend- \u2014 T\nlaravel:1.4.0\n\nhexfit-main-pro registry.gitlab.com/hexfit/exfit/ui-pro-base:1.1.0  running Up 2 hours\n\nhexfit-main-pro-egacy. hexfit-main-pro-legacy running Up 34 hours\n\nhexfitmainscheduler registry.gitlab.com/hexfit/exfi/dev/backend- \u2014 S\nlaravel:1.4.0\n\nhexfit-pgsal hexfit-infra-pgsal running Up3days\n\nhexfit-pgsal-test hexfitinfra-pgsql-test running Up3days\n\nhexfit-proxy nginxialpine running Up3days\n\nhexfit-redis valkeyvalkey:9.1-alpine. running Up3days\n",
+  "loads_before_refresh": 1,
+  "loads_after_refresh": 2,
+  "pid": 2411647,
+  "window": "33554436",
+  "owned_process_exited": true
+}

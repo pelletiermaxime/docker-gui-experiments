@@ -1,5 +1,5 @@
 {
-  "description": "Byte-for-byte source and evidence copies from the FerryDock GUI experiments.",
+  "description": "Current source and evidence hashes; original_sha256 retains initial archived hashes for changed files.",
   "archive_date": "2026-10-20",
   "excluded": [
     "Compiled executables",
@@ -8,6 +8,16 @@
     "Third-party dependency checkouts and their Git histories"
   ],
   "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 239,
+      "sha256": "c60864fbb79fb87057781ed41feb74dcf6346117b916cdd5f0b69556c3d045f3"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
     {
       "path": ".verification/gui-comparison/binary-sections.json",
       "bytes": 2405,
@@ -620,8 +630,9 @@
     },
     {
       "path": ".verification/gui-live-comparison/build_report.py",
-      "bytes": 31627,
-      "sha256": "307ce4fb00f98f2ddda31f965e24499ea94febce9a5339ff0b64a793ce886c0a"
+      "bytes": 32891,
+      "sha256": "7c617ba361edaff1430c00cfb90e1901c84fe1e24c774f0a58de0f050b4fe163",
+      "original_sha256": "307ce4fb00f98f2ddda31f965e24499ea94febce9a5339ff0b64a793ce886c0a"
     },
     {
       "path": ".verification/gui-live-comparison/container-zig-fetch.log",
@@ -1020,8 +1031,9 @@
     },
     {
       "path": ".verification/gui-live-comparison/rapport.html",
-      "bytes": 1608140,
-      "sha256": "466edf878065c304a6736e68b1e73a5c99d09e0609c8590b637b963e979d4efc"
+      "bytes": 1609404,
+      "sha256": "3ba7a991e8f4415511542e799181be5842d95501642e65efbbff61732f6634cf",
+      "original_sha256": "466edf878065c304a6736e68b1e73a5c99d09e0609c8590b637b963e979d4efc"
     },
     {
       "path": ".verification/gui-live-comparison/refresh-observation.json",
@@ -1192,6 +1204,336 @@
       "path": ".verification/gui-live-comparison/transport-proof.json",
       "bytes": 2473,
       "sha256": "bdc97e3dc9cb9f66b1bd4ffe1e71caeb159455818bc0144aa8cbed67c1061ec5"
+    },
+    {
+      "path": ".verification/maui-live-comparison/build-framework-dependent-1.log",
+      "bytes": 1953,
+      "sha256": "8b96fcf273daf3be58e20c73acb4e1e5b5b4efdf60df918d3221dc607d0e6508"
+    },
+    {
+      "path": ".verification/maui-live-comparison/build-framework-dependent-2.log",
+      "bytes": 422,
+      "sha256": "2cba5e4074dad41ced8dc85a453105a35491d02ada36250d869b6f4d7ba23fe2"
+    },
+    {
+      "path": ".verification/maui-live-comparison/build-framework-dependent-4.log",
+      "bytes": 538,
+      "sha256": "c43988dcb5f5fa34caa5175261483d9c331ac1dd6fd2e2c503e3f2716215bbb7"
+    },
+    {
+      "path": ".verification/maui-live-comparison/build-self-contained-3.log",
+      "bytes": 533,
+      "sha256": "7993644a87308bc4f8ea1edc8fe7f3048ab75233cb6b3fa12de92b4534ee7a57"
+    },
+    {
+      "path": ".verification/maui-live-comparison/build-self-contained-5.log",
+      "bytes": 533,
+      "sha256": "36d869535b67cf18a2080442fa97c827033d69db38adb89d02eac667dfe73c69"
+    },
+    {
+      "path": ".verification/maui-live-comparison/build.py",
+      "bytes": 2323,
+      "sha256": "b769876e7be9150f4d27152decf13dcd217df16a98b592cae55a30a5b0457ae0"
+    },
+    {
+      "path": ".verification/maui-live-comparison/builds.json",
+      "bytes": 5248,
+      "sha256": "2d1ebf75e6372399bce6474dfe16f96d4d684d66c48580c7b69f1945abfe81b6"
+    },
+    {
+      "path": ".verification/maui-live-comparison/docker-metadata.json",
+      "bytes": 384,
+      "sha256": "4afbe6eb7660205af9b0f94765b7f8e751db0d04db333b6d460d05a55ff0f0fc"
+    },
+    {
+      "path": ".verification/maui-live-comparison/gtk-metadata.json",
+      "bytes": 340,
+      "sha256": "655198fd4a6d37451d17650bb8195f57f2f194e489ba03f8784ab636360c74fb"
+    },
+    {
+      "path": ".verification/maui-live-comparison/maui-1-launch.log",
+      "bytes": 7661,
+      "sha256": "0eb466a929c62b44547b6ec9398ffd49738c75095ceee3e633396f3ecadb8b22"
+    },
+    {
+      "path": ".verification/maui-live-comparison/maui-1.json",
+      "bytes": 16448,
+      "sha256": "9bebcf8b83ddea33a19d18653f047c24b4876fd80b6f4f3749b8df9e6918fedf"
+    },
+    {
+      "path": ".verification/maui-live-comparison/maui-1.log",
+      "bytes": 1524,
+      "sha256": "6414f16147f03a1a2b6534a9efba7d48ee8da1602cc2909c640a1e343b8421d0"
+    },
+    {
+      "path": ".verification/maui-live-comparison/maui-1.png",
+      "bytes": 102006,
+      "sha256": "9b43d4b39a3b1616c773a7b9f78279af6808c03c691f117071830045a76982cd"
+    },
+    {
+      "path": ".verification/maui-live-comparison/maui-2-launch.log",
+      "bytes": 7660,
+      "sha256": "82e35800910c1e3cd2fe0519351e3cf0dcf39b03e40355d8b299bd8edf91dacd"
+    },
+    {
+      "path": ".verification/maui-live-comparison/maui-2.json",
+      "bytes": 16448,
+      "sha256": "1f0b0a499fa8ed623ab2d0d87bb57aa410a7e375cdd9582b47b5768257d119e8"
+    },
+    {
+      "path": ".verification/maui-live-comparison/maui-2.log",
+      "bytes": 1524,
+      "sha256": "bbc5ee7861d6822381a8cf67172d50a17229c63a5c4741f09112903641f6872c"
+    },
+    {
+      "path": ".verification/maui-live-comparison/maui-2.png",
+      "bytes": 101810,
+      "sha256": "dc2d25717a8678f19ee4a0bf36c52bf74501459e55f2590a128721b4e3b58f33"
+    },
+    {
+      "path": ".verification/maui-live-comparison/maui-3-launch.log",
+      "bytes": 7661,
+      "sha256": "eb25bd77c7ea052e3151fc8d694ca10ae2d36a661cb389e2316a9d8e41f7b9a4"
+    },
+    {
+      "path": ".verification/maui-live-comparison/maui-3.json",
+      "bytes": 16451,
+      "sha256": "2a36ddd436f9683ac3f4a34095c34a2b383b6fdd3e7aff78d4af5f7a4106153e"
+    },
+    {
+      "path": ".verification/maui-live-comparison/maui-3.log",
+      "bytes": 1524,
+      "sha256": "e2af82e69c0190615389868c5ec7a7806604ddbbfe6b13e9f3a5c48b45794f11"
+    },
+    {
+      "path": ".verification/maui-live-comparison/maui-3.png",
+      "bytes": 16937,
+      "sha256": "a1ca087612c70602181142f7b6989da05d0426f04ca78f37b9d3d33e386268a1"
+    },
+    {
+      "path": ".verification/maui-live-comparison/measure.py",
+      "bytes": 7483,
+      "sha256": "6a73526645f6a586402d0fe3bd8c3cbcfcbc1a362dda89ca50511bede7c26f21"
+    },
+    {
+      "path": ".verification/maui-live-comparison/native-before.png",
+      "bytes": 102006,
+      "sha256": "9b43d4b39a3b1616c773a7b9f78279af6808c03c691f117071830045a76982cd"
+    },
+    {
+      "path": ".verification/maui-live-comparison/native-before.txt",
+      "bytes": 1090,
+      "sha256": "6c552e4ddcaf9f39695fad7ff95dc98844b16de996a7006ceba837e215c81d4b"
+    },
+    {
+      "path": ".verification/maui-live-comparison/native-cleared.png",
+      "bytes": 102006,
+      "sha256": "9b43d4b39a3b1616c773a7b9f78279af6808c03c691f117071830045a76982cd"
+    },
+    {
+      "path": ".verification/maui-live-comparison/native-cleared.txt",
+      "bytes": 1090,
+      "sha256": "6c552e4ddcaf9f39695fad7ff95dc98844b16de996a7006ceba837e215c81d4b"
+    },
+    {
+      "path": ".verification/maui-live-comparison/native-observation.json",
+      "bytes": 4302,
+      "sha256": "60585fa6484a213fe4043004200f6c8bc29c2009cf0180cd2469236da20b2dc0"
+    },
+    {
+      "path": ".verification/maui-live-comparison/native-refreshed.png",
+      "bytes": 102012,
+      "sha256": "5a372b634d3569b543601054c016570dac5cd7c50081e9f6f52cc5c404b4360f"
+    },
+    {
+      "path": ".verification/maui-live-comparison/native-refreshed.txt",
+      "bytes": 1112,
+      "sha256": "3ea104d92a5bf6914f1d4f0610c1a6206ddac8db6beb3ac922fd851fbbdb93af"
+    },
+    {
+      "path": ".verification/maui-live-comparison/native-search.png",
+      "bytes": 36274,
+      "sha256": "0559c80d23cc50a384cb625b88eada73cd31eb61776ca2cace363116a9e16403"
+    },
+    {
+      "path": ".verification/maui-live-comparison/native-search.txt",
+      "bytes": 376,
+      "sha256": "ea05990ea591cdb60ff628f35c1257e28ae21ece038f989c0718bc3eaadcc575"
+    },
+    {
+      "path": ".verification/maui-live-comparison/native.log",
+      "bytes": 2473,
+      "sha256": "9fee792b8c7ca1976b21f212105c92d968f0994edf659eb9fc1a6b4561f3855d"
+    },
+    {
+      "path": ".verification/maui-live-comparison/observe.py",
+      "bytes": 4756,
+      "sha256": "1190a65c575199b8a36249add1417f46a3d78294ba9600e9e5b3e6cbf2f59c7e"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/maui-1-launch.log",
+      "bytes": 10385,
+      "sha256": "8197e44ba4fe81366e1ee20717feb1c6d4aa2bee630920696ac3ff706110ff18"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/maui-1.json",
+      "bytes": 19172,
+      "sha256": "4b58a744e19e1212f988960324921a93e6a86aca5ea3bcca18cdaebfcbb505de"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/maui-1.log",
+      "bytes": 4213,
+      "sha256": "773b20d6040686e4488c5f0468d73328b872a573588f858d3a71675803a9d70c"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/maui-1.png",
+      "bytes": 101693,
+      "sha256": "45c3383fed73ff090e7720d88f1ab2fcd51646f9f15635dc821da81fe96e4fb3"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/maui-2-launch.log",
+      "bytes": 7660,
+      "sha256": "36d53a90d44ba8204f6f92e9fadb74477dd81159fd59f618061069f17092cce4"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/maui-2.json",
+      "bytes": 16451,
+      "sha256": "02a4ff49366d52c7d5620a41ccbc0097429c87f2bff734d75f955679a5427d91"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/maui-2.log",
+      "bytes": 1524,
+      "sha256": "94d0185dd94f145c893295900a2af50a6f37d73e7a9f59489a4ceacb93b90e57"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/maui-2.png",
+      "bytes": 101831,
+      "sha256": "260d4b111c8c502cb1a385556028c10d2369c4cd44038f0b63590562ec3da996"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/maui-3-launch.log",
+      "bytes": 7659,
+      "sha256": "ca7b1c8cc753f0a154461bcaafe1f6d1fa6ca4a838cb3a498d5e10771be6fec5"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/maui-3.json",
+      "bytes": 16449,
+      "sha256": "ce21b034be0ecda599a0acaafbe1c784198927a68e6aa18cd5801953b49b4569"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/maui-3.log",
+      "bytes": 1524,
+      "sha256": "9e3173cce1d124664bb6ccb94cecd920db360078575277f6c47f351010d10860"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/maui-3.png",
+      "bytes": 101809,
+      "sha256": "8afdef6d8f77cbcbd621dbfa56c7baba3d35f4e4867ee8292f6ea0472b40b61e"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/native-before.png",
+      "bytes": 101970,
+      "sha256": "472a21095bdb1935d8d0896ccc68c5949a55ba65284149eeed0d65c44b945165"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/native-before.txt",
+      "bytes": 1127,
+      "sha256": "bb2c6fb3b7b21262fdfecfd958309a07a6c8e060a20e6e9a3ddbfb343d814b4e"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/native-cleared.png",
+      "bytes": 101970,
+      "sha256": "472a21095bdb1935d8d0896ccc68c5949a55ba65284149eeed0d65c44b945165"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/native-cleared.txt",
+      "bytes": 1127,
+      "sha256": "bb2c6fb3b7b21262fdfecfd958309a07a6c8e060a20e6e9a3ddbfb343d814b4e"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/native-observation-preliminary.json",
+      "bytes": 1426,
+      "sha256": "38ad166db2a4da96798818d0dcf1c37b48d7014b85b54f8d95d9530d75770175"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/native-observation.json",
+      "bytes": 4532,
+      "sha256": "e43dd42440e32ea4961a1de4a4afe42ba0de948b8e585cee9fff0f693563293f"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/native-refreshed.png",
+      "bytes": 101778,
+      "sha256": "916ab59f3b5c252277b691b41a9aeb37fa25d472cf0842418e7c0933d77ce11e"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/native-refreshed.txt",
+      "bytes": 1138,
+      "sha256": "4005f54f491a02461d1727349ee2059bb7dfc67e0ce2e83751cd5f387fce51ad"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/native-search.png",
+      "bytes": 36266,
+      "sha256": "d677fbbe461c273341a51c59e41d5981749ede496aba8894fed68378ab7c8a20"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/native-search.txt",
+      "bytes": 376,
+      "sha256": "ea05990ea591cdb60ff628f35c1257e28ae21ece038f989c0718bc3eaadcc575"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/native.log",
+      "bytes": 1524,
+      "sha256": "7bf96cfed1c403daa468fa352e6b7f0eac68419f572392954706ea81579e428c"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/rapport.html",
+      "bytes": 418791,
+      "sha256": "60682485863e8dd84abde821f4e74ed31f2db2c2fe56a5899f5c80351f5bb162"
+    },
+    {
+      "path": ".verification/maui-live-comparison/preliminary-collection-replacement/summary.json",
+      "bytes": 69067,
+      "sha256": "ff3ea10aa971ca0f47a5d11116b602367c454208881e6ee92b5faa4be5d65ad2"
+    },
+    {
+      "path": ".verification/maui-live-comparison/rapport.html",
+      "bytes": 418790,
+      "sha256": "43bdd62767d1efa5e40849fa0681ea9cf004716f306dfd9cc98611fdd21864b1"
+    },
+    {
+      "path": ".verification/maui-live-comparison/reference.json",
+      "bytes": 1183,
+      "sha256": "cd4844d75f9650d772860a3c709b3a2e4ef731891cf4a54483bb4863fb88cad1"
+    },
+    {
+      "path": ".verification/maui-live-comparison/report.py",
+      "bytes": 11282,
+      "sha256": "6331c2f381e0ae0c6fd1115b1917520b2ccd01c8bb5ea0636193905859466652"
+    },
+    {
+      "path": ".verification/maui-live-comparison/restore.log",
+      "bytes": 670,
+      "sha256": "bf41e11f57a478beac0ed5790cc58872b9d5e8e6331c238381cd692d7d236d38"
+    },
+    {
+      "path": ".verification/maui-live-comparison/run.py",
+      "bytes": 2304,
+      "sha256": "d4666b5edd29b0dd6f7356b401b9d964de86235c46ca9f1224bc6e7da5f2f2db"
+    },
+    {
+      "path": ".verification/maui-live-comparison/sdk-metadata.json",
+      "bytes": 1100902,
+      "sha256": "9ff8d9f82238e70f9f65920594a1996e238846f522fae7942ebeb0d3d2d2f85e"
+    },
+    {
+      "path": ".verification/maui-live-comparison/summary.json",
+      "bytes": 68343,
+      "sha256": "ca4f98b688907560b18bb22694a4af3e04998aabe7f59656274af62a36c7025f"
+    },
+    {
+      "path": ".verification/maui-live-comparison/templates-metadata.json",
+      "bytes": 246,
+      "sha256": "b07a0eba2d4433e0b5b631fc158bb455bcd884937d2b0efd2f9eebd7db04ea45"
     },
     {
       "path": ".verification/slint-renderers/build-femtovg-wgpu.log",
@@ -2269,6 +2611,16 @@
       "sha256": "c105f32451ea7f41ed490411006e68057bc8713c9527da663978de5685c799ef"
     },
     {
+      "path": "LICENSE",
+      "bytes": 1079,
+      "sha256": "7f21c84cc0590fe0722a42da2cc2c2f771e5913387ff48acbae55527d4e8ea4f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8873,
+      "sha256": "249de09a42ce0b7a1adc7db2bc0f87a71f2dcab1e5615ed14d818be7d2fff171"
+    },
+    {
       "path": "experiments/README.md",
       "bytes": 3231,
       "sha256": "b70145679392ec58857f93c560dfd88e49d0e538377b54b69c80f1ff4f802de2"
@@ -2310,8 +2662,9 @@
     },
     {
       "path": "experiments/live-docker/README.md",
-      "bytes": 4050,
-      "sha256": "05b71b43fe388ebd5b1462d936aa3b2251a3f5b2d4710910a4509596ae9267ba"
+      "bytes": 4539,
+      "sha256": "ed439a73d3d2c37829a449d834653e30b202547dc3e293f82b941276d482982a",
+      "original_sha256": "05b71b43fe388ebd5b1462d936aa3b2251a3f5b2d4710910a4509596ae9267ba"
     },
     {
       "path": "experiments/live-docker/gpui-containers/.gitignore",
@@ -2347,6 +2700,41 @@
       "path": "experiments/live-docker/gpui-containers/src/search.rs",
       "bytes": 12040,
       "sha256": "29e42a1c666019f2e28b7095f763e99c57836c21e64f29bd6919cc13b6043227"
+    },
+    {
+      "path": "experiments/live-docker/maui-containers/.gitignore",
+      "bytes": 17,
+      "sha256": "851d02eca831dd5f6def3d0eadbcf944ec464a7fbd71d81a350314b6c6b47395"
+    },
+    {
+      "path": "experiments/live-docker/maui-containers/App.cs",
+      "bytes": 431,
+      "sha256": "84fb71aa29f1bcef9021f7f81611c6f2a9b252a1e1a88253463440202724e5fb"
+    },
+    {
+      "path": "experiments/live-docker/maui-containers/MainPage.cs",
+      "bytes": 7158,
+      "sha256": "46b5abea83d4aa0c372676cad16b7b48ed1483c958ea96ba8af60d971e976a7b"
+    },
+    {
+      "path": "experiments/live-docker/maui-containers/MauiContainers.csproj",
+      "bytes": 729,
+      "sha256": "2a4959a7ac66a89fa3674f41c4d57616d0b71c6815e13244f1228d7d65fb3244"
+    },
+    {
+      "path": "experiments/live-docker/maui-containers/Program.cs",
+      "bytes": 469,
+      "sha256": "a3f135138ab58441845d34dd4ddbb3776f6ee996dd35a2b25d59a6b0dc9a12c5"
+    },
+    {
+      "path": "experiments/live-docker/maui-containers/README.md",
+      "bytes": 3082,
+      "sha256": "71574d32598a3f603eac822776172fabf52a25a91becf6bb32ca73936dc06b91"
+    },
+    {
+      "path": "experiments/live-docker/maui-containers/packages.lock.json",
+      "bytes": 15371,
+      "sha256": "dbdd374449088bf1f37f80a17af5af94704883efd198b91a6243a8844abceecc"
     },
     {
       "path": "experiments/live-docker/measure.py",
@@ -2542,6 +2930,21 @@
       "path": "experiments/nanoui-containers/src/main.zig",
       "bytes": 7742,
       "sha256": "295536f252c6add9b62229dacf9cc5f903a1abe0ad2e1223c82b0b04cd0cfdf7"
+    },
+    {
+      "path": "index.html",
+      "bytes": 3176,
+      "sha256": "11c5f3ebd3e10d6c80ac017f9edff8972db5d7e8bb35cbdd30bbf02849efee06"
+    },
+    {
+      "path": "scripts/bootstrap-deps.py",
+      "bytes": 2267,
+      "sha256": "dc99f2d52a971942bd9db796adab96a1a7f61e57de94bf3f781b62f24cce5497"
+    },
+    {
+      "path": "scripts/update-archive-manifest.py",
+      "bytes": 1144,
+      "sha256": "842cf96c2f1e3211b064df045b33a4bf0c9fd5f2ef69ebce768e6c3107293f80"
     }
   ]
 }

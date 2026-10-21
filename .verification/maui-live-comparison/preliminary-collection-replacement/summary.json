@@ -1,0 +1,1851 @@
+{
+  "framework": "MAUI Controls 10.0.110 / experimental Linux GTK4 backend",
+  "backend_package": "0.1.0-preview.13.26512.5",
+  "sdk": ".NET SDK 10.0.402",
+  "docker_sdk": "Docker.DotNet.Enhanced 4.3.3",
+  "code_lines": 168,
+  "physical_lines": 184,
+  "source_sha256": {
+    "experiments/live-docker/maui-containers/App.cs": "84fb71aa29f1bcef9021f7f81611c6f2a9b252a1e1a88253463440202724e5fb",
+    "experiments/live-docker/maui-containers/MainPage.cs": "92a391e7d3fef166742b974ffd53f7c115794472170c94bcb0e0cf0d22474022",
+    "experiments/live-docker/maui-containers/Program.cs": "a3f135138ab58441845d34dd4ddbb3776f6ee996dd35a2b25d59a6b0dc9a12c5"
+  },
+  "medians": {
+    "idle_rss_median_bytes": 222543872.0,
+    "idle_pss_median_bytes": 193589248.0,
+    "idle_cpu_percent_one_core": 1.4384260709870373,
+    "visible_after_seconds": 0.6663867619936354
+  },
+  "builds": [
+    {
+      "kind": "framework-dependent",
+      "command": [
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/.verification/maui-live-comparison/toolchains/dotnet/dotnet",
+        "publish",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/MauiContainers.csproj",
+        "-c",
+        "Release",
+        "-r",
+        "linux-x64",
+        "--self-contained",
+        "false",
+        "-o",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/build/framework-dependent",
+        "-p:DebugType=None",
+        "-p:DebugSymbols=false",
+        "--verbosity",
+        "minimal"
+      ],
+      "elapsed_seconds": 3.8659435129957274,
+      "exit_code": 1,
+      "log": "build-framework-dependent-1.log",
+      "scope": "Publish after initial package restore; includes incremental compilation and any newly needed package downloads; not a clean-build timing."
+    },
+    {
+      "kind": "framework-dependent",
+      "command": [
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/.verification/maui-live-comparison/toolchains/dotnet/dotnet",
+        "publish",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/MauiContainers.csproj",
+        "-c",
+        "Release",
+        "-r",
+        "linux-x64",
+        "--self-contained",
+        "false",
+        "-o",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/build/framework-dependent",
+        "-p:DebugType=None",
+        "-p:DebugSymbols=false",
+        "--verbosity",
+        "minimal"
+      ],
+      "elapsed_seconds": 3.770040284987772,
+      "exit_code": 0,
+      "log": "build-framework-dependent-2.log",
+      "scope": "Publish after initial package restore; includes incremental compilation and any newly needed package downloads; not a clean-build timing.",
+      "directory_bytes": 14397909,
+      "file_count": 78,
+      "apphost_bytes": 78192
+    },
+    {
+      "kind": "self-contained",
+      "command": [
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/.verification/maui-live-comparison/toolchains/dotnet/dotnet",
+        "publish",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/MauiContainers.csproj",
+        "-c",
+        "Release",
+        "-r",
+        "linux-x64",
+        "--self-contained",
+        "true",
+        "-o",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/build/self-contained",
+        "-p:DebugType=None",
+        "-p:DebugSymbols=false",
+        "--verbosity",
+        "minimal"
+      ],
+      "elapsed_seconds": 2.1117180560249835,
+      "exit_code": 0,
+      "log": "build-self-contained-3.log",
+      "scope": "Publish after initial package restore; includes incremental compilation and any newly needed package downloads; not a clean-build timing.",
+      "directory_bytes": 96969972,
+      "file_count": 265,
+      "apphost_bytes": 78192
+    }
+  ],
+  "reference": {
+    "docker_host": "unix:///var/run/docker.sock",
+    "ids": [
+      "117feea78d81b7e86b4da2cd666c3f0b87bb9511171ec0ce6e88ba389b409cb3",
+      "1f3a0c05ba5ba5df2918e6891661497e129bdd64204b3d93c8d21ab619883cde",
+      "43f3241f892ed32d6bd8eedc13f1b9d3b20247e015b38080b1d06d2774fd6744",
+      "5f0d2da68770a4324cfc41ba06b064eedfdfb4872204d25eb7c819e114161179",
+      "655cbf2013d481354486181d8d916bc46d5d840c7ac22a9ce2fded313f7fa800",
+      "791acba8a077bc807ab794dcc2b6bd0cc7bba541a4d28fedf0aab39c3c8065bc",
+      "835d9356f9d258e149c227fffb8e6f96124ea8d9587d7b1179a0e5b7106a0774",
+      "84e8bc4813cb6a43d335dfe7e5bf57e7a261bf88886998782573fbcc67664876",
+      "9b907cd499df6312716c56041737d2c64f94a85b7cd18dcc2144a6c893b91593",
+      "9bfb2d851ac16c5977bd1f4065c73bd7d501d84bb1058e061fdc0b880fec9a79",
+      "a99cc144b4bd2ea34088a4cad3e3c4a957784a20c85146491b4fe6d45cf938b6",
+      "c2e89b812d9fefb3e2b6ecd651a1de147e2fe5b2238f7eae65b874b12800680a",
+      "e0947946bbc15b193d7e440ef434ef4b7e1e795c9eb54b627dcb4d71c1d0c4f6",
+      "f312396aa347fe5720a5c73f42b0f72b07be4c17ce51716cd50a850d91b7f0d2"
+    ],
+    "container_count": 14,
+    "ids_sha256": "9b3587c9a02aefc52a6ad2b5c04fb1ba6e3615c0673b13bf87ce0bc1db2ff931"
+  },
+  "native_observation": {
+    "query": "hexfit-activepieces",
+    "actions": [
+      {
+        "keyboard_target": "Initially focused search Entry, confirmed in startup capture"
+      },
+      {
+        "click": "Refresh",
+        "client_point": [
+          975,
+          65
+        ]
+      }
+    ],
+    "before_text": "Containers C# - NET MAUI - Docker SDK\n14/ 14 containers - all states - live Docker SOK\n\nName Image State Status\nhexfit-activepieces ghcrio/activepieces/activepieces:0.92.1 running Up 2 days (healthy)\nhexfit-activepieces-postgres Pgvector/pgvector:0.8.0-pg14 running Up 3 days (healthy)\nhexfitactivepieces-redis redis:7.2-alpine running Up3days\nhexfit-mailpit axlent/mailpit running Up 3 days (healthy)\nhexfit-main-backend-laravel-fom I':rga\u2018;:}\"\u2018g\u2018;\u201c;b\u2018\u201c\u2019\"\u2018\"\u2018M\"/\"E\"\ufb02\"d\u201c\u2018\u201d\"\u201cke\"d' running Up 34 hours\nhexfit-main-backend-legacy-fpm I'::::y\u2019}\u2019{g\ufb02\u201cfb\u2018\u201c\u2019\"\u2018\"\u2018M\"/\"E\"\ufb02\"d\u201c\u2018\u201d\"\u201cke\"d' running Up 34 hours\ne reisgitah comhexfihexUdSbaten g up 34 s\nhexfit-main-pro registry.gitlab.com/hexfit/exfit/ui-pro-base:1.1.0  running Up About an hour\nhexfit-main-pro-egacy. hexfit-main-pro-legacy running Up 34 hours\nhexfit-main-scheduler easeb comexfivhefivdevibackend: running Up 47 minutes\nhexfit-pgsal hexfit-infra-pgsal running Up3days\nhexfit-pgsal-test hexfitinfra-pgsql-test running Up3days\nhexfit-proxy nginxialpine running Up3days\nhexfit-redis valkeyvalkey:9.1-alpine. running Up3days\n",
+    "search_text": "Containers C# - NET MAUI - Docker SDK\nhexfit-activepieces| Refresh\n\n3 /14 containers - all states - live Docker SDK\n\nName Image state Status\n\nhexfit-activepieces ghcrio/activepieces/activepieces:0.92.1 running Up 2 days (healthy)\nhexfit-activepieces-postgres pavector/pgvector:0.8.0-pg14 running Up 3 days (healthy)\nhexfit-activepieces-redis redis:7.2-alpine running Up3 days\n",
+    "cleared_text": "Containers C# - NET MAUI - Docker SDK\n14/ 14 containers - all states - live Docker SOK\n\nName Image State Status\nhexfit-activepieces ghcrio/activepieces/activepieces:0.92.1 running Up 2 days (healthy)\nhexfit-activepieces-postgres Pgvector/pgvector:0.8.0-pg14 running Up 3 days (healthy)\nhexfitactivepieces-redis redis:7.2-alpine running Up3days\nhexfit-mailpit axlent/mailpit running Up 3 days (healthy)\nhexfit-main-backend-laravel-fom I':rga\u2018;:}\"\u2018g\u2018;\u201c;b\u2018\u201c\u2019\"\u2018\"\u2018M\"/\"E\"\ufb02\"d\u201c\u2018\u201d\"\u201cke\"d' running Up 34 hours\nhexfit-main-backend-legacy-fpm I'::::y\u2019}\u2019{g\ufb02\u201cfb\u2018\u201c\u2019\"\u2018\"\u2018M\"/\"E\"\ufb02\"d\u201c\u2018\u201d\"\u201cke\"d' running Up 34 hours\ne reisgitah comhexfihexUdSbaten g up 34 s\nhexfit-main-pro registry.gitlab.com/hexfit/exfit/ui-pro-base:1.1.0  running Up About an hour\nhexfit-main-pro-egacy. hexfit-main-pro-legacy running Up 34 hours\nhexfit-main-scheduler easeb comexfivhefivdevibackend: running Up 47 minutes\nhexfit-pgsal hexfit-infra-pgsal running Up3days\nhexfit-pgsal-test hexfitinfra-pgsql-test running Up3days\nhexfit-proxy nginxialpine running Up3days\nhexfit-redis valkeyvalkey:9.1-alpine. running Up3days\n",
+    "refreshed_text": "Containers C# - NET MAUI - Docker SDK\n\nSearch name, image, state. Refresh\n\n14/ 14 containers - all states - live Docker SOK\n\nName Image State Status\n\nhexfit-activepieces ghcrio/activepieces/activepieces:0.92.1 running Up 2 days (healthy)\n\nhexfit-activepieces-postgres Pgvector/pgvector:0.8.0-pg14 running Up 2 days (healthy)\n\nhexfitactivepieces-redis redis:7.2-alpine running Up3days\n\nhexfit-mailpit axlent/mailpit running Up 2 days (healthy)\n\nhexfit-main-backend-laravel-fom e e e T s e running Up 34 hours\nlaravel:1.4.0\n\nhexfit-main-backend-legacy-fpm g e e i s e running Up 34 hours\nlegacy:1.0.1\n\nhextitmain horizon registry.gitlab.com/hexfit/exfit/dev/backend- \u2014 T\nlaravel:1.4.0\n\nhexfit-main-pro registry.gitlab.com/hexfit/hexfit/ui-pro-base:1.1.0  running Up About an hour\n\nhexfit-main-pro-egacy. hexfit-main-pro-legacy running Up 34 hours\n\nhexfitmaimscheduler registry.gitlab.com/hexfit/exfit/dev/backend- \u2014 S\nlaravel:1.4.0\n\nhexfit-pgsal hexfitinfra-pgsal running Up3days\n\nhexfit-pgsal-test hexfitinfra-pgsql-test running Up3days\n\nhexfit-proxy nginxialpine running Up3days\n\nhexfit-redis valkeyvalkey:9.1-alpine. running Up3days\n",
+    "loads_before_refresh": 1,
+    "loads_after_refresh": 1,
+    "pid": 2399450,
+    "window": "33554436",
+    "owned_process_exited": true
+  },
+  "runs": [
+    {
+      "name": "maui",
+      "run": 1,
+      "visible_after_seconds": 0.8911422139790375,
+      "warmup_seconds": 4,
+      "idle_seconds": 20.1609249059984,
+      "idle_cpu_percent_one_core": 1.4384260709870373,
+      "idle_rss_median_bytes": 225210368.0,
+      "idle_pss_median_bytes": 201347072.0,
+      "sampled_peak_rss_bytes": 225222656,
+      "max_processes": 1,
+      "binary_bytes": 78192,
+      "binary_sha256": "1cdb42e821753eb26244e783896d14a7d9d0b83283534dc54fd65da67bd0dbff",
+      "data_source": "live Docker Engine API via SDK",
+      "docker_host": "unix:///var/run/docker.sock",
+      "load_log": "\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.335: Use GtkSettings:gtk-interface-color-scheme instead\nDocker load: count=14 elapsed_ms=120 ids=117feea78d81b7e86b4da2cd666c3f0b87bb9511171ec0ce6e88ba389b409cb3,1f3a0c05ba5ba5df2918e6891661497e129bdd64204b3d93c8d21ab619883cde,43f3241f892ed32d6bd8eedc13f1b9d3b20247e015b38080b1d06d2774fd6744,5f0d2da68770a4324cfc41ba06b064eedfdfb4872204d25eb7c819e114161179,655cbf2013d481354486181d8d916bc46d5d840c7ac22a9ce2fded313f7fa800,791acba8a077bc807ab794dcc2b6bd0cc7bba541a4d28fedf0aab39c3c8065bc,835d9356f9d258e149c227fffb8e6f96124ea8d9587d7b1179a0e5b7106a0774,84e8bc4813cb6a43d335dfe7e5bf57e7a261bf88886998782573fbcc67664876,9b907cd499df6312716c56041737d2c64f94a85b7cd18dcc2144a6c893b91593,9bfb2d851ac16c5977bd1f4065c73bd7d501d84bb1058e061fdc0b880fec9a79,a99cc144b4bd2ea34088a4cad3e3c4a957784a20c85146491b4fe6d45cf938b6,c2e89b812d9fefb3e2b6ecd651a1de147e2fe5b2238f7eae65b874b12800680a,e0947946bbc15b193d7e440ef434ef4b7e1e795c9eb54b627dcb4d71c1d0c4f6,f312396aa347fe5720a5c73f42b0f72b07be4c17ce51716cd50a850d91b7f0d2\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.584: Trying to measure GtkLabel 0x5559fee9b7a0 for width of 46, but it needs at least 49\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.587: Trying to measure GtkLabel 0x5559fed20dd0 for width of 46, but it needs at least 49\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.588: Trying to measure GtkLabel 0x5559ff1dff60 for width of 46, but it needs at least 49\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.590: Trying to measure GtkLabel 0x5559ff1f3230 for width of 46, but it needs at least 49\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.591: Trying to measure GtkLabel 0x5559ff1e56c0 for width of 117, but it needs at least 119\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.591: Trying to measure GtkLabel 0x5559ff2036c0 for width of 46, but it needs at least 49\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.593: Trying to measure GtkLabel 0x5559ff1fb640 for width of 117, but it needs at least 119\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.593: Trying to measure GtkLabel 0x5559ff1fde80 for width of 46, but it needs at least 49\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.594: Trying to measure GtkLabel 0x5559ff2232c0 for width of 117, but it needs at least 119\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.594: Trying to measure GtkLabel 0x5559ff225b20 for width of 46, but it needs at least 49\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.595: Trying to measure GtkLabel 0x5559ff215c20 for width of 117, but it needs at least 119\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.595: Trying to measure GtkLabel 0x5559ff237bb0 for width of 46, but it needs at least 49\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.597: Trying to measure GtkLabel 0x5559ff2491f0 for width of 46, but it needs at least 49\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.598: Trying to measure GtkLabel 0x5559ff22f640 for width of 117, but it needs at least 119\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.598: Trying to measure GtkLabel 0x5559ff235d20 for width of 46, but it needs at least 49\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.599: Trying to measure GtkLabel 0x5559ff26f240 for width of 46, but it needs at least 49\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.602: Trying to measure GtkLabel 0x5559ff27f950 for width of 46, but it needs at least 49\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.605: Trying to measure GtkLabel 0x5559ff25e190 for width of 46, but it needs at least 49\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.607: Trying to measure GtkLabel 0x5559ff2a2850 for width of 46, but it needs at least 49\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.618: Trying to measure GtkEntry 0x7f8d88021ba0 for width of 1, but it needs at least 29\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.618: gtk_widget_size_allocate(): attempt to allocate GtkText text 0x5559feb5e5e0 with width -17 and height -1\n\n(MauiContainers:2393165): Gtk-WARNING **: 20:44:30.618: gtk_widget_size_allocate(): attempt to allocate GtkLabel label 0x5559fef26dc0 with width -1 and height -1\n",
+      "backend": "MAUI 10.0.110 / experimental GTK4 / X11 on Plasma Wayland (XWayland)",
+      "client_size": [
+        1000,
+        680
+      ],
+      "gpui_x11_scale_factor": null,
+      "shared_libraries": [
+        "/etc/ld.so.cache",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/build/self-contained/libSystem.Native.so",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/build/self-contained/libclrjit.so",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/build/self-contained/libcoreclr.so",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/build/self-contained/libhostfxr.so",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/build/self-contained/libhostpolicy.so",
+        "/usr/lib/ld-linux-x86-64.so.2",
+        "/usr/lib/libEGL.so.1.1.0",
+        "/usr/lib/libEGL_mesa.so.0.0.0",
+        "/usr/lib/libGLESv2.so.2.1.0",
+        "/usr/lib/libGLX.so.0.0.0",
+        "/usr/lib/libGLdispatch.so.0.0.0",
+        "/usr/lib/libLLVM.so.23.1",
+        "/usr/lib/libSPIRV-Tools.so",
+        "/usr/lib/libX11-xcb.so.1.0.0",
+        "/usr/lib/libX11.so.6.4.0",
+        "/usr/lib/libXau.so.6.0.0",
+        "/usr/lib/libXcursor.so.1.0.2",
+        "/usr/lib/libXdamage.so.1.1.0",
+        "/usr/lib/libXdmcp.so.6.0.0",
+        "/usr/lib/libXext.so.6.4.0",
+        "/usr/lib/libXfixes.so.3.1.0",
+        "/usr/lib/libXi.so.6.1.0",
+        "/usr/lib/libXinerama.so.1.0.0",
+        "/usr/lib/libXrandr.so.2.2.0",
+        "/usr/lib/libXrender.so.1.3.0",
+        "/usr/lib/libavahi-client.so.3.2.9",
+        "/usr/lib/libavahi-common.so.3.5.4",
+        "/usr/lib/libblkid.so.1.1.0",
+        "/usr/lib/libbrotlicommon.so.1.2.0",
+        "/usr/lib/libbrotlidec.so.1.2.0",
+        "/usr/lib/libbz2.so.1.0.8",
+        "/usr/lib/libc.so.6",
+        "/usr/lib/libcairo-gobject.so.2.11806.6",
+        "/usr/lib/libcairo-script-interpreter.so.2.11806.6",
+        "/usr/lib/libcairo.so.2.11806.6",
+        "/usr/lib/libcloudproviders.so.0.4.1",
+        "/usr/lib/libcolord.so.2.0.5",
+        "/usr/lib/libcups.so.2",
+        "/usr/lib/libdatrie.so.1.4.1",
+        "/usr/lib/libdbus-1.so.3.38.3",
+        "/usr/lib/libdeflate.so.0",
+        "/usr/lib/libdl.so.2",
+        "/usr/lib/libdrm.so.2.134.0",
+        "/usr/lib/libdrm_amdgpu.so.1.134.0",
+        "/usr/lib/libdrm_intel.so.1.134.0",
+        "/usr/lib/libdw-0.196.so",
+        "/usr/lib/libedit.so.0.0.78",
+        "/usr/lib/libelf-0.196.so",
+        "/usr/lib/libepoxy.so.0.0.0",
+        "/usr/lib/libexpat.so.1.13.0",
+        "/usr/lib/libffi.so.8.5.0",
+        "/usr/lib/libfontconfig.so.1.17.0",
+        "/usr/lib/libfreetype.so.6.20.7",
+        "/usr/lib/libfribidi.so.0.4.0",
+        "/usr/lib/libgallium-26.2.4-arch3.1.so",
+        "/usr/lib/libgbm.so.1.0.0",
+        "/usr/lib/libgcc_s.so.1",
+        "/usr/lib/libgdk_pixbuf-2.0.so.0.4400.8",
+        "/usr/lib/libgio-2.0.so.0.9000.1",
+        "/usr/lib/libglib-2.0.so.0.9000.1",
+        "/usr/lib/libglycin-2.so.0",
+        "/usr/lib/libgmodule-2.0.so.0.9000.1",
+        "/usr/lib/libgmp.so.10.5.0",
+        "/usr/lib/libgnutls.so.30.42.0",
+        "/usr/lib/libgobject-2.0.so.0.9000.1",
+        "/usr/lib/libgraphene-1.0.so.0.1000.8",
+        "/usr/lib/libgraphite2.so.3.3.1",
+        "/usr/lib/libgstallocators-1.0.so.0.2808.0",
+        "/usr/lib/libgstaudio-1.0.so.0.2808.0",
+        "/usr/lib/libgstbase-1.0.so.0.2808.0",
+        "/usr/lib/libgstgl-1.0.so.0.2808.0",
+        "/usr/lib/libgstpbutils-1.0.so.0.2808.0",
+        "/usr/lib/libgstplay-1.0.so.0.2808.0",
+        "/usr/lib/libgstreamer-1.0.so.0.2808.0",
+        "/usr/lib/libgsttag-1.0.so.0.2808.0",
+        "/usr/lib/libgstvideo-1.0.so.0.2808.0",
+        "/usr/lib/libgtk-4.so.1.2400.1",
+        "/usr/lib/libgudev-1.0.so.0.3.0",
+        "/usr/lib/libharfbuzz-gobject.so.0.61460.0",
+        "/usr/lib/libharfbuzz-subset.so.0.61460.0",
+        "/usr/lib/libharfbuzz.so.0.61460.0",
+        "/usr/lib/libhogweed.so.7.0",
+        "/usr/lib/libicudata.so.78.3",
+        "/usr/lib/libicui18n.so.78.3",
+        "/usr/lib/libicuuc.so.78.3",
+        "/usr/lib/libidn2.so.0.4.0",
+        "/usr/lib/libjbig.so.2.2",
+        "/usr/lib/libjpeg.so.8.3.2",
+        "/usr/lib/libjson-glib-1.0.so.0.1000.8",
+        "/usr/lib/liblcms2.so.2.0.19",
+        "/usr/lib/libleancrypto.so.1.9.1",
+        "/usr/lib/liblzma.so.5.8.3",
+        "/usr/lib/liblzo2.so.2.0.0",
+        "/usr/lib/libm.so.6",
+        "/usr/lib/libmount.so.1.1.0",
+        "/usr/lib/libncursesw.so.6.6",
+        "/usr/lib/libnettle.so.9.0",
+        "/usr/lib/liborc-0.4.so.0.44.0",
+        "/usr/lib/libp11-kit.so.0.4.11",
+        "/usr/lib/libpango-1.0.so.0.5800.2",
+        "/usr/lib/libpangocairo-1.0.so.0.5800.2",
+        "/usr/lib/libpangoft2-1.0.so.0.5800.2",
+        "/usr/lib/libpciaccess.so.0.11.1",
+        "/usr/lib/libpcre2-8.so.0.16.1",
+        "/usr/lib/libpixman-1.so.0.46.4",
+        "/usr/lib/libpng16.so.16.50.0",
+        "/usr/lib/libpthread.so.0",
+        "/usr/lib/librt.so.1",
+        "/usr/lib/libseccomp.so.2.6.0",
+        "/usr/lib/libsensors.so.5.0.0",
+        "/usr/lib/libsharpyuv.so.0.1.2",
+        "/usr/lib/libsqlite3.so.3.54.0",
+        "/usr/lib/libstdc++.so.6.0.36",
+        "/usr/lib/libsystemd.so.0.45.0",
+        "/usr/lib/libtasn1.so.6.6.5",
+        "/usr/lib/libthai.so.0.3.2",
+        "/usr/lib/libtiff.so.6.3.0",
+        "/usr/lib/libtinysparql-3.0.so.0.1200.0",
+        "/usr/lib/libudev.so.1.7.15",
+        "/usr/lib/libunistring.so.5.2.1",
+        "/usr/lib/libunwind.so.8.2.0",
+        "/usr/lib/libvulkan.so.1.4.363",
+        "/usr/lib/libwayland-client.so.0.26.0",
+        "/usr/lib/libwayland-cursor.so.0.26.0",
+        "/usr/lib/libwayland-egl.so.1.26.0",
+        "/usr/lib/libwebp.so.7.2.0",
+        "/usr/lib/libxcb-dri3.so.0.1.0",
+        "/usr/lib/libxcb-present.so.0.0.0",
+        "/usr/lib/libxcb-randr.so.0.1.0",
+        "/usr/lib/libxcb-render.so.0.0.0",
+        "/usr/lib/libxcb-shm.so.0.0.0",
+        "/usr/lib/libxcb-sync.so.1.0.0",
+        "/usr/lib/libxcb-xfixes.so.0.0.0",
+        "/usr/lib/libxcb.so.1.1.0",
+        "/usr/lib/libxkbcommon.so.0.13.2",
+        "/usr/lib/libxml2.so.16.1.4",
+        "/usr/lib/libxshmfence.so.1.0.0",
+        "/usr/lib/libz.so.1.3.1.zlib-ng",
+        "/usr/lib/libzstd.so.1.5.7"
+      ],
+      "graphics_libraries": [
+        "/usr/lib/libEGL.so.1.1.0",
+        "/usr/lib/libEGL_mesa.so.0.0.0",
+        "/usr/lib/libGLESv2.so.2.1.0",
+        "/usr/lib/libGLX.so.0.0.0",
+        "/usr/lib/libGLdispatch.so.0.0.0",
+        "/usr/lib/libvulkan.so.1.4.363"
+      ],
+      "samples": [
+        {
+          "phase": "warmup",
+          "rss_bytes": 186523648,
+          "pss_bytes": 164321280,
+          "cpu_seconds": 0.78,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 224366592,
+          "pss_bytes": 200620032,
+          "cpu_seconds": 0.96,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 224804864,
+          "pss_bytes": 201056256,
+          "cpu_seconds": 1.02,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 224800768,
+          "pss_bytes": 201060352,
+          "cpu_seconds": 1.03,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 224825344,
+          "pss_bytes": 201080832,
+          "cpu_seconds": 1.04,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 224829440,
+          "pss_bytes": 201084928,
+          "cpu_seconds": 1.05,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 224829440,
+          "pss_bytes": 201084928,
+          "cpu_seconds": 1.07,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 224829440,
+          "pss_bytes": 201084928,
+          "cpu_seconds": 1.07,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 224829440,
+          "pss_bytes": 201084928,
+          "cpu_seconds": 1.08,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 224829440,
+          "pss_bytes": 201084928,
+          "cpu_seconds": 1.08,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 224829440,
+          "pss_bytes": 201084928,
+          "cpu_seconds": 1.09,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 224829440,
+          "pss_bytes": 201084928,
+          "cpu_seconds": 1.09,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 224829440,
+          "pss_bytes": 201084928,
+          "cpu_seconds": 1.1,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 224829440,
+          "pss_bytes": 201084928,
+          "cpu_seconds": 1.1,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 224829440,
+          "pss_bytes": 201084928,
+          "cpu_seconds": 1.11,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 224833536,
+          "pss_bytes": 201086976,
+          "cpu_seconds": 1.12,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 224833536,
+          "pss_bytes": 201086976,
+          "cpu_seconds": 1.12,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 224833536,
+          "pss_bytes": 201086976,
+          "cpu_seconds": 1.13,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 224833536,
+          "pss_bytes": 201086976,
+          "cpu_seconds": 1.14,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 224874496,
+          "pss_bytes": 201062400,
+          "cpu_seconds": 1.15,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 224874496,
+          "pss_bytes": 201062400,
+          "cpu_seconds": 1.18,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225091584,
+          "pss_bytes": 201249792,
+          "cpu_seconds": 1.22,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225157120,
+          "pss_bytes": 201315328,
+          "cpu_seconds": 1.25,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225157120,
+          "pss_bytes": 201315328,
+          "cpu_seconds": 1.26,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225157120,
+          "pss_bytes": 201315328,
+          "cpu_seconds": 1.27,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225157120,
+          "pss_bytes": 201315328,
+          "cpu_seconds": 1.28,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225157120,
+          "pss_bytes": 201315328,
+          "cpu_seconds": 1.3,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225157120,
+          "pss_bytes": 201315328,
+          "cpu_seconds": 1.3,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225222656,
+          "pss_bytes": 201380864,
+          "cpu_seconds": 1.31,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225222656,
+          "pss_bytes": 201380864,
+          "cpu_seconds": 1.31,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225222656,
+          "pss_bytes": 201380864,
+          "cpu_seconds": 1.32,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225222656,
+          "pss_bytes": 201380864,
+          "cpu_seconds": 1.32,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225222656,
+          "pss_bytes": 201380864,
+          "cpu_seconds": 1.32,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225222656,
+          "pss_bytes": 201380864,
+          "cpu_seconds": 1.33,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225222656,
+          "pss_bytes": 201380864,
+          "cpu_seconds": 1.33,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225222656,
+          "pss_bytes": 201380864,
+          "cpu_seconds": 1.34,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225210368,
+          "pss_bytes": 201368576,
+          "cpu_seconds": 1.34,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225210368,
+          "pss_bytes": 201368576,
+          "cpu_seconds": 1.34,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225210368,
+          "pss_bytes": 201368576,
+          "cpu_seconds": 1.34,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225210368,
+          "pss_bytes": 201368576,
+          "cpu_seconds": 1.35,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225210368,
+          "pss_bytes": 201368576,
+          "cpu_seconds": 1.35,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225210368,
+          "pss_bytes": 201368576,
+          "cpu_seconds": 1.36,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225210368,
+          "pss_bytes": 201368576,
+          "cpu_seconds": 1.36,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225210368,
+          "pss_bytes": 201368576,
+          "cpu_seconds": 1.36,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225210368,
+          "pss_bytes": 201368576,
+          "cpu_seconds": 1.36,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225210368,
+          "pss_bytes": 201368576,
+          "cpu_seconds": 1.37,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225210368,
+          "pss_bytes": 201368576,
+          "cpu_seconds": 1.37,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225210368,
+          "pss_bytes": 201347072,
+          "cpu_seconds": 1.38,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225210368,
+          "pss_bytes": 201347072,
+          "cpu_seconds": 1.38,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225210368,
+          "pss_bytes": 201347072,
+          "cpu_seconds": 1.39,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225210368,
+          "pss_bytes": 201347072,
+          "cpu_seconds": 1.39,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225210368,
+          "pss_bytes": 201347072,
+          "cpu_seconds": 1.4,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225210368,
+          "pss_bytes": 201347072,
+          "cpu_seconds": 1.4,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225210368,
+          "pss_bytes": 201347072,
+          "cpu_seconds": 1.4,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225210368,
+          "pss_bytes": 201347072,
+          "cpu_seconds": 1.41,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 225210368,
+          "pss_bytes": 201347072,
+          "cpu_seconds": 1.41,
+          "processes": 1
+        }
+      ],
+      "same_ids_as_reference": true
+    },
+    {
+      "name": "maui",
+      "run": 2,
+      "visible_after_seconds": 0.6022858160140458,
+      "warmup_seconds": 4,
+      "idle_seconds": 20.169021404988598,
+      "idle_cpu_percent_one_core": 3.2227641934041937,
+      "idle_rss_median_bytes": 222543872.0,
+      "idle_pss_median_bytes": 193589248.0,
+      "sampled_peak_rss_bytes": 222560256,
+      "max_processes": 1,
+      "binary_bytes": 78192,
+      "binary_sha256": "1cdb42e821753eb26244e783896d14a7d9d0b83283534dc54fd65da67bd0dbff",
+      "data_source": "live Docker Engine API via SDK",
+      "docker_host": "unix:///var/run/docker.sock",
+      "load_log": "\n(MauiContainers:2394301): Gtk-WARNING **: 20:45:09.165: Use GtkSettings:gtk-interface-color-scheme instead\nDocker load: count=14 elapsed_ms=120 ids=117feea78d81b7e86b4da2cd666c3f0b87bb9511171ec0ce6e88ba389b409cb3,1f3a0c05ba5ba5df2918e6891661497e129bdd64204b3d93c8d21ab619883cde,43f3241f892ed32d6bd8eedc13f1b9d3b20247e015b38080b1d06d2774fd6744,5f0d2da68770a4324cfc41ba06b064eedfdfb4872204d25eb7c819e114161179,655cbf2013d481354486181d8d916bc46d5d840c7ac22a9ce2fded313f7fa800,791acba8a077bc807ab794dcc2b6bd0cc7bba541a4d28fedf0aab39c3c8065bc,835d9356f9d258e149c227fffb8e6f96124ea8d9587d7b1179a0e5b7106a0774,84e8bc4813cb6a43d335dfe7e5bf57e7a261bf88886998782573fbcc67664876,9b907cd499df6312716c56041737d2c64f94a85b7cd18dcc2144a6c893b91593,9bfb2d851ac16c5977bd1f4065c73bd7d501d84bb1058e061fdc0b880fec9a79,a99cc144b4bd2ea34088a4cad3e3c4a957784a20c85146491b4fe6d45cf938b6,c2e89b812d9fefb3e2b6ecd651a1de147e2fe5b2238f7eae65b874b12800680a,e0947946bbc15b193d7e440ef434ef4b7e1e795c9eb54b627dcb4d71c1d0c4f6,f312396aa347fe5720a5c73f42b0f72b07be4c17ce51716cd50a850d91b7f0d2\n\n(MauiContainers:2394301): Gtk-WARNING **: 20:45:09.419: Trying to measure GtkEntry 0x55ab185305a0 for width of 1, but it needs at least 29\n\n(MauiContainers:2394301): Gtk-WARNING **: 20:45:09.419: gtk_widget_size_allocate(): attempt to allocate GtkText text 0x55ab183bbbc0 with width -17 and height -1\n\n(MauiContainers:2394301): Gtk-WARNING **: 20:45:09.419: gtk_widget_size_allocate(): attempt to allocate GtkLabel label 0x55ab186122b0 with width -1 and height -1\n",
+      "backend": "MAUI 10.0.110 / experimental GTK4 / X11 on Plasma Wayland (XWayland)",
+      "client_size": [
+        1000,
+        680
+      ],
+      "gpui_x11_scale_factor": null,
+      "shared_libraries": [
+        "/etc/ld.so.cache",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/build/self-contained/libSystem.Native.so",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/build/self-contained/libclrjit.so",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/build/self-contained/libcoreclr.so",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/build/self-contained/libhostfxr.so",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/build/self-contained/libhostpolicy.so",
+        "/usr/lib/ld-linux-x86-64.so.2",
+        "/usr/lib/libEGL.so.1.1.0",
+        "/usr/lib/libEGL_mesa.so.0.0.0",
+        "/usr/lib/libGLESv2.so.2.1.0",
+        "/usr/lib/libGLX.so.0.0.0",
+        "/usr/lib/libGLdispatch.so.0.0.0",
+        "/usr/lib/libLLVM.so.23.1",
+        "/usr/lib/libSPIRV-Tools.so",
+        "/usr/lib/libX11-xcb.so.1.0.0",
+        "/usr/lib/libX11.so.6.4.0",
+        "/usr/lib/libXau.so.6.0.0",
+        "/usr/lib/libXcursor.so.1.0.2",
+        "/usr/lib/libXdamage.so.1.1.0",
+        "/usr/lib/libXdmcp.so.6.0.0",
+        "/usr/lib/libXext.so.6.4.0",
+        "/usr/lib/libXfixes.so.3.1.0",
+        "/usr/lib/libXi.so.6.1.0",
+        "/usr/lib/libXinerama.so.1.0.0",
+        "/usr/lib/libXrandr.so.2.2.0",
+        "/usr/lib/libXrender.so.1.3.0",
+        "/usr/lib/libavahi-client.so.3.2.9",
+        "/usr/lib/libavahi-common.so.3.5.4",
+        "/usr/lib/libblkid.so.1.1.0",
+        "/usr/lib/libbrotlicommon.so.1.2.0",
+        "/usr/lib/libbrotlidec.so.1.2.0",
+        "/usr/lib/libbz2.so.1.0.8",
+        "/usr/lib/libc.so.6",
+        "/usr/lib/libcairo-gobject.so.2.11806.6",
+        "/usr/lib/libcairo-script-interpreter.so.2.11806.6",
+        "/usr/lib/libcairo.so.2.11806.6",
+        "/usr/lib/libcloudproviders.so.0.4.1",
+        "/usr/lib/libcolord.so.2.0.5",
+        "/usr/lib/libcups.so.2",
+        "/usr/lib/libdatrie.so.1.4.1",
+        "/usr/lib/libdbus-1.so.3.38.3",
+        "/usr/lib/libdeflate.so.0",
+        "/usr/lib/libdl.so.2",
+        "/usr/lib/libdrm.so.2.134.0",
+        "/usr/lib/libdrm_amdgpu.so.1.134.0",
+        "/usr/lib/libdrm_intel.so.1.134.0",
+        "/usr/lib/libdw-0.196.so",
+        "/usr/lib/libedit.so.0.0.78",
+        "/usr/lib/libelf-0.196.so",
+        "/usr/lib/libepoxy.so.0.0.0",
+        "/usr/lib/libexpat.so.1.13.0",
+        "/usr/lib/libffi.so.8.5.0",
+        "/usr/lib/libfontconfig.so.1.17.0",
+        "/usr/lib/libfreetype.so.6.20.7",
+        "/usr/lib/libfribidi.so.0.4.0",
+        "/usr/lib/libgallium-26.2.4-arch3.1.so",
+        "/usr/lib/libgbm.so.1.0.0",
+        "/usr/lib/libgcc_s.so.1",
+        "/usr/lib/libgdk_pixbuf-2.0.so.0.4400.8",
+        "/usr/lib/libgio-2.0.so.0.9000.1",
+        "/usr/lib/libglib-2.0.so.0.9000.1",
+        "/usr/lib/libglycin-2.so.0",
+        "/usr/lib/libgmodule-2.0.so.0.9000.1",
+        "/usr/lib/libgmp.so.10.5.0",
+        "/usr/lib/libgnutls.so.30.42.0",
+        "/usr/lib/libgobject-2.0.so.0.9000.1",
+        "/usr/lib/libgraphene-1.0.so.0.1000.8",
+        "/usr/lib/libgraphite2.so.3.3.1",
+        "/usr/lib/libgstallocators-1.0.so.0.2808.0",
+        "/usr/lib/libgstaudio-1.0.so.0.2808.0",
+        "/usr/lib/libgstbase-1.0.so.0.2808.0",
+        "/usr/lib/libgstgl-1.0.so.0.2808.0",
+        "/usr/lib/libgstpbutils-1.0.so.0.2808.0",
+        "/usr/lib/libgstplay-1.0.so.0.2808.0",
+        "/usr/lib/libgstreamer-1.0.so.0.2808.0",
+        "/usr/lib/libgsttag-1.0.so.0.2808.0",
+        "/usr/lib/libgstvideo-1.0.so.0.2808.0",
+        "/usr/lib/libgtk-4.so.1.2400.1",
+        "/usr/lib/libgudev-1.0.so.0.3.0",
+        "/usr/lib/libharfbuzz-gobject.so.0.61460.0",
+        "/usr/lib/libharfbuzz-subset.so.0.61460.0",
+        "/usr/lib/libharfbuzz.so.0.61460.0",
+        "/usr/lib/libhogweed.so.7.0",
+        "/usr/lib/libicudata.so.78.3",
+        "/usr/lib/libicui18n.so.78.3",
+        "/usr/lib/libicuuc.so.78.3",
+        "/usr/lib/libidn2.so.0.4.0",
+        "/usr/lib/libjbig.so.2.2",
+        "/usr/lib/libjpeg.so.8.3.2",
+        "/usr/lib/libjson-glib-1.0.so.0.1000.8",
+        "/usr/lib/liblcms2.so.2.0.19",
+        "/usr/lib/libleancrypto.so.1.9.1",
+        "/usr/lib/liblzma.so.5.8.3",
+        "/usr/lib/liblzo2.so.2.0.0",
+        "/usr/lib/libm.so.6",
+        "/usr/lib/libmount.so.1.1.0",
+        "/usr/lib/libncursesw.so.6.6",
+        "/usr/lib/libnettle.so.9.0",
+        "/usr/lib/liborc-0.4.so.0.44.0",
+        "/usr/lib/libp11-kit.so.0.4.11",
+        "/usr/lib/libpango-1.0.so.0.5800.2",
+        "/usr/lib/libpangocairo-1.0.so.0.5800.2",
+        "/usr/lib/libpangoft2-1.0.so.0.5800.2",
+        "/usr/lib/libpciaccess.so.0.11.1",
+        "/usr/lib/libpcre2-8.so.0.16.1",
+        "/usr/lib/libpixman-1.so.0.46.4",
+        "/usr/lib/libpng16.so.16.50.0",
+        "/usr/lib/libpthread.so.0",
+        "/usr/lib/librt.so.1",
+        "/usr/lib/libseccomp.so.2.6.0",
+        "/usr/lib/libsensors.so.5.0.0",
+        "/usr/lib/libsharpyuv.so.0.1.2",
+        "/usr/lib/libsqlite3.so.3.54.0",
+        "/usr/lib/libstdc++.so.6.0.36",
+        "/usr/lib/libsystemd.so.0.45.0",
+        "/usr/lib/libtasn1.so.6.6.5",
+        "/usr/lib/libthai.so.0.3.2",
+        "/usr/lib/libtiff.so.6.3.0",
+        "/usr/lib/libtinysparql-3.0.so.0.1200.0",
+        "/usr/lib/libudev.so.1.7.15",
+        "/usr/lib/libunistring.so.5.2.1",
+        "/usr/lib/libunwind.so.8.2.0",
+        "/usr/lib/libvulkan.so.1.4.363",
+        "/usr/lib/libwayland-client.so.0.26.0",
+        "/usr/lib/libwayland-cursor.so.0.26.0",
+        "/usr/lib/libwayland-egl.so.1.26.0",
+        "/usr/lib/libwebp.so.7.2.0",
+        "/usr/lib/libxcb-dri3.so.0.1.0",
+        "/usr/lib/libxcb-present.so.0.0.0",
+        "/usr/lib/libxcb-randr.so.0.1.0",
+        "/usr/lib/libxcb-render.so.0.0.0",
+        "/usr/lib/libxcb-shm.so.0.0.0",
+        "/usr/lib/libxcb-sync.so.1.0.0",
+        "/usr/lib/libxcb-xfixes.so.0.0.0",
+        "/usr/lib/libxcb.so.1.1.0",
+        "/usr/lib/libxkbcommon.so.0.13.2",
+        "/usr/lib/libxml2.so.16.1.4",
+        "/usr/lib/libxshmfence.so.1.0.0",
+        "/usr/lib/libz.so.1.3.1.zlib-ng",
+        "/usr/lib/libzstd.so.1.5.7"
+      ],
+      "graphics_libraries": [
+        "/usr/lib/libEGL.so.1.1.0",
+        "/usr/lib/libEGL_mesa.so.0.0.0",
+        "/usr/lib/libGLESv2.so.2.1.0",
+        "/usr/lib/libGLX.so.0.0.0",
+        "/usr/lib/libGLdispatch.so.0.0.0",
+        "/usr/lib/libvulkan.so.1.4.363"
+      ],
+      "samples": [
+        {
+          "phase": "warmup",
+          "rss_bytes": 189100032,
+          "pss_bytes": 162985984,
+          "cpu_seconds": 0.67,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 220839936,
+          "pss_bytes": 194157568,
+          "cpu_seconds": 0.83,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 220864512,
+          "pss_bytes": 194178048,
+          "cpu_seconds": 0.83,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 220884992,
+          "pss_bytes": 194206720,
+          "cpu_seconds": 0.84,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 220884992,
+          "pss_bytes": 194206720,
+          "cpu_seconds": 0.84,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 220909568,
+          "pss_bytes": 194231296,
+          "cpu_seconds": 0.86,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 220909568,
+          "pss_bytes": 194231296,
+          "cpu_seconds": 0.87,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 220909568,
+          "pss_bytes": 194231296,
+          "cpu_seconds": 0.88,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 220909568,
+          "pss_bytes": 194231296,
+          "cpu_seconds": 0.88,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 220909568,
+          "pss_bytes": 194231296,
+          "cpu_seconds": 0.89,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 220909568,
+          "pss_bytes": 194231296,
+          "cpu_seconds": 0.89,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 220909568,
+          "pss_bytes": 194231296,
+          "cpu_seconds": 0.89,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 220909568,
+          "pss_bytes": 194231296,
+          "cpu_seconds": 0.91,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 220909568,
+          "pss_bytes": 194231296,
+          "cpu_seconds": 0.91,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 220909568,
+          "pss_bytes": 194231296,
+          "cpu_seconds": 0.92,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 220909568,
+          "pss_bytes": 194142208,
+          "cpu_seconds": 0.92,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 220909568,
+          "pss_bytes": 194114560,
+          "cpu_seconds": 0.92,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 220909568,
+          "pss_bytes": 193361920,
+          "cpu_seconds": 0.92,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 220909568,
+          "pss_bytes": 193361920,
+          "cpu_seconds": 0.93,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 220950528,
+          "pss_bytes": 193338368,
+          "cpu_seconds": 0.95,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 221184000,
+          "pss_bytes": 193546240,
+          "cpu_seconds": 0.97,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 221237248,
+          "pss_bytes": 193587200,
+          "cpu_seconds": 1.01,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 221241344,
+          "pss_bytes": 193591296,
+          "cpu_seconds": 1.03,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222048256,
+          "pss_bytes": 194398208,
+          "cpu_seconds": 1.17,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222056448,
+          "pss_bytes": 194410496,
+          "cpu_seconds": 1.2,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222056448,
+          "pss_bytes": 194410496,
+          "cpu_seconds": 1.22,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222457856,
+          "pss_bytes": 194816000,
+          "cpu_seconds": 1.32,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222457856,
+          "pss_bytes": 194816000,
+          "cpu_seconds": 1.34,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222527488,
+          "pss_bytes": 194884608,
+          "cpu_seconds": 1.35,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222527488,
+          "pss_bytes": 193108992,
+          "cpu_seconds": 1.35,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222535680,
+          "pss_bytes": 178665472,
+          "cpu_seconds": 1.36,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222543872,
+          "pss_bytes": 176616448,
+          "cpu_seconds": 1.38,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222543872,
+          "pss_bytes": 176589824,
+          "cpu_seconds": 1.39,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222543872,
+          "pss_bytes": 176573440,
+          "cpu_seconds": 1.39,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222543872,
+          "pss_bytes": 176573440,
+          "cpu_seconds": 1.39,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222543872,
+          "pss_bytes": 176561152,
+          "cpu_seconds": 1.4,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222560256,
+          "pss_bytes": 176598016,
+          "cpu_seconds": 1.43,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222560256,
+          "pss_bytes": 176598016,
+          "cpu_seconds": 1.43,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222560256,
+          "pss_bytes": 176598016,
+          "cpu_seconds": 1.44,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222560256,
+          "pss_bytes": 176604160,
+          "cpu_seconds": 1.44,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222560256,
+          "pss_bytes": 175881216,
+          "cpu_seconds": 1.44,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222560256,
+          "pss_bytes": 175881216,
+          "cpu_seconds": 1.45,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222560256,
+          "pss_bytes": 175881216,
+          "cpu_seconds": 1.45,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222560256,
+          "pss_bytes": 175881216,
+          "cpu_seconds": 1.47,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222531584,
+          "pss_bytes": 194772992,
+          "cpu_seconds": 1.48,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222552064,
+          "pss_bytes": 194793472,
+          "cpu_seconds": 1.5,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222552064,
+          "pss_bytes": 194793472,
+          "cpu_seconds": 1.51,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222552064,
+          "pss_bytes": 194793472,
+          "cpu_seconds": 1.51,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222552064,
+          "pss_bytes": 194793472,
+          "cpu_seconds": 1.51,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222552064,
+          "pss_bytes": 194793472,
+          "cpu_seconds": 1.52,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222552064,
+          "pss_bytes": 194793472,
+          "cpu_seconds": 1.52,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222552064,
+          "pss_bytes": 194793472,
+          "cpu_seconds": 1.52,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222552064,
+          "pss_bytes": 194793472,
+          "cpu_seconds": 1.53,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222543872,
+          "pss_bytes": 194785280,
+          "cpu_seconds": 1.53,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222543872,
+          "pss_bytes": 194782208,
+          "cpu_seconds": 1.53,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 222543872,
+          "pss_bytes": 194782208,
+          "cpu_seconds": 1.55,
+          "processes": 1
+        }
+      ],
+      "same_ids_as_reference": true
+    },
+    {
+      "name": "maui",
+      "run": 3,
+      "visible_after_seconds": 0.6663867619936354,
+      "warmup_seconds": 4,
+      "idle_seconds": 20.18335423001554,
+      "idle_cpu_percent_one_core": 1.4368275792768306,
+      "idle_rss_median_bytes": 196227072.0,
+      "idle_pss_median_bytes": 169137152.0,
+      "sampled_peak_rss_bytes": 196411392,
+      "max_processes": 1,
+      "binary_bytes": 78192,
+      "binary_sha256": "1cdb42e821753eb26244e783896d14a7d9d0b83283534dc54fd65da67bd0dbff",
+      "data_source": "live Docker Engine API via SDK",
+      "docker_host": "unix:///var/run/docker.sock",
+      "load_log": "\n(MauiContainers:2394969): Gtk-WARNING **: 20:45:34.373: Use GtkSettings:gtk-interface-color-scheme instead\nDocker load: count=14 elapsed_ms=134 ids=117feea78d81b7e86b4da2cd666c3f0b87bb9511171ec0ce6e88ba389b409cb3,1f3a0c05ba5ba5df2918e6891661497e129bdd64204b3d93c8d21ab619883cde,43f3241f892ed32d6bd8eedc13f1b9d3b20247e015b38080b1d06d2774fd6744,5f0d2da68770a4324cfc41ba06b064eedfdfb4872204d25eb7c819e114161179,655cbf2013d481354486181d8d916bc46d5d840c7ac22a9ce2fded313f7fa800,791acba8a077bc807ab794dcc2b6bd0cc7bba541a4d28fedf0aab39c3c8065bc,835d9356f9d258e149c227fffb8e6f96124ea8d9587d7b1179a0e5b7106a0774,84e8bc4813cb6a43d335dfe7e5bf57e7a261bf88886998782573fbcc67664876,9b907cd499df6312716c56041737d2c64f94a85b7cd18dcc2144a6c893b91593,9bfb2d851ac16c5977bd1f4065c73bd7d501d84bb1058e061fdc0b880fec9a79,a99cc144b4bd2ea34088a4cad3e3c4a957784a20c85146491b4fe6d45cf938b6,c2e89b812d9fefb3e2b6ecd651a1de147e2fe5b2238f7eae65b874b12800680a,e0947946bbc15b193d7e440ef434ef4b7e1e795c9eb54b627dcb4d71c1d0c4f6,f312396aa347fe5720a5c73f42b0f72b07be4c17ce51716cd50a850d91b7f0d2\n\n(MauiContainers:2394969): Gtk-WARNING **: 20:45:34.613: Trying to measure GtkEntry 0x560e4613d1c0 for width of 1, but it needs at least 29\n\n(MauiContainers:2394969): Gtk-WARNING **: 20:45:34.613: gtk_widget_size_allocate(): attempt to allocate GtkText text 0x560e45e926d0 with width -17 and height -1\n\n(MauiContainers:2394969): Gtk-WARNING **: 20:45:34.613: gtk_widget_size_allocate(): attempt to allocate GtkLabel label 0x560e462c8270 with width -1 and height -1\n",
+      "backend": "MAUI 10.0.110 / experimental GTK4 / X11 on Plasma Wayland (XWayland)",
+      "client_size": [
+        1000,
+        680
+      ],
+      "gpui_x11_scale_factor": null,
+      "shared_libraries": [
+        "/etc/ld.so.cache",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/build/self-contained/libSystem.Native.so",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/build/self-contained/libclrjit.so",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/build/self-contained/libcoreclr.so",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/build/self-contained/libhostfxr.so",
+        "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/maui-containers/build/self-contained/libhostpolicy.so",
+        "/usr/lib/ld-linux-x86-64.so.2",
+        "/usr/lib/libEGL.so.1.1.0",
+        "/usr/lib/libEGL_mesa.so.0.0.0",
+        "/usr/lib/libGLESv2.so.2.1.0",
+        "/usr/lib/libGLX.so.0.0.0",
+        "/usr/lib/libGLdispatch.so.0.0.0",
+        "/usr/lib/libLLVM.so.23.1",
+        "/usr/lib/libSPIRV-Tools.so",
+        "/usr/lib/libX11-xcb.so.1.0.0",
+        "/usr/lib/libX11.so.6.4.0",
+        "/usr/lib/libXau.so.6.0.0",
+        "/usr/lib/libXcursor.so.1.0.2",
+        "/usr/lib/libXdamage.so.1.1.0",
+        "/usr/lib/libXdmcp.so.6.0.0",
+        "/usr/lib/libXext.so.6.4.0",
+        "/usr/lib/libXfixes.so.3.1.0",
+        "/usr/lib/libXi.so.6.1.0",
+        "/usr/lib/libXinerama.so.1.0.0",
+        "/usr/lib/libXrandr.so.2.2.0",
+        "/usr/lib/libXrender.so.1.3.0",
+        "/usr/lib/libavahi-client.so.3.2.9",
+        "/usr/lib/libavahi-common.so.3.5.4",
+        "/usr/lib/libblkid.so.1.1.0",
+        "/usr/lib/libbrotlicommon.so.1.2.0",
+        "/usr/lib/libbrotlidec.so.1.2.0",
+        "/usr/lib/libbz2.so.1.0.8",
+        "/usr/lib/libc.so.6",
+        "/usr/lib/libcairo-gobject.so.2.11806.6",
+        "/usr/lib/libcairo-script-interpreter.so.2.11806.6",
+        "/usr/lib/libcairo.so.2.11806.6",
+        "/usr/lib/libcloudproviders.so.0.4.1",
+        "/usr/lib/libcolord.so.2.0.5",
+        "/usr/lib/libcups.so.2",
+        "/usr/lib/libdatrie.so.1.4.1",
+        "/usr/lib/libdbus-1.so.3.38.3",
+        "/usr/lib/libdeflate.so.0",
+        "/usr/lib/libdl.so.2",
+        "/usr/lib/libdrm.so.2.134.0",
+        "/usr/lib/libdrm_amdgpu.so.1.134.0",
+        "/usr/lib/libdrm_intel.so.1.134.0",
+        "/usr/lib/libdw-0.196.so",
+        "/usr/lib/libedit.so.0.0.78",
+        "/usr/lib/libelf-0.196.so",
+        "/usr/lib/libepoxy.so.0.0.0",
+        "/usr/lib/libexpat.so.1.13.0",
+        "/usr/lib/libffi.so.8.5.0",
+        "/usr/lib/libfontconfig.so.1.17.0",
+        "/usr/lib/libfreetype.so.6.20.7",
+        "/usr/lib/libfribidi.so.0.4.0",
+        "/usr/lib/libgallium-26.2.4-arch3.1.so",
+        "/usr/lib/libgbm.so.1.0.0",
+        "/usr/lib/libgcc_s.so.1",
+        "/usr/lib/libgdk_pixbuf-2.0.so.0.4400.8",
+        "/usr/lib/libgio-2.0.so.0.9000.1",
+        "/usr/lib/libglib-2.0.so.0.9000.1",
+        "/usr/lib/libglycin-2.so.0",
+        "/usr/lib/libgmodule-2.0.so.0.9000.1",
+        "/usr/lib/libgmp.so.10.5.0",
+        "/usr/lib/libgnutls.so.30.42.0",
+        "/usr/lib/libgobject-2.0.so.0.9000.1",
+        "/usr/lib/libgraphene-1.0.so.0.1000.8",
+        "/usr/lib/libgraphite2.so.3.3.1",
+        "/usr/lib/libgstallocators-1.0.so.0.2808.0",
+        "/usr/lib/libgstaudio-1.0.so.0.2808.0",
+        "/usr/lib/libgstbase-1.0.so.0.2808.0",
+        "/usr/lib/libgstgl-1.0.so.0.2808.0",
+        "/usr/lib/libgstpbutils-1.0.so.0.2808.0",
+        "/usr/lib/libgstplay-1.0.so.0.2808.0",
+        "/usr/lib/libgstreamer-1.0.so.0.2808.0",
+        "/usr/lib/libgsttag-1.0.so.0.2808.0",
+        "/usr/lib/libgstvideo-1.0.so.0.2808.0",
+        "/usr/lib/libgtk-4.so.1.2400.1",
+        "/usr/lib/libgudev-1.0.so.0.3.0",
+        "/usr/lib/libharfbuzz-gobject.so.0.61460.0",
+        "/usr/lib/libharfbuzz-subset.so.0.61460.0",
+        "/usr/lib/libharfbuzz.so.0.61460.0",
+        "/usr/lib/libhogweed.so.7.0",
+        "/usr/lib/libicudata.so.78.3",
+        "/usr/lib/libicui18n.so.78.3",
+        "/usr/lib/libicuuc.so.78.3",
+        "/usr/lib/libidn2.so.0.4.0",
+        "/usr/lib/libjbig.so.2.2",
+        "/usr/lib/libjpeg.so.8.3.2",
+        "/usr/lib/libjson-glib-1.0.so.0.1000.8",
+        "/usr/lib/liblcms2.so.2.0.19",
+        "/usr/lib/libleancrypto.so.1.9.1",
+        "/usr/lib/liblzma.so.5.8.3",
+        "/usr/lib/liblzo2.so.2.0.0",
+        "/usr/lib/libm.so.6",
+        "/usr/lib/libmount.so.1.1.0",
+        "/usr/lib/libncursesw.so.6.6",
+        "/usr/lib/libnettle.so.9.0",
+        "/usr/lib/liborc-0.4.so.0.44.0",
+        "/usr/lib/libp11-kit.so.0.4.11",
+        "/usr/lib/libpango-1.0.so.0.5800.2",
+        "/usr/lib/libpangocairo-1.0.so.0.5800.2",
+        "/usr/lib/libpangoft2-1.0.so.0.5800.2",
+        "/usr/lib/libpciaccess.so.0.11.1",
+        "/usr/lib/libpcre2-8.so.0.16.1",
+        "/usr/lib/libpixman-1.so.0.46.4",
+        "/usr/lib/libpng16.so.16.50.0",
+        "/usr/lib/libpthread.so.0",
+        "/usr/lib/librt.so.1",
+        "/usr/lib/libseccomp.so.2.6.0",
+        "/usr/lib/libsensors.so.5.0.0",
+        "/usr/lib/libsharpyuv.so.0.1.2",
+        "/usr/lib/libsqlite3.so.3.54.0",
+        "/usr/lib/libstdc++.so.6.0.36",
+        "/usr/lib/libsystemd.so.0.45.0",
+        "/usr/lib/libtasn1.so.6.6.5",
+        "/usr/lib/libthai.so.0.3.2",
+        "/usr/lib/libtiff.so.6.3.0",
+        "/usr/lib/libtinysparql-3.0.so.0.1200.0",
+        "/usr/lib/libudev.so.1.7.15",
+        "/usr/lib/libunistring.so.5.2.1",
+        "/usr/lib/libunwind.so.8.2.0",
+        "/usr/lib/libvulkan.so.1.4.363",
+        "/usr/lib/libwayland-client.so.0.26.0",
+        "/usr/lib/libwayland-cursor.so.0.26.0",
+        "/usr/lib/libwayland-egl.so.1.26.0",
+        "/usr/lib/libwebp.so.7.2.0",
+        "/usr/lib/libxcb-dri3.so.0.1.0",
+        "/usr/lib/libxcb-present.so.0.0.0",
+        "/usr/lib/libxcb-randr.so.0.1.0",
+        "/usr/lib/libxcb-render.so.0.0.0",
+        "/usr/lib/libxcb-shm.so.0.0.0",
+        "/usr/lib/libxcb-sync.so.1.0.0",
+        "/usr/lib/libxcb-xfixes.so.0.0.0",
+        "/usr/lib/libxcb.so.1.1.0",
+        "/usr/lib/libxkbcommon.so.0.13.2",
+        "/usr/lib/libxml2.so.16.1.4",
+        "/usr/lib/libxshmfence.so.1.0.0",
+        "/usr/lib/libz.so.1.3.1.zlib-ng",
+        "/usr/lib/libzstd.so.1.5.7"
+      ],
+      "graphics_libraries": [
+        "/usr/lib/libEGL.so.1.1.0",
+        "/usr/lib/libEGL_mesa.so.0.0.0",
+        "/usr/lib/libGLESv2.so.2.1.0",
+        "/usr/lib/libGLX.so.0.0.0",
+        "/usr/lib/libGLdispatch.so.0.0.0",
+        "/usr/lib/libvulkan.so.1.4.363"
+      ],
+      "samples": [
+        {
+          "phase": "warmup",
+          "rss_bytes": 188956672,
+          "pss_bytes": 162099200,
+          "cpu_seconds": 0.77,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 196030464,
+          "pss_bytes": 168995840,
+          "cpu_seconds": 0.88,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 196042752,
+          "pss_bytes": 169006080,
+          "cpu_seconds": 0.89,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 196067328,
+          "pss_bytes": 169038848,
+          "cpu_seconds": 0.91,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 196067328,
+          "pss_bytes": 169038848,
+          "cpu_seconds": 0.92,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 196104192,
+          "pss_bytes": 169071616,
+          "cpu_seconds": 0.93,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 196104192,
+          "pss_bytes": 169071616,
+          "cpu_seconds": 0.93,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 196104192,
+          "pss_bytes": 169071616,
+          "cpu_seconds": 0.95,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 196104192,
+          "pss_bytes": 169071616,
+          "cpu_seconds": 0.95,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 196104192,
+          "pss_bytes": 169071616,
+          "cpu_seconds": 0.96,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 196104192,
+          "pss_bytes": 169071616,
+          "cpu_seconds": 0.96,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 196104192,
+          "pss_bytes": 169071616,
+          "cpu_seconds": 0.97,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 196104192,
+          "pss_bytes": 169071616,
+          "cpu_seconds": 0.98,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 196104192,
+          "pss_bytes": 169071616,
+          "cpu_seconds": 0.98,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 196104192,
+          "pss_bytes": 169071616,
+          "cpu_seconds": 0.99,
+          "processes": 1
+        },
+        {
+          "phase": "warmup",
+          "rss_bytes": 196104192,
+          "pss_bytes": 169071616,
+          "cpu_seconds": 0.99,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196104192,
+          "pss_bytes": 169071616,
+          "cpu_seconds": 0.99,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196104192,
+          "pss_bytes": 169076736,
+          "cpu_seconds": 1.02,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196104192,
+          "pss_bytes": 169076736,
+          "cpu_seconds": 1.03,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196145152,
+          "pss_bytes": 169053184,
+          "cpu_seconds": 1.04,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196145152,
+          "pss_bytes": 169053184,
+          "cpu_seconds": 1.05,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196145152,
+          "pss_bytes": 169053184,
+          "cpu_seconds": 1.06,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196141056,
+          "pss_bytes": 169051136,
+          "cpu_seconds": 1.07,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196141056,
+          "pss_bytes": 169051136,
+          "cpu_seconds": 1.08,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196141056,
+          "pss_bytes": 169051136,
+          "cpu_seconds": 1.09,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196141056,
+          "pss_bytes": 169051136,
+          "cpu_seconds": 1.1,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196141056,
+          "pss_bytes": 169051136,
+          "cpu_seconds": 1.12,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196141056,
+          "pss_bytes": 169051136,
+          "cpu_seconds": 1.13,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196239360,
+          "pss_bytes": 169149440,
+          "cpu_seconds": 1.14,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196239360,
+          "pss_bytes": 169149440,
+          "cpu_seconds": 1.14,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196239360,
+          "pss_bytes": 169149440,
+          "cpu_seconds": 1.14,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196239360,
+          "pss_bytes": 169149440,
+          "cpu_seconds": 1.16,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196239360,
+          "pss_bytes": 169149440,
+          "cpu_seconds": 1.16,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196239360,
+          "pss_bytes": 169149440,
+          "cpu_seconds": 1.16,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196239360,
+          "pss_bytes": 169149440,
+          "cpu_seconds": 1.16,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196239360,
+          "pss_bytes": 169149440,
+          "cpu_seconds": 1.16,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196227072,
+          "pss_bytes": 169137152,
+          "cpu_seconds": 1.17,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196227072,
+          "pss_bytes": 169137152,
+          "cpu_seconds": 1.17,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196227072,
+          "pss_bytes": 169137152,
+          "cpu_seconds": 1.17,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196227072,
+          "pss_bytes": 169137152,
+          "cpu_seconds": 1.17,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196227072,
+          "pss_bytes": 169137152,
+          "cpu_seconds": 1.18,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196227072,
+          "pss_bytes": 169137152,
+          "cpu_seconds": 1.18,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196227072,
+          "pss_bytes": 169137152,
+          "cpu_seconds": 1.2,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196227072,
+          "pss_bytes": 169137152,
+          "cpu_seconds": 1.2,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196227072,
+          "pss_bytes": 169137152,
+          "cpu_seconds": 1.2,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196227072,
+          "pss_bytes": 169137152,
+          "cpu_seconds": 1.21,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196411392,
+          "pss_bytes": 169336832,
+          "cpu_seconds": 1.22,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196411392,
+          "pss_bytes": 169336832,
+          "cpu_seconds": 1.23,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196411392,
+          "pss_bytes": 169293824,
+          "cpu_seconds": 1.23,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196411392,
+          "pss_bytes": 169313280,
+          "cpu_seconds": 1.24,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196411392,
+          "pss_bytes": 169313280,
+          "cpu_seconds": 1.24,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196411392,
+          "pss_bytes": 169315328,
+          "cpu_seconds": 1.25,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196411392,
+          "pss_bytes": 169314304,
+          "cpu_seconds": 1.26,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196411392,
+          "pss_bytes": 169324544,
+          "cpu_seconds": 1.26,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196411392,
+          "pss_bytes": 169324544,
+          "cpu_seconds": 1.27,
+          "processes": 1
+        },
+        {
+          "phase": "idle",
+          "rss_bytes": 196411392,
+          "pss_bytes": 169324544,
+          "cpu_seconds": 1.28,
+          "processes": 1
+        }
+      ],
+      "same_ids_as_reference": true
+    }
+  ],
+  "scope": "Self-contained untrimmed Release build; Linux X11/XWayland, 1000x680, 4s warmup, 20s idle, three sequential runs. Not contemporaneous with older frameworks."
+}
