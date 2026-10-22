@@ -19,7 +19,7 @@ result={'name':'native','run':1,'warmup_seconds':2,'idle_seconds':elapsed,
 'idle_pss_median_bytes':statistics.median(s['pss_bytes'] for s in idle),
 'sampled_peak_rss_bytes':max(s['rss_bytes'] for s in samples),'max_processes':max(s['processes'] for s in samples),
 'backend':'Native SDK 0.11.0; GTK4 X11 / software renderer; GTK4 default presentation; GDK_SCALE=1',
-'client_size':[1000,680],'sampling_note':'One loaded release window, 2s warmup then 5s idle. Input observations run separately. Node worker had exited; no startup peak or startup-to-idle claim.',
+'client_size':[1000,680],'sampling_note':'One loaded release window, 2s warmup then 5s idle. Input observations run separately. Native Moby worker had exited; the SDK service host is included. No startup peak measured.',
 'shared_libraries':sorted({l.split()[-1] for l in Path(f'/proc/{pid}/maps').read_text().splitlines() if '.so' in l and l.split()[-1].startswith('/')}),
 'samples':samples}
 (OUT/'native-1.json').write_text(json.dumps(result,indent=2)+'\n')

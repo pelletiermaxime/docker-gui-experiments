@@ -2,9 +2,6 @@
   "name": "native-sdk-live-containers",
   "private": true,
   "type": "module",
-  "dependencies": {
-    "dockerode": "5.0.1"
-  },
   "devDependencies": {
     "@native-sdk/cli": "0.11.0"
   }

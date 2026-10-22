@@ -1,0 +1,5 @@
+{
+  "elapsed_s": 198.99561603099573,
+  "exit_code": 0,
+  "cache": "Native-service release rebuild; warm existing UI/compiler caches; Moby worker build timed separately; no clean-build claim"
+}

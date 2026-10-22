@@ -1,0 +1,29 @@
+{
+  "summary": "Native SDK startup, search (pgsql \u2192 2 rows), clear (14 rows) and a second SDK load after Refresh were observed, with zero dispatch errors. SDK snapshot reports 1000\u00d7680, scale 1, software pixel presentation. Separate capture uses the automation-enabled binary; resource binary had automation disabled. Empty-PATH run and separate exec/connect trace show only native UI, native service host and Moby worker, with a direct Docker Unix-socket connection.",
+  "window_size": [
+    1000,
+    680
+  ],
+  "backend": "software",
+  "present_path": "pixels",
+  "search_rows": 2,
+  "clear_rows": 14,
+  "request_records": 2,
+  "executables": [
+    "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/native-sdk/zig-out/bin/native-docker-client",
+    "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/native-sdk/zig-out/bin/native-live-containers",
+    "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/native-sdk/zig-out/bin/native-live-containers_services"
+  ],
+  "docker_socket_observed": true,
+  "node_executed": false,
+  "docker_cli_executed": false,
+  "capture": "Native SDK deterministic runtime canvas, separate observation build",
+  "observation_binary_sha256": "f20bdfa51684243b0be0d883b04e5e54ce0c15c741d0dbf843aa159b6bbfaa6c",
+  "source_sha256": {
+    "src/core.ts": "9c469b2d554de562cc2a4ee4c99532b833932f4fc60c3fb80eb6363d68446d9d",
+    "src/shared.ts": "20aac3eb72c4a94d07e2f0521c1456d4a3fa447120f827f0134d43805d917063",
+    "src/services/docker.ts": "9d430c68dc5adb2bd0d182840e0a888d26fbd3ca15e6aa7295a6494e21b19f3c",
+    "src/app.native": "b0a716998fc5a01c2683d86095ec5f8404299036773ce403bd1f6f0800a91199",
+    "docker-client/main.go": "ea57400b79632605e1fc122b479f47892171ca9ae16260fed4a6dfbab64fe636"
+  }
+}

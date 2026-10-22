@@ -1,7 +1,7 @@
 <column padding="16" gap="12" background="background">
   <row cross="center" gap="12">
     <text size="heading" grow="1">Containers</text>
-    <text>Native SDK / Dockerode</text>
+    <text>Native SDK / Moby</text>
   </row>
   <row gap="12" cross="center">
     <text-field text="{query}" placeholder="Search containers..." on-input="search_edit" grow="1"/>

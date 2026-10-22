@@ -1,0 +1,87 @@
+ready=true protocol=0x51f7889bbe3305e7 frame=2 commands=0 runtime_uptime_ns=941514311 dispatch_errors=0 dropped_trace_records=0 publisher_pid=1094323 markup_watch=off
+window @w1 "Native SDK · live Docker" bounds=(0,0 1000x680) focused=true frame=2 commands=0
+  view @w1/main-canvas kind=gpu_surface role="Live Docker container list" accessibility_label="Containers" text="Live Docker container list" bounds=(0,0 1000x680) layer=0 visible=true enabled=true focused=false open=true gpu_size=1000x680 gpu_scale=1 gpu_backend=software gpu_pixel_format=bgra8_unorm gpu_present_mode=timer gpu_alpha_mode=opaque gpu_color_space=srgb gpu_vsync=true gpu_status=ready gpu_present_path=pixels gpu_frame=2 gpu_timestamp_ns=302543096323000 gpu_frame_interval_ns=16666667 gpu_input_count=0 gpu_input_timestamp_ns=0 gpu_input_latency_ns=0 gpu_input_latency_budget_ns=16666667 gpu_input_latency_budget_exceeded=0 gpu_input_latency_budget_ok=true gpu_first_frame_latency_ns=16159928 gpu_first_frame_latency_budget_ns=150000000 gpu_first_frame_latency_budget_exceeded=0 gpu_first_frame_latency_budget_ok=true gpu_nonblank=true gpu_occluded=false gpu_sample=0xff0a0a0a present_fallback=none present_fallback_needed=0 present_fallback_limit=0 present_fallback_command="" present_fallback_frames=0 present_mode=none present_patch_bytes=0 present_patch_upserts=0 present_patch_evicts=0 present_retained_commands=0 canvas_revision=3 canvas_commands=77 canvas_frame_requires_render=false canvas_frame_full_repaint=false canvas_frame_batches=0 canvas_frame_encoder_commands=0 canvas_frame_encoder_cache_actions=0 canvas_frame_encoder_pipeline_binds=0 canvas_frame_encoder_draws=0 canvas_frame_pipelines=0 canvas_frame_pipeline_uploads=0 canvas_frame_pipeline_retains=0 canvas_frame_pipeline_evicts=0 canvas_frame_path_geometries=0 canvas_frame_path_vertices=0 canvas_frame_path_indices=0 canvas_frame_path_uploads=0 canvas_frame_path_retains=0 canvas_frame_path_evicts=0 canvas_frame_images=0 canvas_frame_image_uploads=0 canvas_frame_image_retains=0 canvas_frame_image_evicts=0 canvas_frame_layers=0 canvas_frame_opacity_layers=0 canvas_frame_clip_layers=0 canvas_frame_transform_layers=0 canvas_frame_layer_uploads=0 canvas_frame_layer_retains=0 canvas_frame_layer_evicts=0 canvas_frame_resources=0 canvas_frame_uploads=0 canvas_frame_retains=0 canvas_frame_evicts=0 canvas_frame_effects=0 canvas_frame_shadows=0 canvas_frame_blurs=0 canvas_frame_effect_uploads=0 canvas_frame_effect_retains=0 canvas_frame_effect_evicts=0 canvas_frame_glyphs=0 canvas_frame_glyph_uploads=0 canvas_frame_glyph_retains=0 canvas_frame_glyph_evicts=0 canvas_frame_text_layouts=0 canvas_frame_text_lines=0 canvas_frame_text_uploads=0 canvas_frame_text_retains=0 canvas_frame_text_evicts=0 canvas_frame_gpu_packet_commands=0 canvas_frame_gpu_packet_cache_actions=0 canvas_frame_gpu_packet_cached_resources=0 canvas_frame_gpu_packet_unsupported=0 canvas_frame_gpu_packet_representable=true canvas_frame_changes=0 canvas_frame_budget_exceeded=0 canvas_frame_budget_ok=true widget_nodes=84/1024 widget_semantics=84/1024 context_menu_items=0/512 text_layout_plans=0/2048 text_layout_lines=0/8192 canvas_frame_dirty=null canvas_frame_profile_work_units=0 canvas_frame_profile_risk=idle canvas_frame_profile_surface_area=680000 canvas_frame_profile_dirty_area=0 canvas_frame_profile_dirty_ratio=0 widget_revision=3 widget_nodes=84 widget_semantics=84 widget_cursor=arrow
+    widget @w1/main-canvas#7107225545848579185 role=group name="" bounds=(0,0 1000x680) focused=false enabled=true
+    widget @w1/main-canvas#14944009214579768109 role=group name="" bounds=(16,16 968x35) focused=false enabled=true parent=#7107225545848579185
+    widget @w1/main-canvas#732775492449949047 role=text name="Containers" bounds=(16,16 831.708x35) focused=false enabled=true parent=#14944009214579768109
+    widget @w1/main-canvas#18145141121759438701 role=text name="Native SDK / Moby" bounds=(859.708,24.75 124.29201x17.5) focused=false enabled=true parent=#14944009214579768109
+    widget @w1/main-canvas#17215930986767368862 role=group name="" bounds=(16,63 968x32) focused=false enabled=true parent=#7107225545848579185
+    widget @w1/main-canvas#4555521346611779026 role=textbox name="" bounds=(16,63 883x32) focused=false enabled=true parent=#17215930986767368862 placeholder="Search containers..." actions=[focus,set_text,set_selection]
+    widget @w1/main-canvas#2891279678996768989 role=button name="Refresh" bounds=(911,63 73x32) focused=false enabled=true parent=#17215930986767368862 actions=[focus,press]
+    widget @w1/main-canvas#1043728839937947346 role=group name="" bounds=(16,107 968x33.5) focused=false enabled=true parent=#7107225545848579185
+    widget @w1/main-canvas#5353743240628520567 role=text name="Name" bounds=(24,115 225x17.5) focused=false enabled=true parent=#1043728839937947346
+    widget @w1/main-canvas#7191179094242908064 role=text name="Image" bounds=(257,115 310x17.5) focused=false enabled=true parent=#1043728839937947346
+    widget @w1/main-canvas#15218275737981312855 role=text name="State" bounds=(575,115 90x17.5) focused=false enabled=true parent=#1043728839937947346
+    widget @w1/main-canvas#16411912541473833912 role=text name="Status" bounds=(673,115 303x17.5) focused=false enabled=true parent=#1043728839937947346
+    widget @w1/main-canvas#17762840781388294062 role=list name="Containers" bounds=(16,152.5 968x467.5) focused=false enabled=true parent=#7107225545848579185 value=0 scroll=[offset=0,viewport=467.5,content=504] actions=[focus,increment,decrement]
+    widget @w1/main-canvas#725193987441251422 role=group name="" bounds=(16,152.5 968x36) focused=false enabled=true parent=#17762840781388294062
+    widget @w1/main-canvas#7810365791816583137 role=text name="hexfit-activepieces" bounds=(24,161.75 225x17.5) focused=false enabled=true parent=#725193987441251422
+    widget @w1/main-canvas#10112133916472311101 role=text name="ghcr.io/activepieces/activepieces:0.92.1" bounds=(257,161.75 310x17.5) focused=false enabled=true parent=#725193987441251422
+    widget @w1/main-canvas#13463435191151556292 role=text name="running" bounds=(575,161.75 90x17.5) focused=false enabled=true parent=#725193987441251422
+    widget @w1/main-canvas#17151263012033498904 role=text name="Up 13 hours (healthy)" bounds=(673,161.75 303x17.5) focused=false enabled=true parent=#725193987441251422
+    widget @w1/main-canvas#8838939012166501106 role=group name="" bounds=(16,188.5 968x36) focused=false enabled=true parent=#17762840781388294062
+    widget @w1/main-canvas#13128768468751063444 role=text name="hexfit-activepieces-postgres" bounds=(24,197.75 225x17.5) focused=false enabled=true parent=#8838939012166501106
+    widget @w1/main-canvas#9255268327574799162 role=text name="pgvector/pgvector:0.8.0-pg14" bounds=(257,197.75 310x17.5) focused=false enabled=true parent=#8838939012166501106
+    widget @w1/main-canvas#5273883307390505890 role=text name="running" bounds=(575,197.75 90x17.5) focused=false enabled=true parent=#8838939012166501106
+    widget @w1/main-canvas#8430056717410202671 role=text name="Up 5 days (healthy)" bounds=(673,197.75 303x17.5) focused=false enabled=true parent=#8838939012166501106
+    widget @w1/main-canvas#11446520896056087528 role=group name="" bounds=(16,224.5 968x36) focused=false enabled=true parent=#17762840781388294062
+    widget @w1/main-canvas#3767323090737171854 role=text name="hexfit-activepieces-redis" bounds=(24,233.75 225x17.5) focused=false enabled=true parent=#11446520896056087528
+    widget @w1/main-canvas#2664960198164490916 role=text name="redis:7.2-alpine" bounds=(257,233.75 310x17.5) focused=false enabled=true parent=#11446520896056087528
+    widget @w1/main-canvas#8138739586036044847 role=text name="running" bounds=(575,233.75 90x17.5) focused=false enabled=true parent=#11446520896056087528
+    widget @w1/main-canvas#14764530992841962418 role=text name="Up 5 days" bounds=(673,233.75 303x17.5) focused=false enabled=true parent=#11446520896056087528
+    widget @w1/main-canvas#13089756337168778688 role=group name="" bounds=(16,260.5 968x36) focused=false enabled=true parent=#17762840781388294062
+    widget @w1/main-canvas#12665753058408334886 role=text name="hexfit-mailpit" bounds=(24,269.75 225x17.5) focused=false enabled=true parent=#13089756337168778688
+    widget @w1/main-canvas#461677335097472494 role=text name="axllent/mailpit" bounds=(257,269.75 310x17.5) focused=false enabled=true parent=#13089756337168778688
+    widget @w1/main-canvas#4227711365658430292 role=text name="running" bounds=(575,269.75 90x17.5) focused=false enabled=true parent=#13089756337168778688
+    widget @w1/main-canvas#14865048642194740477 role=text name="Up 5 days (healthy)" bounds=(673,269.75 303x17.5) focused=false enabled=true parent=#13089756337168778688
+    widget @w1/main-canvas#6989018855382625909 role=group name="" bounds=(16,296.5 968x36) focused=false enabled=true parent=#17762840781388294062
+    widget @w1/main-canvas#4914039576837272946 role=text name="hexfit-main-backend-laravel-fpm" bounds=(24,305.75 225x17.5) focused=false enabled=true parent=#6989018855382625909
+    widget @w1/main-canvas#5757418802574606403 role=text name="registry.gitlab.com/hexfit/hexfit/dev/backend-laravel:1.4.0" bounds=(257,305.75 310x17.5) focused=false enabled=true parent=#6989018855382625909
+    widget @w1/main-canvas#8385707879914031741 role=text name="running" bounds=(575,305.75 90x17.5) focused=false enabled=true parent=#6989018855382625909
+    widget @w1/main-canvas#7133249140420242831 role=text name="Up 13 hours" bounds=(673,305.75 303x17.5) focused=false enabled=true parent=#6989018855382625909
+    widget @w1/main-canvas#10436084356219761157 role=group name="" bounds=(16,332.5 968x36) focused=false enabled=true parent=#17762840781388294062
+    widget @w1/main-canvas#14015009150956328114 role=text name="hexfit-main-backend-legacy-fpm" bounds=(24,341.75 225x17.5) focused=false enabled=true parent=#10436084356219761157
+    widget @w1/main-canvas#4643875138485769689 role=text name="registry.gitlab.com/hexfit/hexfit/dev/backend-legacy:1.0.1" bounds=(257,341.75 310x17.5) focused=false enabled=true parent=#10436084356219761157
+    widget @w1/main-canvas#4037496363833259582 role=text name="running" bounds=(575,341.75 90x17.5) focused=false enabled=true parent=#10436084356219761157
+    widget @w1/main-canvas#7455184990150851556 role=text name="Up 13 hours" bounds=(673,341.75 303x17.5) focused=false enabled=true parent=#10436084356219761157
+    widget @w1/main-canvas#11451149008578513161 role=group name="" bounds=(16,368.5 968x36) focused=false enabled=true parent=#17762840781388294062
+    widget @w1/main-canvas#6321125952203290242 role=text name="hexfit-main-horizon" bounds=(24,377.75 225x17.5) focused=false enabled=true parent=#11451149008578513161
+    widget @w1/main-canvas#12965375471644878955 role=text name="registry.gitlab.com/hexfit/hexfit/dev/backend-laravel:1.4.0" bounds=(257,377.75 310x17.5) focused=false enabled=true parent=#11451149008578513161
+    widget @w1/main-canvas#7523250121542777867 role=text name="running" bounds=(575,377.75 90x17.5) focused=false enabled=true parent=#11451149008578513161
+    widget @w1/main-canvas#13222350503203961591 role=text name="Up 13 hours" bounds=(673,377.75 303x17.5) focused=false enabled=true parent=#11451149008578513161
+    widget @w1/main-canvas#4018014407833870968 role=group name="" bounds=(16,404.5 968x36) focused=false enabled=true parent=#17762840781388294062
+    widget @w1/main-canvas#17825182126895235051 role=text name="hexfit-main-pro" bounds=(24,413.75 225x17.5) focused=false enabled=true parent=#4018014407833870968
+    widget @w1/main-canvas#2932458973403220854 role=text name="registry.gitlab.com/hexfit/hexfit/ui-pro-base:1.1.0" bounds=(257,413.75 310x17.5) focused=false enabled=true parent=#4018014407833870968
+    widget @w1/main-canvas#9118194714399965720 role=text name="running" bounds=(575,413.75 90x17.5) focused=false enabled=true parent=#4018014407833870968
+    widget @w1/main-canvas#7047943851182864131 role=text name="Up 13 hours" bounds=(673,413.75 303x17.5) focused=false enabled=true parent=#4018014407833870968
+    widget @w1/main-canvas#484256660170453285 role=group name="" bounds=(16,440.5 968x36) focused=false enabled=true parent=#17762840781388294062
+    widget @w1/main-canvas#14226222120247813087 role=text name="hexfit-main-pro-legacy" bounds=(24,449.75 225x17.5) focused=false enabled=true parent=#484256660170453285
+    widget @w1/main-canvas#8729248014296542827 role=text name="hexfit-main-pro-legacy" bounds=(257,449.75 310x17.5) focused=false enabled=true parent=#484256660170453285
+    widget @w1/main-canvas#11211508476324574514 role=text name="running" bounds=(575,449.75 90x17.5) focused=false enabled=true parent=#484256660170453285
+    widget @w1/main-canvas#2155833359499680391 role=text name="Up 13 hours" bounds=(673,449.75 303x17.5) focused=false enabled=true parent=#484256660170453285
+    widget @w1/main-canvas#18084397554651805876 role=group name="" bounds=(16,476.5 968x36) focused=false enabled=true parent=#17762840781388294062
+    widget @w1/main-canvas#9829239551366667847 role=text name="hexfit-main-scheduler" bounds=(24,485.75 225x17.5) focused=false enabled=true parent=#18084397554651805876
+    widget @w1/main-canvas#14446272829643729615 role=text name="registry.gitlab.com/hexfit/hexfit/dev/backend-laravel:1.4.0" bounds=(257,485.75 310x17.5) focused=false enabled=true parent=#18084397554651805876
+    widget @w1/main-canvas#11362452117770935508 role=text name="running" bounds=(575,485.75 90x17.5) focused=false enabled=true parent=#18084397554651805876
+    widget @w1/main-canvas#7730339019132737813 role=text name="Up 58 minutes" bounds=(673,485.75 303x17.5) focused=false enabled=true parent=#18084397554651805876
+    widget @w1/main-canvas#12167350406330911678 role=group name="" bounds=(16,512.5 968x36) focused=false enabled=true parent=#17762840781388294062
+    widget @w1/main-canvas#7432714632226028714 role=text name="hexfit-pgsql" bounds=(24,521.75 225x17.5) focused=false enabled=true parent=#12167350406330911678
+    widget @w1/main-canvas#671964397633135487 role=text name="hexfit-infra-pgsql" bounds=(257,521.75 310x17.5) focused=false enabled=true parent=#12167350406330911678
+    widget @w1/main-canvas#8341940267773214568 role=text name="running" bounds=(575,521.75 90x17.5) focused=false enabled=true parent=#12167350406330911678
+    widget @w1/main-canvas#11570050686843453747 role=text name="Up 5 days" bounds=(673,521.75 303x17.5) focused=false enabled=true parent=#12167350406330911678
+    widget @w1/main-canvas#7748197111397294895 role=group name="" bounds=(16,548.5 968x36) focused=false enabled=true parent=#17762840781388294062
+    widget @w1/main-canvas#15459712477745385475 role=text name="hexfit-pgsql-test" bounds=(24,557.75 225x17.5) focused=false enabled=true parent=#7748197111397294895
+    widget @w1/main-canvas#2349097768207820374 role=text name="hexfit-infra-pgsql-test" bounds=(257,557.75 310x17.5) focused=false enabled=true parent=#7748197111397294895
+    widget @w1/main-canvas#10999039437533091192 role=text name="running" bounds=(575,557.75 90x17.5) focused=false enabled=true parent=#7748197111397294895
+    widget @w1/main-canvas#16329496587093276069 role=text name="Up 5 days" bounds=(673,557.75 303x17.5) focused=false enabled=true parent=#7748197111397294895
+    widget @w1/main-canvas#10114903224287708416 role=group name="" bounds=(16,584.5 968x36) focused=false enabled=true parent=#17762840781388294062
+    widget @w1/main-canvas#14935396106893221650 role=text name="hexfit-proxy" bounds=(24,593.75 225x17.5) focused=false enabled=true parent=#10114903224287708416
+    widget @w1/main-canvas#1850339473448837620 role=text name="nginx:alpine" bounds=(257,593.75 310x17.5) focused=false enabled=true parent=#10114903224287708416
+    widget @w1/main-canvas#9763111816455391943 role=text name="running" bounds=(575,593.75 90x17.5) focused=false enabled=true parent=#10114903224287708416
+    widget @w1/main-canvas#370551752675446340 role=text name="Up 5 days" bounds=(673,593.75 303x17.5) focused=false enabled=true parent=#10114903224287708416
+    widget @w1/main-canvas#367258036681705803 role=group name="" bounds=(16,620.5 968x36) focused=false enabled=true parent=#17762840781388294062
+    widget @w1/main-canvas#15246874210410541751 role=text name="hexfit-redis" bounds=(24,629.75 225x17.5) focused=false enabled=true parent=#367258036681705803
+    widget @w1/main-canvas#2131314211638652589 role=text name="valkey/valkey:9.1-alpine" bounds=(257,629.75 310x17.5) focused=false enabled=true parent=#367258036681705803
+    widget @w1/main-canvas#14512422157161037877 role=text name="running" bounds=(575,629.75 90x17.5) focused=false enabled=true parent=#367258036681705803
+    widget @w1/main-canvas#6880705172689636292 role=text name="Up 5 days" bounds=(673,629.75 303x17.5) focused=false enabled=true parent=#367258036681705803
+    widget @w1/main-canvas#3529683714851446458 role=text name="14 shown · 14 containers · 12.5 ms" bounds=(16,632 968x32) focused=false enabled=true parent=#7107225545848579185

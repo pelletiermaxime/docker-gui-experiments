@@ -2,18 +2,18 @@
   "name": "native",
   "run": 1,
   "warmup_seconds": 2,
-  "idle_seconds": 5.032092579989694,
-  "idle_cpu_percent_one_core": 0.39744896744409614,
-  "idle_rss_median_bytes": 164478976.0,
-  "idle_pss_median_bytes": 147314688.0,
-  "sampled_peak_rss_bytes": 165306368,
-  "max_processes": 1,
+  "idle_seconds": 5.034155978995841,
+  "idle_cpu_percent_one_core": 0.5959290916922283,
+  "idle_rss_median_bytes": 158859264.0,
+  "idle_pss_median_bytes": 145379328.0,
+  "sampled_peak_rss_bytes": 158859264,
+  "max_processes": 2,
   "backend": "Native SDK 0.11.0; GTK4 X11 / software renderer; GTK4 default presentation; GDK_SCALE=1",
   "client_size": [
     1000,
     680
   ],
-  "sampling_note": "One release window after successful startup load, 2s warmup then 5s idle. Automation disabled. Node worker exited; no startup peak measured. All compiler processes finished before launch.",
+  "sampling_note": "One release window after successful startup load, 2s warmup then 5s idle. Automation disabled. PATH points to an empty directory: Node and Docker CLI are unavailable. Native SDK service host remains alive and is included; Moby worker exits after load. No startup peak measured. All compiler processes finished before launch.",
   "shared_libraries": [
     "/etc/ld.so.cache",
     "/usr/lib/ld-linux-x86-64.so.2",
@@ -149,132 +149,135 @@
   "samples": [
     {
       "phase": "warmup",
-      "rss_bytes": 157777920,
-      "pss_bytes": 140622848,
-      "cpu_seconds": 0.47,
-      "processes": 1
+      "rss_bytes": 137867264,
+      "pss_bytes": 125847552,
+      "cpu_seconds": 0.31,
+      "processes": 2
     },
     {
       "phase": "warmup",
-      "rss_bytes": 165294080,
-      "pss_bytes": 148139008,
-      "cpu_seconds": 0.71,
-      "processes": 1
+      "rss_bytes": 149692416,
+      "pss_bytes": 136495104,
+      "cpu_seconds": 0.54,
+      "processes": 2
     },
     {
       "phase": "warmup",
-      "rss_bytes": 165294080,
-      "pss_bytes": 148139008,
-      "cpu_seconds": 0.71,
-      "processes": 1
+      "rss_bytes": 155631616,
+      "pss_bytes": 142158848,
+      "cpu_seconds": 0.75,
+      "processes": 2
     },
     {
       "phase": "warmup",
-      "rss_bytes": 165298176,
-      "pss_bytes": 148143104,
-      "cpu_seconds": 0.71,
-      "processes": 1
+      "rss_bytes": 158859264,
+      "pss_bytes": 145384448,
+      "cpu_seconds": 0.8,
+      "processes": 2
     },
     {
       "phase": "warmup",
-      "rss_bytes": 165298176,
-      "pss_bytes": 148143104,
-      "cpu_seconds": 0.71,
-      "processes": 1
+      "rss_bytes": 158859264,
+      "pss_bytes": 145384448,
+      "cpu_seconds": 0.8,
+      "processes": 2
     },
     {
       "phase": "warmup",
-      "rss_bytes": 165302272,
-      "pss_bytes": 148147200,
-      "cpu_seconds": 0.71,
-      "processes": 1
+      "rss_bytes": 158859264,
+      "pss_bytes": 145384448,
+      "cpu_seconds": 0.8,
+      "processes": 2
     },
     {
       "phase": "warmup",
-      "rss_bytes": 165302272,
-      "pss_bytes": 148147200,
-      "cpu_seconds": 0.71,
-      "processes": 1
+      "rss_bytes": 158859264,
+      "pss_bytes": 145384448,
+      "cpu_seconds": 0.8,
+      "processes": 2
     },
     {
       "phase": "warmup",
-      "rss_bytes": 165302272,
-      "pss_bytes": 148147200,
-      "cpu_seconds": 0.71,
-      "processes": 1
+      "rss_bytes": 158859264,
+      "pss_bytes": 145384448,
+      "cpu_seconds": 0.8,
+      "processes": 2
     },
     {
       "phase": "idle",
-      "rss_bytes": 165306368,
-      "pss_bytes": 148151296,
-      "cpu_seconds": 0.71,
-      "processes": 1
+      "rss_bytes": 158859264,
+      "pss_bytes": 145384448,
+      "cpu_seconds": 0.8,
+      "processes": 2
     },
     {
       "phase": "idle",
-      "rss_bytes": 164478976,
-      "pss_bytes": 147328000,
-      "cpu_seconds": 0.71,
-      "processes": 1
+      "rss_bytes": 158859264,
+      "pss_bytes": 145384448,
+      "cpu_seconds": 0.81,
+      "processes": 2
     },
     {
       "phase": "idle",
-      "rss_bytes": 164478976,
-      "pss_bytes": 147328000,
-      "cpu_seconds": 0.72,
-      "processes": 1
+      "rss_bytes": 158859264,
+      "pss_bytes": 145384448,
+      "cpu_seconds": 0.81,
+      "processes": 2
     },
     {
       "phase": "idle",
-      "rss_bytes": 164466688,
-      "pss_bytes": 147315712,
-      "cpu_seconds": 0.72,
-      "processes": 1
+      "rss_bytes": 158859264,
+      "pss_bytes": 145379328,
+      "cpu_seconds": 0.81,
+      "processes": 2
     },
     {
       "phase": "idle",
-      "rss_bytes": 164470784,
-      "pss_bytes": 147305472,
-      "cpu_seconds": 0.72,
-      "processes": 1
+      "rss_bytes": 158859264,
+      "pss_bytes": 145379328,
+      "cpu_seconds": 0.81,
+      "processes": 2
     },
     {
       "phase": "idle",
-      "rss_bytes": 164470784,
-      "pss_bytes": 147305472,
-      "cpu_seconds": 0.72,
-      "processes": 1
+      "rss_bytes": 158859264,
+      "pss_bytes": 145384448,
+      "cpu_seconds": 0.81,
+      "processes": 2
     },
     {
       "phase": "idle",
-      "rss_bytes": 164474880,
-      "pss_bytes": 147309568,
-      "cpu_seconds": 0.72,
-      "processes": 1
+      "rss_bytes": 158859264,
+      "pss_bytes": 145142784,
+      "cpu_seconds": 0.81,
+      "processes": 2
     },
     {
       "phase": "idle",
-      "rss_bytes": 164478976,
-      "pss_bytes": 147313664,
-      "cpu_seconds": 0.72,
-      "processes": 1
+      "rss_bytes": 158859264,
+      "pss_bytes": 145145856,
+      "cpu_seconds": 0.82,
+      "processes": 2
     },
     {
       "phase": "idle",
-      "rss_bytes": 164478976,
-      "pss_bytes": 147313664,
-      "cpu_seconds": 0.73,
-      "processes": 1
+      "rss_bytes": 158859264,
+      "pss_bytes": 145152000,
+      "cpu_seconds": 0.82,
+      "processes": 2
     },
     {
       "phase": "idle",
-      "rss_bytes": 164483072,
-      "pss_bytes": 147317760,
-      "cpu_seconds": 0.73,
-      "processes": 1
+      "rss_bytes": 158859264,
+      "pss_bytes": 145152000,
+      "cpu_seconds": 0.82,
+      "processes": 2
     }
   ],
-  "binary_bytes": 11766800,
-  "binary_sha256": "259fe766828b59e3a15a150ed82228b547bce05058159e549da3437043649d01",
-  "load_log": "Docker load: count=14 elapsed_ms=39.768 ids=0e768137fbfe0b3a62bd3011b4c002810f8f7bb51cdcc6f11a1388073f2725df,117feea78d81b7e86b4da2cd666c3f0b87bb9511171ec0ce6e88ba389b409cb3,2b88f262dbc86a0f03db431fb4059b2657c113782215aaa1b1bedcbf493b04da,36442491e7fd084693281b1b9f9faf8793b0e8136231efb7dabb59fef8f76dc6,4fb2151e110b97780f55333216aa9346296ea88d2a2383bf4a8e0bcd344e7f54,6097b3e49d50efe16bd195f9f8ff1824c6b9b189791bcb1b33efeec39daf905a,835d9356f9d258e149c227fffb8e6f96124ea8d9587d7b1179a0e5b7106a0774,84e8bc4813cb6a43d335dfe7e5bf57e7a261bf88886998782573fbcc67664876,9b907cd499df6312716c56041737d2c64f94a85b7cd18dcc2144a6c893b91593,a99cc144b4bd2ea34088a4cad3e3c4a957784a20c85146491b4fe6d45cf938b6,c2e89b812d9fefb3e2b6ecd651a1de147e2fe5b2238f7eae65b874b12800680a,e0947946bbc15b193d7e440ef434ef4b7e1e795c9eb54b627dcb4d71c1d0c4f6,e4aba9db30b01faa933c7cd97c691b016efda897c084ebf9d154768a16d5b61a,f312396aa347fe5720a5c73f42b0f72b07be4c17ce51716cd50a850d91b7f0d2\n"
+  "binary_bytes": 11799424,
+  "binary_sha256": "67e397f96597bd76723a8c2d5f5cc417b916a09898efebcbc456db18852bdd73",
+  "load_log": "Docker load: count=14 elapsed_ms=2.901 ids=0e768137fbfe0b3a62bd3011b4c002810f8f7bb51cdcc6f11a1388073f2725df,117feea78d81b7e86b4da2cd666c3f0b87bb9511171ec0ce6e88ba389b409cb3,2b88f262dbc86a0f03db431fb4059b2657c113782215aaa1b1bedcbf493b04da,36442491e7fd084693281b1b9f9faf8793b0e8136231efb7dabb59fef8f76dc6,4fb2151e110b97780f55333216aa9346296ea88d2a2383bf4a8e0bcd344e7f54,6097b3e49d50efe16bd195f9f8ff1824c6b9b189791bcb1b33efeec39daf905a,835d9356f9d258e149c227fffb8e6f96124ea8d9587d7b1179a0e5b7106a0774,84e8bc4813cb6a43d335dfe7e5bf57e7a261bf88886998782573fbcc67664876,9b907cd499df6312716c56041737d2c64f94a85b7cd18dcc2144a6c893b91593,a99cc144b4bd2ea34088a4cad3e3c4a957784a20c85146491b4fe6d45cf938b6,c2e89b812d9fefb3e2b6ecd651a1de147e2fe5b2238f7eae65b874b12800680a,e0947946bbc15b193d7e440ef434ef4b7e1e795c9eb54b627dcb4d71c1d0c4f6,e4aba9db30b01faa933c7cd97c691b016efda897c084ebf9d154768a16d5b61a,f312396aa347fe5720a5c73f42b0f72b07be4c17ce51716cd50a850d91b7f0d2\n",
+  "runtime_path": "/home/maximep/projects/ferrydock/.verification/published-gui-experiments/.verification/native-sdk-live-comparison/toolchains/runtime-empty",
+  "service_host_bytes": 250464,
+  "docker_worker_bytes": 7844000
 }

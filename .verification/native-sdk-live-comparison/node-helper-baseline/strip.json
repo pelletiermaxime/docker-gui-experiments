@@ -1,0 +1,5 @@
+{
+  "before_bytes": 35429064,
+  "after_bytes": 11766800,
+  "command": "strip --strip-all (system binutils)"
+}

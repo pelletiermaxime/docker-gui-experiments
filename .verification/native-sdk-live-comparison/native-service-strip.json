@@ -1,0 +1,10 @@
+{
+  "native-live-containers": {
+    "before_bytes": 35591720,
+    "after_bytes": 11799424
+  },
+  "native-live-containers_services": {
+    "before_bytes": 287488,
+    "after_bytes": 250464
+  }
+}

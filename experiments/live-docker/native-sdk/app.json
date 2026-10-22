@@ -33,8 +33,8 @@
             "label": "main-canvas",
             "kind": "gpu_surface",
             "fill": true,
-            "role": "Counter canvas",
-            "accessibility_label": "Counter",
+            "role": "Live Docker container list",
+            "accessibility_label": "Containers",
             "gpu_backend": "metal",
             "gpu_pixel_format": "bgra8_unorm",
             "gpu_present_mode": "timer",
@@ -62,5 +62,6 @@
     "dir": "third_party/cef/macos",
     "auto_install": false
   },
-  "webview_layer": "exclude"
+  "webview_layer": "exclude",
+  "service_carrier": "child"
 }

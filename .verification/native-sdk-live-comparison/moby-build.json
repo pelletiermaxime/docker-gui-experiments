@@ -1,0 +1,5 @@
+{
+  "elapsed_s": 0.5801411040010862,
+  "exit_code": 0,
+  "cache": "Warm Moby/Go cache; stripped CGO_ENABLED=0 worker rebuild; no clean-build claim"
+}

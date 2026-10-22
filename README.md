@@ -29,9 +29,9 @@ and backend notes remain available in the [MAUI appendix](.verification/maui-liv
 and [Avalonia appendix](.verification/avalonia-live-comparison/rapport.html).
 
 The [Native SDK port](experiments/live-docker/native-sdk/README.md) uses compiled
-TypeScript for its UI and a short-lived Node/Dockerode helper for Docker access.
-Its size row includes the required Node executable and production npm files; idle
-RAM is measured after the worker exits.
+TypeScript for its UI and SDK-managed native service, plus a native Go worker
+using the official Moby SDK. Node is a build tool only. Its size includes all
+three native executables; idle resources include the persistent service host.
 
 The first report includes executable size, source lines, code-quality discussion,
 memory, CPU and observed compilation timings. The live report explores Docker
@@ -53,7 +53,7 @@ holds the Slint application constant while changing its rendering configuration.
 | Rust | Slint 1.18.1 | Bollard |
 | C# | .NET MAUI 10 / experimental GTK4 Linux backend | Docker.DotNet.Enhanced 4.3.3 |
 | C# | Avalonia 12.1.2 / desktop Skia | Docker.DotNet.Enhanced 4.3.3 |
-| TypeScript | Native SDK 0.11.0 / compiled native UI | Dockerode 5.0.1 in a short-lived Node helper |
+| TypeScript | Native SDK 0.11.0 / compiled native UI | Compiled TypeScript service + native Moby Go SDK worker v0.6.2 |
 
 Slint configurations: its software renderer, FemtoVG/OpenGL, FemtoVG/WGPU,
 Skia/software, Skia/OpenGL, Skia/WGPU, experimental Vello, and the Qt backend.

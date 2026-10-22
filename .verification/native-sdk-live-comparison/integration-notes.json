@@ -14,9 +14,17 @@
     {
       "issue": "Byte trim/split methods passed the frontend but were rejected by the external compiler",
       "resolution": "Use a small explicit byte splitter for the tab-delimited display pipe."
+    },
+    {
+      "issue": "Pinned compiler HTTP client source omits socketPath; a direct Unix-socket compile probe failed with SC3004.",
+      "resolution": "Use the existing official Moby Go SDK in a small native worker for portable Docker transport."
+    },
+    {
+      "issue": "In-process native service compilation rejected child_process with SC4005 (async_free library requirement).",
+      "resolution": "Use Native SDK's supported native child-service carrier; include its process in idle totals."
     }
   ],
-  "architecture": "Native compiled TypeScript UI; documented Cmd.spawn launches Node/Dockerode once per load; helper exits before idle sampling. No Node runtime inside UI. No WebView.",
+  "architecture": "Native compiled TypeScript UI -> SDK-managed compiled TypeScript child service -> native Go/Moby worker; no Node runtime or npm payload.",
   "renderer": "SDK software canvas -> Cairo image -> GtkDrawingArea (GTK4 default presentation). Loaded GL/Vulkan libraries alone cannot establish selected GPU.",
   "tests": "No automated tests added or executed."
 }

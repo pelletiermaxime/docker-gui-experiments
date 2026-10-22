@@ -1,0 +1,39 @@
+1094323 execve("/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/native-sdk/zig-out/bin/native-live-containers", ["/home/maximep/projects/ferrydock"...], 0x7ffe7b095fb8 /* 131 vars */) = 0
+1094323 connect(5, {sa_family=AF_UNIX, sun_path="/run/user/1000/bus"}, 110) = 0
+1094323 connect(8, {sa_family=AF_UNIX, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+1094340 execve("/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/native-sdk/zig-out/bin/native-live-containers_services", ["/home/maximep/projects/ferrydock"...], 0x7f2ca0000be0 /* 6 vars */) = 0
+1094341 execve("/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/native-sdk/zig-out/bin/native-docker-client", ["/home/maximep/projects/ferrydock"..., "unix:///var/run/docker.sock", "/home/maximep/projects/ferrydock"..., "", ""], 0x7ffd2049afd8 /* 6 vars */) = 0
+1094341 connect(6, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+1094345 +++ exited with 0 +++
+1094344 +++ exited with 0 +++
+1094343 +++ exited with 0 +++
+1094342 +++ exited with 0 +++
+1094341 +++ exited with 0 +++
+1094340 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1094341, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+1094339 +++ exited with 0 +++
+1094323 connect(12, {sa_family=AF_UNIX, sun_path="/run/user/1000/at-spi/bus_0"}, 110) = 0
+1094335 +++ exited with 0 +++
+1095653 execve("/home/maximep/projects/ferrydock/.verification/published-gui-experiments/experiments/live-docker/native-sdk/zig-out/bin/native-docker-client", ["/home/maximep/projects/ferrydock"..., "unix:///var/run/docker.sock", "/home/maximep/projects/ferrydock"..., "", ""], 0x7ffd2049afd8 /* 6 vars */) = 0
+1095653 connect(6, {sa_family=AF_UNIX, sun_path="/var/run/docker.sock"}, 23) = 0
+1095657 +++ exited with 0 +++
+1095656 +++ exited with 0 +++
+1095655 +++ exited with 0 +++
+1095654 +++ exited with 0 +++
+1095653 +++ exited with 0 +++
+1094340 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1095653, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+1095652 +++ exited with 0 +++
+1094323 --- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=1096606, si_uid=1000} ---
+1094338 +++ killed by SIGTERM +++
+1094337 +++ killed by SIGTERM +++
+1094336 +++ killed by SIGTERM +++
+1094332 +++ killed by SIGTERM +++
+1094331 +++ killed by SIGTERM +++
+1094330 +++ killed by SIGTERM +++
+1094328 +++ killed by SIGTERM +++
+1094327 +++ killed by SIGTERM +++
+1094326 +++ killed by SIGTERM +++
+1094325 +++ killed by SIGTERM +++
+1094329 +++ killed by SIGTERM +++
+1094324 +++ killed by SIGTERM +++
+1094323 +++ killed by SIGTERM +++
+1094340 +++ exited with 0 +++

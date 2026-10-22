@@ -1,0 +1,41 @@
+found zig 0.17.0 on PATH, but this Native SDK is pinned to zig 0.16.0
+Build Summary: 25/25 steps succeeded
+install success
++- install native-live-containers success
+|  +- compile exe native-live-containers ReleaseFast native success 233ms MaxRSS:154M
+|     +- WriteFile cached
+|     +- compile obj native-live-containers-app-code ReleaseFast native success 2m MaxRSS:2G
+|     |  +- WriteFile core.zig cached
+|     |  |  +- native corewire (compiled-core mirror) cached
+|     |  |  |  +- compile exe corewire Debug native cached 20ms MaxRSS:41M
+|     |  |  |  |  +- native corewire projections (scriptc) cached
+|     |  |  |  |     +- WriteFile emit_profile.ts cached
+|     |  |  |  +- native scriptc core compile cached
+|     |  |  |     +- native stage TypeScript core cached
+|     |  |  |     |  +- native corewire (core facade + profile) cached
+|     |  |  |     |  |  +- compile exe corewire Debug native (+1 more reused dependencies)
+|     |  |  |     |  |  +- stabilize generated core.contract.json cached
+|     |  |  |     |  |     +- native ts frontend (core + service contracts) cached
+|     |  |  |     |  +- native corewire (core facade + profile) (+2 more reused dependencies)
+|     |  |  |     |  +- stabilize generated core.contract.json (+1 more reused dependencies)
+|     |  |  |     |  +- stabilize generated services.gen.ts cached
+|     |  |  |     |     +- native corewire (service host + ABI projections) cached
+|     |  |  |     |        +- compile exe corewire Debug native (+1 more reused dependencies)
+|     |  |  |     |        +- stabilize generated services.contract.json cached
+|     |  |  |     |           +- native ts frontend (core + service contracts) (reused)
+|     |  |  |     +- stabilize generated core.contract.json (+1 more reused dependencies)
+|     |  |  +- stabilize generated services.zig cached
+|     |  |     +- native corewire (service host + ABI projections) (+2 more reused dependencies)
+|     |  +- WriteFile app_manifest.zon cached
+|     |  +- WriteFile app.native cached
+|     |  +- options cached
+|     +- compile obj native-live-containers-app-code ReleaseFast native (+4 more reused dependencies)
+|     +- native scriptc core compile (+2 more reused dependencies)
++- install generated to native-live-containers_services success
+   +- native scriptc service compile cached
+      +- native stage TypeScript services success 300ms
+      |  +- native corewire (service host + ABI projections) (+2 more reused dependencies)
+      |  +- stabilize generated services.contract.json (+1 more reused dependencies)
+      +- stabilize generated services.contract.json (+1 more reused dependencies)
+
+native build: built zig-out/bin/native-live-containers (ReleaseFast)
