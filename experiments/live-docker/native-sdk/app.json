@@ -1,0 +1,66 @@
+{
+  "$schema": "https://schema.native-sdk.dev/app/v1.json",
+  "id": "dev.docker-gui-experiments.native",
+  "name": "native-live-containers",
+  "display_name": "Native SDK \u00b7 live Docker",
+  "description": "Minimal live Docker container list",
+  "version": "0.1.0",
+  "icons": [
+    "assets/icon.png"
+  ],
+  "platforms": [
+    "linux",
+    "macos",
+    "windows"
+  ],
+  "permissions": [
+    "view",
+    "command"
+  ],
+  "capabilities": [
+    "native_views",
+    "gpu_surfaces"
+  ],
+  "shell": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "Native SDK \u00b7 live Docker",
+        "width": 1000,
+        "height": 680,
+        "views": [
+          {
+            "label": "main-canvas",
+            "kind": "gpu_surface",
+            "fill": true,
+            "role": "Counter canvas",
+            "accessibility_label": "Counter",
+            "gpu_backend": "metal",
+            "gpu_pixel_format": "bgra8_unorm",
+            "gpu_present_mode": "timer",
+            "gpu_alpha_mode": "opaque",
+            "gpu_color_space": "srgb",
+            "gpu_vsync": true
+          }
+        ]
+      }
+    ]
+  },
+  "security": {
+    "navigation": {
+      "allowed_origins": [
+        "zero://app",
+        "zero://inline"
+      ],
+      "external_links": {
+        "action": "deny"
+      }
+    }
+  },
+  "web_engine": "system",
+  "cef": {
+    "dir": "third_party/cef/macos",
+    "auto_install": false
+  },
+  "webview_layer": "exclude"
+}

@@ -1,0 +1,28 @@
+found zig 0.17.0 on PATH, but this Native SDK is pinned to zig 0.16.0
+Build Summary: 18/18 steps succeeded
+install success
++- install native-live-containers success
+   +- compile exe native-live-containers ReleaseFast native success 3s MaxRSS:214M
+      +- WriteFile cached
+      +- compile obj native-live-containers-app-code ReleaseFast native success 2m MaxRSS:2G
+      |  +- WriteFile core.zig success
+      |  |  +- native corewire (compiled-core mirror) success 39ms
+      |  |     +- compile exe corewire Debug native cached 24ms MaxRSS:42M
+      |  |     |  +- native corewire projections (scriptc) cached
+      |  |     |     +- WriteFile emit_profile.ts cached
+      |  |     +- native scriptc core compile success 52s
+      |  |        +- native stage TypeScript core success 219ms
+      |  |        |  +- native corewire (core facade + profile) success 88ms
+      |  |        |  |  +- compile exe corewire Debug native (+1 more reused dependencies)
+      |  |        |  |  +- stabilize generated core.contract.json success
+      |  |        |  |     +- native ts frontend (core + service contracts) success 1s
+      |  |        |  +- native corewire (core facade + profile) (+2 more reused dependencies)
+      |  |        |  +- stabilize generated core.contract.json (+1 more reused dependencies)
+      |  |        +- stabilize generated core.contract.json (+1 more reused dependencies)
+      |  +- WriteFile app_manifest.zon cached
+      |  +- WriteFile app.native success
+      |  +- options cached
+      +- compile obj native-live-containers-app-code ReleaseFast native (+4 more reused dependencies)
+      +- native scriptc core compile (+2 more reused dependencies)
+
+native build: built zig-out/bin/native-live-containers (ReleaseFast)

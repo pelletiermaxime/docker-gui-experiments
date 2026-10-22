@@ -13,3 +13,4 @@
 **/toolchains/
 *.pyc
 .DS_Store
+**/.native/

@@ -1,6 +1,6 @@
 # Live Docker SDK comparison
 
-Seven independent variants of the original minimal native container list. Each reads
+Eight independent variants of the original minimal native container list. Each reads
 Docker Engine directly through a Docker client library at startup and on Refresh:
 
 | App | UI | Docker client |
@@ -12,6 +12,7 @@ Docker Engine directly through a Docker client library at startup and on Refresh
 | [Rust + software renderer](slint-containers/README.md) | Slint 1.18.1, Winit + software | Bollard 0.21.1 |
 | [C# + MAUI](maui-containers/README.md) | MAUI 10.0.110 / experimental GTK4 Linux backend | Docker.DotNet.Enhanced 4.3.3 |
 | [C# + Avalonia](avalonia-containers/README.md) | Avalonia 12.1.2 / desktop Skia | Docker.DotNet.Enhanced 4.3.3 |
+| [TypeScript + Native SDK](native-sdk/README.md) | Native SDK 0.11.0 / compiled native UI | Dockerode 5.0.1 / transient Node helper |
 
 The [C# + .NET MAUI variant](maui-containers/README.md) uses MAUI Controls
 10.0.110, Microsoft's experimental GTK4 Linux backend and Docker.DotNet.Enhanced
@@ -25,6 +26,12 @@ The subsequent [Avalonia C# port](avalonia-containers/README.md) uses Avalonia
 (2 seconds warmup, 5 seconds idle) follows the user's request to shorten
 measurement. Both .NET ports share the main charts, table and screenshot gallery,
 with their full publish-directory sizes and per-row sampling labels.
+
+The [Native SDK port](native-sdk/README.md) compiles its TypeScript UI to native
+code and invokes a short-lived Node/Dockerode helper on startup and Refresh.
+Its one short run uses 2s warmup + 5s idle, after the helper exits. Its shared
+report size row includes the native ELF, production npm files and Node executable.
+It adds a 512 KiB display-pipe bound; the SDK response itself is buffered.
 
 A separate [Slint renderer comparison](slint-renderers/README.md) keeps the same
 Slint UI and Docker code while comparing CPU/GPU renderer families and Qt. Its

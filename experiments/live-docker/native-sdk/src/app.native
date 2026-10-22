@@ -1,0 +1,21 @@
+<column padding="16" gap="12" background="background">
+  <row cross="center" gap="12">
+    <text size="heading" grow="1">Containers</text>
+    <text>Native SDK / Dockerode</text>
+  </row>
+  <row gap="12" cross="center">
+    <text-field text="{query}" placeholder="Search containers..." on-input="search_edit" grow="1"/>
+    <button on-press="refresh" disabled="{busy}">Refresh</button>
+  </row>
+  <row gap="8" padding="8" background="surface">
+    <text width="225">Name</text><text width="310">Image</text><text width="90">State</text><text grow="1">Status</text>
+  </row>
+  <virtual-window id="containers" as="window" item-count="{count}" extent-estimate="rowExtent" overscan="4" viewport-fallback="480">
+    <virtual-list window="window" each="rows" as="c" grow="1" label="Containers">
+      <row key="{c.id}" gap="8" height="36" padding="8" cross="center">
+        <text width="225">{c.name}</text><text width="310">{c.image}</text><text width="90">{c.state}</text><text grow="1">{c.status}</text>
+      </row>
+    </virtual-list>
+  </virtual-window>
+  <status-bar>{count} shown · {notice}</status-bar>
+</column>

@@ -10,8 +10,9 @@
   "files": [
     {
       "path": ".gitignore",
-      "bytes": 239,
-      "sha256": "c60864fbb79fb87057781ed41feb74dcf6346117b916cdd5f0b69556c3d045f3"
+      "bytes": 251,
+      "sha256": "53a49df4505b972c453506d8bc2430b01b0139b370c9e2f306a210f97c0ec9da",
+      "original_sha256": "c60864fbb79fb87057781ed41feb74dcf6346117b916cdd5f0b69556c3d045f3"
     },
     {
       "path": ".nojekyll",
@@ -881,8 +882,8 @@
     },
     {
       "path": ".verification/gui-live-comparison/build_report.py",
-      "bytes": 34808,
-      "sha256": "2d49c92ee8ca69d25f40adf9298fe9a9d43ce010e141b8131db46b4ea9377720",
+      "bytes": 40328,
+      "sha256": "cd0f6a571185bc420f70aa5a67d902ab89d1eb85d57e563a776e680fec48ba38",
       "original_sha256": "307ce4fb00f98f2ddda31f965e24499ea94febce9a5339ff0b64a793ce886c0a"
     },
     {
@@ -1282,8 +1283,8 @@
     },
     {
       "path": ".verification/gui-live-comparison/rapport.html",
-      "bytes": 2250644,
-      "sha256": "ccf432d7ff7d9f13b3df6cfe879dc9c3e03d8f0e46576b2230493479a578a2cb",
+      "bytes": 9551763,
+      "sha256": "9e5d6af13aa549a17e964e66c62b8fb3a002fac21b0394f4c473da120c7eb033",
       "original_sha256": "466edf878065c304a6736e68b1e73a5c99d09e0609c8590b637b963e979d4efc"
     },
     {
@@ -1448,8 +1449,8 @@
     },
     {
       "path": ".verification/gui-live-comparison/summary.json",
-      "bytes": 321801,
-      "sha256": "90a1ececc96dd697780b2f01839b28c44588b674e2b47f7d00d146eb4dece3e3",
+      "bytes": 351425,
+      "sha256": "cd2ad15a03dbbe03d5f21a32303590f0265b35cec29f1c120ab2fdb11597a5da",
       "original_sha256": "891670aa97e0118d1f39b8703303ef050bf28d809181210fd3a60eb49c46c8a2"
     },
     {
@@ -1792,6 +1793,111 @@
       "path": ".verification/maui-live-comparison/toolchain-cleanup.json",
       "bytes": 219,
       "sha256": "dc7e5a61ef81d79b853b189e98e9b81a8511d0382d014d7d09463d863a201cfc"
+    },
+    {
+      "path": ".verification/native-sdk-live-comparison/build.json",
+      "bytes": 193,
+      "sha256": "b7fc6a2d90202d4acd6ca246ca72cb7d1d7e3f176a0e448109bad6efa66da6f8"
+    },
+    {
+      "path": ".verification/native-sdk-live-comparison/build.log",
+      "bytes": 1752,
+      "sha256": "518657af4b2e83ca81d770d44670002292d0927e028e4bf67127b535884dc061"
+    },
+    {
+      "path": ".verification/native-sdk-live-comparison/clear-observation.txt",
+      "bytes": 7363,
+      "sha256": "bd31b7ee4c5eb59810e453f97d0a6d4d70387f9176132c1c567f5d977d230e49"
+    },
+    {
+      "path": ".verification/native-sdk-live-comparison/docker-load.log",
+      "bytes": 954,
+      "sha256": "98b88cba8185de2c9f0f75770050850dbc31576cd2c17848ed0a0f641eb2b0e0"
+    },
+    {
+      "path": ".verification/native-sdk-live-comparison/excluded-provisional.json",
+      "bytes": 8213,
+      "sha256": "32bfe6650342a4565c082e861f7166dc79a4dd28113a85bbfbb2301c4e56c816"
+    },
+    {
+      "path": ".verification/native-sdk-live-comparison/integration-notes.json",
+      "bytes": 1217,
+      "sha256": "68839d9bcd2bf04bc163102819cbe7ad1d1ed6b5e9b691be492f82e46b99deee"
+    },
+    {
+      "path": ".verification/native-sdk-live-comparison/measured-docker-load.log",
+      "bytes": 954,
+      "sha256": "9cdca6a692e7b14904492d45d18663866548c2ca4a712045bcdc7a9b62440e94"
+    },
+    {
+      "path": ".verification/native-sdk-live-comparison/native-1.json",
+      "bytes": 9215,
+      "sha256": "9f2369688da4e006219bc3d8072c70ae35c130369ccf65a8a81e2656dc58e115"
+    },
+    {
+      "path": ".verification/native-sdk-live-comparison/native-1.log",
+      "bytes": 805,
+      "sha256": "e8cc1df716d0a159df779be53a57e2e0e7d01d641bc3b9851efd2da65dce335d"
+    },
+    {
+      "path": ".verification/native-sdk-live-comparison/native-1.png",
+      "bytes": 2720953,
+      "sha256": "176d1ce5a1eee08605ba9bf5eff85209ca2b45e797e3567aa19a3991cee5f75b"
+    },
+    {
+      "path": ".verification/native-sdk-live-comparison/observation-build.log",
+      "bytes": 1725,
+      "sha256": "4bd0416fbfb777c8673f0e33fca47244ff505858a41db6bbcbc06bec6581612c"
+    },
+    {
+      "path": ".verification/native-sdk-live-comparison/observation-load.log",
+      "bytes": 2862,
+      "sha256": "10ee0a00d97dacd43c1d8f16bd005036f522815d16a13885c9cdea964a9170ab"
+    },
+    {
+      "path": ".verification/native-sdk-live-comparison/observation.log",
+      "bytes": 72624,
+      "sha256": "5141cba10df643e5f73d6b6e010dfa9e8eb111c37855c0bef74fed721ea8847e"
+    },
+    {
+      "path": ".verification/native-sdk-live-comparison/reference.json",
+      "bytes": 1183,
+      "sha256": "7fef3ac452474ffcd6db068a595c8bc37876eb6bd9992e17abe594f315b02ecd"
+    },
+    {
+      "path": ".verification/native-sdk-live-comparison/refresh-observation.txt",
+      "bytes": 17216,
+      "sha256": "d587755407826f79355cec942aa1a412c599219fe8bc07e1b4615733f2eceec5"
+    },
+    {
+      "path": ".verification/native-sdk-live-comparison/run.py",
+      "bytes": 1931,
+      "sha256": "50e2fd8dc2f8eee643daac5bd87ffea85bac4a16d7bc0f5a4a0aa88a910a78fe"
+    },
+    {
+      "path": ".verification/native-sdk-live-comparison/sample.py",
+      "bytes": 1882,
+      "sha256": "c91ee76f07d8242543dee60ce0443255226cbf7f661300b7eff69c53ec76db22"
+    },
+    {
+      "path": ".verification/native-sdk-live-comparison/search-observation.txt",
+      "bytes": 7360,
+      "sha256": "1beb2567b11e2830f33b7e38649117ac05726d32b19a85052b929fdfb337caf8"
+    },
+    {
+      "path": ".verification/native-sdk-live-comparison/strip.json",
+      "bytes": 110,
+      "sha256": "b266e5d27d2f23a8b40e0a606449200cd55b6baaa316738128699a1ae14b7076"
+    },
+    {
+      "path": ".verification/native-sdk-live-comparison/summarize.py",
+      "bytes": 3802,
+      "sha256": "8484945c1482b663531660b7bfa783492e9535787ebef256b0ad07178a288978"
+    },
+    {
+      "path": ".verification/native-sdk-live-comparison/summary.json",
+      "bytes": 13917,
+      "sha256": "ea856207f440a227e205c06955260b4476fc69f64ddefb259592b0423006630b"
     },
     {
       "path": ".verification/slint-renderers/build-femtovg-wgpu.log",
@@ -2875,8 +2981,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9291,
-      "sha256": "4e81d29a7cff861c7a1431efc6ec79ba1766961751fe2757c5a4cebe7a969c8b",
+      "bytes": 9722,
+      "sha256": "9d117d9546f60f48ca650f737a3c3931d7d175e73103e36cc572e4d102f42c3f",
       "original_sha256": "249de09a42ce0b7a1adc7db2bc0f87a71f2dcab1e5615ed14d818be7d2fff171"
     },
     {
@@ -2921,8 +3027,8 @@
     },
     {
       "path": "experiments/live-docker/README.md",
-      "bytes": 5169,
-      "sha256": "c6b5b2d86d51352f73e431e9349bb855c4214f20c32ad7eefc2e2ee94e29a640",
+      "bytes": 5700,
+      "sha256": "7f598e44969da1f38a727e2f06810be16a3d259a9569663d9955ca9499981818",
       "original_sha256": "05b71b43fe388ebd5b1462d936aa3b2251a3f5b2d4710910a4509596ae9267ba"
     },
     {
@@ -3121,6 +3227,56 @@
       "sha256": "76549aedb84c9ad1fe08e996a0b64869fa8bea045ed156c7c538761a99e0154b"
     },
     {
+      "path": "experiments/live-docker/native-sdk/.gitignore",
+      "bytes": 44,
+      "sha256": "360d042046aa80bdebd03ac810b261ea75c5a4f0d85ea900e265c1f10a251b71"
+    },
+    {
+      "path": "experiments/live-docker/native-sdk/README.md",
+      "bytes": 3785,
+      "sha256": "00df914e8bc7b816096c357658b1bd595aa1caf6bddc2e1d725438c6f366d408"
+    },
+    {
+      "path": "experiments/live-docker/native-sdk/app.json",
+      "bytes": 1453,
+      "sha256": "7159962f28c67cbc3cd85147349dc7700d76db5d232c3ab59d826253d1a6383c"
+    },
+    {
+      "path": "experiments/live-docker/native-sdk/assets/icon.png",
+      "bytes": 35710,
+      "sha256": "783449652ee782b99a7173462cb4a2af97882f6de90b42fa02aceaed38375ea7"
+    },
+    {
+      "path": "experiments/live-docker/native-sdk/docker.mjs",
+      "bytes": 2471,
+      "sha256": "9e89e51e95ae8733b2861700686ec559d4472557cfe548377eefc9af562d2d89"
+    },
+    {
+      "path": "experiments/live-docker/native-sdk/package-lock.json",
+      "bytes": 34656,
+      "sha256": "09e84924de31216d9a1a73c7386e532c311799c01c3eaec236f671bc2662898a"
+    },
+    {
+      "path": "experiments/live-docker/native-sdk/package.json",
+      "bytes": 192,
+      "sha256": "e928a9d431d16d2c3045ca5014cbd59dd28d1f5ab9d7e5107f8ac05bcdb14b2f"
+    },
+    {
+      "path": "experiments/live-docker/native-sdk/src/app.native",
+      "bytes": 1118,
+      "sha256": "248058ad0d39ce807873458a2ecd28810c26f25c7b18c54519d33c46a0470196"
+    },
+    {
+      "path": "experiments/live-docker/native-sdk/src/core.ts",
+      "bytes": 3624,
+      "sha256": "bc0a74bdac743be9c99cd60debcc7a9d69bcda4464f3f02b5ea3b3946a4cbd6b"
+    },
+    {
+      "path": "experiments/live-docker/native-sdk/tsconfig.json",
+      "bytes": 716,
+      "sha256": "27fd74823ace9fd4d5b0bb9f67749a1aec74310c2ca5857df5c0031a70888f99"
+    },
+    {
       "path": "experiments/live-docker/slint-containers/.gitignore",
       "bytes": 17,
       "sha256": "6192c78b3a190e1deae3b9235fba123041714ebbb86b43ccb858ba34b26994d5"
@@ -3227,8 +3383,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 2882,
-      "sha256": "b2d1c229524e9e8c36e52cc4166ad76669e2938a4ebca0a48bddfb474a4f6e9e",
+      "bytes": 2923,
+      "sha256": "dee768339472fc200439a37c4f5915e15ed83b399be799e7ace7a0ba761897db",
       "original_sha256": "11c5f3ebd3e10d6c80ac017f9edff8972db5d7e8bb35cbdd30bbf02849efee06"
     },
     {

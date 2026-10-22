@@ -1,8 +1,8 @@
 # Docker GUI experiments
 
-Small Docker container-list applications written in **Zig, Go, Rust and C#**, with the
+Small Docker container-list applications written in **Zig, Go, Rust, C# and TypeScript**, with the
 HTML reports, screenshots and measurements collected during an exploratory session
-on October 19–20, 2026. These are isolated experiments inspired by FerryDock, not a
+on October 19–21, 2026. These are isolated experiments inspired by FerryDock, not a
 rewrite or a release of the full application.
 
 The applications show container name, image, state and status, with search and
@@ -21,12 +21,17 @@ under `.verification/` when publishing the site.
 | Experiment | HTML report | Sources |
 | --- | --- | --- |
 | JSON snapshot / Docker CLI comparison | [Four integrations](.verification/gui-comparison/rapport.html) | [Zig + NanoUI](experiments/nanoui-containers), [Go + MyGo](experiments/mygo-containers), [Rust + GPUI-pre](experiments/gpui-containers), [archived GPUI Kit](.verification/gui-comparison/gpui-kit-baseline) |
-| Live Docker client-library comparison | [Seven integrations, one table and screenshot gallery](.verification/gui-live-comparison/rapport.html) | [All live variants](experiments/live-docker) |
+| Live Docker client-library comparison | [Eight integrations, one table and screenshot gallery](.verification/gui-live-comparison/rapport.html) | [All live variants](experiments/live-docker) |
 | Slint renderer comparison | [Eight configurations](.verification/slint-renderers/rapport.html) | [Same Slint application](experiments/live-docker/slint-renderers) |
 
-MAUI and Avalonia are included in the shared live comparison above. Detailed build
+MAUI, Avalonia and Native SDK are included in the shared live comparison above. Detailed build
 and backend notes remain available in the [MAUI appendix](.verification/maui-live-comparison/rapport.html)
 and [Avalonia appendix](.verification/avalonia-live-comparison/rapport.html).
+
+The [Native SDK port](experiments/live-docker/native-sdk/README.md) uses compiled
+TypeScript for its UI and a short-lived Node/Dockerode helper for Docker access.
+Its size row includes the required Node executable and production npm files; idle
+RAM is measured after the worker exits.
 
 The first report includes executable size, source lines, code-quality discussion,
 memory, CPU and observed compilation timings. The live report explores Docker
@@ -48,6 +53,7 @@ holds the Slint application constant while changing its rendering configuration.
 | Rust | Slint 1.18.1 | Bollard |
 | C# | .NET MAUI 10 / experimental GTK4 Linux backend | Docker.DotNet.Enhanced 4.3.3 |
 | C# | Avalonia 12.1.2 / desktop Skia | Docker.DotNet.Enhanced 4.3.3 |
+| TypeScript | Native SDK 0.11.0 / compiled native UI | Dockerode 5.0.1 in a short-lived Node helper |
 
 Slint configurations: its software renderer, FemtoVG/OpenGL, FemtoVG/WGPU,
 Skia/software, Skia/OpenGL, Skia/WGPU, experimental Vello, and the Qt backend.
@@ -110,8 +116,8 @@ recorded paths; pre-generated HTML and JSON can be read without rebuilding.
 
 - The main resource runs use a 1,000 × 680 client surface at scale 1, a four-second
   warmup, and twenty seconds at idle, generally with three runs per configuration.
-- The later Avalonia experiment uses a deliberately shortened protocol at the
-  user's request: **one run, two seconds warmup and five seconds idle**. It has
+- The later Avalonia and Native SDK experiments use a deliberately shortened protocol at the
+  user's request: **one run, two seconds warmup and five seconds idle**. They have
   more uncertainty and is labeled separately from the older three-run results.
 - Memory is process RSS/PSS, not full system/compositor or GPU memory. Executable
   sizes exclude shared libraries and drivers; the Qt build also excludes system Qt.

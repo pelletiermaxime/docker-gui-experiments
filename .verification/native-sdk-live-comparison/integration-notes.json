@@ -1,0 +1,22 @@
+{
+  "sdk": "Native SDK 0.11.0",
+  "revision": "16f29572307c2cc133907537c4dfd98046d4e0f4",
+  "framework_patches": [],
+  "observed_issues": [
+    {
+      "issue": "npm SDK build archive lacks tests/ts-core/gpu-dashboard-reference/main.zig, embedded by build.zig",
+      "resolution": "Use the complete upstream v0.11.0 Git checkout, unchanged."
+    },
+    {
+      "issue": "Generated fixed-height virtual list mirror had unused Zig name/args errors when no numeric extent helper existed",
+      "resolution": "Use the documented extent-estimate helper, returning a uniform 36-point row extent."
+    },
+    {
+      "issue": "Byte trim/split methods passed the frontend but were rejected by the external compiler",
+      "resolution": "Use a small explicit byte splitter for the tab-delimited display pipe."
+    }
+  ],
+  "architecture": "Native compiled TypeScript UI; documented Cmd.spawn launches Node/Dockerode once per load; helper exits before idle sampling. No Node runtime inside UI. No WebView.",
+  "renderer": "SDK software canvas -> Cairo image -> GtkDrawingArea (GTK4 default presentation). Loaded GL/Vulkan libraries alone cannot establish selected GPU.",
+  "tests": "No automated tests added or executed."
+}
