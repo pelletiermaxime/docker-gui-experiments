@@ -1,0 +1,17 @@
+{
+  "name": "rune",
+  "backend": "native Wayland",
+  "container_count": 50,
+  "ids_sha256": "6921e66cc266a170a2078536f47e907c3b219251b37779a972cf8f5b81c9ca1b",
+  "binary_sha256": "9bf80b38cd8b70c4713e7eaed25d20223b81344a53c6ee668ea1e97519b33b90",
+  "search_case_insensitive": true,
+  "search_clear": true,
+  "no_matches": true,
+  "refresh_observed": true,
+  "successful_loads": 3,
+  "failed_refresh_retains_data": true,
+  "responsive_during_timeout": true,
+  "timeout_seconds": 10.202844977990026,
+  "recovery": true,
+  "input": "AT-SPI native controls"
+}

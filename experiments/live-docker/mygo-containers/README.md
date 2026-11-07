@@ -5,19 +5,19 @@ virtualized table, and manual Refresh. No snapshot file, Docker CLI, shell, or
 hand-written HTTP implementation. UI updates run on the main thread; the Docker
 request runs in a goroutine. Loading or request errors preserve the last list.
 
-- Go 1.27.1.
-- MyGo commit `5fb60098a44a4c629cbdeac5f0ff80ce2f843c2f` (same local replacement as the original experiment).
+- Go 1.27.3.
+- MyGo 0.8.1, commit `1dfa5a1f912b75de41f8732ce1d38e1cd9a18421`, pinned through a local replacement.
 - Official Moby Go client `github.com/moby/moby/client v0.6.2`, with API types `v1.56.1`, pinned in `go.mod` and `go.sum`.
 - `client.New(client.FromEnv)` negotiates the daemon API version and calls `ContainerList` with `All: true`. Each Refresh creates and closes its client, including negotiation in the logged loading time.
 - A 10-second context limits connection/negotiation/list loading. At most 20,000 rows are retained; a larger result is rejected after the library decodes it. This is a retained-data bound, not a response-memory cap.
 
-From the repository root, with the original experiment's pinned MyGo checkout
-already available at `.verification/gui-comparison/deps/mygo`:
+Prepare pinned sources from the repository root with
+`bash experiments/live-docker/prepare-latest.sh`, then:
 
 ```sh
 cd experiments/live-docker/mygo-containers
-CGO_ENABLED=0 go build -p 4 -trimpath -tags mygo_noinspector -ldflags '-s -w -X github.com/egoist/mygo.production=1' -o build/mygo-containers .
-./build/mygo-containers
+CGO_ENABLED=0 go build -buildvcs=false -p 4 -trimpath -tags mygo_noinspector -ldflags '-s -w -X github.com/egoist/mygo.production=1' -o build/mygo-containers .
+env -u DISPLAY GDK_BACKEND=wayland ./build/mygo-containers
 ```
 
 The SDK reads `DOCKER_HOST`, `DOCKER_TLS_VERIFY`, `DOCKER_CERT_PATH`, and
@@ -34,4 +34,6 @@ A successful load prints the container count, elapsed milliseconds, and the
 SHA-256 of all sorted full IDs joined by `\n` with no trailing newline. This
 allows the three implementations to compare daemon results without dumping
 container metadata. Names are displayed without Docker's leading `/`.
-No automatic polling, actions, or automated tests.
+No automatic polling or container actions. For repeated clean production builds,
+native Wayland Refresh validation and resource sampling, use the
+[production refresh workflow](../README.md#november-7-production-refresh).

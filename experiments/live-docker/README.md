@@ -1,37 +1,15 @@
 # Live Docker SDK comparison
 
-Eight independent variants of the original minimal native container list. Each reads
+Independent variants of the original minimal native container list. Each reads
 Docker Engine directly through a Docker client library at startup and on Refresh:
 
 | App | UI | Docker client |
 | --- | --- | --- |
-| [Zig](nanoui-containers/README.md) | NanoUI, original pinned revision | container-zig 1.0.0, zig-0.17 revision d65b714977eeadb5b38c1b577f4ef53e3f88083a |
-| [Zig + C SDK](nanoui-csdk-containers/README.md) | NanoUI, same pinned revision | unofficial C libdocker, pinned 4e6c007; system shared libcurl |
-| [Go](mygo-containers/README.md) | MyGo, original pinned revision | official Moby client v0.6.2 |
-| [Rust](gpui-containers/README.md) | gpui-pre 0.3.9, no Kit | Bollard 0.21.1 |
+| [Zig](nanoui-containers/README.md) | NanoUI 0.12.0 | Zig Docker SDK 1.0.0, zig-0.17 revision d65b714977eeadb5b38c1b577f4ef53e3f88083a |
+| [Go](mygo-containers/README.md) | MyGo 0.8.1 (1dfa5a1f912b) | official Moby client v0.6.2 |
+| [Rust](gpui-containers/README.md) | gpui-pre 0.3.11, no Kit | Bollard 0.21.1 |
 | [Rust + software renderer](slint-containers/README.md) | Slint 1.18.1, Winit + software | Bollard 0.21.1 |
-| [C# + MAUI](maui-containers/README.md) | MAUI 10.0.110 / experimental GTK4 Linux backend | Docker.DotNet.Enhanced 4.3.3 |
-| [C# + Avalonia](avalonia-containers/README.md) | Avalonia 12.1.2 / desktop Skia | Docker.DotNet.Enhanced 4.3.3 |
-| [TypeScript + Native SDK](native-sdk/README.md) | Native SDK 0.11.0 / compiled native UI | Compiled TypeScript service + native Moby SDK worker v0.6.2 |
-
-The [C# + .NET MAUI variant](maui-containers/README.md) uses MAUI Controls
-10.0.110, Microsoft's experimental GTK4 Linux backend and Docker.DotNet.Enhanced
-4.3.3. Its later measurements and screenshot appear with the other apps in the live report;
-the original five rows retain their original measurement provenance. It reports
-complete publish-directory sizes rather than treating the apphost as a standalone
-executable. The app uses an observable collection for its virtualized MAUI list.
-
-The subsequent [Avalonia C# port](avalonia-containers/README.md) uses Avalonia
-12.1.2 and the same Docker SDK and request logic. Its single short resource sample
-(2 seconds warmup, 5 seconds idle) follows the user's request to shorten
-measurement. Both .NET ports share the main charts, table and screenshot gallery,
-with their full publish-directory sizes and per-row sampling labels.
-
-The [Native SDK port](native-sdk/README.md) compiles its TypeScript UI and service to native
-code and invokes a native Go/Moby worker on startup and Refresh. Node is a build
-tool only. Its one short run uses 2s warmup + 5s idle, including the persistent
-service host. Its size row includes all three native executables and assets.
-It adds a 512 KiB display-pipe bound; the SDK response itself is buffered.
+| [Rust + Rune](rune-containers/README.md) | Rune / rune-kit f73f72c, wgpu + Vulkan | Bollard 0.21.1 |
 
 A separate [Slint renderer comparison](slint-renderers/README.md) keeps the same
 Slint UI and Docker code while comparing CPU/GPU renderer families and Qt. Its
@@ -45,11 +23,12 @@ No periodic polling, event subscription, metrics stream, or container controls.
 
 Each client buffers/decodes its response before the 20,000-row retention limit is checked.
 The row limit does not impose a common wire-response byte limit. Desktop behavior
-has only been observed on Linux XWayland, not Windows or macOS. SDK transports and
+was originally observed on Linux XWayland. The production refresh below uses
+native Wayland under COSMIC for all new runs. Windows and macOS were not executed. SDK transports and
 endpoint discovery differ; DOCKER_HOST is explicitly pinned for measurement.
 The apps do not implement Docker CLI context discovery. The Zig-native variant uses the SDK's endpoint
 resolver example with a one-line adaptation for the installed Zig release, recorded
-in the report. The C SDK variant accepts Unix sockets only, with no Windows named-pipe transport; Rust keeps its existing local search widget.
+in the report. The GPUI variant keeps its existing local search widget.
 
 The existing JSON/CLI comparison and its binaries remain unchanged. The separate
 English report, raw measurements, captures, SDK source pin/patch, and transport
@@ -59,10 +38,10 @@ Launch from the FerryDock root after building (commands in each README):
 
 ```sh
 ./experiments/live-docker/nanoui-containers/zig-out/bin/nanoui-live-containers
-./experiments/live-docker/nanoui-csdk-containers/zig-out/bin/nanoui-csdk-containers
 ./experiments/live-docker/mygo-containers/build/mygo-containers
 ./experiments/live-docker/gpui-containers/build/gpui-live-containers
 ./experiments/live-docker/slint-containers/build/slint-live-containers
+./experiments/live-docker/rune-containers/build/rune-live-containers
 ```
 
 The Rust binary has a distinct name and reuses the existing warm GPUI target;
@@ -85,4 +64,54 @@ Measurement uses a 1,000 × 680 X11 client surface, 4-second warmup, then 20 sec
 at idle; one app at a time, no strace during sampling. Native captures/transport
 traces are separate observations. The launcher/harness may use read-only Docker
 CLI commands to identify the active endpoint and reference IDs; the apps do not.
-No automated tests added or run, no Docker resources created, no commit or push.
+The original variants had no automated tests added or run. Rune has a separate
+native interaction and measurement driver documented in its README. The shared
+report includes Rune alongside the seven retained integrations.
+
+## November 7 production refresh
+
+Updated NanoUI, MyGo, gpui-pre and the Rune production control use native Wayland
+under COSMIC. Historical binaries and measurements remain separate. New results
+appear immediately below their historical rows in the shared report.
+
+```sh
+bash experiments/live-docker/prepare-latest.sh
+bash experiments/live-docker/prepare-wayland-tools.sh
+python experiments/live-docker/benchmark.py mygo
+python experiments/live-docker/benchmark.py nanoui
+python experiments/live-docker/benchmark.py gpui
+python experiments/live-docker/benchmark.py rune
+python experiments/live-docker/verify_wayland.py functional mygo
+python experiments/live-docker/verify_wayland.py measure mygo --run 1
+python experiments/live-docker/verify_wayland.py renderer nanoui
+```
+
+Repeat functional validation for each app and measurement for runs 1–3 of each
+app, sequentially, after builds finish. Then run `summarize_wayland.py` and the
+existing report generator. Outputs live in
+`.verification/wayland-refresh-20261107/`; clean production executables are in
+its `bin/` directory. To launch one directly:
+
+```sh
+env -u DISPLAY GDK_BACKEND=wayland WINIT_UNIX_BACKEND=wayland \
+  .verification/wayland-refresh-20261107/bin/mygo
+```
+
+Each build gets an empty language build cache, four build jobs, pre-fetched
+dependencies and an isolated output directory. Rust uses opt-level=3, fat LTO,
+one codegen unit, panic abort and stripping; NanoUI uses ReleaseFast; MyGo uses
+its production configuration. Timings exclude downloads. Filesystem caches are
+not flushed. The harness refuses to reuse an existing build-run directory.
+
+Functional validation uses the measured binary, native controls or Wayland
+keyboard input, and a temporary read-only proxy to check Refresh, search,
+retained rows on HTTP failure, a responsive ten-second timeout and recovery.
+Resource sampling runs separately, with DISPLAY removed, four seconds of warmup
+and twenty seconds of idle samples every 500 ms. Captures follow sampling.
+The renderer diagnostic runs separately from resource sampling. Native helpers
+require COSMIC's toplevel/capture protocols, Wayland development headers,
+libdrm/GBM, libpng, xkbcommon, `wayland-scanner`, Meson and Ninja. Preparation
+downloads and builds wtype at `4b9cc29664f178cf380ccfe7f98405d38dffda3c`;
+`WTYPE=/absolute/path` overrides it. The Python driver needs PyGObject,
+AT-SPI and Tesseract. It enables accessibility only during functional
+checks and restores the previous desktop setting afterward.

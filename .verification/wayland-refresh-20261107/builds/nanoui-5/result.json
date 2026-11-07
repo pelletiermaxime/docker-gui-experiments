@@ -1,0 +1,32 @@
+{
+  "name": "nanoui",
+  "run": 5,
+  "revision": "e26765e8422f0a719e3bb90d9d97067d92d495b7",
+  "compiler": "zig 0.17.0",
+  "profile": "ReleaseFast, strip=true, LLVM backend",
+  "cache": "Empty Zig local and global build caches; pre-fetched source packages read-only through --system",
+  "jobs": 4,
+  "downloads_in_timing": false,
+  "filesystem_cache": "Not flushed; no OS-wide cache or service changes",
+  "kernel": "7.3.1-1-cachyos",
+  "command": [
+    "zig",
+    "build",
+    "--build-file",
+    "/home/maximep/projects/ferrydock-experiments/experiments/live-docker/nanoui-containers/build.zig",
+    "--system",
+    "/home/maximep/projects/ferrydock-experiments/.verification/wayland-refresh-20261107/packages",
+    "-Doptimize=ReleaseFast",
+    "-j4",
+    "--prefix",
+    "/home/maximep/projects/ferrydock-experiments/.verification/wayland-refresh-20261107/builds/nanoui-5/install"
+  ],
+  "elapsed_seconds": 104.73963287100196,
+  "wall_seconds": 104.73,
+  "user_seconds": 104.96,
+  "system_seconds": 0.97,
+  "max_process_rss_kib": 749216,
+  "exit_code": 0,
+  "binary_bytes": 2174824,
+  "binary_sha256": "372d278a26e2ee32e3970743a1848bed3da3e871239b275b5573c83a6ed747e9"
+}

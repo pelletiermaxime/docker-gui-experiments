@@ -145,6 +145,10 @@ const State = struct {
     }
 
     fn view(s: *State, c: *ui.Context) void {
+        if (c.input.key == .f5) {
+            c.input.key = null;
+            s.refresh();
+        }
         const root = ui.div(c).column().sizeFull().p(24).gap(16).bg(c.theme.background);
         defer root.end();
         {
@@ -215,6 +219,7 @@ pub fn main(init: std.process.Init) !void {
     defer app.destroy();
     var state: State = .{ .io = init.io, .environment = init.environ_map };
     defer state.deinit();
+    state.search.focus();
     state.window = try app.newWindow(.{
         .title = "FerryDock · NanoUI Live",
         .width = 1000,

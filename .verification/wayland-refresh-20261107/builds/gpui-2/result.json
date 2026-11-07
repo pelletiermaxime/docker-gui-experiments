@@ -1,0 +1,29 @@
+{
+  "name": "gpui",
+  "run": 2,
+  "revision": "0.3.11",
+  "compiler": "rustc 1.99.0 (b940084d7 2026-09-28)",
+  "profile": "opt-level=3, fat LTO, codegen-units=1, panic=abort, strip=true, force-unwind-tables=no",
+  "cache": "Empty Cargo target; registry sources pre-downloaded; incremental and compiler wrappers disabled",
+  "jobs": 4,
+  "downloads_in_timing": false,
+  "filesystem_cache": "Not flushed; no OS-wide cache or service changes",
+  "kernel": "7.3.1-1-cachyos",
+  "command": [
+    "cargo",
+    "build",
+    "--release",
+    "--locked",
+    "--offline",
+    "--manifest-path",
+    "/home/maximep/projects/ferrydock-experiments/experiments/live-docker/gpui-containers/Cargo.toml"
+  ],
+  "elapsed_seconds": 207.51825017300143,
+  "wall_seconds": 207.51,
+  "user_seconds": 486.54,
+  "system_seconds": 19.34,
+  "max_process_rss_kib": 2178584,
+  "exit_code": 0,
+  "binary_bytes": 19123152,
+  "binary_sha256": "adc6753e4617ed3bd0edb9445c0c00e4052f7cded3381872aa7a51527e4810cd"
+}

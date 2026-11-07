@@ -1,9 +1,9 @@
 module ferrydock-experiments/live-docker/mygo-containers
 
-go 1.27.1
+go 1.27.3
 
 require (
-	github.com/egoist/mygo v0.0.0-20261019204850-5fb60098a44a
+	github.com/egoist/mygo v0.0.0-20261107054355-1dfa5a1f912b
 	github.com/moby/moby/client v0.6.2
 )
 
@@ -29,8 +29,9 @@ require (
 	go.opentelemetry.io/otel/metric v1.35.0 // indirect
 	go.opentelemetry.io/otel/trace v1.35.0 // indirect
 	golang.org/x/image v0.46.0 // indirect
+	golang.org/x/net v0.59.0 // indirect
 	golang.org/x/sys v0.48.0 // indirect
 	golang.org/x/text v0.43.0 // indirect
 )
 
-replace github.com/egoist/mygo => ../../../.verification/gui-comparison/deps/mygo
+replace github.com/egoist/mygo => ../../../.verification/wayland-refresh-20261107/deps/mygo

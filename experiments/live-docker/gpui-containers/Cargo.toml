@@ -8,13 +8,13 @@ license = "MIT"
 
 [dependencies]
 anyhow = "1"
-gpui = { package = "gpui-pre", version = "=0.3.9", default-features = false, features = ["x11"] }
-gpui_platform = { package = "gpui-pre-platform", version = "=0.3.9", default-features = false, features = ["x11"] }
+gpui = { package = "gpui-pre", version = "=0.3.11", default-features = false, features = ["wayland"] }
+gpui_platform = { package = "gpui-pre-platform", version = "=0.3.11", default-features = false, features = ["wayland"] }
 bollard = "=0.21.1"
 tokio = { version = "1", features = ["rt", "time", "net"] }
 
 [profile.release]
-opt-level = "z"
+opt-level = 3
 lto = "fat"
 codegen-units = 1
 panic = "abort"

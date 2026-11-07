@@ -4,7 +4,7 @@ Minimal independent variant of `../../gpui-containers`: same native list,
 search field and manual Refresh, with the Docker Engine API as its only data
 source. It does not read snapshots or invoke the Docker CLI.
 
-- UI: `gpui-pre` and `gpui-pre-platform` **0.3.9**, without GPUI Kit.
+- UI: `gpui-pre` and `gpui-pre-platform` **0.3.11**, without GPUI Kit.
 - Docker client: **Bollard 0.21.1**, default HTTP/Unix-socket/Windows-named-pipe
   features; no TLS or SSH features.
 - `Docker::connect_with_defaults()` honors `DOCKER_HOST`, otherwise uses
@@ -22,22 +22,16 @@ source. It does not read snapshots or invoke the Docker CLI.
 From the FerryDock repository root:
 
 ```sh
-CARGO_TARGET_DIR="$PWD/experiments/gpui-containers/target" \
-CARGO_BUILD_JOBS=4 RUSTFLAGS='-C force-unwind-tables=no' \
-cargo build --release --locked \
-  --manifest-path experiments/live-docker/gpui-containers/Cargo.toml
-
-mkdir -p experiments/live-docker/gpui-containers/build
-cp experiments/gpui-containers/target/release/gpui-live-containers experiments/live-docker/gpui-containers/build/
-./experiments/live-docker/gpui-containers/build/gpui-live-containers
+bash experiments/live-docker/prepare-latest.sh
+python experiments/live-docker/benchmark.py gpui
+env -u DISPLAY WINIT_UNIX_BACKEND=wayland .verification/wayland-refresh-20261107/bin/gpui
 ```
 
-The distinct executable name preserves the original snapshot prototype. Release
-settings match it: size optimization, fat LTO, one codegen unit, panic abort and
-stripping. The shared target directory reuses dependencies; this is not a clean
-build. Linux is configured for X11/XWayland. Windows/macOS need their GPUI platform
-features selected before building; no cross-platform execution is claimed.
+This runs three clean production builds with isolated Cargo targets and four jobs.
+Release settings use opt-level=3, fat LTO, one codegen unit, panic abort and
+stripping. Linux enables Wayland only. F5 or Ctrl+R activates Refresh, including
+while the search field has focus. Native input validation and idle sampling use
+the [production refresh workflow](../README.md#november-7-production-refresh).
 
 The local input is copied from the original GPUI prototype, with its existing
-Apache-2.0 attribution in `src/search.rs` and `LICENSE-APACHE`. No automated tests
-were added or run.
+Apache-2.0 attribution in `src/search.rs` and `LICENSE-APACHE`. Native verification is performed on the exact production binary.

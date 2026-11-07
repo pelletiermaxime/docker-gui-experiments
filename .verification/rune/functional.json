@@ -1,0 +1,15 @@
+{
+  "backend": "native Wayland",
+  "containers": 50,
+  "ids_match_daemon": true,
+  "keyboard_table_navigation": true,
+  "search_case_insensitive": true,
+  "empty_search_results": true,
+  "manual_refresh": true,
+  "failed_refresh_retains_rows": true,
+  "responsive_during_timeout": true,
+  "refresh_disabled_while_busy": true,
+  "timeout_seconds": 10.115274551004404,
+  "recovery": true,
+  "listing_requests": 5
+}

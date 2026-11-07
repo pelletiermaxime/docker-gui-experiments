@@ -8,6 +8,7 @@ use std::time::{Duration, Instant};
 const MAX_ROWS: usize = 20_000;
 const BACKGROUND: u32 = 0x171d21;
 const MUTED: u32 = 0x9eb2a8;
+actions!(containers, [Refresh]);
 
 struct Container {
     names: String,
@@ -27,6 +28,7 @@ struct Containers {
 impl Containers {
     fn new(window: &mut Window, cx: &mut Context<Self>) -> Self {
         let search = cx.new(Search::new);
+        search.read(cx).focus_handle(cx).focus(window, cx);
         cx.subscribe_in(&search, window, |this, _, _, window, cx| {
             this.filter(cx);
             window.refresh();
@@ -127,6 +129,8 @@ impl Render for Containers {
             )
         };
         div()
+            .key_context("Containers")
+            .on_action(cx.listener(|this, _: &Refresh, window, cx| this.refresh(window, cx)))
             .size_full()
             .flex()
             .flex_col()
@@ -247,6 +251,10 @@ fn load_containers() -> anyhow::Result<Vec<Container>> {
 
 fn main() {
     gpui_platform::application().run(|cx| {
+        cx.bind_keys([
+            KeyBinding::new("f5", Refresh, Some("Containers")),
+            KeyBinding::new("ctrl-r", Refresh, Some("Containers")),
+        ]);
         cx.on_window_closed(|cx, _| {
             if cx.windows().is_empty() {
                 cx.quit();

@@ -2,13 +2,7 @@
 
 Independent live version of the original minimal UI. Read-only all-container list,
 search and manual Refresh; no snapshot file, Docker CLI, application polling or
-container mutation. NanoUI remains pinned to `d61e253205472cef0854367125295d87c810c5b3`.
-
-**Experimental dependency:** GitHub metadata checked on 2026-10-19 returned one
-star, creation on 2026-07-06 and last push on 2026-07-14. This client was chosen
-for its Zig 0.17 branch, not demonstrated production maturity. The live report
-includes the selection history and alternatives; successful listing is not proof
-of full API or cross-platform reliability.
+container mutation. NanoUI 0.12.0 is pinned to `e26765e8422f0a719e3bb90d9d97067d92d495b7`.
 
 Uses container-zig 1.0.0, `zig-0.17` revision
 `d65b714977eeadb5b38c1b577f4ef53e3f88083a`, and Zig 0.17.0.
@@ -37,19 +31,16 @@ git -C .verification/gui-live-comparison/deps/container-zig checkout d65b714977e
 git -C .verification/gui-live-comparison/deps/container-zig apply ../../container-zig-zig017.patch
 ```
 
-From the FerryDock root, with the ignored dependency checkouts available:
+From the FerryDock root, with the Docker SDK checkout and patch available:
 
 ```sh
-ZIG_GLOBAL_CACHE_DIR=/tmp/ferrydock-nanoui-zig-global-cache \
-ZIG_LOCAL_CACHE_DIR=/tmp/ferrydock-live-nanoui-zig-cache \
-ZIG_LOCAL_PKG_DIR=/tmp/ferrydock-nanoui-zig-pkgs \
-.verification/gui-comparison/toolchains/zig-x86_64-linux-0.17.0/zig build \
-  --build-file experiments/live-docker/nanoui-containers/build.zig \
-  -Doptimize=ReleaseFast -j4
-./experiments/live-docker/nanoui-containers/zig-out/bin/nanoui-live-containers
+bash experiments/live-docker/prepare-latest.sh
+python experiments/live-docker/benchmark.py nanoui
+env -u DISPLAY GDK_BACKEND=wayland .verification/wayland-refresh-20261107/bin/nanoui
 ```
 
-Build uses libc for NanoUI's system integration, rather than application-declared
-OS functions. Native UI still uses the toolkit's CPU/Cairo/GTK backend on Linux.
-No automated tests added or executed. Reports/captures live in
-`.verification/gui-live-comparison/`; original experiments are preserved.
+This runs three clean ReleaseFast builds with isolated Zig caches and four jobs.
+The updated NanoUI Linux backend selects OpenGL when available, with a CPU fallback.
+F5 activates Refresh; the search field receives initial keyboard focus.
+Native Wayland validation and idle sampling use the shared
+[production refresh workflow](../README.md#november-7-production-refresh).

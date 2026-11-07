@@ -14,10 +14,6 @@ DEPENDENCIES = [
      '.verification/gui-live-comparison/deps/container-zig',
      'd65b714977eeadb5b38c1b577f4ef53e3f88083a',
      '.verification/gui-live-comparison/container-zig-zig017.patch'),
-    ('https://github.com/danielsuo/libdocker',
-     '.verification/gui-live-comparison/deps/libdocker',
-     '4e6c007615fe151ea59609d5081175ea1fe8e65b',
-     '.verification/gui-live-comparison/libdocker-unix-host.patch'),
 ]
 
 

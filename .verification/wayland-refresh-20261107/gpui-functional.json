@@ -1,0 +1,17 @@
+{
+  "name": "gpui",
+  "backend": "native Wayland",
+  "container_count": 50,
+  "ids_sha256": "6921e66cc266a170a2078536f47e907c3b219251b37779a972cf8f5b81c9ca1b",
+  "binary_sha256": "adc6753e4617ed3bd0edb9445c0c00e4052f7cded3381872aa7a51527e4810cd",
+  "search_case_insensitive": true,
+  "search_clear": true,
+  "no_matches": true,
+  "refresh_observed": true,
+  "successful_loads": 3,
+  "failed_refresh_retains_data": true,
+  "responsive_during_timeout": true,
+  "timeout_seconds": 10.968486138008302,
+  "recovery": true,
+  "input": "Wayland virtual keyboard; owned window activation confirmed; F5"
+}

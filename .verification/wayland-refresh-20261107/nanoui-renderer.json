@@ -1,0 +1,5 @@
+{
+  "renderer": "OpenGL on Mesa Intel(R) Arc(tm) Graphics (MTL)",
+  "binary_sha256": "372d278a26e2ee32e3970743a1848bed3da3e871239b275b5573c83a6ed747e9",
+  "scope": "Separate renderer observation; NANOUI_DEBUG=1; no resource sampling"
+}

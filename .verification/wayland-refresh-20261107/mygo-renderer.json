@@ -1,0 +1,7 @@
+{
+  "renderer": "MyGo OpenGL",
+  "drawing": "GPU",
+  "binary_sha256": "bbf3309ebcc68b0e75892c4c00e600d95444c5b58b307493ffbbc8a96cc25081",
+  "evidence": "2026/11/07 02:11:36 mygo: frame 2 took 54.8 ms: build 0.3, layout 1.4, paint 1.7, present 51.5 (drawn on the GPU: 1470 instances in 68 batches (0 opaque; by class general 68, plain 0, fill 0, shadow 0, glyph 0, subpixel 0, image 0), 0 ops culled, 0 opaque cores), other 0.0; meanwhile the process made about 7997 allocations, 3480.2 KB, 49 text layouts; GC: 1 cycles ended, 0.1 ms of assists",
+  "scope": "Separate renderer observation; MYGO_FRAME_STATS=all; no resource sampling"
+}

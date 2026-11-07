@@ -1,0 +1,29 @@
+{
+  "name": "rune",
+  "run": 1,
+  "revision": "f73f72cdc563534e4f7de9f5a79bed007ac42384",
+  "compiler": "rustc 1.99.0 (b940084d7 2026-09-28)",
+  "profile": "opt-level=3, fat LTO, codegen-units=1, panic=abort, strip=true, force-unwind-tables=no",
+  "cache": "Empty Cargo target; registry sources pre-downloaded; incremental and compiler wrappers disabled",
+  "jobs": 4,
+  "downloads_in_timing": false,
+  "filesystem_cache": "Not flushed; no OS-wide cache or service changes",
+  "kernel": "7.3.1-1-cachyos",
+  "command": [
+    "cargo",
+    "build",
+    "--release",
+    "--locked",
+    "--offline",
+    "--manifest-path",
+    "/home/maximep/projects/ferrydock-experiments/experiments/live-docker/rune-containers/Cargo.toml"
+  ],
+  "elapsed_seconds": 222.33986401000584,
+  "wall_seconds": 222.33,
+  "user_seconds": 416.15,
+  "system_seconds": 14.19,
+  "max_process_rss_kib": 2033260,
+  "exit_code": 0,
+  "binary_bytes": 19396432,
+  "binary_sha256": "9bf80b38cd8b70c4713e7eaed25d20223b81344a53c6ee668ea1e97519b33b90"
+}

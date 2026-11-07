@@ -14,3 +14,9 @@
 *.pyc
 .DS_Store
 **/.native/
+**/builds/
+.verification/rune/source/
+.verification/rune/source.tar.gz
+.verification/rune/wtype/
+.verification/wayland-refresh-*/packages/
+.verification/wayland-refresh-*/tools/

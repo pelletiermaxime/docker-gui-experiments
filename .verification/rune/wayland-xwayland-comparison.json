@@ -1,0 +1,181 @@
+{
+  "protocol": "3 alternating XWayland/Wayland pairs; 4s warmup; 20s idle; 500ms sampling",
+  "binary_sha256": "e7620c49c33029c258b30f5d73c3b4cd8f66232a8084b6ebd64afc5da491b923",
+  "dataset_sha256": "aaa69209867239265fd16e191b3406a12299def2dd9a8326ffb56e7423770cb6",
+  "container_count": 50,
+  "client_size": [
+    1000,
+    680
+  ],
+  "medians": {
+    "wayland": {
+      "idle_rss_median_bytes": 45178880.0,
+      "idle_pss_median_bytes": 34311168.0,
+      "ready_with_data_seconds": 0.36230530199827626,
+      "idle_cpu_percent_one_core": 0.0
+    },
+    "xwayland": {
+      "idle_rss_median_bytes": 47570944.0,
+      "idle_pss_median_bytes": 36045824.0,
+      "ready_with_data_seconds": 0.38023498900292907,
+      "idle_cpu_percent_one_core": 0.0
+    }
+  },
+  "xwayland_minus_wayland": {
+    "idle_rss_median_bytes": 2392064.0,
+    "idle_pss_median_bytes": 1734656.0,
+    "ready_with_data_seconds": 0.017929687004652806,
+    "idle_cpu_percent_one_core": 0.0
+  },
+  "xwayland_minus_wayland_percent": {
+    "idle_rss_median_bytes": 5.2946509519492295,
+    "idle_pss_median_bytes": 5.055660011340914
+  },
+  "runs": [
+    {
+      "name": "rune",
+      "run": 4,
+      "backend": "Rune / wgpu / wayland / COSMIC",
+      "ready_with_data_seconds": 0.36230530199827626,
+      "warmup_seconds": 4,
+      "idle_seconds": 20.068810671000392,
+      "idle_cpu_percent_one_core": 0.0,
+      "idle_rss_median_bytes": 45154304.0,
+      "idle_pss_median_bytes": 34210816.0,
+      "binary_bytes": 13646928,
+      "binary_sha256": "e7620c49c33029c258b30f5d73c3b4cd8f66232a8084b6ebd64afc5da491b923",
+      "container_count": 50,
+      "dataset_sha256": "aaa69209867239265fd16e191b3406a12299def2dd9a8326ffb56e7423770cb6",
+      "client_size": [
+        1000,
+        680
+      ],
+      "graphics_libraries": [
+        "/usr/lib/libvulkan.so.1.4.363",
+        "/usr/lib/libvulkan_intel.so"
+      ],
+      "x11_scale_factor": null
+    },
+    {
+      "name": "rune",
+      "run": 5,
+      "backend": "Rune / wgpu / wayland / COSMIC",
+      "ready_with_data_seconds": 0.35981830398668535,
+      "warmup_seconds": 4,
+      "idle_seconds": 20.063573774998076,
+      "idle_cpu_percent_one_core": 0.0,
+      "idle_rss_median_bytes": 47243264.0,
+      "idle_pss_median_bytes": 36372480.0,
+      "binary_bytes": 13646928,
+      "binary_sha256": "e7620c49c33029c258b30f5d73c3b4cd8f66232a8084b6ebd64afc5da491b923",
+      "container_count": 50,
+      "dataset_sha256": "aaa69209867239265fd16e191b3406a12299def2dd9a8326ffb56e7423770cb6",
+      "client_size": [
+        1000,
+        680
+      ],
+      "graphics_libraries": [
+        "/usr/lib/libvulkan.so.1.4.363",
+        "/usr/lib/libvulkan_intel.so"
+      ],
+      "x11_scale_factor": null
+    },
+    {
+      "name": "rune",
+      "run": 6,
+      "backend": "Rune / wgpu / wayland / COSMIC",
+      "ready_with_data_seconds": 0.3679177570011234,
+      "warmup_seconds": 4,
+      "idle_seconds": 20.068751886006794,
+      "idle_cpu_percent_one_core": 0.0,
+      "idle_rss_median_bytes": 45178880.0,
+      "idle_pss_median_bytes": 34311168.0,
+      "binary_bytes": 13646928,
+      "binary_sha256": "e7620c49c33029c258b30f5d73c3b4cd8f66232a8084b6ebd64afc5da491b923",
+      "container_count": 50,
+      "dataset_sha256": "aaa69209867239265fd16e191b3406a12299def2dd9a8326ffb56e7423770cb6",
+      "client_size": [
+        1000,
+        680
+      ],
+      "graphics_libraries": [
+        "/usr/lib/libvulkan.so.1.4.363",
+        "/usr/lib/libvulkan_intel.so"
+      ],
+      "x11_scale_factor": null
+    },
+    {
+      "name": "rune",
+      "run": 4,
+      "backend": "Rune / wgpu / xwayland / COSMIC",
+      "ready_with_data_seconds": 0.38023498900292907,
+      "warmup_seconds": 4,
+      "idle_seconds": 20.07269057400117,
+      "idle_cpu_percent_one_core": 0.0,
+      "idle_rss_median_bytes": 47415296.0,
+      "idle_pss_median_bytes": 35951616.0,
+      "binary_bytes": 13646928,
+      "binary_sha256": "e7620c49c33029c258b30f5d73c3b4cd8f66232a8084b6ebd64afc5da491b923",
+      "container_count": 50,
+      "dataset_sha256": "aaa69209867239265fd16e191b3406a12299def2dd9a8326ffb56e7423770cb6",
+      "client_size": [
+        1000,
+        680
+      ],
+      "graphics_libraries": [
+        "/usr/lib/libvulkan.so.1.4.363",
+        "/usr/lib/libvulkan_intel.so"
+      ],
+      "x11_scale_factor": "1"
+    },
+    {
+      "name": "rune",
+      "run": 5,
+      "backend": "Rune / wgpu / xwayland / COSMIC",
+      "ready_with_data_seconds": 0.3829584769991925,
+      "warmup_seconds": 4,
+      "idle_seconds": 20.073275959002785,
+      "idle_cpu_percent_one_core": 0.049817478823206474,
+      "idle_rss_median_bytes": 47624192.0,
+      "idle_pss_median_bytes": 36058112.0,
+      "binary_bytes": 13646928,
+      "binary_sha256": "e7620c49c33029c258b30f5d73c3b4cd8f66232a8084b6ebd64afc5da491b923",
+      "container_count": 50,
+      "dataset_sha256": "aaa69209867239265fd16e191b3406a12299def2dd9a8326ffb56e7423770cb6",
+      "client_size": [
+        1000,
+        680
+      ],
+      "graphics_libraries": [
+        "/usr/lib/libvulkan.so.1.4.363",
+        "/usr/lib/libvulkan_intel.so"
+      ],
+      "x11_scale_factor": "1"
+    },
+    {
+      "name": "rune",
+      "run": 6,
+      "backend": "Rune / wgpu / xwayland / COSMIC",
+      "ready_with_data_seconds": 0.3557020770094823,
+      "warmup_seconds": 4,
+      "idle_seconds": 20.071024617995135,
+      "idle_cpu_percent_one_core": 0.0,
+      "idle_rss_median_bytes": 47570944.0,
+      "idle_pss_median_bytes": 36045824.0,
+      "binary_bytes": 13646928,
+      "binary_sha256": "e7620c49c33029c258b30f5d73c3b4cd8f66232a8084b6ebd64afc5da491b923",
+      "container_count": 50,
+      "dataset_sha256": "aaa69209867239265fd16e191b3406a12299def2dd9a8326ffb56e7423770cb6",
+      "client_size": [
+        1000,
+        680
+      ],
+      "graphics_libraries": [
+        "/usr/lib/libvulkan.so.1.4.363",
+        "/usr/lib/libvulkan_intel.so"
+      ],
+      "x11_scale_factor": "1"
+    }
+  ],
+  "scope": "App process and children; excludes the shared XWayland server and some compositor/GPU allocations"
+}

@@ -1,0 +1,3973 @@
+{
+  "apps": {
+    "nanoui": {
+      "label": "Zig + NanoUI \u00b7 2026-11-07",
+      "client": "NanoUI 0.12.0 \u00b7 Zig Docker SDK 1.0.0",
+      "pin": "NanoUI e26765e8422f0a719e3bb90d9d97067d92d495b7",
+      "url": "https://github.com/justrach/nanoui/tree/e26765e8422f0a719e3bb90d9d97067d92d495b7",
+      "color": "#eec26d",
+      "source": [
+        "nanoui-containers/src/main.zig"
+      ],
+      "manifest": "nanoui-containers/build.zig",
+      "measurement_date": "2026-11-07",
+      "renderer_observation": {
+        "renderer": "OpenGL on Mesa Intel(R) Arc(tm) Graphics (MTL)",
+        "binary_sha256": "372d278a26e2ee32e3970743a1848bed3da3e871239b275b5573c83a6ed747e9",
+        "scope": "Separate renderer observation; NANOUI_DEBUG=1; no resource sampling"
+      },
+      "runs": [
+        {
+          "name": "nanoui",
+          "run": 1,
+          "backend": "native Wayland / COSMIC",
+          "container_count": 50,
+          "initial_load_ms": 18,
+          "ready_with_data_seconds": 0.10145387701049913,
+          "warmup_seconds": 4,
+          "idle_seconds": 20.184359156002756,
+          "idle_cpu_percent_one_core": 0.24771655921079946,
+          "idle_rss_median_bytes": 130617344.0,
+          "idle_pss_median_bytes": 114449408.0,
+          "binary_bytes": 2174824,
+          "binary_sha256": "372d278a26e2ee32e3970743a1848bed3da3e871239b275b5573c83a6ed747e9",
+          "capture_pixels": [
+            1000,
+            680
+          ],
+          "graphics_libraries": [
+            "/usr/lib/libEGL.so.1.1.0",
+            "/usr/lib/libEGL_mesa.so.0.0.0",
+            "/usr/lib/libGL.so.1.7.0",
+            "/usr/lib/libGLESv2.so.2.1.0",
+            "/usr/lib/libGLX.so.0.0.0",
+            "/usr/lib/libGLdispatch.so.0.0.0",
+            "/usr/lib/libgtk-4.so.1.2400.1",
+            "/usr/lib/libvulkan.so.1.4.363",
+            "/usr/lib/libvulkan_intel.so"
+          ],
+          "samples": [
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114450432,
+              "cpu_seconds": 0.14,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114450432,
+              "cpu_seconds": 0.14,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114450432,
+              "cpu_seconds": 0.14,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114450432,
+              "cpu_seconds": 0.14,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114450432,
+              "cpu_seconds": 0.14,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114450432,
+              "cpu_seconds": 0.14,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114449408,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114449408,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114449408,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114449408,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114449408,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114450432,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114450432,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114450432,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114450432,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114450432,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114450432,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114450432,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114450432,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114450432,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114450432,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114450432,
+              "cpu_seconds": 0.17,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130617344,
+              "pss_bytes": 114450432,
+              "cpu_seconds": 0.17,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130347008,
+              "pss_bytes": 114180096,
+              "cpu_seconds": 0.17,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130347008,
+              "pss_bytes": 114180096,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130347008,
+              "pss_bytes": 114179072,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130347008,
+              "pss_bytes": 114179072,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130347008,
+              "pss_bytes": 114179072,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130347008,
+              "pss_bytes": 114179072,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130347008,
+              "pss_bytes": 114180096,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130347008,
+              "pss_bytes": 114180096,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130347008,
+              "pss_bytes": 114180096,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130347008,
+              "pss_bytes": 114180096,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130347008,
+              "pss_bytes": 114180096,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130347008,
+              "pss_bytes": 114180096,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130347008,
+              "pss_bytes": 114180096,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130347008,
+              "pss_bytes": 114180096,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130347008,
+              "pss_bytes": 114180096,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130347008,
+              "pss_bytes": 114180096,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 130347008,
+              "pss_bytes": 114180096,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            }
+          ],
+          "matches_initial_inventory": true,
+          "ids_sha256": "6921e66cc266a170a2078536f47e907c3b219251b37779a972cf8f5b81c9ca1b"
+        },
+        {
+          "name": "nanoui",
+          "run": 2,
+          "backend": "native Wayland / COSMIC",
+          "container_count": 50,
+          "initial_load_ms": 7,
+          "ready_with_data_seconds": 0.10078741199686192,
+          "warmup_seconds": 4,
+          "idle_seconds": 20.170877868004027,
+          "idle_cpu_percent_one_core": 0.19830569726194142,
+          "idle_rss_median_bytes": 129499136.0,
+          "idle_pss_median_bytes": 113372160.0,
+          "binary_bytes": 2174824,
+          "binary_sha256": "372d278a26e2ee32e3970743a1848bed3da3e871239b275b5573c83a6ed747e9",
+          "capture_pixels": [
+            1000,
+            680
+          ],
+          "graphics_libraries": [
+            "/usr/lib/libEGL.so.1.1.0",
+            "/usr/lib/libEGL_mesa.so.0.0.0",
+            "/usr/lib/libGL.so.1.7.0",
+            "/usr/lib/libGLESv2.so.2.1.0",
+            "/usr/lib/libGLX.so.0.0.0",
+            "/usr/lib/libGLdispatch.so.0.0.0",
+            "/usr/lib/libgtk-4.so.1.2400.1",
+            "/usr/lib/libvulkan.so.1.4.363",
+            "/usr/lib/libvulkan_intel.so"
+          ],
+          "samples": [
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.15,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.15,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.15,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.15,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.15,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.15,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.15,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.15,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.15,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.15,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.15,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113371136,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113371136,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129499136,
+              "pss_bytes": 113372160,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            }
+          ],
+          "matches_initial_inventory": true,
+          "ids_sha256": "6921e66cc266a170a2078536f47e907c3b219251b37779a972cf8f5b81c9ca1b"
+        },
+        {
+          "name": "nanoui",
+          "run": 3,
+          "backend": "native Wayland / COSMIC",
+          "container_count": 50,
+          "initial_load_ms": 9,
+          "ready_with_data_seconds": 0.20102744099858683,
+          "warmup_seconds": 4,
+          "idle_seconds": 20.166387664998183,
+          "idle_cpu_percent_one_core": 0.2975247773508742,
+          "idle_rss_median_bytes": 129712128.0,
+          "idle_pss_median_bytes": 113581056.0,
+          "binary_bytes": 2174824,
+          "binary_sha256": "372d278a26e2ee32e3970743a1848bed3da3e871239b275b5573c83a6ed747e9",
+          "capture_pixels": [
+            1000,
+            680
+          ],
+          "graphics_libraries": [
+            "/usr/lib/libEGL.so.1.1.0",
+            "/usr/lib/libEGL_mesa.so.0.0.0",
+            "/usr/lib/libGL.so.1.7.0",
+            "/usr/lib/libGLESv2.so.2.1.0",
+            "/usr/lib/libGLX.so.0.0.0",
+            "/usr/lib/libGLdispatch.so.0.0.0",
+            "/usr/lib/libgtk-4.so.1.2400.1",
+            "/usr/lib/libvulkan.so.1.4.363",
+            "/usr/lib/libvulkan_intel.so"
+          ],
+          "samples": [
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.16,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.17,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.17,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.18,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.19,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.21,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.21,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.21,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.21,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.21,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.21,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.21,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.21,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.21,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.22,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 129712128,
+              "pss_bytes": 113581056,
+              "cpu_seconds": 0.22,
+              "processes": 1
+            }
+          ],
+          "matches_initial_inventory": true,
+          "ids_sha256": "6921e66cc266a170a2078536f47e907c3b219251b37779a972cf8f5b81c9ca1b"
+        }
+      ],
+      "lines": {
+        "code": 218,
+        "physical": 233
+      },
+      "build_lines": {
+        "code": 32,
+        "physical": 33
+      },
+      "binary_bytes": 2174824,
+      "binary_sha256": "372d278a26e2ee32e3970743a1848bed3da3e871239b275b5573c83a6ed747e9",
+      "size_label": "ELF executable",
+      "historical_snapshot_baseline": null,
+      "all_runs_match_reference_ids": true,
+      "screenshot": "/home/maximep/projects/ferrydock-experiments/.verification/wayland-refresh-20261107/nanoui-1-window.png",
+      "measurement_label": "2026-11-07 \u00b7 Wayland \u00b7 3 \u00d7 20 s",
+      "native_input_observation": {
+        "name": "nanoui",
+        "backend": "native Wayland",
+        "container_count": 50,
+        "ids_sha256": "6921e66cc266a170a2078536f47e907c3b219251b37779a972cf8f5b81c9ca1b",
+        "binary_sha256": "372d278a26e2ee32e3970743a1848bed3da3e871239b275b5573c83a6ed747e9",
+        "search_case_insensitive": true,
+        "search_clear": true,
+        "no_matches": true,
+        "refresh_observed": true,
+        "successful_loads": 3,
+        "failed_refresh_retains_data": true,
+        "responsive_during_timeout": true,
+        "timeout_seconds": 10.80803095700685,
+        "recovery": true,
+        "input": "Wayland virtual keyboard; owned window activation confirmed; F5"
+      },
+      "clean_build": {
+        "name": "nanoui",
+        "runs": [
+          {
+            "name": "nanoui",
+            "run": 4,
+            "revision": "e26765e8422f0a719e3bb90d9d97067d92d495b7",
+            "compiler": "zig 0.17.0",
+            "profile": "ReleaseFast, strip=true, LLVM backend",
+            "cache": "Empty Zig local and global build caches; pre-fetched source packages read-only through --system",
+            "jobs": 4,
+            "downloads_in_timing": false,
+            "filesystem_cache": "Not flushed; no OS-wide cache or service changes",
+            "kernel": "7.3.1-1-cachyos",
+            "command": [
+              "zig",
+              "build",
+              "--build-file",
+              "/home/maximep/projects/ferrydock-experiments/experiments/live-docker/nanoui-containers/build.zig",
+              "--system",
+              "/home/maximep/projects/ferrydock-experiments/.verification/wayland-refresh-20261107/packages",
+              "-Doptimize=ReleaseFast",
+              "-j4",
+              "--prefix",
+              "/home/maximep/projects/ferrydock-experiments/.verification/wayland-refresh-20261107/builds/nanoui-4/install"
+            ],
+            "elapsed_seconds": 104.78120107999712,
+            "wall_seconds": 104.77,
+            "user_seconds": 105.0,
+            "system_seconds": 1.0,
+            "max_process_rss_kib": 749612,
+            "exit_code": 0,
+            "binary_bytes": 2174824,
+            "binary_sha256": "372d278a26e2ee32e3970743a1848bed3da3e871239b275b5573c83a6ed747e9"
+          },
+          {
+            "name": "nanoui",
+            "run": 5,
+            "revision": "e26765e8422f0a719e3bb90d9d97067d92d495b7",
+            "compiler": "zig 0.17.0",
+            "profile": "ReleaseFast, strip=true, LLVM backend",
+            "cache": "Empty Zig local and global build caches; pre-fetched source packages read-only through --system",
+            "jobs": 4,
+            "downloads_in_timing": false,
+            "filesystem_cache": "Not flushed; no OS-wide cache or service changes",
+            "kernel": "7.3.1-1-cachyos",
+            "command": [
+              "zig",
+              "build",
+              "--build-file",
+              "/home/maximep/projects/ferrydock-experiments/experiments/live-docker/nanoui-containers/build.zig",
+              "--system",
+              "/home/maximep/projects/ferrydock-experiments/.verification/wayland-refresh-20261107/packages",
+              "-Doptimize=ReleaseFast",
+              "-j4",
+              "--prefix",
+              "/home/maximep/projects/ferrydock-experiments/.verification/wayland-refresh-20261107/builds/nanoui-5/install"
+            ],
+            "elapsed_seconds": 104.73963287100196,
+            "wall_seconds": 104.73,
+            "user_seconds": 104.96,
+            "system_seconds": 0.97,
+            "max_process_rss_kib": 749216,
+            "exit_code": 0,
+            "binary_bytes": 2174824,
+            "binary_sha256": "372d278a26e2ee32e3970743a1848bed3da3e871239b275b5573c83a6ed747e9"
+          },
+          {
+            "name": "nanoui",
+            "run": 6,
+            "revision": "e26765e8422f0a719e3bb90d9d97067d92d495b7",
+            "compiler": "zig 0.17.0",
+            "profile": "ReleaseFast, strip=true, LLVM backend",
+            "cache": "Empty Zig local and global build caches; pre-fetched source packages read-only through --system",
+            "jobs": 4,
+            "downloads_in_timing": false,
+            "filesystem_cache": "Not flushed; no OS-wide cache or service changes",
+            "kernel": "7.3.1-1-cachyos",
+            "command": [
+              "zig",
+              "build",
+              "--build-file",
+              "/home/maximep/projects/ferrydock-experiments/experiments/live-docker/nanoui-containers/build.zig",
+              "--system",
+              "/home/maximep/projects/ferrydock-experiments/.verification/wayland-refresh-20261107/packages",
+              "-Doptimize=ReleaseFast",
+              "-j4",
+              "--prefix",
+              "/home/maximep/projects/ferrydock-experiments/.verification/wayland-refresh-20261107/builds/nanoui-6/install"
+            ],
+            "elapsed_seconds": 103.69981842399284,
+            "wall_seconds": 103.69,
+            "user_seconds": 103.93,
+            "system_seconds": 0.98,
+            "max_process_rss_kib": 752396,
+            "exit_code": 0,
+            "binary_bytes": 2174824,
+            "binary_sha256": "372d278a26e2ee32e3970743a1848bed3da3e871239b275b5573c83a6ed747e9"
+          }
+        ],
+        "median_seconds": 104.73963287100196,
+        "min_seconds": 103.69981842399284,
+        "max_seconds": 104.78120107999712
+      },
+      "profile": "ReleaseFast, strip=true, LLVM backend",
+      "build_observation": {
+        "elapsed_s": 104.73963287100196,
+        "cache": "Median of 3 clean production builds; sources pre-fetched; 4 jobs"
+      },
+      "source_sha256": {
+        "nanoui-containers/src/main.zig": "16b6a32187282858a0221f6eebdb93cd2f13831472765f984c069d0a5befb9e6",
+        "nanoui-containers/build.zig": "66c17fa5c5602f896b074b452bee79bf5157f79efa051744aa3dcbffd2a37a38"
+      },
+      "idle_rss_median_bytes": {
+        "median": 129712128.0,
+        "min": 129499136.0,
+        "max": 130617344.0
+      },
+      "idle_pss_median_bytes": {
+        "median": 113581056.0,
+        "min": 113372160.0,
+        "max": 114449408.0
+      },
+      "idle_cpu_percent_one_core": {
+        "median": 0.24771655921079946,
+        "min": 0.19830569726194142,
+        "max": 0.2975247773508742
+      },
+      "initial_load_ms": {
+        "median": 9,
+        "min": 7,
+        "max": 18
+      }
+    },
+    "mygo": {
+      "label": "Go + MyGo \u00b7 2026-11-07",
+      "client": "MyGo 0.8.1 \u00b7 Moby client v0.6.2",
+      "pin": "MyGo 1dfa5a1f912b75de41f8732ce1d38e1cd9a18421",
+      "url": "https://github.com/egoist/mygo/tree/1dfa5a1f912b75de41f8732ce1d38e1cd9a18421",
+      "color": "#77d7e6",
+      "source": [
+        "mygo-containers/main.go"
+      ],
+      "manifest": "mygo-containers/go.mod",
+      "measurement_date": "2026-11-07",
+      "runs": [
+        {
+          "name": "mygo",
+          "run": 1,
+          "backend": "native Wayland / COSMIC",
+          "container_count": 50,
+          "initial_load_ms": 7,
+          "ready_with_data_seconds": 0.10091411900066305,
+          "warmup_seconds": 4,
+          "idle_seconds": 20.208240260995808,
+          "idle_cpu_percent_one_core": 0.0,
+          "idle_rss_median_bytes": 155906048.0,
+          "idle_pss_median_bytes": 124564480.0,
+          "binary_bytes": 13021447,
+          "binary_sha256": "bbf3309ebcc68b0e75892c4c00e600d95444c5b58b307493ffbbc8a96cc25081",
+          "capture_pixels": [
+            1000,
+            728
+          ],
+          "graphics_libraries": [
+            "/usr/lib/libEGL.so.1.1.0",
+            "/usr/lib/libEGL_mesa.so.0.0.0",
+            "/usr/lib/libGL.so.1.7.0",
+            "/usr/lib/libGLX.so.0.0.0",
+            "/usr/lib/libGLdispatch.so.0.0.0",
+            "/usr/lib/libgtk-3.so.0.2420.32"
+          ],
+          "samples": [
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124563456,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155906048,
+              "pss_bytes": 124564480,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155844608,
+              "pss_bytes": 124503040,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155844608,
+              "pss_bytes": 124503040,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155844608,
+              "pss_bytes": 124503040,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155844608,
+              "pss_bytes": 124503040,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155844608,
+              "pss_bytes": 124503040,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155844608,
+              "pss_bytes": 124503040,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155844608,
+              "pss_bytes": 124503040,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155844608,
+              "pss_bytes": 124503040,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155844608,
+              "pss_bytes": 124503040,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155844608,
+              "pss_bytes": 124503040,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155844608,
+              "pss_bytes": 124503040,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155844608,
+              "pss_bytes": 124503040,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155844608,
+              "pss_bytes": 124503040,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155844608,
+              "pss_bytes": 124503040,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155844608,
+              "pss_bytes": 124503040,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155844608,
+              "pss_bytes": 124503040,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155844608,
+              "pss_bytes": 124503040,
+              "cpu_seconds": 0.38,
+              "processes": 4
+            }
+          ],
+          "matches_initial_inventory": true,
+          "ids_sha256": "6921e66cc266a170a2078536f47e907c3b219251b37779a972cf8f5b81c9ca1b"
+        },
+        {
+          "name": "mygo",
+          "run": 2,
+          "backend": "native Wayland / COSMIC",
+          "container_count": 50,
+          "initial_load_ms": 7,
+          "ready_with_data_seconds": 0.10079114699328784,
+          "warmup_seconds": 4,
+          "idle_seconds": 20.19481789501151,
+          "idle_cpu_percent_one_core": 0.0,
+          "idle_rss_median_bytes": 156045312.0,
+          "idle_pss_median_bytes": 124628992.0,
+          "binary_bytes": 13021447,
+          "binary_sha256": "bbf3309ebcc68b0e75892c4c00e600d95444c5b58b307493ffbbc8a96cc25081",
+          "capture_pixels": [
+            1000,
+            728
+          ],
+          "graphics_libraries": [
+            "/usr/lib/libEGL.so.1.1.0",
+            "/usr/lib/libEGL_mesa.so.0.0.0",
+            "/usr/lib/libGL.so.1.7.0",
+            "/usr/lib/libGLX.so.0.0.0",
+            "/usr/lib/libGLdispatch.so.0.0.0",
+            "/usr/lib/libgtk-3.so.0.2420.32"
+          ],
+          "samples": [
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124630016,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124630016,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124630016,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124630016,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124630016,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124628992,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124628992,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124628992,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124628992,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124628992,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124630016,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124630016,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124630016,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124630016,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124630016,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124630016,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124630016,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124630016,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124630016,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124630016,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124630016,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124630016,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156045312,
+              "pss_bytes": 124630016,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155992064,
+              "pss_bytes": 124575744,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155992064,
+              "pss_bytes": 124575744,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155992064,
+              "pss_bytes": 124575744,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155992064,
+              "pss_bytes": 124575744,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155992064,
+              "pss_bytes": 124575744,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155992064,
+              "pss_bytes": 124575744,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155992064,
+              "pss_bytes": 124576768,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155992064,
+              "pss_bytes": 124576768,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155992064,
+              "pss_bytes": 124576768,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155992064,
+              "pss_bytes": 124576768,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155992064,
+              "pss_bytes": 124576768,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155992064,
+              "pss_bytes": 124576768,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155992064,
+              "pss_bytes": 124576768,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155992064,
+              "pss_bytes": 124576768,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155992064,
+              "pss_bytes": 124576768,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155992064,
+              "pss_bytes": 124576768,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155992064,
+              "pss_bytes": 124576768,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            }
+          ],
+          "matches_initial_inventory": true,
+          "ids_sha256": "6921e66cc266a170a2078536f47e907c3b219251b37779a972cf8f5b81c9ca1b"
+        },
+        {
+          "name": "mygo",
+          "run": 3,
+          "backend": "native Wayland / COSMIC",
+          "container_count": 50,
+          "initial_load_ms": 7,
+          "ready_with_data_seconds": 0.10084727899811696,
+          "warmup_seconds": 4,
+          "idle_seconds": 20.19912111799931,
+          "idle_cpu_percent_one_core": 0.0,
+          "idle_rss_median_bytes": 156016640.0,
+          "idle_pss_median_bytes": 124693504.0,
+          "binary_bytes": 13021447,
+          "binary_sha256": "bbf3309ebcc68b0e75892c4c00e600d95444c5b58b307493ffbbc8a96cc25081",
+          "capture_pixels": [
+            1000,
+            728
+          ],
+          "graphics_libraries": [
+            "/usr/lib/libEGL.so.1.1.0",
+            "/usr/lib/libEGL_mesa.so.0.0.0",
+            "/usr/lib/libGL.so.1.7.0",
+            "/usr/lib/libGLX.so.0.0.0",
+            "/usr/lib/libGLdispatch.so.0.0.0",
+            "/usr/lib/libgtk-3.so.0.2420.32"
+          ],
+          "samples": [
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124695552,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124693504,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124693504,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124693504,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124693504,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124693504,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124695552,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124695552,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124695552,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124695552,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124695552,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124693504,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124693504,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124691456,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124691456,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124693504,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124693504,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124693504,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124693504,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124695552,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124695552,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124695552,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 156016640,
+              "pss_bytes": 124695552,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155959296,
+              "pss_bytes": 124637184,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155959296,
+              "pss_bytes": 124638208,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155959296,
+              "pss_bytes": 124637184,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155959296,
+              "pss_bytes": 124636160,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155959296,
+              "pss_bytes": 124636160,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155959296,
+              "pss_bytes": 124636160,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155959296,
+              "pss_bytes": 124636160,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155959296,
+              "pss_bytes": 124636160,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155959296,
+              "pss_bytes": 124636160,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155959296,
+              "pss_bytes": 124638208,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155959296,
+              "pss_bytes": 124638208,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155959296,
+              "pss_bytes": 124638208,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155959296,
+              "pss_bytes": 124636160,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155959296,
+              "pss_bytes": 124636160,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155959296,
+              "pss_bytes": 124636160,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155959296,
+              "pss_bytes": 124636160,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            },
+            {
+              "rss_bytes": 155959296,
+              "pss_bytes": 124638208,
+              "cpu_seconds": 0.35,
+              "processes": 4
+            }
+          ],
+          "matches_initial_inventory": true,
+          "ids_sha256": "6921e66cc266a170a2078536f47e907c3b219251b37779a972cf8f5b81c9ca1b"
+        }
+      ],
+      "lines": {
+        "code": 144,
+        "physical": 156
+      },
+      "build_lines": {
+        "code": 33,
+        "physical": 37
+      },
+      "binary_bytes": 13021447,
+      "binary_sha256": "bbf3309ebcc68b0e75892c4c00e600d95444c5b58b307493ffbbc8a96cc25081",
+      "size_label": "ELF executable",
+      "historical_snapshot_baseline": null,
+      "all_runs_match_reference_ids": true,
+      "screenshot": "/home/maximep/projects/ferrydock-experiments/.verification/wayland-refresh-20261107/mygo-1-window.png",
+      "measurement_label": "2026-11-07 \u00b7 Wayland \u00b7 3 \u00d7 20 s",
+      "native_input_observation": {
+        "name": "mygo",
+        "backend": "native Wayland",
+        "container_count": 50,
+        "ids_sha256": "6921e66cc266a170a2078536f47e907c3b219251b37779a972cf8f5b81c9ca1b",
+        "binary_sha256": "bbf3309ebcc68b0e75892c4c00e600d95444c5b58b307493ffbbc8a96cc25081",
+        "search_case_insensitive": true,
+        "search_clear": true,
+        "no_matches": true,
+        "refresh_observed": true,
+        "successful_loads": 3,
+        "failed_refresh_retains_data": true,
+        "responsive_during_timeout": true,
+        "timeout_seconds": 10.062256435994641,
+        "recovery": true,
+        "input": "AT-SPI native controls"
+      },
+      "clean_build": {
+        "name": "mygo",
+        "runs": [
+          {
+            "name": "mygo",
+            "run": 1,
+            "revision": "1dfa5a1f912b75de41f8732ce1d38e1cd9a18421",
+            "compiler": "go version go1.27.3-X:nodwarf5 linux/amd64",
+            "profile": "Default optimized Go compiler, CGO_ENABLED=0, trimpath, inspector disabled, production=1, stripped, VCS stamping disabled",
+            "cache": "Empty Go build cache including standard library; module sources pre-downloaded",
+            "jobs": 4,
+            "downloads_in_timing": false,
+            "filesystem_cache": "Not flushed; no OS-wide cache or service changes",
+            "kernel": "7.3.1-1-cachyos",
+            "command": [
+              "go",
+              "build",
+              "-buildvcs=false",
+              "-p",
+              "4",
+              "-trimpath",
+              "-tags",
+              "mygo_noinspector",
+              "-ldflags",
+              "-s -w -X github.com/egoist/mygo.production=1",
+              "-o",
+              "/home/maximep/projects/ferrydock-experiments/.verification/wayland-refresh-20261107/builds/mygo-1/mygo-containers",
+              "."
+            ],
+            "elapsed_seconds": 6.870738871002686,
+            "wall_seconds": 6.86,
+            "user_seconds": 38.94,
+            "system_seconds": 2.95,
+            "max_process_rss_kib": 427312,
+            "exit_code": 0,
+            "binary_bytes": 13021447,
+            "binary_sha256": "bbf3309ebcc68b0e75892c4c00e600d95444c5b58b307493ffbbc8a96cc25081"
+          },
+          {
+            "name": "mygo",
+            "run": 2,
+            "revision": "1dfa5a1f912b75de41f8732ce1d38e1cd9a18421",
+            "compiler": "go version go1.27.3-X:nodwarf5 linux/amd64",
+            "profile": "Default optimized Go compiler, CGO_ENABLED=0, trimpath, inspector disabled, production=1, stripped, VCS stamping disabled",
+            "cache": "Empty Go build cache including standard library; module sources pre-downloaded",
+            "jobs": 4,
+            "downloads_in_timing": false,
+            "filesystem_cache": "Not flushed; no OS-wide cache or service changes",
+            "kernel": "7.3.1-1-cachyos",
+            "command": [
+              "go",
+              "build",
+              "-buildvcs=false",
+              "-p",
+              "4",
+              "-trimpath",
+              "-tags",
+              "mygo_noinspector",
+              "-ldflags",
+              "-s -w -X github.com/egoist/mygo.production=1",
+              "-o",
+              "/home/maximep/projects/ferrydock-experiments/.verification/wayland-refresh-20261107/builds/mygo-2/mygo-containers",
+              "."
+            ],
+            "elapsed_seconds": 7.1704497010068735,
+            "wall_seconds": 7.16,
+            "user_seconds": 40.68,
+            "system_seconds": 2.8,
+            "max_process_rss_kib": 416940,
+            "exit_code": 0,
+            "binary_bytes": 13021447,
+            "binary_sha256": "bbf3309ebcc68b0e75892c4c00e600d95444c5b58b307493ffbbc8a96cc25081"
+          },
+          {
+            "name": "mygo",
+            "run": 3,
+            "revision": "1dfa5a1f912b75de41f8732ce1d38e1cd9a18421",
+            "compiler": "go version go1.27.3-X:nodwarf5 linux/amd64",
+            "profile": "Default optimized Go compiler, CGO_ENABLED=0, trimpath, inspector disabled, production=1, stripped, VCS stamping disabled",
+            "cache": "Empty Go build cache including standard library; module sources pre-downloaded",
+            "jobs": 4,
+            "downloads_in_timing": false,
+            "filesystem_cache": "Not flushed; no OS-wide cache or service changes",
+            "kernel": "7.3.1-1-cachyos",
+            "command": [
+              "go",
+              "build",
+              "-buildvcs=false",
+              "-p",
+              "4",
+              "-trimpath",
+              "-tags",
+              "mygo_noinspector",
+              "-ldflags",
+              "-s -w -X github.com/egoist/mygo.production=1",
+              "-o",
+              "/home/maximep/projects/ferrydock-experiments/.verification/wayland-refresh-20261107/builds/mygo-3/mygo-containers",
+              "."
+            ],
+            "elapsed_seconds": 8.329490005999105,
+            "wall_seconds": 8.32,
+            "user_seconds": 47.86,
+            "system_seconds": 3.08,
+            "max_process_rss_kib": 424672,
+            "exit_code": 0,
+            "binary_bytes": 13021447,
+            "binary_sha256": "bbf3309ebcc68b0e75892c4c00e600d95444c5b58b307493ffbbc8a96cc25081"
+          }
+        ],
+        "median_seconds": 7.1704497010068735,
+        "min_seconds": 6.870738871002686,
+        "max_seconds": 8.329490005999105
+      },
+      "profile": "Default optimized Go compiler, CGO_ENABLED=0, trimpath, inspector disabled, production=1, stripped, VCS stamping disabled",
+      "build_observation": {
+        "elapsed_s": 7.1704497010068735,
+        "cache": "Median of 3 clean production builds; sources pre-fetched; 4 jobs"
+      },
+      "source_sha256": {
+        "mygo-containers/main.go": "4ee4d3d145642ccf92eb7231a80cb2abd63e02d0f1cdad8f868d69bbce484d27",
+        "mygo-containers/go.mod": "4c4488f050ef25b54c0bc369f15d02e1b4fe739db14d0b23d7c6adccb6cd1ac3"
+      },
+      "idle_rss_median_bytes": {
+        "median": 156016640.0,
+        "min": 155906048.0,
+        "max": 156045312.0
+      },
+      "idle_pss_median_bytes": {
+        "median": 124628992.0,
+        "min": 124564480.0,
+        "max": 124693504.0
+      },
+      "idle_cpu_percent_one_core": {
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "initial_load_ms": {
+        "median": 7,
+        "min": 7,
+        "max": 7
+      }
+    },
+    "gpui": {
+      "label": "Rust + gpui-pre \u00b7 2026-11-07",
+      "client": "gpui-pre 0.3.11 \u00b7 Bollard 0.21.1",
+      "pin": "gpui-pre / gpui-pre-platform 0.3.11",
+      "url": "https://docs.rs/gpui-pre/0.3.11/gpui/",
+      "color": "#85e2bf",
+      "source": [
+        "gpui-containers/src/main.rs",
+        "gpui-containers/src/search.rs"
+      ],
+      "manifest": "gpui-containers/Cargo.toml",
+      "measurement_date": "2026-11-07",
+      "runs": [
+        {
+          "name": "gpui",
+          "run": 1,
+          "backend": "native Wayland / COSMIC",
+          "container_count": 50,
+          "initial_load_ms": 7,
+          "ready_with_data_seconds": 0.10087656299583614,
+          "warmup_seconds": 4,
+          "idle_seconds": 20.14370862400392,
+          "idle_cpu_percent_one_core": 0.0,
+          "idle_rss_median_bytes": 87130112.0,
+          "idle_pss_median_bytes": 79289344.0,
+          "binary_bytes": 19123152,
+          "binary_sha256": "adc6753e4617ed3bd0edb9445c0c00e4052f7cded3381872aa7a51527e4810cd",
+          "capture_pixels": [
+            1000,
+            644
+          ],
+          "graphics_libraries": [
+            "/usr/lib/libEGL.so.1.1.0",
+            "/usr/lib/libEGL_mesa.so.0.0.0",
+            "/usr/lib/libGLdispatch.so.0.0.0",
+            "/usr/lib/libvulkan.so.1.4.363",
+            "/usr/lib/libvulkan_intel.so"
+          ],
+          "samples": [
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79287296,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79287296,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79285248,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79278080,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79287296,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87130112,
+              "pss_bytes": 79289344,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            }
+          ],
+          "matches_initial_inventory": true,
+          "ids_sha256": "6921e66cc266a170a2078536f47e907c3b219251b37779a972cf8f5b81c9ca1b"
+        },
+        {
+          "name": "gpui",
+          "run": 2,
+          "backend": "native Wayland / COSMIC",
+          "container_count": 50,
+          "initial_load_ms": 6,
+          "ready_with_data_seconds": 0.10109589900821447,
+          "warmup_seconds": 4,
+          "idle_seconds": 20.137980240993784,
+          "idle_cpu_percent_one_core": 0.0,
+          "idle_rss_median_bytes": 87027712.0,
+          "idle_pss_median_bytes": 79191040.0,
+          "binary_bytes": 19123152,
+          "binary_sha256": "adc6753e4617ed3bd0edb9445c0c00e4052f7cded3381872aa7a51527e4810cd",
+          "capture_pixels": [
+            1000,
+            644
+          ],
+          "graphics_libraries": [
+            "/usr/lib/libEGL.so.1.1.0",
+            "/usr/lib/libEGL_mesa.so.0.0.0",
+            "/usr/lib/libGLdispatch.so.0.0.0",
+            "/usr/lib/libvulkan.so.1.4.363",
+            "/usr/lib/libvulkan_intel.so"
+          ],
+          "samples": [
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 87027712,
+              "pss_bytes": 79191040,
+              "cpu_seconds": 0.1,
+              "processes": 1
+            }
+          ],
+          "matches_initial_inventory": true,
+          "ids_sha256": "6921e66cc266a170a2078536f47e907c3b219251b37779a972cf8f5b81c9ca1b"
+        },
+        {
+          "name": "gpui",
+          "run": 3,
+          "backend": "native Wayland / COSMIC",
+          "container_count": 50,
+          "initial_load_ms": 7,
+          "ready_with_data_seconds": 0.10093074000906199,
+          "warmup_seconds": 4,
+          "idle_seconds": 20.1373730070045,
+          "idle_cpu_percent_one_core": 0.0,
+          "idle_rss_median_bytes": 86974464.0,
+          "idle_pss_median_bytes": 79128576.0,
+          "binary_bytes": 19123152,
+          "binary_sha256": "adc6753e4617ed3bd0edb9445c0c00e4052f7cded3381872aa7a51527e4810cd",
+          "capture_pixels": [
+            1000,
+            644
+          ],
+          "graphics_libraries": [
+            "/usr/lib/libEGL.so.1.1.0",
+            "/usr/lib/libEGL_mesa.so.0.0.0",
+            "/usr/lib/libGLdispatch.so.0.0.0",
+            "/usr/lib/libvulkan.so.1.4.363",
+            "/usr/lib/libvulkan_intel.so"
+          ],
+          "samples": [
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79126528,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79127552,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79127552,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79127552,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79127552,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79127552,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79127552,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79127552,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79127552,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79127552,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 86974464,
+              "pss_bytes": 79128576,
+              "cpu_seconds": 0.11,
+              "processes": 1
+            }
+          ],
+          "matches_initial_inventory": true,
+          "ids_sha256": "6921e66cc266a170a2078536f47e907c3b219251b37779a972cf8f5b81c9ca1b"
+        }
+      ],
+      "lines": {
+        "code": 615,
+        "physical": 633
+      },
+      "build_lines": {
+        "code": 18,
+        "physical": 21
+      },
+      "binary_bytes": 19123152,
+      "binary_sha256": "adc6753e4617ed3bd0edb9445c0c00e4052f7cded3381872aa7a51527e4810cd",
+      "size_label": "ELF executable",
+      "historical_snapshot_baseline": null,
+      "all_runs_match_reference_ids": true,
+      "screenshot": "/home/maximep/projects/ferrydock-experiments/.verification/wayland-refresh-20261107/gpui-1-window.png",
+      "measurement_label": "2026-11-07 \u00b7 Wayland \u00b7 3 \u00d7 20 s",
+      "native_input_observation": {
+        "name": "gpui",
+        "backend": "native Wayland",
+        "container_count": 50,
+        "ids_sha256": "6921e66cc266a170a2078536f47e907c3b219251b37779a972cf8f5b81c9ca1b",
+        "binary_sha256": "adc6753e4617ed3bd0edb9445c0c00e4052f7cded3381872aa7a51527e4810cd",
+        "search_case_insensitive": true,
+        "search_clear": true,
+        "no_matches": true,
+        "refresh_observed": true,
+        "successful_loads": 3,
+        "failed_refresh_retains_data": true,
+        "responsive_during_timeout": true,
+        "timeout_seconds": 10.968486138008302,
+        "recovery": true,
+        "input": "Wayland virtual keyboard; owned window activation confirmed; F5"
+      },
+      "clean_build": {
+        "name": "gpui",
+        "runs": [
+          {
+            "name": "gpui",
+            "run": 1,
+            "revision": "0.3.11",
+            "compiler": "rustc 1.99.0 (b940084d7 2026-09-28)",
+            "profile": "opt-level=3, fat LTO, codegen-units=1, panic=abort, strip=true, force-unwind-tables=no",
+            "cache": "Empty Cargo target; registry sources pre-downloaded; incremental and compiler wrappers disabled",
+            "jobs": 4,
+            "downloads_in_timing": false,
+            "filesystem_cache": "Not flushed; no OS-wide cache or service changes",
+            "kernel": "7.3.1-1-cachyos",
+            "command": [
+              "cargo",
+              "build",
+              "--release",
+              "--locked",
+              "--offline",
+              "--manifest-path",
+              "/home/maximep/projects/ferrydock-experiments/experiments/live-docker/gpui-containers/Cargo.toml"
+            ],
+            "elapsed_seconds": 204.6960385889979,
+            "wall_seconds": 204.69,
+            "user_seconds": 482.73,
+            "system_seconds": 19.89,
+            "max_process_rss_kib": 2194352,
+            "exit_code": 0,
+            "binary_bytes": 19123152,
+            "binary_sha256": "adc6753e4617ed3bd0edb9445c0c00e4052f7cded3381872aa7a51527e4810cd"
+          },
+          {
+            "name": "gpui",
+            "run": 2,
+            "revision": "0.3.11",
+            "compiler": "rustc 1.99.0 (b940084d7 2026-09-28)",
+            "profile": "opt-level=3, fat LTO, codegen-units=1, panic=abort, strip=true, force-unwind-tables=no",
+            "cache": "Empty Cargo target; registry sources pre-downloaded; incremental and compiler wrappers disabled",
+            "jobs": 4,
+            "downloads_in_timing": false,
+            "filesystem_cache": "Not flushed; no OS-wide cache or service changes",
+            "kernel": "7.3.1-1-cachyos",
+            "command": [
+              "cargo",
+              "build",
+              "--release",
+              "--locked",
+              "--offline",
+              "--manifest-path",
+              "/home/maximep/projects/ferrydock-experiments/experiments/live-docker/gpui-containers/Cargo.toml"
+            ],
+            "elapsed_seconds": 207.51825017300143,
+            "wall_seconds": 207.51,
+            "user_seconds": 486.54,
+            "system_seconds": 19.34,
+            "max_process_rss_kib": 2178584,
+            "exit_code": 0,
+            "binary_bytes": 19123152,
+            "binary_sha256": "adc6753e4617ed3bd0edb9445c0c00e4052f7cded3381872aa7a51527e4810cd"
+          },
+          {
+            "name": "gpui",
+            "run": 3,
+            "revision": "0.3.11",
+            "compiler": "rustc 1.99.0 (b940084d7 2026-09-28)",
+            "profile": "opt-level=3, fat LTO, codegen-units=1, panic=abort, strip=true, force-unwind-tables=no",
+            "cache": "Empty Cargo target; registry sources pre-downloaded; incremental and compiler wrappers disabled",
+            "jobs": 4,
+            "downloads_in_timing": false,
+            "filesystem_cache": "Not flushed; no OS-wide cache or service changes",
+            "kernel": "7.3.1-1-cachyos",
+            "command": [
+              "cargo",
+              "build",
+              "--release",
+              "--locked",
+              "--offline",
+              "--manifest-path",
+              "/home/maximep/projects/ferrydock-experiments/experiments/live-docker/gpui-containers/Cargo.toml"
+            ],
+            "elapsed_seconds": 204.06292852300976,
+            "wall_seconds": 204.05,
+            "user_seconds": 477.83,
+            "system_seconds": 19.33,
+            "max_process_rss_kib": 2192564,
+            "exit_code": 0,
+            "binary_bytes": 19123152,
+            "binary_sha256": "adc6753e4617ed3bd0edb9445c0c00e4052f7cded3381872aa7a51527e4810cd"
+          }
+        ],
+        "median_seconds": 204.6960385889979,
+        "min_seconds": 204.06292852300976,
+        "max_seconds": 207.51825017300143
+      },
+      "profile": "opt-level=3, fat LTO, codegen-units=1, panic=abort, strip=true, force-unwind-tables=no",
+      "build_observation": {
+        "elapsed_s": 204.6960385889979,
+        "cache": "Median of 3 clean production builds; sources pre-fetched; 4 jobs"
+      },
+      "source_sha256": {
+        "gpui-containers/src/main.rs": "3ebe5c0adc9c55b4bc59cf6e8aa70a3a82e31bc0cb4908f99ce0a81579f8cd81",
+        "gpui-containers/src/search.rs": "fbffc29bf746fbef29b51ced50150872590b39385f01f1732b1a640e6cf5ff67",
+        "gpui-containers/Cargo.toml": "05d70357c9e67bc995294d5bfc19de99541da11b4e60457d4e91d00932213b52"
+      },
+      "idle_rss_median_bytes": {
+        "median": 87027712.0,
+        "min": 86974464.0,
+        "max": 87130112.0
+      },
+      "idle_pss_median_bytes": {
+        "median": 79191040.0,
+        "min": 79128576.0,
+        "max": 79289344.0
+      },
+      "idle_cpu_percent_one_core": {
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "initial_load_ms": {
+        "median": 7,
+        "min": 6,
+        "max": 7
+      }
+    },
+    "rune": {
+      "label": "Rust + Rune \u00b7 2026-11-07",
+      "client": "Rune f73f72c \u00b7 Bollard 0.21.1",
+      "pin": "Rune / rune-kit f73f72cdc563534e4f7de9f5a79bed007ac42384",
+      "url": "https://github.com/anomalyco/rune/tree/f73f72cdc563534e4f7de9f5a79bed007ac42384",
+      "color": "#d7a2da",
+      "source": [
+        "rune-containers/src/main.rs"
+      ],
+      "manifest": "rune-containers/Cargo.toml",
+      "measurement_date": "2026-11-07",
+      "runs": [
+        {
+          "name": "rune",
+          "run": 1,
+          "backend": "native Wayland / COSMIC",
+          "container_count": 50,
+          "initial_load_ms": 7,
+          "ready_with_data_seconds": 0.10081159700348508,
+          "warmup_seconds": 4,
+          "idle_seconds": 20.070498665998457,
+          "idle_cpu_percent_one_core": 0.0,
+          "idle_rss_median_bytes": 46600192.0,
+          "idle_pss_median_bytes": 38465536.0,
+          "binary_bytes": 19396432,
+          "binary_sha256": "9bf80b38cd8b70c4713e7eaed25d20223b81344a53c6ee668ea1e97519b33b90",
+          "capture_pixels": [
+            1000,
+            680
+          ],
+          "graphics_libraries": [
+            "/usr/lib/libvulkan.so.1.4.363",
+            "/usr/lib/libvulkan_intel.so"
+          ],
+          "samples": [
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46600192,
+              "pss_bytes": 38465536,
+              "cpu_seconds": 0.03,
+              "processes": 1
+            }
+          ],
+          "matches_initial_inventory": true,
+          "ids_sha256": "6921e66cc266a170a2078536f47e907c3b219251b37779a972cf8f5b81c9ca1b"
+        },
+        {
+          "name": "rune",
+          "run": 2,
+          "backend": "native Wayland / COSMIC",
+          "container_count": 50,
+          "initial_load_ms": 7,
+          "ready_with_data_seconds": 0.10077517699392047,
+          "warmup_seconds": 4,
+          "idle_seconds": 20.07296431501163,
+          "idle_cpu_percent_one_core": 0.0,
+          "idle_rss_median_bytes": 46596096.0,
+          "idle_pss_median_bytes": 38454272.0,
+          "binary_bytes": 19396432,
+          "binary_sha256": "9bf80b38cd8b70c4713e7eaed25d20223b81344a53c6ee668ea1e97519b33b90",
+          "capture_pixels": [
+            1000,
+            680
+          ],
+          "graphics_libraries": [
+            "/usr/lib/libvulkan.so.1.4.363",
+            "/usr/lib/libvulkan_intel.so"
+          ],
+          "samples": [
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46596096,
+              "pss_bytes": 38454272,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            }
+          ],
+          "matches_initial_inventory": true,
+          "ids_sha256": "6921e66cc266a170a2078536f47e907c3b219251b37779a972cf8f5b81c9ca1b"
+        },
+        {
+          "name": "rune",
+          "run": 3,
+          "backend": "native Wayland / COSMIC",
+          "container_count": 50,
+          "initial_load_ms": 8,
+          "ready_with_data_seconds": 0.10082414498901926,
+          "warmup_seconds": 4,
+          "idle_seconds": 20.07158118499501,
+          "idle_cpu_percent_one_core": 0.0,
+          "idle_rss_median_bytes": 46755840.0,
+          "idle_pss_median_bytes": 38680576.0,
+          "binary_bytes": 19396432,
+          "binary_sha256": "9bf80b38cd8b70c4713e7eaed25d20223b81344a53c6ee668ea1e97519b33b90",
+          "capture_pixels": [
+            1000,
+            680
+          ],
+          "graphics_libraries": [
+            "/usr/lib/libvulkan.so.1.4.363",
+            "/usr/lib/libvulkan_intel.so"
+          ],
+          "samples": [
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            },
+            {
+              "rss_bytes": 46755840,
+              "pss_bytes": 38680576,
+              "cpu_seconds": 0.04,
+              "processes": 1
+            }
+          ],
+          "matches_initial_inventory": true,
+          "ids_sha256": "6921e66cc266a170a2078536f47e907c3b219251b37779a972cf8f5b81c9ca1b"
+        }
+      ],
+      "lines": {
+        "code": 239,
+        "physical": 248
+      },
+      "build_lines": {
+        "code": 19,
+        "physical": 22
+      },
+      "binary_bytes": 19396432,
+      "binary_sha256": "9bf80b38cd8b70c4713e7eaed25d20223b81344a53c6ee668ea1e97519b33b90",
+      "size_label": "ELF executable",
+      "historical_snapshot_baseline": null,
+      "all_runs_match_reference_ids": true,
+      "screenshot": "/home/maximep/projects/ferrydock-experiments/.verification/wayland-refresh-20261107/rune-1-window.png",
+      "measurement_label": "2026-11-07 \u00b7 Wayland \u00b7 3 \u00d7 20 s",
+      "native_input_observation": {
+        "name": "rune",
+        "backend": "native Wayland",
+        "container_count": 50,
+        "ids_sha256": "6921e66cc266a170a2078536f47e907c3b219251b37779a972cf8f5b81c9ca1b",
+        "binary_sha256": "9bf80b38cd8b70c4713e7eaed25d20223b81344a53c6ee668ea1e97519b33b90",
+        "search_case_insensitive": true,
+        "search_clear": true,
+        "no_matches": true,
+        "refresh_observed": true,
+        "successful_loads": 3,
+        "failed_refresh_retains_data": true,
+        "responsive_during_timeout": true,
+        "timeout_seconds": 10.202844977990026,
+        "recovery": true,
+        "input": "AT-SPI native controls"
+      },
+      "clean_build": {
+        "name": "rune",
+        "runs": [
+          {
+            "name": "rune",
+            "run": 1,
+            "revision": "f73f72cdc563534e4f7de9f5a79bed007ac42384",
+            "compiler": "rustc 1.99.0 (b940084d7 2026-09-28)",
+            "profile": "opt-level=3, fat LTO, codegen-units=1, panic=abort, strip=true, force-unwind-tables=no",
+            "cache": "Empty Cargo target; registry sources pre-downloaded; incremental and compiler wrappers disabled",
+            "jobs": 4,
+            "downloads_in_timing": false,
+            "filesystem_cache": "Not flushed; no OS-wide cache or service changes",
+            "kernel": "7.3.1-1-cachyos",
+            "command": [
+              "cargo",
+              "build",
+              "--release",
+              "--locked",
+              "--offline",
+              "--manifest-path",
+              "/home/maximep/projects/ferrydock-experiments/experiments/live-docker/rune-containers/Cargo.toml"
+            ],
+            "elapsed_seconds": 222.33986401000584,
+            "wall_seconds": 222.33,
+            "user_seconds": 416.15,
+            "system_seconds": 14.19,
+            "max_process_rss_kib": 2033260,
+            "exit_code": 0,
+            "binary_bytes": 19396432,
+            "binary_sha256": "9bf80b38cd8b70c4713e7eaed25d20223b81344a53c6ee668ea1e97519b33b90"
+          },
+          {
+            "name": "rune",
+            "run": 2,
+            "revision": "f73f72cdc563534e4f7de9f5a79bed007ac42384",
+            "compiler": "rustc 1.99.0 (b940084d7 2026-09-28)",
+            "profile": "opt-level=3, fat LTO, codegen-units=1, panic=abort, strip=true, force-unwind-tables=no",
+            "cache": "Empty Cargo target; registry sources pre-downloaded; incremental and compiler wrappers disabled",
+            "jobs": 4,
+            "downloads_in_timing": false,
+            "filesystem_cache": "Not flushed; no OS-wide cache or service changes",
+            "kernel": "7.3.1-1-cachyos",
+            "command": [
+              "cargo",
+              "build",
+              "--release",
+              "--locked",
+              "--offline",
+              "--manifest-path",
+              "/home/maximep/projects/ferrydock-experiments/experiments/live-docker/rune-containers/Cargo.toml"
+            ],
+            "elapsed_seconds": 221.32088461298554,
+            "wall_seconds": 221.31,
+            "user_seconds": 415.02,
+            "system_seconds": 13.86,
+            "max_process_rss_kib": 2036972,
+            "exit_code": 0,
+            "binary_bytes": 19396432,
+            "binary_sha256": "9bf80b38cd8b70c4713e7eaed25d20223b81344a53c6ee668ea1e97519b33b90"
+          },
+          {
+            "name": "rune",
+            "run": 3,
+            "revision": "f73f72cdc563534e4f7de9f5a79bed007ac42384",
+            "compiler": "rustc 1.99.0 (b940084d7 2026-09-28)",
+            "profile": "opt-level=3, fat LTO, codegen-units=1, panic=abort, strip=true, force-unwind-tables=no",
+            "cache": "Empty Cargo target; registry sources pre-downloaded; incremental and compiler wrappers disabled",
+            "jobs": 4,
+            "downloads_in_timing": false,
+            "filesystem_cache": "Not flushed; no OS-wide cache or service changes",
+            "kernel": "7.3.1-1-cachyos",
+            "command": [
+              "cargo",
+              "build",
+              "--release",
+              "--locked",
+              "--offline",
+              "--manifest-path",
+              "/home/maximep/projects/ferrydock-experiments/experiments/live-docker/rune-containers/Cargo.toml"
+            ],
+            "elapsed_seconds": 223.7284917819925,
+            "wall_seconds": 223.72,
+            "user_seconds": 414.42,
+            "system_seconds": 14.23,
+            "max_process_rss_kib": 2039916,
+            "exit_code": 0,
+            "binary_bytes": 19396432,
+            "binary_sha256": "9bf80b38cd8b70c4713e7eaed25d20223b81344a53c6ee668ea1e97519b33b90"
+          }
+        ],
+        "median_seconds": 222.33986401000584,
+        "min_seconds": 221.32088461298554,
+        "max_seconds": 223.7284917819925
+      },
+      "profile": "opt-level=3, fat LTO, codegen-units=1, panic=abort, strip=true, force-unwind-tables=no",
+      "build_observation": {
+        "elapsed_s": 222.33986401000584,
+        "cache": "Median of 3 clean production builds; sources pre-fetched; 4 jobs"
+      },
+      "source_sha256": {
+        "rune-containers/src/main.rs": "3b1b6c34bfb7e5566004fdd21a551eb52566750d2641db8af3b4321e280d7eef",
+        "rune-containers/Cargo.toml": "42c50d1c2b324ea154e3a1a4d6e97b459ff8236c17836b59914a1485b3d0f8fc"
+      },
+      "idle_rss_median_bytes": {
+        "median": 46600192.0,
+        "min": 46596096.0,
+        "max": 46755840.0
+      },
+      "idle_pss_median_bytes": {
+        "median": 38465536.0,
+        "min": 38454272.0,
+        "max": 38680576.0
+      },
+      "idle_cpu_percent_one_core": {
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "initial_load_ms": {
+        "median": 7,
+        "min": 7,
+        "max": 8
+      }
+    }
+  },
+  "protocol": "Native Wayland, DISPLAY removed; 1000\u00d7680 requested window, captured surface dimensions recorded; owned window activated; 4s warmup, 20s idle, 500ms samples; 3 runtime runs and 3 isolated optimized builds per app; dependency downloads excluded from build timing; no OS-wide cache flushing; native Refresh, search, failure and recovery checks on the measured production binaries",
+  "build_time_scope": "Empty language build caches. Go recompiles its packages; Cargo uses the installed Rust standard library; Zig rebuilds with empty local/global caches. Dependency sources and OS filesystem caches remain available.",
+  "host": {
+    "cpu": "Intel(R) Core(TM) Ultra 7 155H",
+    "logical_cpus": 22,
+    "kernel": "7.3.1-1-cachyos",
+    "desktop": "COSMIC",
+    "window_system": "Wayland"
+  }
+}

@@ -14,6 +14,12 @@ pub struct Search {
 
 impl EventEmitter<()> for Search {}
 
+impl Focusable for Search {
+    fn focus_handle(&self, _: &App) -> FocusHandle {
+        self.focus.clone()
+    }
+}
+
 impl Search {
     pub fn new(cx: &mut Context<Self>) -> Self {
         Self {
